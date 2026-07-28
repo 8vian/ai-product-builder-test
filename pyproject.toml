@@ -5,7 +5,7 @@ build-backend = "setuptools.build_meta"
 [project]
 name = "ai-product-builder"
 version = "0.1.0"
-description = "Offline analysis of a verified Instagram reference dataset"
+description = "Auditable Instagram creator analysis and discovery MVP"
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
@@ -15,6 +15,10 @@ dependencies = [
 [project.optional-dependencies]
 dev = [
     "pytest>=8.3,<9",
+]
+sheets = [
+    "google-api-python-client>=2.170,<3",
+    "google-auth>=2.40,<3",
 ]
 
 [project.scripts]
@@ -27,4 +31,3 @@ where = ["src"]
 addopts = "-q"
 testpaths = ["tests"]
 pythonpath = ["src"]
-

@@ -1,0 +1,357 @@
+{
+  "duplicate_hit_count": 2,
+  "excluded_record_count": 11,
+  "exclusion_reason_counts": {
+    "duplicate_merged": 2,
+    "malformed_discovery_record": 2,
+    "source_exclusion": 6,
+    "unsupported_platform": 1
+  },
+  "groups": [
+    {
+      "canonical_profile_url": "https://www.instagram.com/anna.style.daily/",
+      "identity_conflict": false,
+      "merged_hit_count": 2,
+      "normalized_username": "anna.style.daily",
+      "provider_ids": [
+        "fixture-001",
+        "fixture-discovery-v1",
+        "fixture-dup-001"
+      ],
+      "query_ids": [
+        "fashion_style_01",
+        "reels_integrations_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/mira_reels.ru/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "mira_reels.ru",
+      "provider_ids": [
+        "fixture-002",
+        "fixture-discovery-v1"
+      ],
+      "query_ids": [
+        "ugc_creator_01",
+        "reels_integrations_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/olga.lookbook_/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "olga.lookbook_",
+      "provider_ids": [
+        "fixture-003",
+        "fixture-discovery-v1"
+      ],
+      "query_ids": [
+        "fashion_style_01",
+        "reels_integrations_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/beauty.and.city/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "beauty.and.city",
+      "provider_ids": [
+        "fixture-004",
+        "fixture-discovery-v1"
+      ],
+      "query_ids": [
+        "beauty_lifestyle_01",
+        "fashion_style_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/ugc_by_lena/",
+      "identity_conflict": false,
+      "merged_hit_count": 2,
+      "normalized_username": "ugc_by_lena",
+      "provider_ids": [
+        "fixture-005",
+        "fixture-discovery-v1",
+        "fixture-dup-005"
+      ],
+      "query_ids": [
+        "ugc_creator_01",
+        "marketplace_reviews_01",
+        "reels_integrations_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/wildberries.finds/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "wildberries.finds",
+      "provider_ids": [
+        "fixture-006",
+        "fixture-discovery-v1"
+      ],
+      "query_ids": [
+        "marketplace_reviews_01",
+        "reels_integrations_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/dasha_tryon/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "dasha_tryon",
+      "provider_ids": [
+        "fixture-007",
+        "fixture-discovery-v1"
+      ],
+      "query_ids": [
+        "fashion_style_01",
+        "marketplace_reviews_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/lifestyle.nika/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "lifestyle.nika",
+      "provider_ids": [
+        "fixture-008",
+        "fixture-discovery-v1"
+      ],
+      "query_ids": [
+        "beauty_lifestyle_01",
+        "fashion_style_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/style_review.masha/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "style_review.masha",
+      "provider_ids": [
+        "fixture-009",
+        "fixture-discovery-v1"
+      ],
+      "query_ids": [
+        "fashion_style_01",
+        "marketplace_reviews_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/reels.by.sonya/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "reels.by.sonya",
+      "provider_ids": [
+        "fixture-010",
+        "fixture-discovery-v1"
+      ],
+      "query_ids": [
+        "reels_integrations_01",
+        "ugc_creator_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/capsule_wardrobe/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "capsule_wardrobe",
+      "provider_ids": [
+        "fixture-011",
+        "fixture-discovery-v1"
+      ],
+      "query_ids": [
+        "fashion_style_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/trend_ira_/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "trend_ira_",
+      "provider_ids": [
+        "fixture-012",
+        "fixture-discovery-v1"
+      ],
+      "query_ids": [
+        "fashion_style_01",
+        "reels_integrations_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/_punctuation.test_/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "_punctuation.test_",
+      "provider_ids": [
+        "fixture-013",
+        "fixture-discovery-v1"
+      ],
+      "query_ids": [
+        "fashion_style_01",
+        "marketplace_reviews_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/beauty_life_mix/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "beauty_life_mix",
+      "provider_ids": [
+        "fixture-014",
+        "fixture-discovery-v1"
+      ],
+      "query_ids": [
+        "beauty_lifestyle_01",
+        "fashion_style_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/private.demo.creator/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "private.demo.creator",
+      "provider_ids": [
+        "fixture-edge-private",
+        "fixture-discovery-v1"
+      ],
+      "query_ids": [
+        "fashion_style_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/insufficient.posts/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "insufficient.posts",
+      "provider_ids": [
+        "fixture-edge-insufficient",
+        "fixture-discovery-v1"
+      ],
+      "query_ids": [
+        "fashion_style_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/partial.engagement/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "partial.engagement",
+      "provider_ids": [
+        "fixture-edge-partial",
+        "fixture-discovery-v1"
+      ],
+      "query_ids": [
+        "reels_integrations_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/stale.creator/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "stale.creator",
+      "provider_ids": [
+        "fixture-edge-stale",
+        "fixture-discovery-v1"
+      ],
+      "query_ids": [
+        "fashion_style_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/zero.followers/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "zero.followers",
+      "provider_ids": [
+        "fixture-edge-zero",
+        "fixture-discovery-v1"
+      ],
+      "query_ids": [
+        "ugc_creator_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/missing.profile.url/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "missing.profile.url",
+      "provider_ids": [
+        "fixture-edge-url",
+        "fixture-discovery-v1"
+      ],
+      "query_ids": [
+        "fashion_style_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/identity.conflict/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "identity.conflict",
+      "provider_ids": [
+        "fixture-edge-conflict",
+        "fixture-discovery-v1"
+      ],
+      "query_ids": [
+        "fashion_style_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/no.content.signal/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "no.content.signal",
+      "provider_ids": [
+        "fixture-edge-no-signal",
+        "fixture-discovery-v1"
+      ],
+      "query_ids": [
+        "beauty_lifestyle_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/missing.post.urls/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "missing.post.urls",
+      "provider_ids": [
+        "fixture-edge-post-url",
+        "fixture-discovery-v1"
+      ],
+      "query_ids": [
+        "marketplace_reviews_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/mystery.inaccessible/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "mystery.inaccessible",
+      "provider_ids": [
+        "fixture-edge-inaccessible",
+        "fixture-discovery-v1"
+      ],
+      "query_ids": [
+        "fashion_style_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/beauty.offer.test/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "beauty.offer.test",
+      "provider_ids": [
+        "fixture-015",
+        "fixture-discovery-v1"
+      ],
+      "query_ids": [
+        "beauty_lifestyle_01",
+        "ugc_creator_01"
+      ]
+    }
+  ],
+  "processable_hit_count": 27,
+  "raw_hit_count": 36,
+  "unique_candidate_count": 25
+}

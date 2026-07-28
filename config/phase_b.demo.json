@@ -1,0 +1,53 @@
+{
+  "mode": "demo",
+  "analysis_as_of": "2026-07-28T00:00:00+00:00",
+  "env_file": ".env",
+  "campaign": {
+    "brand_name": "LD Latte",
+    "product_name": "товар из новой коллекции LD Latte",
+    "product_category": "женская одежда",
+    "barter_item": "товар бренда в обмен на согласованный контент",
+    "desired_content_format": "Reels или нативный обзор",
+    "language": "ru",
+    "tone": "дружелюбный, персональный, без давления",
+    "geography": null,
+    "prohibited_claims": [
+      "создатель уже любит бренд",
+      "создатель принимает бартер",
+      "создатель уже использовал товар"
+    ]
+  },
+  "inputs": {
+    "ideal_creator_profile": "output/ideal_creator_profile.json",
+    "source_analysis": "output/source_analysis.csv",
+    "instagram_profiles": "data/raw/instagram_profiles.json",
+    "manual_audit": "data/raw/manual_verification_audit.json",
+    "workbook": "data/raw/Блогеры.xlsx"
+  },
+  "discovery": {
+    "target_pool_size": 30,
+    "minimum_unique_pool": 20,
+    "final_count": 5,
+    "minimum_final_count": 3
+  },
+  "eligibility": {
+    "minimum_usable_posts": 6,
+    "maximum_recency_days": 90
+  },
+  "provider": {
+    "type": "fixture",
+    "fixture": {
+      "discovery_path": "data/fixtures/phase_b/discovery_results.json",
+      "profiles_path": "data/fixtures/phase_b/enriched_profiles.json"
+    }
+  },
+  "outputs": {
+    "workbook_sheet": "Новые блоггеры",
+    "csv_encoding": "utf-8-sig"
+  },
+  "google_sheets": {
+    "enabled": false,
+    "spreadsheet_id": null,
+    "worksheet_name": "Новые блоггеры"
+  }
+}

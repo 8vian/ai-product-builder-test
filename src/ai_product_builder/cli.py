@@ -7,6 +7,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 from .analysis import analyze_dataset
+from .phase_b.errors import PhaseBError
+from .phase_b.pipeline import run_phase_b, validate_phase_b_config
 from .reporting import generate_outputs, ranking
 
 
@@ -59,10 +61,67 @@ def build_parser() -> argparse.ArgumentParser:
                 "sampled-post timestamp for reproducibility."
             ),
         )
+
+    phase_b_parser = subparsers.add_parser(
+        "phase-b",
+        help="Discover, evaluate, and export new Instagram creator candidates.",
+    )
+    phase_b_commands = phase_b_parser.add_subparsers(dest="phase_b_command")
+
+    validate_parser = phase_b_commands.add_parser(
+        "validate-config",
+        help="Validate Phase B configuration and local inputs without a live request.",
+    )
+    validate_parser.add_argument(
+        "--config",
+        type=Path,
+        required=True,
+        help="Path to a Phase B JSON configuration.",
+    )
+
+    phase_b_demo = phase_b_commands.add_parser(
+        "demo",
+        help="Run deterministic, credential-free Phase B fixtures.",
+    )
+    phase_b_demo.add_argument(
+        "--config",
+        type=Path,
+        default=Path("config/phase_b.demo.json"),
+        help="Demo configuration (default: config/phase_b.demo.json).",
+    )
+    phase_b_demo.add_argument(
+        "--output-dir",
+        type=Path,
+        default=Path("output/phase_b"),
+        help="Base directory for Phase B run folders.",
+    )
+
+    phase_b_run = phase_b_commands.add_parser(
+        "run",
+        help="Run configured live discovery. This never sends outreach.",
+    )
+    phase_b_run.add_argument(
+        "--mode",
+        choices=("live",),
+        required=True,
+        help="Explicit live-mode safety acknowledgement.",
+    )
+    phase_b_run.add_argument(
+        "--config",
+        type=Path,
+        required=True,
+        help="Path to a live Phase B JSON configuration.",
+    )
+    phase_b_run.add_argument(
+        "--output-dir",
+        type=Path,
+        default=Path("output/phase_b"),
+        help="Base directory for Phase B run folders.",
+    )
     return parser
 
 
-def run(command_args: argparse.Namespace) -> int:
+def run_phase_a(command_args: argparse.Namespace) -> int:
     input_dir: Path = command_args.input_dir
     expected = {
         "profiles": input_dir / "instagram_profiles.json",
@@ -100,6 +159,76 @@ def run(command_args: argparse.Namespace) -> int:
     return 0
 
 
+def run_phase_b_command(command_args: argparse.Namespace) -> int:
+    try:
+        if command_args.phase_b_command == "validate-config":
+            config, warnings = validate_phase_b_config(command_args.config)
+            print(
+                f"Phase B configuration is valid: mode={config.mode}, "
+                f"provider={config.provider.type}"
+            )
+            for warning in warnings:
+                print(f"Warning: {warning}")
+            return 0
+        if command_args.phase_b_command is None:
+            print(
+                "A Phase B command is required: validate-config, demo, or run.",
+                file=sys.stderr,
+            )
+            return 2
+
+        expected_mode = (
+            "demo"
+            if command_args.phase_b_command == "demo"
+            else command_args.mode
+        )
+        result = run_phase_b(
+            command_args.config,
+            command_args.output_dir,
+            expected_mode=expected_mode,
+        )
+    except PhaseBError as exc:
+        detail = (
+            f" ({json.dumps(exc.details, ensure_ascii=False, sort_keys=True)})"
+            if exc.details
+            else ""
+        )
+        print(
+            f"Phase B failed [{exc.category}]: {exc}{detail}",
+            file=sys.stderr,
+        )
+        return 1
+    except (OSError, ValueError, KeyError) as exc:
+        print(f"Phase B failed: {exc}", file=sys.stderr)
+        return 1
+
+    print(
+        f"Phase B complete: run_id={result.manifest.run_id}, "
+        f"mode={result.manifest.mode}"
+    )
+    print(json.dumps(result.manifest.counts, ensure_ascii=False, indent=2))
+    print("Selected creators:")
+    for rank, candidate in enumerate(result.selected_candidates, start=1):
+        print(
+            f"  {rank}. {candidate.username}: {candidate.score:.2f}/100 "
+            f"(confidence {candidate.discovery_confidence:.3f})"
+        )
+    print("Generated files:")
+    for path in result.generated_paths:
+        print(f"  {path}")
+    if result.manifest.warnings:
+        print("Warnings:")
+        for warning in result.manifest.warnings:
+            print(f"  - {warning}")
+    return 0
+
+
+def run(command_args: argparse.Namespace) -> int:
+    if command_args.command == "phase-b":
+        return run_phase_b_command(command_args)
+    return run_phase_a(command_args)
+
+
 def main(argv: list[str] | None = None) -> int:
     parser = build_parser()
     args = parser.parse_args(argv)
@@ -110,4 +239,3 @@ def main(argv: list[str] | None = None) -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-

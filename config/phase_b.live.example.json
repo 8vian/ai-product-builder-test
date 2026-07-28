@@ -1,0 +1,111 @@
+{
+  "mode": "live",
+  "analysis_as_of": null,
+  "env_file": ".env",
+  "campaign": {
+    "brand_name": "LD Latte",
+    "product_name": "товар из новой коллекции LD Latte",
+    "product_category": "женская одежда",
+    "barter_item": "товар бренда в обмен на согласованный контент",
+    "desired_content_format": "Reels или нативный обзор",
+    "language": "ru",
+    "tone": "дружелюбный, персональный, без давления",
+    "geography": null,
+    "prohibited_claims": [
+      "создатель уже любит бренд",
+      "создатель принимает бартер",
+      "создатель уже использовал товар"
+    ]
+  },
+  "inputs": {
+    "ideal_creator_profile": "output/ideal_creator_profile.json",
+    "source_analysis": "output/source_analysis.csv",
+    "instagram_profiles": "data/raw/instagram_profiles.json",
+    "manual_audit": "data/raw/manual_verification_audit.json",
+    "workbook": "data/raw/Блогеры.xlsx"
+  },
+  "discovery": {
+    "target_pool_size": 100,
+    "minimum_unique_pool": 30,
+    "final_count": 5,
+    "minimum_final_count": 3
+  },
+  "eligibility": {
+    "minimum_usable_posts": 6,
+    "maximum_recency_days": 90
+  },
+  "provider": {
+    "type": "apify",
+    "apify": {
+      "discovery_actor_id": "REPLACE_WITH_DISCOVERY_ACTOR_ID",
+      "enrichment_actor_id": "REPLACE_WITH_ENRICHMENT_ACTOR_ID",
+      "maximum_items": 100,
+      "timeout_seconds": 180,
+      "max_retries": 3,
+      "api_base_url": "https://api.apify.com/v2",
+      "discovery_input_template": {
+        "searchQueries": "$query_texts",
+        "resultsLimit": "$maximum_items"
+      },
+      "enrichment_input_template": {
+        "directUrls": "$profile_urls",
+        "resultsLimit": "$maximum_items"
+      },
+      "field_mappings": {
+        "discovery": {
+          "platform": "platform",
+          "username": "username",
+          "profile_url": "url",
+          "display_name": "fullName",
+          "biography": "biography",
+          "followers": "followersCount",
+          "private": "private",
+          "accessible": "accessible",
+          "provider_identity_confidence": "identityConfidence",
+          "provider_id": "id",
+          "query_ids": "queryIds",
+          "collected_at": "collectedAt"
+        },
+        "profile": {
+          "platform": "platform",
+          "username": "username",
+          "profile_url": "url",
+          "full_name": "fullName",
+          "biography": "biography",
+          "followers": "followersCount",
+          "posts_count": "postsCount",
+          "private": "private",
+          "accessible": "accessible",
+          "recent_posts": "latestPosts",
+          "external_urls": "externalUrls",
+          "provider_identity_confidence": "identityConfidence",
+          "provider_ids": "id",
+          "query_ids": "queryIds",
+          "collected_at": "collectedAt"
+        },
+        "post": {
+          "post_id": "id",
+          "url": "url",
+          "caption": "caption",
+          "likes": "likesCount",
+          "comments": "commentsCount",
+          "timestamp": "timestamp",
+          "post_format": "productType",
+          "mentions": "mentions",
+          "hashtags": "hashtags",
+          "tagged_usernames": "taggedUsers",
+          "paid_partnership": "paidPartnership"
+        }
+      }
+    }
+  },
+  "outputs": {
+    "workbook_sheet": "Новые блоггеры",
+    "csv_encoding": "utf-8-sig"
+  },
+  "google_sheets": {
+    "enabled": false,
+    "spreadsheet_id": null,
+    "worksheet_name": "Новые блоггеры"
+  }
+}
