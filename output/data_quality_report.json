@@ -1,0 +1,299 @@
+{
+  "generated_at": "2026-07-28T11:07:43.903279+00:00",
+  "analysis_as_of": "2026-07-27T16:24:16+00:00",
+  "source_files": {
+    "instagram_profiles_json": "data/raw/instagram_profiles.json",
+    "manual_verification_audit_json": "data/raw/manual_verification_audit.json",
+    "reference_workbook": "data/raw/Блогеры.xlsx"
+  },
+  "dataset_summary": {
+    "total_records": 34,
+    "counts_by_status": {
+      "brand_reference": 2,
+      "creator": 27,
+      "insufficient_data": 1,
+      "private": 1,
+      "unresolved_not_found": 3
+    },
+    "quantitatively_analyzed_creators": 27,
+    "scored_creators": 27,
+    "validation_issue_count": 15,
+    "duplicate_usernames": [],
+    "analysis_as_of": "2026-07-27T16:24:16+00:00"
+  },
+  "validation": {
+    "typed_normalization": true,
+    "minimum_sampled_posts_for_quantitative_analysis": 3,
+    "minimum_posts_with_usable_likes_and_comments": 6,
+    "validation_issue_count": 15,
+    "issues": [
+      "profile[20].latestPosts[0].likesCount: negative value -1 treated as missing",
+      "profile[20].latestPosts[1].likesCount: negative value -1 treated as missing",
+      "profile[20].latestPosts[2].likesCount: negative value -1 treated as missing",
+      "profile[20].latestPosts[3].likesCount: negative value -1 treated as missing",
+      "profile[20].latestPosts[4].likesCount: negative value -1 treated as missing",
+      "profile[20].latestPosts[5].likesCount: negative value -1 treated as missing",
+      "profile[20].latestPosts[6].likesCount: negative value -1 treated as missing",
+      "profile[20].latestPosts[7].likesCount: negative value -1 treated as missing",
+      "profile[20].latestPosts[8].likesCount: negative value -1 treated as missing",
+      "profile[20].latestPosts[9].likesCount: negative value -1 treated as missing",
+      "profile[20].latestPosts[10].likesCount: negative value -1 treated as missing",
+      "profile[20].latestPosts[11].likesCount: negative value -1 treated as missing",
+      "profile[31].latestPosts[0].likesCount: negative value -1 treated as missing",
+      "profile[31].latestPosts[6].likesCount: negative value -1 treated as missing",
+      "profile[31].latestPosts[7].likesCount: negative value -1 treated as missing"
+    ],
+    "missing_values_policy": "Missing values remain null/blank and are never converted to zero. Raw engagement uses only posts with both likes and comments; the score is reduced by usable_engagement_posts / sampled_posts. No follower, engagement, post, date, status, or identity is invented."
+  },
+  "workbook_reconciliation": {
+    "workbook_reference_count": 34,
+    "json_record_count": 34,
+    "hyperlink_target_used_count": 34,
+    "display_target_mismatch_count": 6,
+    "display_target_mismatches": [
+      {
+        "row": 10,
+        "ordinal": 6,
+        "display_value": "https://www.instagram.com/demoiselle._.rie?igsh=MTRlb3ZpeHF6aTNwaQ==",
+        "hyperlink_target": "https://www.instagram.com/mademoiselle._.marie?igsh=MTRlb3ZpeHF6aTNwaQ==",
+        "selected_url": "https://www.instagram.com/mademoiselle._.marie?igsh=MTRlb3ZpeHF6aTNwaQ==",
+        "selected_username": "mademoiselle._.marie",
+        "display_username": "demoiselle._.rie",
+        "hyperlink_preferred": true,
+        "display_target_mismatch": true
+      },
+      {
+        "row": 20,
+        "ordinal": 11,
+        "display_value": "https://www.instagram.com/sha_obzor.wb?igsh=MWZrZzY5YmdkenJuZg==",
+        "hyperlink_target": "https://www.instagram.com/masha_obzor.wb?igsh=MWZrZzY5YmdkenJuZg==",
+        "selected_url": "https://www.instagram.com/masha_obzor.wb?igsh=MWZrZzY5YmdkenJuZg==",
+        "selected_username": "masha_obzor.wb",
+        "display_username": "sha_obzor.wb",
+        "hyperlink_preferred": true,
+        "display_target_mismatch": true
+      },
+      {
+        "row": 27,
+        "ordinal": 15,
+        "display_value": "МИША И КЕЙТ (@mishandkatya) • Instagram photos and videos",
+        "hyperlink_target": "https://instagram.com/mishandkatya",
+        "selected_url": "https://instagram.com/mishandkatya",
+        "selected_username": "mishandkatya",
+        "display_username": null,
+        "hyperlink_preferred": true,
+        "display_target_mismatch": true
+      },
+      {
+        "row": 47,
+        "ordinal": 21,
+        "display_value": "https://www.instagram.com/habakher?igsh=Yjk4eTFqNG4yYWQ0",
+        "hyperlink_target": "https://www.instagram.com/ksiushabakher?igsh=Yjk4eTFqNG4yYWQ0",
+        "selected_url": "https://www.instagram.com/ksiushabakher?igsh=Yjk4eTFqNG4yYWQ0",
+        "selected_username": "ksiushabakher",
+        "display_username": "habakher",
+        "hyperlink_preferred": true,
+        "display_target_mismatch": true
+      },
+      {
+        "row": 52,
+        "ordinal": 24,
+        "display_value": "https://www.instagram.com/ri_vls?igsh=MW40YTBobGx2Z2FkYg==",
+        "hyperlink_target": "https://www.instagram.com/mari_vls?igsh=MW40YTBobGx2Z2FkYg==",
+        "selected_url": "https://www.instagram.com/mari_vls?igsh=MW40YTBobGx2Z2FkYg==",
+        "selected_username": "mari_vls",
+        "display_username": "ri_vls",
+        "hyperlink_preferred": true,
+        "display_target_mismatch": true
+      },
+      {
+        "row": 57,
+        "ordinal": 28,
+        "display_value": "https://www.instagram.com/rtini.a13?igsh=MWE2NGRoYjNsdnJnMg==",
+        "hyperlink_target": "https://www.instagram.com/martini.a13?igsh=MWE2NGRoYjNsdnJnMg==",
+        "selected_url": "https://www.instagram.com/martini.a13?igsh=MWE2NGRoYjNsdnJnMg==",
+        "selected_username": "martini.a13",
+        "display_username": "rtini.a13",
+        "hyperlink_preferred": true,
+        "display_target_mismatch": true
+      }
+    ],
+    "manual_correction_count": 4,
+    "manual_corrections": {
+      "_crazy__unicorn__": "_crazy___unicorn_",
+      "irinatitovaaa_": "irina.titovaaaa",
+      "lv_yana_lv": "lv_yana_vl",
+      "__aparina": "nikaanow"
+    },
+    "unmatched_after_manual_audit": [],
+    "reconciled": true,
+    "rule": "Use the Excel cell hyperlink target when present; the displayed cell text can be truncated or stale. Then apply only explicitly verified manual corrections."
+  },
+  "human_in_the_loop_qa": {
+    "performed_by": "Pavel",
+    "excel_hyperlink_issue": {
+      "issue_detected_by": "Pavel",
+      "issue": "Excel display-text versus hyperlink-target parsing mismatch",
+      "finding": "Pavel detected that visible Excel cell text could contain truncated or stale Instagram usernames while the embedded hyperlink target retained the intended URL.",
+      "subsequent_verification": "Six display-text/hyperlink-target mismatches were subsequently verified against the workbook.",
+      "raw_verified_mismatch_count": 6,
+      "observed_display_target_mismatch_count": 6,
+      "observed_mismatches": [
+        {
+          "row": 10,
+          "ordinal": 6,
+          "display_value": "https://www.instagram.com/demoiselle._.rie?igsh=MTRlb3ZpeHF6aTNwaQ==",
+          "hyperlink_target": "https://www.instagram.com/mademoiselle._.marie?igsh=MTRlb3ZpeHF6aTNwaQ==",
+          "selected_url": "https://www.instagram.com/mademoiselle._.marie?igsh=MTRlb3ZpeHF6aTNwaQ==",
+          "selected_username": "mademoiselle._.marie",
+          "display_username": "demoiselle._.rie",
+          "hyperlink_preferred": true,
+          "display_target_mismatch": true
+        },
+        {
+          "row": 20,
+          "ordinal": 11,
+          "display_value": "https://www.instagram.com/sha_obzor.wb?igsh=MWZrZzY5YmdkenJuZg==",
+          "hyperlink_target": "https://www.instagram.com/masha_obzor.wb?igsh=MWZrZzY5YmdkenJuZg==",
+          "selected_url": "https://www.instagram.com/masha_obzor.wb?igsh=MWZrZzY5YmdkenJuZg==",
+          "selected_username": "masha_obzor.wb",
+          "display_username": "sha_obzor.wb",
+          "hyperlink_preferred": true,
+          "display_target_mismatch": true
+        },
+        {
+          "row": 27,
+          "ordinal": 15,
+          "display_value": "МИША И КЕЙТ (@mishandkatya) • Instagram photos and videos",
+          "hyperlink_target": "https://instagram.com/mishandkatya",
+          "selected_url": "https://instagram.com/mishandkatya",
+          "selected_username": "mishandkatya",
+          "display_username": null,
+          "hyperlink_preferred": true,
+          "display_target_mismatch": true
+        },
+        {
+          "row": 47,
+          "ordinal": 21,
+          "display_value": "https://www.instagram.com/habakher?igsh=Yjk4eTFqNG4yYWQ0",
+          "hyperlink_target": "https://www.instagram.com/ksiushabakher?igsh=Yjk4eTFqNG4yYWQ0",
+          "selected_url": "https://www.instagram.com/ksiushabakher?igsh=Yjk4eTFqNG4yYWQ0",
+          "selected_username": "ksiushabakher",
+          "display_username": "habakher",
+          "hyperlink_preferred": true,
+          "display_target_mismatch": true
+        },
+        {
+          "row": 52,
+          "ordinal": 24,
+          "display_value": "https://www.instagram.com/ri_vls?igsh=MW40YTBobGx2Z2FkYg==",
+          "hyperlink_target": "https://www.instagram.com/mari_vls?igsh=MW40YTBobGx2Z2FkYg==",
+          "selected_url": "https://www.instagram.com/mari_vls?igsh=MW40YTBobGx2Z2FkYg==",
+          "selected_username": "mari_vls",
+          "display_username": "ri_vls",
+          "hyperlink_preferred": true,
+          "display_target_mismatch": true
+        },
+        {
+          "row": 57,
+          "ordinal": 28,
+          "display_value": "https://www.instagram.com/rtini.a13?igsh=MWE2NGRoYjNsdnJnMg==",
+          "hyperlink_target": "https://www.instagram.com/martini.a13?igsh=MWE2NGRoYjNsdnJnMg==",
+          "selected_url": "https://www.instagram.com/martini.a13?igsh=MWE2NGRoYjNsdnJnMg==",
+          "selected_username": "martini.a13",
+          "display_username": "rtini.a13",
+          "hyperlink_preferred": true,
+          "display_target_mismatch": true
+        }
+      ]
+    },
+    "manually_verified_corrections": [
+      {
+        "source_username": "_crazy__unicorn__",
+        "verified_username": "_crazy___unicorn_",
+        "verification": "Manually found and visually confirmed in Instagram by Pavel"
+      },
+      {
+        "source_username": "irinatitovaaa_",
+        "verified_username": "irina.titovaaaa",
+        "verification": "Manually found and visually confirmed in Instagram by Pavel"
+      },
+      {
+        "source_username": "lv_yana_lv",
+        "verified_username": "lv_yana_vl",
+        "verification": "Manually found and visually confirmed in Instagram by Pavel"
+      },
+      {
+        "source_username": "__aparina",
+        "verified_username": "nikaanow",
+        "verification": "Manually found by Pavel and confirmed through matching PR contact @pr.aparina, Telegram link t.me/aparinanika, Tula location, UGC/model/blogger positioning, and successful Apify extraction.",
+        "confidence": "high"
+      }
+    ],
+    "rejected_false_leads": [
+      {
+        "source_username": "__aparina",
+        "candidate_username": "aparina_",
+        "decision": "rejected",
+        "reason": "Pavel did not accept the match without sufficient evidence."
+      }
+    ],
+    "remaining_unresolved": [
+      "nev_pollyy",
+      "19.voron",
+      "miysta_fatt_"
+    ],
+    "reliability_improvement": "Pavel's manual review recovered 4 profiles using explicit verification evidence, including __aparina → nikaanow, while preserving the earlier rejection of the unsupported aparina_ false lead. It also exposed a systematic spreadsheet display-text parsing failure. This improves precision, preserves the QA history, and makes reconciliation auditable instead of silently substituting guessed accounts."
+  },
+  "excluded_from_quantitative_analysis": [
+    {
+      "source_index": 12,
+      "username": "nike",
+      "status": "brand_reference",
+      "reason": "Nike/Apple brand reference: used only for content-format alignment signals."
+    },
+    {
+      "source_index": 14,
+      "username": "shalafaeva.al",
+      "status": "private",
+      "reason": "Private profile: latest-post metrics are unavailable and were not inferred."
+    },
+    {
+      "source_index": 16,
+      "username": "nev_pollyy",
+      "status": "unresolved_not_found",
+      "reason": "Source status is not_found; missing values were preserved."
+    },
+    {
+      "source_index": 20,
+      "username": "mademoiselle._.marie",
+      "status": "insufficient_data",
+      "reason": "Insufficient public data for robust quantitative scoring (requires username, positive followers, 3+ sampled posts, and 6+ posts with usable likes and comments; found 0 usable engagement posts)."
+    },
+    {
+      "source_index": 23,
+      "username": "apple",
+      "status": "brand_reference",
+      "reason": "Nike/Apple brand reference: used only for content-format alignment signals."
+    },
+    {
+      "source_index": 27,
+      "username": "19.voron",
+      "status": "unresolved_not_found",
+      "reason": "Source status is not_found; missing values were preserved."
+    },
+    {
+      "source_index": 28,
+      "username": "miysta_fatt_",
+      "status": "unresolved_not_found",
+      "reason": "Source status is not_found; missing values were preserved."
+    }
+  ],
+  "brand_reference_policy": {
+    "usernames": [
+      "nike",
+      "apple"
+    ],
+    "policy": "Excluded from all creator cohort statistics and percentile ranks; used only for documented visual/content-format alignment signals."
+  }
+}

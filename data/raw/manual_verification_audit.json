@@ -1,0 +1,59 @@
+{
+  "manual_human_in_the_loop_recovery": {
+    "performed_by": "Pavel",
+    "reason": "Manual verification found username differences after automated parsing returned not_found.",
+    "raw_provenance": {
+      "issue_detected_by": "Pavel",
+      "issue": "Excel display-text versus hyperlink-target parsing mismatch",
+      "finding": "Pavel detected that visible Excel cell text could contain truncated or stale Instagram usernames while the embedded hyperlink target retained the intended URL.",
+      "subsequent_verification": "Six display-text/hyperlink-target mismatches were subsequently verified against the workbook.",
+      "verified_mismatch_count": 6
+    },
+    "confirmed_corrections": [
+      {
+        "source_username": "_crazy__unicorn__",
+        "verified_username": "_crazy___unicorn_",
+        "verification": "Manually found and visually confirmed in Instagram by Pavel"
+      },
+      {
+        "source_username": "irinatitovaaa_",
+        "verified_username": "irina.titovaaaa",
+        "verification": "Manually found and visually confirmed in Instagram by Pavel"
+      },
+      {
+        "source_username": "lv_yana_lv",
+        "verified_username": "lv_yana_vl",
+        "verification": "Manually found and visually confirmed in Instagram by Pavel"
+      },
+      {
+        "source_username": "__aparina",
+        "verified_username": "nikaanow",
+        "verification": "Manually found by Pavel and confirmed through matching PR contact @pr.aparina, Telegram link t.me/aparinanika, Tula location, UGC/model/blogger positioning, and successful Apify extraction.",
+        "confidence": "high"
+      }
+    ],
+    "rejected_false_leads": [
+      {
+        "source_username": "__aparina",
+        "candidate_username": "aparina_",
+        "decision": "rejected",
+        "reason": "Pavel did not accept the match without sufficient evidence."
+      }
+    ]
+  },
+  "remaining_unresolved": [
+    "nev_pollyy",
+    "19.voron",
+    "miysta_fatt_"
+  ],
+  "current_dataset_statistics": {
+    "total_source_records": 34,
+    "accessible_profiles": 31,
+    "accessible_creators": 29,
+    "brand_references": 2,
+    "public_creators_with_post_data": 28,
+    "private_creators": 1,
+    "creator_latest_posts": 336,
+    "remaining_unresolved": 3
+  }
+}

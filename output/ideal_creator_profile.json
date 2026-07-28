@@ -1,0 +1,1866 @@
+{
+  "generated_at": "2026-07-28T11:07:43.903279+00:00",
+  "analysis_as_of": "2026-07-27T16:24:16+00:00",
+  "dataset_summary": {
+    "total_records": 34,
+    "counts_by_status": {
+      "brand_reference": 2,
+      "creator": 27,
+      "insufficient_data": 1,
+      "private": 1,
+      "unresolved_not_found": 3
+    },
+    "quantitatively_analyzed_creators": 27,
+    "scored_creators": 27,
+    "validation_issue_count": 15,
+    "duplicate_usernames": [],
+    "analysis_as_of": "2026-07-27T16:24:16+00:00"
+  },
+  "ideal_creator_profile": {
+    "basis": "Robust cohort medians and interquartile ranges from quantitatively eligible creators only. Nike and Apple influence only the documented format-alignment signal; they do not enter creator distributions.",
+    "eligible_creator_count": 27,
+    "audience": {
+      "followers": {
+        "q1": 9781.0,
+        "median": 48505.0,
+        "q3": 82754.5
+      },
+      "recommended_interpretation": "Prioritize creators near the cohort median or within the interquartile range; smaller audiences improve barter feasibility while larger audiences may increase reach and cost."
+    },
+    "performance": {
+      "median_likes": {
+        "q1": 92.75,
+        "median": 251.0,
+        "q3": 444.25
+      },
+      "median_comments": {
+        "q1": 3.75,
+        "median": 7.5,
+        "q3": 18.0
+      },
+      "engagement_rate_pct": {
+        "q1": 0.3617,
+        "median": 0.6636,
+        "q3": 2.5863
+      },
+      "engagement_confidence": {
+        "q1": 1.0,
+        "median": 1.0,
+        "q3": 1.0
+      }
+    },
+    "activity": {
+      "posting_recency_days": {
+        "q1": 0.1301,
+        "median": 1.7839,
+        "q3": 11.6441
+      },
+      "posts_per_week": {
+        "q1": 0.2173,
+        "median": 0.6695,
+        "q3": 2.1285
+      }
+    },
+    "formats": {
+      "short_video_share": {
+        "q1": 0.2917,
+        "median": 0.5833,
+        "q3": 0.9167
+      },
+      "ideal": "Consistent short-form video with enough caption, mention, tag, or marketplace evidence to demonstrate native product integration."
+    },
+    "signal_prevalence": {
+      "commercial_pr": 0.5556,
+      "contact": 0.5926,
+      "fashion": 0.5185,
+      "beauty": 0.5556,
+      "lifestyle": 0.7778,
+      "ugc": 0.4074,
+      "marketplace": 0.5556,
+      "native_product_integration": 0.8889
+    },
+    "recommended_signals": [
+      "commercial_pr",
+      "contact",
+      "fashion",
+      "beauty",
+      "lifestyle",
+      "ugc",
+      "marketplace",
+      "native_product_integration"
+    ],
+    "barter_feasibility": {
+      "preferred_evidence": [
+        "UGC positioning",
+        "commercial or PR wording",
+        "marketplace/product-review experience",
+        "small-to-mid-size audience",
+        "recent posting activity"
+      ],
+      "score_distribution": {
+        "q1": 50.98,
+        "median": 60.24,
+        "q3": 67.01
+      }
+    },
+    "selection_principle": "Use the score as a transparent shortlist aid, then visually review content quality, brand safety, audience geography, authenticity, and commercial terms."
+  },
+  "scoring_results": [
+    {
+      "rank": 1,
+      "source_index": 11,
+      "username": "kotova.live",
+      "total": 85.56,
+      "components": [
+        {
+          "name": "content_and_aesthetic_fit",
+          "score": 29.71,
+          "maximum": 30.0,
+          "explanation": "24.00/24 topical points from fashion, beauty, lifestyle, ugc, marketplace; 5.00/5 format-readiness points; 0.71/1 format-alignment point against Nike/Apple."
+        },
+        {
+          "name": "native_product_integration_potential",
+          "score": 18.0,
+          "maximum": 20.0,
+          "explanation": "UGC=True, marketplace=True, commercial/PR=True, contact=True; 3/12 sampled posts show native integration evidence."
+        },
+        {
+          "name": "short_video_consistency",
+          "score": 12.5,
+          "maximum": 15.0,
+          "explanation": "Short video is 83.3% of 12 sampled posts; score is share × 15."
+        },
+        {
+          "name": "engagement",
+          "score": 6.35,
+          "maximum": 15.0,
+          "explanation": "Median per-post engagement rate is 0.507% and ranks at the 42.3% percentile of eligible creators. Raw engagement component 6.35/15 × confidence 12/12 (1.000) = 6.35/15 adjusted."
+        },
+        {
+          "name": "barter_feasibility",
+          "score": 9.0,
+          "maximum": 10.0,
+          "explanation": "4.0/5 for micro creator audience (10k–50k); +2 commercial/PR if present, +2 UGC if present, +1 marketplace if present."
+        },
+        {
+          "name": "recent_activity",
+          "score": 10.0,
+          "maximum": 10.0,
+          "explanation": "6.0/6 from recency (0.1 days); 4.0/4 from 3.89 sampled posts/week."
+        }
+      ],
+      "explanation": "Total 85.56/100. Strongest relative component: recent_activity (10.00/10); lowest relative component: engagement (6.35/15).",
+      "raw_engagement_score": 6.35,
+      "engagement_confidence": 1.0
+    },
+    {
+      "rank": 2,
+      "source_index": 31,
+      "username": "yunglolaa",
+      "total": 80.14,
+      "components": [
+        {
+          "name": "content_and_aesthetic_fit",
+          "score": 24.54,
+          "maximum": 30.0,
+          "explanation": "20.00/24 topical points from fashion, beauty, ugc, marketplace; 4.00/5 format-readiness points; 0.54/1 format-alignment point against Nike/Apple."
+        },
+        {
+          "name": "native_product_integration_potential",
+          "score": 20.0,
+          "maximum": 20.0,
+          "explanation": "UGC=True, marketplace=True, commercial/PR=True, contact=True; 8/12 sampled posts show native integration evidence."
+        },
+        {
+          "name": "short_video_consistency",
+          "score": 15.0,
+          "maximum": 15.0,
+          "explanation": "Short video is 100.0% of 12 sampled posts; score is share × 15."
+        },
+        {
+          "name": "engagement",
+          "score": 2.6,
+          "maximum": 15.0,
+          "explanation": "Median per-post engagement rate is 0.334% and ranks at the 23.1% percentile of eligible creators. Raw engagement component 3.46/15 × confidence 9/12 (0.750) = 2.60/15 adjusted."
+        },
+        {
+          "name": "barter_feasibility",
+          "score": 8.0,
+          "maximum": 10.0,
+          "explanation": "3.0/5 for mid-size audience (50k–150k); +2 commercial/PR if present, +2 UGC if present, +1 marketplace if present."
+        },
+        {
+          "name": "recent_activity",
+          "score": 10.0,
+          "maximum": 10.0,
+          "explanation": "6.0/6 from recency (0.1 days); 4.0/4 from 9.48 sampled posts/week."
+        }
+      ],
+      "explanation": "Total 80.14/100. Strongest relative component: native_product_integration_potential (20.00/20); lowest relative component: engagement (2.60/15).",
+      "raw_engagement_score": 3.46,
+      "engagement_confidence": 0.75
+    },
+    {
+      "rank": 3,
+      "source_index": 19,
+      "username": "kristi_naxodka",
+      "total": 77.19,
+      "components": [
+        {
+          "name": "content_and_aesthetic_fit",
+          "score": 29.96,
+          "maximum": 30.0,
+          "explanation": "24.00/24 topical points from fashion, beauty, lifestyle, ugc, marketplace; 5.00/5 format-readiness points; 0.96/1 format-alignment point against Nike/Apple."
+        },
+        {
+          "name": "native_product_integration_potential",
+          "score": 20.0,
+          "maximum": 20.0,
+          "explanation": "UGC=True, marketplace=True, commercial/PR=True, contact=True; 10/12 sampled posts show native integration evidence."
+        },
+        {
+          "name": "short_video_consistency",
+          "score": 7.5,
+          "maximum": 15.0,
+          "explanation": "Short video is 50.0% of 12 sampled posts; score is share × 15."
+        },
+        {
+          "name": "engagement",
+          "score": 1.73,
+          "maximum": 15.0,
+          "explanation": "Median per-post engagement rate is 0.151% and ranks at the 11.5% percentile of eligible creators. Raw engagement component 1.73/15 × confidence 12/12 (1.000) = 1.73/15 adjusted."
+        },
+        {
+          "name": "barter_feasibility",
+          "score": 8.0,
+          "maximum": 10.0,
+          "explanation": "3.0/5 for mid-size audience (50k–150k); +2 commercial/PR if present, +2 UGC if present, +1 marketplace if present."
+        },
+        {
+          "name": "recent_activity",
+          "score": 10.0,
+          "maximum": 10.0,
+          "explanation": "6.0/6 from recency (0.1 days); 4.0/4 from 2.18 sampled posts/week."
+        }
+      ],
+      "explanation": "Total 77.19/100. Strongest relative component: native_product_integration_potential (20.00/20); lowest relative component: engagement (1.73/15).",
+      "raw_engagement_score": 1.73,
+      "engagement_confidence": 1.0
+    },
+    {
+      "rank": 4,
+      "source_index": 15,
+      "username": "martini.a13",
+      "total": 75.69,
+      "components": [
+        {
+          "name": "content_and_aesthetic_fit",
+          "score": 14.62,
+          "maximum": 30.0,
+          "explanation": "9.00/24 topical points from lifestyle, ugc; 5.00/5 format-readiness points; 0.62/1 format-alignment point against Nike/Apple."
+        },
+        {
+          "name": "native_product_integration_potential",
+          "score": 16.0,
+          "maximum": 20.0,
+          "explanation": "UGC=True, marketplace=False, commercial/PR=True, contact=True; 6/12 sampled posts show native integration evidence."
+        },
+        {
+          "name": "short_video_consistency",
+          "score": 13.75,
+          "maximum": 15.0,
+          "explanation": "Short video is 91.7% of 12 sampled posts; score is share × 15."
+        },
+        {
+          "name": "engagement",
+          "score": 13.85,
+          "maximum": 15.0,
+          "explanation": "Median per-post engagement rate is 7.718% and ranks at the 92.3% percentile of eligible creators. Raw engagement component 13.85/15 × confidence 12/12 (1.000) = 13.85/15 adjusted."
+        },
+        {
+          "name": "barter_feasibility",
+          "score": 9.0,
+          "maximum": 10.0,
+          "explanation": "5.0/5 for small creator audience (1k–10k); +2 commercial/PR if present, +2 UGC if present, +1 marketplace if present."
+        },
+        {
+          "name": "recent_activity",
+          "score": 8.47,
+          "maximum": 10.0,
+          "explanation": "5.0/6 from recency (11.9 days); 3.5/4 from 1.73 sampled posts/week."
+        }
+      ],
+      "explanation": "Total 75.69/100. Strongest relative component: engagement (13.85/15); lowest relative component: content_and_aesthetic_fit (14.62/30).",
+      "raw_engagement_score": 13.85,
+      "engagement_confidence": 1.0
+    },
+    {
+      "rank": 5,
+      "source_index": 22,
+      "username": "v.m.beauty_blog",
+      "total": 73.04,
+      "components": [
+        {
+          "name": "content_and_aesthetic_fit",
+          "score": 29.62,
+          "maximum": 30.0,
+          "explanation": "24.00/24 topical points from fashion, beauty, lifestyle, ugc, marketplace; 5.00/5 format-readiness points; 0.62/1 format-alignment point against Nike/Apple."
+        },
+        {
+          "name": "native_product_integration_potential",
+          "score": 14.67,
+          "maximum": 20.0,
+          "explanation": "UGC=True, marketplace=True, commercial/PR=False, contact=True; 4/12 sampled posts show native integration evidence."
+        },
+        {
+          "name": "short_video_consistency",
+          "score": 13.75,
+          "maximum": 15.0,
+          "explanation": "Short video is 91.7% of 12 sampled posts; score is share × 15."
+        },
+        {
+          "name": "engagement",
+          "score": 0.0,
+          "maximum": 15.0,
+          "explanation": "Median per-post engagement rate is 0.009% and ranks at the 0.0% percentile of eligible creators. Raw engagement component 0.00/15 × confidence 12/12 (1.000) = 0.00/15 adjusted."
+        },
+        {
+          "name": "barter_feasibility",
+          "score": 5.0,
+          "maximum": 10.0,
+          "explanation": "2.0/5 for large audience (150k–300k); +2 commercial/PR if present, +2 UGC if present, +1 marketplace if present."
+        },
+        {
+          "name": "recent_activity",
+          "score": 10.0,
+          "maximum": 10.0,
+          "explanation": "6.0/6 from recency (0.0 days); 4.0/4 from 11.17 sampled posts/week."
+        }
+      ],
+      "explanation": "Total 73.04/100. Strongest relative component: recent_activity (10.00/10); lowest relative component: engagement (0.00/15).",
+      "raw_engagement_score": 0.0,
+      "engagement_confidence": 1.0
+    },
+    {
+      "rank": 6,
+      "source_index": 13,
+      "username": "masha_obzor.wb",
+      "total": 69.32,
+      "components": [
+        {
+          "name": "content_and_aesthetic_fit",
+          "score": 24.96,
+          "maximum": 30.0,
+          "explanation": "19.00/24 topical points from fashion, lifestyle, ugc, marketplace; 5.00/5 format-readiness points; 0.96/1 format-alignment point against Nike/Apple."
+        },
+        {
+          "name": "native_product_integration_potential",
+          "score": 18.0,
+          "maximum": 20.0,
+          "explanation": "UGC=True, marketplace=True, commercial/PR=True, contact=False; 12/12 sampled posts show native integration evidence."
+        },
+        {
+          "name": "short_video_consistency",
+          "score": 8.75,
+          "maximum": 15.0,
+          "explanation": "Short video is 58.3% of 12 sampled posts; score is share × 15."
+        },
+        {
+          "name": "engagement",
+          "score": 5.19,
+          "maximum": 15.0,
+          "explanation": "Median per-post engagement rate is 0.462% and ranks at the 34.6% percentile of eligible creators. Raw engagement component 5.19/15 × confidence 12/12 (1.000) = 5.19/15 adjusted."
+        },
+        {
+          "name": "barter_feasibility",
+          "score": 8.0,
+          "maximum": 10.0,
+          "explanation": "3.0/5 for mid-size audience (50k–150k); +2 commercial/PR if present, +2 UGC if present, +1 marketplace if present."
+        },
+        {
+          "name": "recent_activity",
+          "score": 4.42,
+          "maximum": 10.0,
+          "explanation": "4.0/6 from recency (14.2 days); 0.4/4 from 0.21 sampled posts/week."
+        }
+      ],
+      "explanation": "Total 69.32/100. Strongest relative component: native_product_integration_potential (18.00/20); lowest relative component: engagement (5.19/15).",
+      "raw_engagement_score": 5.19,
+      "engagement_confidence": 1.0
+    },
+    {
+      "rank": 7,
+      "source_index": 10,
+      "username": "zari.ishikhovaa",
+      "total": 67.48,
+      "components": [
+        {
+          "name": "content_and_aesthetic_fit",
+          "score": 24.71,
+          "maximum": 30.0,
+          "explanation": "19.00/24 topical points from fashion, beauty, lifestyle, marketplace; 5.00/5 format-readiness points; 0.71/1 format-alignment point against Nike/Apple."
+        },
+        {
+          "name": "native_product_integration_potential",
+          "score": 10.0,
+          "maximum": 20.0,
+          "explanation": "UGC=False, marketplace=True, commercial/PR=True, contact=False; 3/12 sampled posts show native integration evidence."
+        },
+        {
+          "name": "short_video_consistency",
+          "score": 12.5,
+          "maximum": 15.0,
+          "explanation": "Short video is 83.3% of 12 sampled posts; score is share × 15."
+        },
+        {
+          "name": "engagement",
+          "score": 10.96,
+          "maximum": 15.0,
+          "explanation": "Median per-post engagement rate is 2.468% and ranks at the 73.1% percentile of eligible creators. Raw engagement component 10.96/15 × confidence 12/12 (1.000) = 10.96/15 adjusted."
+        },
+        {
+          "name": "barter_feasibility",
+          "score": 7.0,
+          "maximum": 10.0,
+          "explanation": "4.0/5 for micro creator audience (10k–50k); +2 commercial/PR if present, +2 UGC if present, +1 marketplace if present."
+        },
+        {
+          "name": "recent_activity",
+          "score": 2.31,
+          "maximum": 10.0,
+          "explanation": "1.0/6 from recency (64.0 days); 1.3/4 from 0.65 sampled posts/week."
+        }
+      ],
+      "explanation": "Total 67.48/100. Strongest relative component: short_video_consistency (12.50/15); lowest relative component: recent_activity (2.31/10).",
+      "raw_engagement_score": 10.96,
+      "engagement_confidence": 1.0
+    },
+    {
+      "rank": 8,
+      "source_index": 29,
+      "username": "nikaanow",
+      "total": 66.54,
+      "components": [
+        {
+          "name": "content_and_aesthetic_fit",
+          "score": 14.79,
+          "maximum": 30.0,
+          "explanation": "9.00/24 topical points from lifestyle, ugc; 5.00/5 format-readiness points; 0.79/1 format-alignment point against Nike/Apple."
+        },
+        {
+          "name": "native_product_integration_potential",
+          "score": 16.0,
+          "maximum": 20.0,
+          "explanation": "UGC=True, marketplace=False, commercial/PR=True, contact=True; 6/12 sampled posts show native integration evidence."
+        },
+        {
+          "name": "short_video_consistency",
+          "score": 11.25,
+          "maximum": 15.0,
+          "explanation": "Short video is 75.0% of 12 sampled posts; score is share × 15."
+        },
+        {
+          "name": "engagement",
+          "score": 7.5,
+          "maximum": 15.0,
+          "explanation": "Median per-post engagement rate is 0.664% and ranks at the 50.0% percentile of eligible creators. Raw engagement component 7.50/15 × confidence 12/12 (1.000) = 7.50/15 adjusted."
+        },
+        {
+          "name": "barter_feasibility",
+          "score": 7.0,
+          "maximum": 10.0,
+          "explanation": "3.0/5 for mid-size audience (50k–150k); +2 commercial/PR if present, +2 UGC if present, +1 marketplace if present."
+        },
+        {
+          "name": "recent_activity",
+          "score": 10.0,
+          "maximum": 10.0,
+          "explanation": "6.0/6 from recency (5.2 days); 4.0/4 from 4.32 sampled posts/week."
+        }
+      ],
+      "explanation": "Total 66.54/100. Strongest relative component: recent_activity (10.00/10); lowest relative component: content_and_aesthetic_fit (14.79/30).",
+      "raw_engagement_score": 7.5,
+      "engagement_confidence": 1.0
+    },
+    {
+      "rank": 9,
+      "source_index": 18,
+      "username": "armlilitka",
+      "total": 66.05,
+      "components": [
+        {
+          "name": "content_and_aesthetic_fit",
+          "score": 11.54,
+          "maximum": 30.0,
+          "explanation": "7.00/24 topical points from lifestyle, marketplace; 4.00/5 format-readiness points; 0.54/1 format-alignment point against Nike/Apple."
+        },
+        {
+          "name": "native_product_integration_potential",
+          "score": 14.0,
+          "maximum": 20.0,
+          "explanation": "UGC=False, marketplace=True, commercial/PR=True, contact=True; 9/12 sampled posts show native integration evidence."
+        },
+        {
+          "name": "short_video_consistency",
+          "score": 15.0,
+          "maximum": 15.0,
+          "explanation": "Short video is 100.0% of 12 sampled posts; score is share × 15."
+        },
+        {
+          "name": "engagement",
+          "score": 13.27,
+          "maximum": 15.0,
+          "explanation": "Median per-post engagement rate is 6.359% and ranks at the 88.5% percentile of eligible creators. Raw engagement component 13.27/15 × confidence 12/12 (1.000) = 13.27/15 adjusted."
+        },
+        {
+          "name": "barter_feasibility",
+          "score": 6.0,
+          "maximum": 10.0,
+          "explanation": "3.0/5 for mid-size audience (50k–150k); +2 commercial/PR if present, +2 UGC if present, +1 marketplace if present."
+        },
+        {
+          "name": "recent_activity",
+          "score": 6.24,
+          "maximum": 10.0,
+          "explanation": "6.0/6 from recency (0.1 days); 0.2/4 from 0.12 sampled posts/week."
+        }
+      ],
+      "explanation": "Total 66.05/100. Strongest relative component: short_video_consistency (15.00/15); lowest relative component: content_and_aesthetic_fit (11.54/30).",
+      "raw_engagement_score": 13.27,
+      "engagement_confidence": 1.0
+    },
+    {
+      "rank": 10,
+      "source_index": 9,
+      "username": "llaurraiiam",
+      "total": 65.55,
+      "components": [
+        {
+          "name": "content_and_aesthetic_fit",
+          "score": 26.54,
+          "maximum": 30.0,
+          "explanation": "21.00/24 topical points from fashion, beauty, lifestyle, ugc; 5.00/5 format-readiness points; 0.54/1 format-alignment point against Nike/Apple."
+        },
+        {
+          "name": "native_product_integration_potential",
+          "score": 10.0,
+          "maximum": 20.0,
+          "explanation": "UGC=True, marketplace=False, commercial/PR=False, contact=False; 9/12 sampled posts show native integration evidence."
+        },
+        {
+          "name": "short_video_consistency",
+          "score": 1.25,
+          "maximum": 15.0,
+          "explanation": "Short video is 8.3% of 12 sampled posts; score is share × 15."
+        },
+        {
+          "name": "engagement",
+          "score": 12.12,
+          "maximum": 15.0,
+          "explanation": "Median per-post engagement rate is 3.426% and ranks at the 80.8% percentile of eligible creators. Raw engagement component 12.12/15 × confidence 12/12 (1.000) = 12.12/15 adjusted."
+        },
+        {
+          "name": "barter_feasibility",
+          "score": 6.0,
+          "maximum": 10.0,
+          "explanation": "4.0/5 for micro creator audience (10k–50k); +2 commercial/PR if present, +2 UGC if present, +1 marketplace if present."
+        },
+        {
+          "name": "recent_activity",
+          "score": 9.64,
+          "maximum": 10.0,
+          "explanation": "6.0/6 from recency (0.0 days); 3.6/4 from 1.82 sampled posts/week."
+        }
+      ],
+      "explanation": "Total 65.55/100. Strongest relative component: recent_activity (9.64/10); lowest relative component: short_video_consistency (1.25/15).",
+      "raw_engagement_score": 12.12,
+      "engagement_confidence": 1.0
+    },
+    {
+      "rank": 11,
+      "source_index": 21,
+      "username": "dddinaaaaaa",
+      "total": 64.77,
+      "components": [
+        {
+          "name": "content_and_aesthetic_fit",
+          "score": 26.54,
+          "maximum": 30.0,
+          "explanation": "21.00/24 topical points from fashion, beauty, lifestyle, ugc; 5.00/5 format-readiness points; 0.54/1 format-alignment point against Nike/Apple."
+        },
+        {
+          "name": "native_product_integration_potential",
+          "score": 10.0,
+          "maximum": 20.0,
+          "explanation": "UGC=True, marketplace=False, commercial/PR=False, contact=False; 7/12 sampled posts show native integration evidence."
+        },
+        {
+          "name": "short_video_consistency",
+          "score": 1.25,
+          "maximum": 15.0,
+          "explanation": "Short video is 8.3% of 12 sampled posts; score is share × 15."
+        },
+        {
+          "name": "engagement",
+          "score": 14.42,
+          "maximum": 15.0,
+          "explanation": "Median per-post engagement rate is 11.749% and ranks at the 96.2% percentile of eligible creators. Raw engagement component 14.42/15 × confidence 12/12 (1.000) = 14.42/15 adjusted."
+        },
+        {
+          "name": "barter_feasibility",
+          "score": 7.0,
+          "maximum": 10.0,
+          "explanation": "5.0/5 for small creator audience (1k–10k); +2 commercial/PR if present, +2 UGC if present, +1 marketplace if present."
+        },
+        {
+          "name": "recent_activity",
+          "score": 5.56,
+          "maximum": 10.0,
+          "explanation": "5.0/6 from recency (12.4 days); 0.6/4 from 0.28 sampled posts/week."
+        }
+      ],
+      "explanation": "Total 64.77/100. Strongest relative component: engagement (14.42/15); lowest relative component: short_video_consistency (1.25/15).",
+      "raw_engagement_score": 14.42,
+      "engagement_confidence": 1.0
+    },
+    {
+      "rank": 12,
+      "source_index": 7,
+      "username": "_kate_bruni",
+      "total": 64.53,
+      "components": [
+        {
+          "name": "content_and_aesthetic_fit",
+          "score": 24.79,
+          "maximum": 30.0,
+          "explanation": "19.00/24 topical points from fashion, beauty, lifestyle, marketplace; 5.00/5 format-readiness points; 0.79/1 format-alignment point against Nike/Apple."
+        },
+        {
+          "name": "native_product_integration_potential",
+          "score": 14.0,
+          "maximum": 20.0,
+          "explanation": "UGC=False, marketplace=True, commercial/PR=True, contact=True; 7/12 sampled posts show native integration evidence."
+        },
+        {
+          "name": "short_video_consistency",
+          "score": 11.25,
+          "maximum": 15.0,
+          "explanation": "Short video is 75.0% of 12 sampled posts; score is share × 15."
+        },
+        {
+          "name": "engagement",
+          "score": 4.04,
+          "maximum": 15.0,
+          "explanation": "Median per-post engagement rate is 0.389% and ranks at the 26.9% percentile of eligible creators. Raw engagement component 4.04/15 × confidence 12/12 (1.000) = 4.04/15 adjusted."
+        },
+        {
+          "name": "barter_feasibility",
+          "score": 4.0,
+          "maximum": 10.0,
+          "explanation": "1.0/5 for very large audience (>300k); +2 commercial/PR if present, +2 UGC if present, +1 marketplace if present."
+        },
+        {
+          "name": "recent_activity",
+          "score": 6.45,
+          "maximum": 10.0,
+          "explanation": "6.0/6 from recency (4.3 days); 0.4/4 from 0.22 sampled posts/week."
+        }
+      ],
+      "explanation": "Total 64.53/100. Strongest relative component: content_and_aesthetic_fit (24.79/30); lowest relative component: engagement (4.04/15).",
+      "raw_engagement_score": 4.04,
+      "engagement_confidence": 1.0
+    },
+    {
+      "rank": 13,
+      "source_index": 1,
+      "username": "aida.mixx",
+      "total": 61.56,
+      "components": [
+        {
+          "name": "content_and_aesthetic_fit",
+          "score": 16.54,
+          "maximum": 30.0,
+          "explanation": "12.00/24 topical points from beauty, lifestyle, marketplace; 4.00/5 format-readiness points; 0.54/1 format-alignment point against Nike/Apple."
+        },
+        {
+          "name": "native_product_integration_potential",
+          "score": 14.0,
+          "maximum": 20.0,
+          "explanation": "UGC=False, marketplace=True, commercial/PR=True, contact=True; 7/12 sampled posts show native integration evidence."
+        },
+        {
+          "name": "short_video_consistency",
+          "score": 15.0,
+          "maximum": 15.0,
+          "explanation": "Short video is 100.0% of 12 sampled posts; score is share × 15."
+        },
+        {
+          "name": "engagement",
+          "score": 2.31,
+          "maximum": 15.0,
+          "explanation": "Median per-post engagement rate is 0.225% and ranks at the 15.4% percentile of eligible creators. Raw engagement component 2.31/15 × confidence 12/12 (1.000) = 2.31/15 adjusted."
+        },
+        {
+          "name": "barter_feasibility",
+          "score": 7.0,
+          "maximum": 10.0,
+          "explanation": "4.0/5 for micro creator audience (10k–50k); +2 commercial/PR if present, +2 UGC if present, +1 marketplace if present."
+        },
+        {
+          "name": "recent_activity",
+          "score": 6.71,
+          "maximum": 10.0,
+          "explanation": "6.0/6 from recency (0.2 days); 0.7/4 from 0.36 sampled posts/week."
+        }
+      ],
+      "explanation": "Total 61.56/100. Strongest relative component: short_video_consistency (15.00/15); lowest relative component: engagement (2.31/15).",
+      "raw_engagement_score": 2.31,
+      "engagement_confidence": 1.0
+    },
+    {
+      "rank": 14,
+      "source_index": 32,
+      "username": "ninooochka2.0",
+      "total": 60.24,
+      "components": [
+        {
+          "name": "content_and_aesthetic_fit",
+          "score": 24.79,
+          "maximum": 30.0,
+          "explanation": "19.00/24 topical points from fashion, beauty, lifestyle, marketplace; 5.00/5 format-readiness points; 0.79/1 format-alignment point against Nike/Apple."
+        },
+        {
+          "name": "native_product_integration_potential",
+          "score": 8.0,
+          "maximum": 20.0,
+          "explanation": "UGC=False, marketplace=True, commercial/PR=True, contact=False; 0/12 sampled posts show native integration evidence."
+        },
+        {
+          "name": "short_video_consistency",
+          "score": 5.0,
+          "maximum": 15.0,
+          "explanation": "Short video is 33.3% of 12 sampled posts; score is share × 15."
+        },
+        {
+          "name": "engagement",
+          "score": 9.81,
+          "maximum": 15.0,
+          "explanation": "Median per-post engagement rate is 1.522% and ranks at the 65.4% percentile of eligible creators. Raw engagement component 9.81/15 × confidence 12/12 (1.000) = 9.81/15 adjusted."
+        },
+        {
+          "name": "barter_feasibility",
+          "score": 7.0,
+          "maximum": 10.0,
+          "explanation": "4.0/5 for micro creator audience (10k–50k); +2 commercial/PR if present, +2 UGC if present, +1 marketplace if present."
+        },
+        {
+          "name": "recent_activity",
+          "score": 5.64,
+          "maximum": 10.0,
+          "explanation": "5.0/6 from recency (8.8 days); 0.6/4 from 0.32 sampled posts/week."
+        }
+      ],
+      "explanation": "Total 60.24/100. Strongest relative component: content_and_aesthetic_fit (24.79/30); lowest relative component: short_video_consistency (5.00/15).",
+      "raw_engagement_score": 9.81,
+      "engagement_confidence": 1.0
+    },
+    {
+      "rank": 15,
+      "source_index": 8,
+      "username": "jd_cosm",
+      "total": 57.94,
+      "components": [
+        {
+          "name": "content_and_aesthetic_fit",
+          "score": 17.96,
+          "maximum": 30.0,
+          "explanation": "12.00/24 topical points from beauty, lifestyle, marketplace; 5.00/5 format-readiness points; 0.96/1 format-alignment point against Nike/Apple."
+        },
+        {
+          "name": "native_product_integration_potential",
+          "score": 8.0,
+          "maximum": 20.0,
+          "explanation": "UGC=False, marketplace=True, commercial/PR=False, contact=True; 3/12 sampled posts show native integration evidence."
+        },
+        {
+          "name": "short_video_consistency",
+          "score": 8.75,
+          "maximum": 15.0,
+          "explanation": "Short video is 58.3% of 12 sampled posts; score is share × 15."
+        },
+        {
+          "name": "engagement",
+          "score": 9.23,
+          "maximum": 15.0,
+          "explanation": "Median per-post engagement rate is 1.470% and ranks at the 61.5% percentile of eligible creators. Raw engagement component 9.23/15 × confidence 12/12 (1.000) = 9.23/15 adjusted."
+        },
+        {
+          "name": "barter_feasibility",
+          "score": 4.0,
+          "maximum": 10.0,
+          "explanation": "3.0/5 for mid-size audience (50k–150k); +2 commercial/PR if present, +2 UGC if present, +1 marketplace if present."
+        },
+        {
+          "name": "recent_activity",
+          "score": 10.0,
+          "maximum": 10.0,
+          "explanation": "6.0/6 from recency (1.1 days); 4.0/4 from 2.08 sampled posts/week."
+        }
+      ],
+      "explanation": "Total 57.94/100. Strongest relative component: recent_activity (10.00/10); lowest relative component: native_product_integration_potential (8.00/20).",
+      "raw_engagement_score": 9.23,
+      "engagement_confidence": 1.0
+    },
+    {
+      "rank": 16,
+      "source_index": 17,
+      "username": "irina.titovaaaa",
+      "total": 57.82,
+      "components": [
+        {
+          "name": "content_and_aesthetic_fit",
+          "score": 14.71,
+          "maximum": 30.0,
+          "explanation": "9.00/24 topical points from lifestyle, ugc; 5.00/5 format-readiness points; 0.71/1 format-alignment point against Nike/Apple."
+        },
+        {
+          "name": "native_product_integration_potential",
+          "score": 10.67,
+          "maximum": 20.0,
+          "explanation": "UGC=True, marketplace=False, commercial/PR=False, contact=True; 4/12 sampled posts show native integration evidence."
+        },
+        {
+          "name": "short_video_consistency",
+          "score": 3.75,
+          "maximum": 15.0,
+          "explanation": "Short video is 25.0% of 12 sampled posts; score is share × 15."
+        },
+        {
+          "name": "engagement",
+          "score": 12.69,
+          "maximum": 15.0,
+          "explanation": "Median per-post engagement rate is 4.621% and ranks at the 84.6% percentile of eligible creators. Raw engagement component 12.69/15 × confidence 12/12 (1.000) = 12.69/15 adjusted."
+        },
+        {
+          "name": "barter_feasibility",
+          "score": 6.0,
+          "maximum": 10.0,
+          "explanation": "4.0/5 for nano audience (≤1k); +2 commercial/PR if present, +2 UGC if present, +1 marketplace if present."
+        },
+        {
+          "name": "recent_activity",
+          "score": 10.0,
+          "maximum": 10.0,
+          "explanation": "6.0/6 from recency (1.8 days); 4.0/4 from 2.83 sampled posts/week."
+        }
+      ],
+      "explanation": "Total 57.82/100. Strongest relative component: recent_activity (10.00/10); lowest relative component: short_video_consistency (3.75/15).",
+      "raw_engagement_score": 12.69,
+      "engagement_confidence": 1.0
+    },
+    {
+      "rank": 17,
+      "source_index": 4,
+      "username": "anetboss_",
+      "total": 56.98,
+      "components": [
+        {
+          "name": "content_and_aesthetic_fit",
+          "score": 11.54,
+          "maximum": 30.0,
+          "explanation": "7.00/24 topical points from lifestyle, marketplace; 4.00/5 format-readiness points; 0.54/1 format-alignment point against Nike/Apple."
+        },
+        {
+          "name": "native_product_integration_potential",
+          "score": 8.67,
+          "maximum": 20.0,
+          "explanation": "UGC=False, marketplace=True, commercial/PR=True, contact=False; 1/12 sampled posts show native integration evidence."
+        },
+        {
+          "name": "short_video_consistency",
+          "score": 15.0,
+          "maximum": 15.0,
+          "explanation": "Short video is 100.0% of 12 sampled posts; score is share × 15."
+        },
+        {
+          "name": "engagement",
+          "score": 5.77,
+          "maximum": 15.0,
+          "explanation": "Median per-post engagement rate is 0.499% and ranks at the 38.5% percentile of eligible creators. Raw engagement component 5.77/15 × confidence 12/12 (1.000) = 5.77/15 adjusted."
+        },
+        {
+          "name": "barter_feasibility",
+          "score": 6.0,
+          "maximum": 10.0,
+          "explanation": "3.0/5 for mid-size audience (50k–150k); +2 commercial/PR if present, +2 UGC if present, +1 marketplace if present."
+        },
+        {
+          "name": "recent_activity",
+          "score": 10.0,
+          "maximum": 10.0,
+          "explanation": "6.0/6 from recency (1.3 days); 4.0/4 from 2.03 sampled posts/week."
+        }
+      ],
+      "explanation": "Total 56.98/100. Strongest relative component: short_video_consistency (15.00/15); lowest relative component: content_and_aesthetic_fit (11.54/30).",
+      "raw_engagement_score": 5.77,
+      "engagement_confidence": 1.0
+    },
+    {
+      "rank": 18,
+      "source_index": 3,
+      "username": "juliar_r",
+      "total": 53.07,
+      "components": [
+        {
+          "name": "content_and_aesthetic_fit",
+          "score": 21.88,
+          "maximum": 30.0,
+          "explanation": "16.00/24 topical points from fashion, beauty, lifestyle; 5.00/5 format-readiness points; 0.88/1 format-alignment point against Nike/Apple."
+        },
+        {
+          "name": "native_product_integration_potential",
+          "score": 6.67,
+          "maximum": 20.0,
+          "explanation": "UGC=False, marketplace=False, commercial/PR=True, contact=True; 1/12 sampled posts show native integration evidence."
+        },
+        {
+          "name": "short_video_consistency",
+          "score": 6.25,
+          "maximum": 15.0,
+          "explanation": "Short video is 41.7% of 12 sampled posts; score is share × 15."
+        },
+        {
+          "name": "engagement",
+          "score": 6.92,
+          "maximum": 15.0,
+          "explanation": "Median per-post engagement rate is 0.509% and ranks at the 46.2% percentile of eligible creators. Raw engagement component 6.92/15 × confidence 12/12 (1.000) = 6.92/15 adjusted."
+        },
+        {
+          "name": "barter_feasibility",
+          "score": 4.0,
+          "maximum": 10.0,
+          "explanation": "2.0/5 for large audience (150k–300k); +2 commercial/PR if present, +2 UGC if present, +1 marketplace if present."
+        },
+        {
+          "name": "recent_activity",
+          "score": 7.35,
+          "maximum": 10.0,
+          "explanation": "6.0/6 from recency (3.2 days); 1.4/4 from 0.68 sampled posts/week."
+        }
+      ],
+      "explanation": "Total 53.07/100. Strongest relative component: recent_activity (7.35/10); lowest relative component: native_product_integration_potential (6.67/20).",
+      "raw_engagement_score": 6.92,
+      "engagement_confidence": 1.0
+    },
+    {
+      "rank": 19,
+      "source_index": 33,
+      "username": "ksiushabakher",
+      "total": 52.56,
+      "components": [
+        {
+          "name": "content_and_aesthetic_fit",
+          "score": 21.62,
+          "maximum": 30.0,
+          "explanation": "16.00/24 topical points from fashion, beauty, lifestyle; 5.00/5 format-readiness points; 0.62/1 format-alignment point against Nike/Apple."
+        },
+        {
+          "name": "native_product_integration_potential",
+          "score": 3.33,
+          "maximum": 20.0,
+          "explanation": "UGC=False, marketplace=False, commercial/PR=False, contact=True; 2/12 sampled posts show native integration evidence."
+        },
+        {
+          "name": "short_video_consistency",
+          "score": 13.75,
+          "maximum": 15.0,
+          "explanation": "Short video is 91.7% of 12 sampled posts; score is share × 15."
+        },
+        {
+          "name": "engagement",
+          "score": 4.62,
+          "maximum": 15.0,
+          "explanation": "Median per-post engagement rate is 0.415% and ranks at the 30.8% percentile of eligible creators. Raw engagement component 4.62/15 × confidence 12/12 (1.000) = 4.62/15 adjusted."
+        },
+        {
+          "name": "barter_feasibility",
+          "score": 3.0,
+          "maximum": 10.0,
+          "explanation": "3.0/5 for mid-size audience (50k–150k); +2 commercial/PR if present, +2 UGC if present, +1 marketplace if present."
+        },
+        {
+          "name": "recent_activity",
+          "score": 6.24,
+          "maximum": 10.0,
+          "explanation": "6.0/6 from recency (0.0 days); 0.2/4 from 0.12 sampled posts/week."
+        }
+      ],
+      "explanation": "Total 52.56/100. Strongest relative component: short_video_consistency (13.75/15); lowest relative component: native_product_integration_potential (3.33/20).",
+      "raw_engagement_score": 4.62,
+      "engagement_confidence": 1.0
+    },
+    {
+      "rank": 20,
+      "source_index": 0,
+      "username": "mishandkatya",
+      "total": 52.36,
+      "components": [
+        {
+          "name": "content_and_aesthetic_fit",
+          "score": 11.54,
+          "maximum": 30.0,
+          "explanation": "7.00/24 topical points from lifestyle, marketplace; 4.00/5 format-readiness points; 0.54/1 format-alignment point against Nike/Apple."
+        },
+        {
+          "name": "native_product_integration_potential",
+          "score": 8.67,
+          "maximum": 20.0,
+          "explanation": "UGC=False, marketplace=True, commercial/PR=True, contact=False; 1/12 sampled posts show native integration evidence."
+        },
+        {
+          "name": "short_video_consistency",
+          "score": 15.0,
+          "maximum": 15.0,
+          "explanation": "Short video is 100.0% of 12 sampled posts; score is share × 15."
+        },
+        {
+          "name": "engagement",
+          "score": 1.15,
+          "maximum": 15.0,
+          "explanation": "Median per-post engagement rate is 0.142% and ranks at the 7.7% percentile of eligible creators. Raw engagement component 1.15/15 × confidence 12/12 (1.000) = 1.15/15 adjusted."
+        },
+        {
+          "name": "barter_feasibility",
+          "score": 6.0,
+          "maximum": 10.0,
+          "explanation": "3.0/5 for mid-size audience (50k–150k); +2 commercial/PR if present, +2 UGC if present, +1 marketplace if present."
+        },
+        {
+          "name": "recent_activity",
+          "score": 10.0,
+          "maximum": 10.0,
+          "explanation": "6.0/6 from recency (1.5 days); 4.0/4 from 2.59 sampled posts/week."
+        }
+      ],
+      "explanation": "Total 52.36/100. Strongest relative component: short_video_consistency (15.00/15); lowest relative component: engagement (1.15/15).",
+      "raw_engagement_score": 1.15,
+      "engagement_confidence": 1.0
+    },
+    {
+      "rank": 21,
+      "source_index": 2,
+      "username": "bazhenova_alenaa",
+      "total": 49.6,
+      "components": [
+        {
+          "name": "content_and_aesthetic_fit",
+          "score": 15.96,
+          "maximum": 30.0,
+          "explanation": "10.00/24 topical points from beauty, ugc; 5.00/5 format-readiness points; 0.96/1 format-alignment point against Nike/Apple."
+        },
+        {
+          "name": "native_product_integration_potential",
+          "score": 8.67,
+          "maximum": 20.0,
+          "explanation": "UGC=True, marketplace=False, commercial/PR=False, contact=True; 1/12 sampled posts show native integration evidence."
+        },
+        {
+          "name": "short_video_consistency",
+          "score": 8.75,
+          "maximum": 15.0,
+          "explanation": "Short video is 58.3% of 12 sampled posts; score is share × 15."
+        },
+        {
+          "name": "engagement",
+          "score": 2.88,
+          "maximum": 15.0,
+          "explanation": "Median per-post engagement rate is 0.293% and ranks at the 19.2% percentile of eligible creators. Raw engagement component 2.88/15 × confidence 12/12 (1.000) = 2.88/15 adjusted."
+        },
+        {
+          "name": "barter_feasibility",
+          "score": 6.0,
+          "maximum": 10.0,
+          "explanation": "4.0/5 for micro creator audience (10k–50k); +2 commercial/PR if present, +2 UGC if present, +1 marketplace if present."
+        },
+        {
+          "name": "recent_activity",
+          "score": 7.34,
+          "maximum": 10.0,
+          "explanation": "6.0/6 from recency (0.0 days); 1.3/4 from 0.67 sampled posts/week."
+        }
+      ],
+      "explanation": "Total 49.60/100. Strongest relative component: recent_activity (7.34/10); lowest relative component: engagement (2.88/15).",
+      "raw_engagement_score": 2.88,
+      "engagement_confidence": 1.0
+    },
+    {
+      "rank": 22,
+      "source_index": 5,
+      "username": "daria_grogulenko",
+      "total": 46.67,
+      "components": [
+        {
+          "name": "content_and_aesthetic_fit",
+          "score": 14.54,
+          "maximum": 30.0,
+          "explanation": "10.00/24 topical points from fashion, marketplace; 4.00/5 format-readiness points; 0.54/1 format-alignment point against Nike/Apple."
+        },
+        {
+          "name": "native_product_integration_potential",
+          "score": 10.0,
+          "maximum": 20.0,
+          "explanation": "UGC=False, marketplace=True, commercial/PR=False, contact=True; 12/12 sampled posts show native integration evidence."
+        },
+        {
+          "name": "short_video_consistency",
+          "score": 15.0,
+          "maximum": 15.0,
+          "explanation": "Short video is 100.0% of 12 sampled posts; score is share × 15."
+        },
+        {
+          "name": "engagement",
+          "score": 0.58,
+          "maximum": 15.0,
+          "explanation": "Median per-post engagement rate is 0.112% and ranks at the 3.8% percentile of eligible creators. Raw engagement component 0.58/15 × confidence 12/12 (1.000) = 0.58/15 adjusted."
+        },
+        {
+          "name": "barter_feasibility",
+          "score": 6.0,
+          "maximum": 10.0,
+          "explanation": "5.0/5 for small creator audience (1k–10k); +2 commercial/PR if present, +2 UGC if present, +1 marketplace if present."
+        },
+        {
+          "name": "recent_activity",
+          "score": 0.55,
+          "maximum": 10.0,
+          "explanation": "0.0/6 from recency (279.0 days); 0.5/4 from 0.27 sampled posts/week."
+        }
+      ],
+      "explanation": "Total 46.67/100. Strongest relative component: short_video_consistency (15.00/15); lowest relative component: engagement (0.58/15).",
+      "raw_engagement_score": 0.58,
+      "engagement_confidence": 1.0
+    },
+    {
+      "rank": 23,
+      "source_index": 6,
+      "username": "janestetsiura",
+      "total": 41.16,
+      "components": [
+        {
+          "name": "content_and_aesthetic_fit",
+          "score": 12.71,
+          "maximum": 30.0,
+          "explanation": "7.00/24 topical points from fashion; 5.00/5 format-readiness points; 0.71/1 format-alignment point against Nike/Apple."
+        },
+        {
+          "name": "native_product_integration_potential",
+          "score": 2.67,
+          "maximum": 20.0,
+          "explanation": "UGC=False, marketplace=False, commercial/PR=False, contact=True; 1/12 sampled posts show native integration evidence."
+        },
+        {
+          "name": "short_video_consistency",
+          "score": 3.75,
+          "maximum": 15.0,
+          "explanation": "Short video is 25.0% of 12 sampled posts; score is share × 15."
+        },
+        {
+          "name": "engagement",
+          "score": 8.08,
+          "maximum": 15.0,
+          "explanation": "Median per-post engagement rate is 0.881% and ranks at the 53.8% percentile of eligible creators. Raw engagement component 8.08/15 × confidence 12/12 (1.000) = 8.08/15 adjusted."
+        },
+        {
+          "name": "barter_feasibility",
+          "score": 4.0,
+          "maximum": 10.0,
+          "explanation": "4.0/5 for micro creator audience (10k–50k); +2 commercial/PR if present, +2 UGC if present, +1 marketplace if present."
+        },
+        {
+          "name": "recent_activity",
+          "score": 9.95,
+          "maximum": 10.0,
+          "explanation": "6.0/6 from recency (2.9 days); 3.9/4 from 1.97 sampled posts/week."
+        }
+      ],
+      "explanation": "Total 41.16/100. Strongest relative component: recent_activity (9.95/10); lowest relative component: native_product_integration_potential (2.67/20).",
+      "raw_engagement_score": 8.08,
+      "engagement_confidence": 1.0
+    },
+    {
+      "rank": 24,
+      "source_index": 24,
+      "username": "krrazalia",
+      "total": 39.21,
+      "components": [
+        {
+          "name": "content_and_aesthetic_fit",
+          "score": 14.46,
+          "maximum": 30.0,
+          "explanation": "12.00/24 topical points from beauty, lifestyle, marketplace; 2.00/5 format-readiness points; 0.46/1 format-alignment point against Nike/Apple."
+        },
+        {
+          "name": "native_product_integration_potential",
+          "score": 8.0,
+          "maximum": 20.0,
+          "explanation": "UGC=False, marketplace=True, commercial/PR=True, contact=False; 0/12 sampled posts show native integration evidence."
+        },
+        {
+          "name": "short_video_consistency",
+          "score": 0.0,
+          "maximum": 15.0,
+          "explanation": "Short video is 0.0% of 12 sampled posts; score is share × 15."
+        },
+        {
+          "name": "engagement",
+          "score": 8.65,
+          "maximum": 15.0,
+          "explanation": "Median per-post engagement rate is 1.345% and ranks at the 57.7% percentile of eligible creators. Raw engagement component 8.65/15 × confidence 12/12 (1.000) = 8.65/15 adjusted."
+        },
+        {
+          "name": "barter_feasibility",
+          "score": 8.0,
+          "maximum": 10.0,
+          "explanation": "5.0/5 for small creator audience (1k–10k); +2 commercial/PR if present, +2 UGC if present, +1 marketplace if present."
+        },
+        {
+          "name": "recent_activity",
+          "score": 0.1,
+          "maximum": 10.0,
+          "explanation": "0.0/6 from recency (478.3 days); 0.1/4 from 0.05 sampled posts/week."
+        }
+      ],
+      "explanation": "Total 39.21/100. Strongest relative component: barter_feasibility (8.00/10); lowest relative component: short_video_consistency (0.00/15).",
+      "raw_engagement_score": 8.65,
+      "engagement_confidence": 1.0
+    },
+    {
+      "rank": 25,
+      "source_index": 25,
+      "username": "lv_yana_vl",
+      "total": 37.25,
+      "components": [
+        {
+          "name": "content_and_aesthetic_fit",
+          "score": 9.96,
+          "maximum": 30.0,
+          "explanation": "4.00/24 topical points from lifestyle; 5.00/5 format-readiness points; 0.96/1 format-alignment point against Nike/Apple."
+        },
+        {
+          "name": "native_product_integration_potential",
+          "score": 0.67,
+          "maximum": 20.0,
+          "explanation": "UGC=False, marketplace=False, commercial/PR=False, contact=False; 1/12 sampled posts show native integration evidence."
+        },
+        {
+          "name": "short_video_consistency",
+          "score": 8.75,
+          "maximum": 15.0,
+          "explanation": "Short video is 58.3% of 12 sampled posts; score is share × 15."
+        },
+        {
+          "name": "engagement",
+          "score": 11.54,
+          "maximum": 15.0,
+          "explanation": "Median per-post engagement rate is 2.704% and ranks at the 76.9% percentile of eligible creators. Raw engagement component 11.54/15 × confidence 12/12 (1.000) = 11.54/15 adjusted."
+        },
+        {
+          "name": "barter_feasibility",
+          "score": 5.0,
+          "maximum": 10.0,
+          "explanation": "5.0/5 for small creator audience (1k–10k); +2 commercial/PR if present, +2 UGC if present, +1 marketplace if present."
+        },
+        {
+          "name": "recent_activity",
+          "score": 1.33,
+          "maximum": 10.0,
+          "explanation": "1.0/6 from recency (86.4 days); 0.3/4 from 0.17 sampled posts/week."
+        }
+      ],
+      "explanation": "Total 37.25/100. Strongest relative component: engagement (11.54/15); lowest relative component: native_product_integration_potential (0.67/20).",
+      "raw_engagement_score": 11.54,
+      "engagement_confidence": 1.0
+    },
+    {
+      "rank": 26,
+      "source_index": 30,
+      "username": "_crazy___unicorn_",
+      "total": 27.3,
+      "components": [
+        {
+          "name": "content_and_aesthetic_fit",
+          "score": 2.46,
+          "maximum": 30.0,
+          "explanation": "0.00/24 topical points from no matched target themes; 2.00/5 format-readiness points; 0.46/1 format-alignment point against Nike/Apple."
+        },
+        {
+          "name": "native_product_integration_potential",
+          "score": 0.67,
+          "maximum": 20.0,
+          "explanation": "UGC=False, marketplace=False, commercial/PR=False, contact=False; 1/12 sampled posts show native integration evidence."
+        },
+        {
+          "name": "short_video_consistency",
+          "score": 0.0,
+          "maximum": 15.0,
+          "explanation": "Short video is 0.0% of 12 sampled posts; score is share × 15."
+        },
+        {
+          "name": "engagement",
+          "score": 15.0,
+          "maximum": 15.0,
+          "explanation": "Median per-post engagement rate is 16.786% and ranks at the 100.0% percentile of eligible creators. Raw engagement component 15.00/15 × confidence 12/12 (1.000) = 15.00/15 adjusted."
+        },
+        {
+          "name": "barter_feasibility",
+          "score": 4.0,
+          "maximum": 10.0,
+          "explanation": "4.0/5 for nano audience (≤1k); +2 commercial/PR if present, +2 UGC if present, +1 marketplace if present."
+        },
+        {
+          "name": "recent_activity",
+          "score": 5.17,
+          "maximum": 10.0,
+          "explanation": "5.0/6 from recency (11.4 days); 0.2/4 from 0.08 sampled posts/week."
+        }
+      ],
+      "explanation": "Total 27.30/100. Strongest relative component: engagement (15.00/15); lowest relative component: short_video_consistency (0.00/15).",
+      "raw_engagement_score": 15.0,
+      "engagement_confidence": 1.0
+    },
+    {
+      "rank": 27,
+      "source_index": 26,
+      "username": "mari_vls",
+      "total": 23.05,
+      "components": [
+        {
+          "name": "content_and_aesthetic_fit",
+          "score": 2.46,
+          "maximum": 30.0,
+          "explanation": "0.00/24 topical points from no matched target themes; 2.00/5 format-readiness points; 0.46/1 format-alignment point against Nike/Apple."
+        },
+        {
+          "name": "native_product_integration_potential",
+          "score": 0.0,
+          "maximum": 20.0,
+          "explanation": "UGC=False, marketplace=False, commercial/PR=False, contact=False; 0/12 sampled posts show native integration evidence."
+        },
+        {
+          "name": "short_video_consistency",
+          "score": 0.0,
+          "maximum": 15.0,
+          "explanation": "Short video is 0.0% of 12 sampled posts; score is share × 15."
+        },
+        {
+          "name": "engagement",
+          "score": 10.38,
+          "maximum": 15.0,
+          "explanation": "Median per-post engagement rate is 2.366% and ranks at the 69.2% percentile of eligible creators. Raw engagement component 10.38/15 × confidence 12/12 (1.000) = 10.38/15 adjusted."
+        },
+        {
+          "name": "barter_feasibility",
+          "score": 4.0,
+          "maximum": 10.0,
+          "explanation": "4.0/5 for micro creator audience (10k–50k); +2 commercial/PR if present, +2 UGC if present, +1 marketplace if present."
+        },
+        {
+          "name": "recent_activity",
+          "score": 6.21,
+          "maximum": 10.0,
+          "explanation": "6.0/6 from recency (0.8 days); 0.2/4 from 0.10 sampled posts/week."
+        }
+      ],
+      "explanation": "Total 23.05/100. Strongest relative component: engagement (10.38/15); lowest relative component: native_product_integration_potential (0.00/20).",
+      "raw_engagement_score": 10.38,
+      "engagement_confidence": 1.0
+    }
+  ],
+  "brand_reference_signals": [
+    {
+      "username": "nike",
+      "role": "visual_and_brand_reference_only",
+      "sampled_posts": 12,
+      "format_distribution": {
+        "short_video": 0.333333,
+        "video": 0.0,
+        "carousel": 0.333333,
+        "image": 0.333333,
+        "unknown": 0.0
+      },
+      "short_video_share": 0.3333333333333333,
+      "signals": {
+        "commercial_pr": {
+          "detected": false,
+          "matches": [],
+          "evidence": [],
+          "provenance": []
+        },
+        "contact": {
+          "detected": false,
+          "matches": [],
+          "evidence": [],
+          "provenance": []
+        },
+        "fashion": {
+          "detected": false,
+          "matches": [],
+          "evidence": [],
+          "provenance": []
+        },
+        "beauty": {
+          "detected": false,
+          "matches": [],
+          "evidence": [],
+          "provenance": []
+        },
+        "lifestyle": {
+          "detected": true,
+          "matches": [
+            "life",
+            "lifestyle"
+          ],
+          "evidence": [
+            "Matched terms: life, lifestyle"
+          ],
+          "provenance": [
+            {
+              "signal_type": "lifestyle",
+              "source_field": "latestPosts.caption",
+              "source_reference": "3941115687112447588",
+              "evidence_text": "Matched explicit term: lifestyle",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "lifestyle",
+              "source_field": "latestPosts.caption",
+              "source_reference": "3941115687112447588",
+              "evidence_text": "Matched explicit term: life",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "lifestyle",
+              "source_field": "latestPosts.caption",
+              "source_reference": "3931186269044353417",
+              "evidence_text": "Matched explicit term: life",
+              "observation_type": "direct"
+            }
+          ]
+        },
+        "ugc": {
+          "detected": false,
+          "matches": [],
+          "evidence": [],
+          "provenance": []
+        },
+        "marketplace": {
+          "detected": false,
+          "matches": [],
+          "evidence": [],
+          "provenance": []
+        },
+        "native_product_integration": {
+          "detected": true,
+          "matches": [
+            "12"
+          ],
+          "evidence": [
+            "12/12 sampled posts contain mentions, tags, product-focused captions, links, promo codes, reviews, try-ons, unboxings, or marketplace/product language.",
+            "Example post IDs: 3947698118484087161, 3944983953521176717, 3944529298483060711"
+          ],
+          "provenance": [
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.taggedUsers",
+              "source_reference": "3947698118484087161",
+              "evidence_text": "Observed tagged account(s): nikerunning",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.mentions",
+              "source_reference": "3944983953521176717",
+              "evidence_text": "Observed structured account mention(s): carles5puyol",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.taggedUsers",
+              "source_reference": "3944983953521176717",
+              "evidence_text": "Observed tagged account(s): nikefootball, carles5puyol",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.mentions",
+              "source_reference": "3944529298483060711",
+              "evidence_text": "Observed structured account mention(s): ericcantona",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.taggedUsers",
+              "source_reference": "3944529298483060711",
+              "evidence_text": "Observed tagged account(s): nike, ericcantona",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.taggedUsers",
+              "source_reference": "3943294951320627320",
+              "evidence_text": "Observed tagged account(s): nike, sabrina_i, nikenyc",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.taggedUsers",
+              "source_reference": "3941115687112447588",
+              "evidence_text": "Observed tagged account(s): wemby, nikeparis",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.mentions",
+              "source_reference": "3939816185620865274",
+              "evidence_text": "Observed structured account mention(s): janniksin",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.taggedUsers",
+              "source_reference": "3939816185620865274",
+              "evidence_text": "Observed tagged account(s): janniksin",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.mentions",
+              "source_reference": "3939674589332169959",
+              "evidence_text": "Observed structured account mention(s): erling",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.taggedUsers",
+              "source_reference": "3939674589332169959",
+              "evidence_text": "Observed tagged account(s): erling, nikefootball",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.mentions",
+              "source_reference": "3939587458527019264",
+              "evidence_text": "Observed structured account mention(s): tokitoistheone, nielsvink",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.taggedUsers",
+              "source_reference": "3939587458527019264",
+              "evidence_text": "Observed tagged account(s): tokitoistheone, nielsvink",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.mentions",
+              "source_reference": "3935562768090283565",
+              "evidence_text": "Observed structured account mention(s): cristiano",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.taggedUsers",
+              "source_reference": "3935562768090283565",
+              "evidence_text": "Observed tagged account(s): cristiano, nikefootball",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.mentions",
+              "source_reference": "3931186269044353417",
+              "evidence_text": "Observed structured account mention(s): serenawilliams",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.taggedUsers",
+              "source_reference": "3931186269044353417",
+              "evidence_text": "Observed tagged account(s): serenawilliams",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.mentions",
+              "source_reference": "3925989355987632564",
+              "evidence_text": "Observed structured account mention(s): cristiano",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.taggedUsers",
+              "source_reference": "3925989355987632564",
+              "evidence_text": "Observed tagged account(s): cristiano, nikefootball",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.mentions",
+              "source_reference": "3925899622463335223",
+              "evidence_text": "Observed structured account mention(s): ericcantona, brunofernandes8",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.taggedUsers",
+              "source_reference": "3925899622463335223",
+              "evidence_text": "Observed tagged account(s): nikefootball, brunofernandes8, ericcantona",
+              "observation_type": "direct"
+            }
+          ]
+        }
+      },
+      "excluded_from_creator_statistics": true
+    },
+    {
+      "username": "apple",
+      "role": "visual_and_brand_reference_only",
+      "sampled_posts": 12,
+      "format_distribution": {
+        "short_video": 0.75,
+        "video": 0.0,
+        "carousel": 0.25,
+        "image": 0.0,
+        "unknown": 0.0
+      },
+      "short_video_share": 0.75,
+      "signals": {
+        "commercial_pr": {
+          "detected": false,
+          "matches": [],
+          "evidence": [],
+          "provenance": []
+        },
+        "contact": {
+          "detected": true,
+          "matches": [
+            "direct"
+          ],
+          "evidence": [
+            "Matched terms: direct"
+          ],
+          "provenance": [
+            {
+              "signal_type": "contact",
+              "source_field": "latestPosts.caption",
+              "source_reference": "3937552307166829263",
+              "evidence_text": "Matched explicit term: direct",
+              "observation_type": "direct"
+            }
+          ]
+        },
+        "fashion": {
+          "detected": false,
+          "matches": [],
+          "evidence": [],
+          "provenance": []
+        },
+        "beauty": {
+          "detected": false,
+          "matches": [],
+          "evidence": [],
+          "provenance": []
+        },
+        "lifestyle": {
+          "detected": true,
+          "matches": [
+            "life"
+          ],
+          "evidence": [
+            "Matched terms: life"
+          ],
+          "provenance": [
+            {
+              "signal_type": "lifestyle",
+              "source_field": "latestPosts.caption",
+              "source_reference": "3931753987768886141",
+              "evidence_text": "Matched explicit term: life",
+              "observation_type": "direct"
+            }
+          ]
+        },
+        "ugc": {
+          "detected": false,
+          "matches": [],
+          "evidence": [],
+          "provenance": []
+        },
+        "marketplace": {
+          "detected": false,
+          "matches": [],
+          "evidence": [],
+          "provenance": []
+        },
+        "native_product_integration": {
+          "detected": true,
+          "matches": [
+            "11"
+          ],
+          "evidence": [
+            "11/12 sampled posts contain mentions, tags, product-focused captions, links, promo codes, reviews, try-ons, unboxings, or marketplace/product language.",
+            "Example post IDs: 3943350798589757263, 3942625851655389941, 3948423892836611652"
+          ],
+          "provenance": [
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.mentions",
+              "source_reference": "3943350798589757263",
+              "evidence_text": "Observed structured account mention(s): artbybonvalet",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.taggedUsers",
+              "source_reference": "3943350798589757263",
+              "evidence_text": "Observed tagged account(s): artbybonvalet",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.mentions",
+              "source_reference": "3942625851655389941",
+              "evidence_text": "Observed structured account mention(s): artbybonvalet, chineseamericanbear",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.taggedUsers",
+              "source_reference": "3942625851655389941",
+              "evidence_text": "Observed tagged account(s): artbybonvalet",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.mentions",
+              "source_reference": "3948423892836611652",
+              "evidence_text": "Observed structured account mention(s): rashid_bin__",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.taggedUsers",
+              "source_reference": "3948423892836611652",
+              "evidence_text": "Observed tagged account(s): rashid_bin__",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.taggedUsers",
+              "source_reference": "3946974278182980982",
+              "evidence_text": "Observed tagged account(s): gabyspanictv, itatic_oficial, elavelden, torresmarianaof, helloapple",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.mentions",
+              "source_reference": "3938276983759478095",
+              "evidence_text": "Observed structured account mention(s): auber.songseulki",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.taggedUsers",
+              "source_reference": "3938276983759478095",
+              "evidence_text": "Observed tagged account(s): auber.songseulki",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.mentions",
+              "source_reference": "3937552307166829263",
+              "evidence_text": "Observed structured account mention(s): vacades, gafacci",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.taggedUsers",
+              "source_reference": "3937552307166829263",
+              "evidence_text": "Observed tagged account(s): vacades",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.mentions",
+              "source_reference": "3936827961938851068",
+              "evidence_text": "Observed structured account mention(s): topic_tomislav",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.taggedUsers",
+              "source_reference": "3936827961938851068",
+              "evidence_text": "Observed tagged account(s): topic_tomislav",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.mentions",
+              "source_reference": "3932478768783051087",
+              "evidence_text": "Observed structured account mention(s): danielidle",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.taggedUsers",
+              "source_reference": "3932478768783051087",
+              "evidence_text": "Observed tagged account(s): danielidle",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.mentions",
+              "source_reference": "3931753987768886141",
+              "evidence_text": "Observed structured account mention(s): arthursacres",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.taggedUsers",
+              "source_reference": "3931753987768886141",
+              "evidence_text": "Observed tagged account(s): arthursacres",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.mentions",
+              "source_reference": "3931026021573267626",
+              "evidence_text": "Observed structured account mention(s): dayday.studio, ohyunglia",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.taggedUsers",
+              "source_reference": "3931026021573267626",
+              "evidence_text": "Observed tagged account(s): ohyunglia, dayday.studio",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.mentions",
+              "source_reference": "3928129068774694634",
+              "evidence_text": "Observed structured account mention(s): luciia_corraales_7",
+              "observation_type": "direct"
+            },
+            {
+              "signal_type": "native_product_integration",
+              "source_field": "latestPosts.taggedUsers",
+              "source_reference": "3928129068774694634",
+              "evidence_text": "Observed tagged account(s): barclayswsl, londoncitylionesses, luciia_corraales_7",
+              "observation_type": "direct"
+            }
+          ]
+        }
+      },
+      "excluded_from_creator_statistics": true
+    }
+  ]
+}
