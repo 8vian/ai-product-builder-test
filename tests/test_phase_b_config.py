@@ -151,6 +151,123 @@ def test_live_run_ignores_process_environment_token_and_requires_dotenv(
         )
 
 
+def test_live_example_uses_official_actor_contracts_and_safe_limits() -> None:
+    config, warnings = validate_phase_b_config(
+        LIVE_CONFIG, expected_mode="live"
+    )
+    apify = config.provider.apify
+
+    assert apify is not None
+    assert config.discovery.target_pool_size == 50
+    assert config.discovery.minimum_unique_pool == 20
+    assert config.discovery.final_count == 5
+    assert config.discovery.minimum_final_count == 3
+    assert apify.discovery_actor_id == "apify/instagram-search-scraper"
+    assert apify.enrichment_actor_id == "apify/instagram-profile-scraper"
+    assert apify.maximum_items == 50
+    assert apify.timeout_seconds == 180
+    assert apify.max_retries == 2
+    assert apify.max_total_charge_usd == 1.0
+    assert apify.max_combined_charge_usd == 2.0
+    assert apify.discovery_input_template == {
+        "search": "$query_text_csv",
+        "searchType": "user",
+        "searchLimit": 10,
+        "enhanceUserSearchWithFacebookPage": False,
+        "liveSearch": False,
+    }
+    assert apify.enrichment_input_template == {
+        "usernames": "$usernames",
+        "includeAboutSection": False,
+    }
+    assert apify.discovery_field_mapping == {
+        "username": "username",
+        "profile_url": "url",
+        "display_name": "fullName",
+        "biography": "biography",
+        "followers": "followersCount",
+        "private": "private",
+        "provider_id": "id",
+        "search_term": "searchTerm",
+    }
+    assert apify.profile_field_mapping == {
+        "username": "username",
+        "profile_url": "url",
+        "full_name": "fullName",
+        "biography": "biography",
+        "followers": "followersCount",
+        "posts_count": "postsCount",
+        "private": "private",
+        "recent_posts": "latestPosts",
+        "external_urls": "externalUrls",
+        "provider_ids": "id",
+    }
+    # A local .env may intentionally contain the credential. Validation must
+    # warn when it is absent, but it must not fabricate a warning when present.
+    if warnings:
+        assert any("APIFY_TOKEN" in warning for warning in warnings)
+    assert not any("placeholder" in warning.casefold() for warning in warnings)
+
+    demo_raw = json.loads(DEMO_CONFIG.read_text(encoding="utf-8"))
+    assert "apify" not in demo_raw["provider"]  # type: ignore[operator]
+    assert "max_total_charge_usd" not in json.dumps(demo_raw)
+
+
+@pytest.mark.parametrize(
+    "invalid_value",
+    [0, -1, True, "1.0", float("nan"), float("inf")],
+)
+def test_apify_max_total_charge_must_be_a_positive_finite_number(
+    tmp_path: Path, invalid_value: object
+) -> None:
+    raw = _absolute_config(LIVE_CONFIG)
+    raw["provider"]["apify"]["max_total_charge_usd"] = invalid_value  # type: ignore[index]
+    config_dir = tmp_path / "config"
+    config_dir.mkdir()
+    path = config_dir / "live.json"
+    path.write_text(json.dumps(raw, ensure_ascii=False), encoding="utf-8")
+
+    with pytest.raises(
+        ConfigurationError, match="max_total_charge_usd must be a positive number"
+    ):
+        load_phase_b_config(path)
+
+
+def test_apify_combined_budget_must_cover_two_capped_actor_runs(
+    tmp_path: Path,
+) -> None:
+    raw = _absolute_config(LIVE_CONFIG)
+    raw["provider"]["apify"]["max_total_charge_usd"] = 1.0  # type: ignore[index]
+    raw["provider"]["apify"]["max_combined_charge_usd"] = 1.99  # type: ignore[index]
+    config_dir = tmp_path / "config"
+    config_dir.mkdir()
+    path = config_dir / "live.json"
+    path.write_text(json.dumps(raw, ensure_ascii=False), encoding="utf-8")
+
+    with pytest.raises(
+        ConfigurationError,
+        match="max_combined_charge_usd must cover",
+    ):
+        load_phase_b_config(path)
+
+
+def test_live_maximum_items_cannot_undercut_target_pool(
+    tmp_path: Path,
+) -> None:
+    raw = _absolute_config(LIVE_CONFIG)
+    raw["provider"]["apify"]["maximum_items"] = 49  # type: ignore[index]
+    config_dir = tmp_path / "config"
+    config_dir.mkdir()
+    path = config_dir / "live.json"
+    path.write_text(json.dumps(raw, ensure_ascii=False), encoding="utf-8")
+
+    with pytest.raises(
+        ConfigurationError,
+        match="maximum_items cannot be lower than discovery.target_pool_size",
+    ):
+        validate_phase_b_config(path, expected_mode="live")
+
+
 def test_cli_does_not_accept_secret_flags() -> None:
     with pytest.raises(SystemExit) as raised:
         main(

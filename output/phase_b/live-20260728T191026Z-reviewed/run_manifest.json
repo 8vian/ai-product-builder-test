@@ -1,0 +1,97 @@
+{
+  "artifacts": {
+    "barter_offer_drafts.md": "output\\phase_b\\live-20260728T191026Z-reviewed\\barter_offer_drafts.md",
+    "deduplication_report.json": "output\\phase_b\\live-20260728T191026Z-reviewed\\deduplication_report.json",
+    "discovery_pool.jsonl": "output\\phase_b\\live-20260728T191026Z-reviewed\\discovery_pool.jsonl",
+    "discovery_report.md": "output\\phase_b\\live-20260728T191026Z-reviewed\\discovery_report.md",
+    "eligible_candidates.csv": "output\\phase_b\\live-20260728T191026Z-reviewed\\eligible_candidates.csv",
+    "enriched_candidates.jsonl": "output\\phase_b\\live-20260728T191026Z-reviewed\\enriched_candidates.jsonl",
+    "excluded_candidates.csv": "output\\phase_b\\live-20260728T191026Z-reviewed\\excluded_candidates.csv",
+    "generated_queries.json": "output\\phase_b\\live-20260728T191026Z-reviewed\\generated_queries.json",
+    "new_creators.csv": "output\\phase_b\\live-20260728T191026Z-reviewed\\new_creators.csv",
+    "new_creators.json": "output\\phase_b\\live-20260728T191026Z-reviewed\\new_creators.json",
+    "run_manifest.json": "output\\phase_b\\live-20260728T191026Z-reviewed\\run_manifest.json",
+    "Блогеры_phase_b.xlsx": "output\\phase_b\\live-20260728T191026Z-reviewed\\Блогеры_phase_b.xlsx"
+  },
+  "budget_spent_usd": 0.0,
+  "cache": {
+    "enabled": 0,
+    "hits": 0,
+    "misses": 0
+  },
+  "completed_at": "2026-07-28T19:52:53.921157+00:00",
+  "config_digest": "75f98a60d305be9ddf99b2545994bf3742a5ec3676ff0113b2310eae7bc65020",
+  "counts": {
+    "barter_feasibility_reviews_required": 2,
+    "eligible_candidates": 5,
+    "enriched_candidates": 40,
+    "excluded_records_total": 35,
+    "generated_queries": 5,
+    "ineligible_candidates": 35,
+    "manual_exclusions": 4,
+    "previously_eligible_candidates": 30,
+    "previously_eligible_rejected_by_account_or_theme": 26,
+    "raw_discovery_hits": 40,
+    "selected_candidates": 5,
+    "unique_candidates": 40
+  },
+  "errors": [],
+  "mode": "offline_reselection",
+  "offline_reselection": true,
+  "provider": "saved_provider_artifacts",
+  "provider_requests_made": 0,
+  "provider_run_ids": [
+    "EVhxBZch8YLwRaRoS",
+    "XPOnPowTZs96qIZVF"
+  ],
+  "review_summary": {
+    "account_type_counts": {
+      "agency_or_platform": 2,
+      "brand": 2,
+      "marketplace": 5,
+      "personal_creator": 16,
+      "store": 1,
+      "thematic_non_personal_page": 11,
+      "unclear": 3
+    },
+    "barter_audience_rule": {
+      "formula": "q3 + 3 * (q3 - q1)",
+      "phase_a_q1": 9781.0,
+      "phase_a_q3": 82754.5,
+      "threshold": 301675.0
+    },
+    "barter_review_usernames": [
+      "bainur_beauty",
+      "beauty_newnew"
+    ],
+    "manual_exclusions": {
+      "beautynthebean": "Manual verification identified pet/cat-only creator content that is not relevant to women's clothing, fashion, beauty, or compatible lifestyle.",
+      "by.wildberries": "Manual verification identified the official regional Wildberries Belarus brand account.",
+      "creatorbrand.hub": "Manual verification identified a B2B creator platform connecting brands and creators, not an independent personal creator.",
+      "kz.wildberries": "Manual verification identified the official regional Wildberries Kazakhstan brand account."
+    },
+    "network_statement": "Provider discovery and enrichment were not called; all records were loaded from the saved source run.",
+    "previously_eligible_rejected_categories": {
+      "agency_or_platform": 1,
+      "brand": 2,
+      "irrelevant_personal_theme": 7,
+      "marketplace": 4,
+      "store": 1,
+      "thematic_non_personal_page": 11
+    },
+    "previously_eligible_rejected_count": 26,
+    "selected_usernames": [
+      "bainur_beauty",
+      "ugc_creator_sayani",
+      "bong_beauty_vlog",
+      "beauty_newnew",
+      "marwadi._.reels_29"
+    ]
+  },
+  "run_id": "live-20260728T191026Z-reviewed",
+  "source_run_id": "live-20260728T191026Z",
+  "source_run_path": "output\\phase_b\\live-20260728T191026Z",
+  "started_at": "2026-07-28T19:52:52.957037+00:00",
+  "status": "completed",
+  "warnings": []
+}

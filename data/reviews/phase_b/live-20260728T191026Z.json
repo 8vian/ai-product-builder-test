@@ -1,0 +1,43 @@
+{
+  "schema_version": 1,
+  "source_run_id": "live-20260728T191026Z",
+  "decisions": [
+    {
+      "username": "creatorbrand.hub",
+      "action": "exclude",
+      "account_type": "agency_or_platform",
+      "theme_relevant": false,
+      "reason": "Manual verification identified a B2B creator platform connecting brands and creators, not an independent personal creator."
+    },
+    {
+      "username": "by.wildberries",
+      "action": "exclude",
+      "account_type": "brand",
+      "theme_relevant": false,
+      "reason": "Manual verification identified the official regional Wildberries Belarus brand account."
+    },
+    {
+      "username": "beautynthebean",
+      "action": "exclude",
+      "account_type": "thematic_non_personal_page",
+      "theme_relevant": false,
+      "reason": "Manual verification identified pet/cat-only creator content that is not relevant to women's clothing, fashion, beauty, or compatible lifestyle."
+    },
+    {
+      "username": "kz.wildberries",
+      "action": "exclude",
+      "account_type": "brand",
+      "theme_relevant": false,
+      "reason": "Manual verification identified the official regional Wildberries Kazakhstan brand account."
+    },
+    {
+      "username": "bainur_beauty",
+      "action": "review",
+      "account_type": "personal_creator",
+      "theme_relevant": true,
+      "manual_verification_status": "needs_review",
+      "reason": "Manual verification confirmed a real personal beauty creator.",
+      "verification_notes": "Needs review: 777,795 followers make barter realism uncertain, and a sampled caption explicitly states that the creator does not work on barter."
+    }
+  ]
+}

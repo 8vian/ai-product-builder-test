@@ -195,11 +195,18 @@ def normalize_profile_record(
             profile_url=requested_identity.profile_url,
             canonical_profile_url=requested_identity.canonical_profile_url,
             query_ids=requested_identity.query_ids,
-            provider_ids=requested_identity.provider_ids,
+            provider_ids=tuple(
+                dict.fromkeys(
+                    (
+                        *requested_identity.provider_ids,
+                        *_string_tuple(get("provider_ids")),
+                    )
+                )
+            ),
             identity_conflict=requested_identity.identity_conflict or conflict,
         )
     issues: list[str] = []
-    if not normalized_url or not _is_instagram_profile_url_value(raw_url):
+    if not normalized_url or not is_instagram_profile_url(raw_url):
         issues.append("enriched record has no valid provider profile URL")
     if not normalized:
         issues.append("enriched record has no valid Instagram identity")
@@ -250,7 +257,7 @@ def normalize_profile_record(
         private=optional_bool(get("private")),
         accessible=optional_bool(get("accessible")),
         recent_posts=posts,
-        external_urls=_string_tuple(get("external_urls")),
+        external_urls=_external_url_tuple(get("external_urls")),
         provider=provider,
         provider_run_ids=tuple(dict.fromkeys(run_ids)),
         provider_identity_confidence=confidence,
@@ -299,7 +306,7 @@ def _string_tuple(value: Any) -> tuple[str, ...]:
     return tuple(str(item) for item in value if item not in (None, ""))
 
 
-def _is_instagram_profile_url_value(value: Any) -> bool:
+def is_instagram_profile_url(value: Any) -> bool:
     if not isinstance(value, str) or not value.strip():
         return False
     parsed = urlparse(value.strip())
@@ -311,3 +318,23 @@ def _is_instagram_profile_url_value(value: Any) -> bool:
         and len(parts) == 1
         and normalize_username(value) is not None
     )
+
+
+def _external_url_tuple(value: Any) -> tuple[str, ...]:
+    """Extract real HTTP(S) URLs without stringifying provider objects."""
+
+    if not isinstance(value, (list, tuple)):
+        return ()
+    result: list[str] = []
+    for item in value:
+        candidate: Any = item
+        if isinstance(item, Mapping):
+            candidate = item.get("url") or item.get("lynx_url")
+        if not isinstance(candidate, str):
+            continue
+        cleaned = candidate.strip()
+        parsed = urlparse(cleaned)
+        if parsed.scheme not in {"http", "https"} or not parsed.netloc:
+            continue
+        result.append(cleaned)
+    return tuple(dict.fromkeys(result))

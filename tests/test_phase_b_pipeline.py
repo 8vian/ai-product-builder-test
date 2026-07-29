@@ -185,9 +185,9 @@ def test_credential_free_demo_generates_all_required_artifacts(demo_result) -> N
         "duplicate_discoveries": 2,
         "unique_candidates": 25,
         "enriched_candidates": 25,
-        "eligible_candidates": 15,
-        "ineligible_candidates": 10,
-        "excluded_records_total": 21,
+        "eligible_candidates": 14,
+        "ineligible_candidates": 11,
+        "excluded_records_total": 22,
         "selected_candidates": 5,
     }
     assert {path.name for path in demo_result.generated_paths} == set(
@@ -204,8 +204,8 @@ def test_demo_final_five_are_ranked_eligible_new_creators_with_grounded_drafts(
         "reels.by.sonya",
         "mira_reels.ru",
         "beauty.offer.test",
-        "beauty.and.city",
         "ugc_by_lena",
+        "beauty.and.city",
     ]
     assert [item.username for item in demo_result.selected_candidates] == (
         expected_ranking
@@ -336,6 +336,23 @@ def test_pipeline_fails_instead_of_padding_when_fewer_than_three_qualify(
     assert failed_manifest["errors"][0]["category"] == (
         "insufficient_candidate_pool"
     )
+    assert failed_manifest["counts"]["selected_candidates"] == 0
+    assert (output_dir / "demo/discovery_pool.jsonl").is_file()
+    assert (output_dir / "demo/enriched_candidates.jsonl").is_file()
+    assert (output_dir / "demo/excluded_candidates.csv").is_file()
+    assert (output_dir / "demo/near_miss_candidates.json").is_file()
+    assert (output_dir / "demo/near_miss_candidates.csv").is_file()
+    assert (output_dir / "demo/discovery_report.md").is_file()
+    assert len(
+        (output_dir / "demo/discovery_pool.jsonl")
+        .read_text(encoding="utf-8")
+        .splitlines()
+    ) == 30
+    assert len(
+        (output_dir / "demo/enriched_candidates.jsonl")
+        .read_text(encoding="utf-8")
+        .splitlines()
+    ) == 2
 
 
 def test_pipeline_returns_four_with_incomplete_target_warning(

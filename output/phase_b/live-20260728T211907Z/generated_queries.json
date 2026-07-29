@@ -1,0 +1,183 @@
+[
+  {
+    "audience_max": 82754,
+    "audience_min": 9781,
+    "geography": "Россия",
+    "hashtags": [],
+    "query_family": "fashion_style",
+    "query_id": "ru_fashion_style_01",
+    "query_text": "блогер женская одежда стиль образы Россия",
+    "query_text_override": "блогер женская одежда стиль образы Россия",
+    "reason": "Direct Russian-language fashion, clothing, style, and outfit discovery. Phase A follower IQR remains 9781-82754.",
+    "required_signals": [
+      "fashion"
+    ],
+    "search_terms": [
+      "блогер женская одежда стиль образы Россия"
+    ],
+    "source_fields": [
+      "ideal_creator_profile.audience.followers.q1",
+      "ideal_creator_profile.audience.followers.q3",
+      "campaign.language",
+      "campaign.target_content_languages",
+      "campaign.geography",
+      "campaign.delivery_markets"
+    ]
+  },
+  {
+    "audience_max": 82754,
+    "audience_min": 9781,
+    "geography": "Россия",
+    "hashtags": [],
+    "query_family": "fashion_tryons",
+    "query_id": "ru_fashion_tryon_02",
+    "query_text": "fashion блогер примерки одежды Россия",
+    "query_text_override": "fashion блогер примерки одежды Россия",
+    "reason": "Russian fashion creators with directly observable clothing try-ons. Phase A follower IQR remains 9781-82754.",
+    "required_signals": [
+      "fashion",
+      "native_product_integration"
+    ],
+    "search_terms": [
+      "fashion блогер примерки одежды Россия"
+    ],
+    "source_fields": [
+      "ideal_creator_profile.audience.followers.q1",
+      "ideal_creator_profile.audience.followers.q3",
+      "campaign.language",
+      "campaign.target_content_languages",
+      "campaign.geography",
+      "campaign.delivery_markets"
+    ]
+  },
+  {
+    "audience_max": 82754,
+    "audience_min": 9781,
+    "geography": "Россия",
+    "hashtags": [],
+    "query_family": "ugc_creator",
+    "query_id": "ru_ugc_clothing_03",
+    "query_text": "UGC креатор одежда Россия",
+    "query_text_override": "UGC креатор одежда Россия",
+    "reason": "Russian UGC creators working with clothing content. Phase A follower IQR remains 9781-82754.",
+    "required_signals": [
+      "ugc",
+      "fashion"
+    ],
+    "search_terms": [
+      "UGC креатор одежда Россия"
+    ],
+    "source_fields": [
+      "ideal_creator_profile.audience.followers.q1",
+      "ideal_creator_profile.audience.followers.q3",
+      "campaign.language",
+      "campaign.target_content_languages",
+      "campaign.geography",
+      "campaign.delivery_markets"
+    ]
+  },
+  {
+    "audience_max": 82754,
+    "audience_min": 9781,
+    "geography": "Россия",
+    "hashtags": [],
+    "query_family": "marketplace_reviews",
+    "query_id": "ru_marketplace_reviews_04",
+    "query_text": "обзор одежды Wildberries российский блогер",
+    "query_text_override": "обзор одежды Wildberries российский блогер",
+    "reason": "Personal Russian creators with clothing-review or marketplace experience. Phase A follower IQR remains 9781-82754.",
+    "required_signals": [
+      "marketplace",
+      "native_product_integration"
+    ],
+    "search_terms": [
+      "обзор одежды Wildberries российский блогер"
+    ],
+    "source_fields": [
+      "ideal_creator_profile.audience.followers.q1",
+      "ideal_creator_profile.audience.followers.q3",
+      "campaign.language",
+      "campaign.target_content_languages",
+      "campaign.geography",
+      "campaign.delivery_markets"
+    ]
+  },
+  {
+    "audience_max": 82754,
+    "audience_min": 9781,
+    "geography": "Россия",
+    "hashtags": [],
+    "query_family": "reels_product_integrations",
+    "query_id": "ru_reels_native_05",
+    "query_text": "Reels примерка нативный обзор одежды Россия",
+    "query_text_override": "Reels примерка нативный обзор одежды Россия",
+    "reason": "Russian short-video try-on and native-review creators; Phase A median short-video share is 0.5833. Phase A follower IQR remains 9781-82754.",
+    "required_signals": [
+      "native_product_integration"
+    ],
+    "search_terms": [
+      "Reels примерка нативный обзор одежды Россия"
+    ],
+    "source_fields": [
+      "ideal_creator_profile.audience.followers.q1",
+      "ideal_creator_profile.audience.followers.q3",
+      "campaign.language",
+      "campaign.target_content_languages",
+      "campaign.geography",
+      "campaign.delivery_markets"
+    ]
+  },
+  {
+    "audience_max": 82754,
+    "audience_min": 9781,
+    "geography": "Россия",
+    "hashtags": [],
+    "query_family": "fashion_style",
+    "query_id": "ru_stylist_moscow_06",
+    "query_text": "стилист женские образы Москва",
+    "query_text_override": "стилист женские образы Москва",
+    "reason": "Moscow-based personal stylists with women’s outfit evidence. Phase A follower IQR remains 9781-82754.",
+    "required_signals": [
+      "fashion",
+      "lifestyle"
+    ],
+    "search_terms": [
+      "стилист женские образы Москва"
+    ],
+    "source_fields": [
+      "ideal_creator_profile.audience.followers.q1",
+      "ideal_creator_profile.audience.followers.q3",
+      "campaign.language",
+      "campaign.target_content_languages",
+      "campaign.geography",
+      "campaign.delivery_markets"
+    ]
+  },
+  {
+    "audience_max": 82754,
+    "audience_min": 9781,
+    "geography": "Россия",
+    "hashtags": [],
+    "query_family": "fashion_beauty_lifestyle",
+    "query_id": "ru_fashion_beauty_lifestyle_07",
+    "query_text": "блогер мода красота лайфстайл Россия",
+    "query_text_override": "блогер мода красота лайфстайл Россия",
+    "reason": "Russian personal creators across fashion, beauty, and compatible lifestyle. Phase A follower IQR remains 9781-82754.",
+    "required_signals": [
+      "fashion",
+      "beauty",
+      "lifestyle"
+    ],
+    "search_terms": [
+      "блогер мода красота лайфстайл Россия"
+    ],
+    "source_fields": [
+      "ideal_creator_profile.audience.followers.q1",
+      "ideal_creator_profile.audience.followers.q3",
+      "campaign.language",
+      "campaign.target_content_languages",
+      "campaign.geography",
+      "campaign.delivery_markets"
+    ]
+  }
+]

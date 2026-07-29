@@ -1,0 +1,3636 @@
+[
+  {
+    "barter_offer": "Здравствуйте, Beauty Expert | Content Creator!\n\nУвидели вашу недавнюю публикацию «Я ПЛАЧУ💔Нет большей награды для преподавателя, чем читать такие сообщения от своих учениц. ❤️ Каждый такой от…»: https://www.instagram.com/p/DbAnTyEFNyl/\nНам кажется, такой формат контента может естественно сочетаться с категорией «женская одежда».\n\nМы — LD Latte. Хотим предложить для обсуждения товар бренда в обмен на согласованный контент: товар из новой коллекции LD Latte. Если идея вам интересна, возможный формат — Reels или нативный обзор; детали и творческую подачу согласуем вместе.\n\nБудем рады обсудить предложение, если оно вам подходит; никаких обязательств до согласования условий нет.\n\n[Черновик: требуется ручная проверка и одобрение перед использованием.]",
+    "collected_at": "2026-07-28T19:11:52.795572+00:00",
+    "data_completeness": 1.0,
+    "discovery_confidence": 0.866667,
+    "eligibility_reasons": [],
+    "eligibility_status": "eligible",
+    "engagement_rate": 2.511137253389389,
+    "evidence": [
+      {
+        "evidence_text": "Matched explicit term: collab",
+        "observation_type": "direct",
+        "signal_type": "commercial_pr",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/bainur_beauty/"
+      },
+      {
+        "evidence_text": "Matched explicit term: pr",
+        "observation_type": "direct",
+        "signal_type": "commercial_pr",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/bainur_beauty/"
+      },
+      {
+        "evidence_text": "Matched explicit term: бартер",
+        "observation_type": "direct",
+        "signal_type": "commercial_pr",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3947608460409364383",
+        "url": "https://www.instagram.com/p/DbIuPq7Bt-f/"
+      },
+      {
+        "evidence_text": "Observed email address: pr@bainurbeauty.com",
+        "observation_type": "direct",
+        "signal_type": "contact",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/bainur_beauty/"
+      },
+      {
+        "evidence_text": "Matched explicit term: лук",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3930213720923595839",
+        "url": "https://www.instagram.com/p/DaK7I5XBGQ_/"
+      },
+      {
+        "evidence_text": "Matched explicit term: beauty",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "full_name",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/bainur_beauty/"
+      },
+      {
+        "evidence_text": "Matched explicit term: beauty",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/bainur_beauty/"
+      },
+      {
+        "evidence_text": "Matched explicit term: макияж",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/bainur_beauty/"
+      },
+      {
+        "evidence_text": "Matched explicit term: уход",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/bainur_beauty/"
+      },
+      {
+        "evidence_text": "Matched explicit term: визаж",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/bainur_beauty/"
+      },
+      {
+        "evidence_text": "Matched explicit term: космет",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3945326156816112805",
+        "url": "https://www.instagram.com/p/DbAnTyEFNyl/"
+      },
+      {
+        "evidence_text": "Matched explicit term: макияж",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3945326156816112805",
+        "url": "https://www.instagram.com/p/DbAnTyEFNyl/"
+      },
+      {
+        "evidence_text": "Matched explicit term: макияж",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3935245478177213272",
+        "url": "https://www.instagram.com/p/DaczOmetwtY/"
+      },
+      {
+        "evidence_text": "Matched explicit term: content creator",
+        "observation_type": "direct",
+        "signal_type": "ugc",
+        "source_field": "full_name",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/bainur_beauty/"
+      },
+      {
+        "evidence_text": "Observed tagged account(s): adan.berg, bonbonofficiall",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.tagged_usernames",
+        "source_reference": "3936738135145500841",
+        "url": "https://www.instagram.com/p/DaiGnnnFNCp/"
+      },
+      {
+        "evidence_text": "0.40×provider identity (1.000) + 0.20×multi-query support (0.333; 1 distinct queries, full credit at 3) + 0.20×profile/post link verification (1.000) + 0.20×query relevance (1.000; 4 directly evidenced target dimensions) = 0.867.",
+        "observation_type": "derived",
+        "signal_type": "discovery_confidence",
+        "source_field": "provider_and_discovery",
+        "source_reference": "bainur_beauty",
+        "url": "https://www.instagram.com/bainur_beauty/"
+      },
+      {
+        "evidence_text": "Caption-derived topic excerpt used: Я ПЛАЧУ💔Нет большей награды для преподавателя, чем читать такие сообщения от своих учениц. ❤️ Каждый такой от…",
+        "observation_type": "direct",
+        "signal_type": "offer_personalization",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3945326156816112805",
+        "url": "https://www.instagram.com/p/DbAnTyEFNyl/"
+      },
+      {
+        "evidence_text": "Observed profile name used in greeting: Beauty Expert | Content Creator",
+        "observation_type": "direct",
+        "signal_type": "offer_greeting",
+        "source_field": "full_name",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/bainur_beauty/"
+      }
+    ],
+    "followers": 777795,
+    "last_post_date": "2026-07-26T12:06:47+00:00",
+    "manual_verification_status": "pending",
+    "median_comments": 852.5,
+    "median_likes": 18407.5,
+    "offer_generation_mode": "deterministic_template",
+    "platform": "instagram",
+    "profile_url": "https://www.instagram.com/bainur_beauty/",
+    "provider": "apify",
+    "query_ids": [
+      "beauty_lifestyle_01"
+    ],
+    "recent_post_url": "https://www.instagram.com/p/DbAnTyEFNyl/",
+    "sampled_posts": 12,
+    "score": 70.62,
+    "score_components": [
+      {
+        "evidence": [
+          {
+            "evidence_text": "Matched explicit term: лук",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3930213720923595839",
+            "url": "https://www.instagram.com/p/DaK7I5XBGQ_/"
+          },
+          {
+            "evidence_text": "Matched explicit term: beauty",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "full_name",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/bainur_beauty/"
+          },
+          {
+            "evidence_text": "Matched explicit term: beauty",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/bainur_beauty/"
+          },
+          {
+            "evidence_text": "Matched explicit term: макияж",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/bainur_beauty/"
+          },
+          {
+            "evidence_text": "Matched explicit term: уход",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/bainur_beauty/"
+          },
+          {
+            "evidence_text": "Matched explicit term: визаж",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/bainur_beauty/"
+          },
+          {
+            "evidence_text": "Matched explicit term: космет",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3945326156816112805",
+            "url": "https://www.instagram.com/p/DbAnTyEFNyl/"
+          },
+          {
+            "evidence_text": "Matched explicit term: макияж",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3945326156816112805",
+            "url": "https://www.instagram.com/p/DbAnTyEFNyl/"
+          },
+          {
+            "evidence_text": "Matched explicit term: макияж",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3935245478177213272",
+            "url": "https://www.instagram.com/p/DaczOmetwtY/"
+          },
+          {
+            "evidence_text": "Matched explicit term: content creator",
+            "observation_type": "direct",
+            "signal_type": "ugc",
+            "source_field": "full_name",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/bainur_beauty/"
+          },
+          {
+            "evidence_text": "17.00/24 topical + 4.00/5 format readiness + 0.88/1 Nike/Apple format alignment.",
+            "observation_type": "derived",
+            "signal_type": "content_and_aesthetic_fit",
+            "source_field": "candidate_metrics",
+            "source_reference": "bainur_beauty",
+            "url": "https://www.instagram.com/bainur_beauty/"
+          }
+        ],
+        "explanation": "17.00/24 topical + 4.00/5 format readiness + 0.88/1 Nike/Apple format alignment.",
+        "max_score": 30.0,
+        "name": "content_and_aesthetic_fit",
+        "score": 21.88
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Matched explicit term: content creator",
+            "observation_type": "direct",
+            "signal_type": "ugc",
+            "source_field": "full_name",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/bainur_beauty/"
+          },
+          {
+            "evidence_text": "Matched explicit term: collab",
+            "observation_type": "direct",
+            "signal_type": "commercial_pr",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/bainur_beauty/"
+          },
+          {
+            "evidence_text": "Matched explicit term: pr",
+            "observation_type": "direct",
+            "signal_type": "commercial_pr",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/bainur_beauty/"
+          },
+          {
+            "evidence_text": "Matched explicit term: бартер",
+            "observation_type": "direct",
+            "signal_type": "commercial_pr",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3947608460409364383",
+            "url": "https://www.instagram.com/p/DbIuPq7Bt-f/"
+          },
+          {
+            "evidence_text": "Observed email address: pr@bainurbeauty.com",
+            "observation_type": "direct",
+            "signal_type": "contact",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/bainur_beauty/"
+          },
+          {
+            "evidence_text": "Observed tagged account(s): adan.berg, bonbonofficiall",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.tagged_usernames",
+            "source_reference": "3936738135145500841",
+            "url": "https://www.instagram.com/p/DaiGnnnFNCp/"
+          },
+          {
+            "evidence_text": "UGC=True, marketplace=False, commercial/PR=True, contact=True; 1/12 posts have independently observed native-integration evidence.",
+            "observation_type": "derived",
+            "signal_type": "native_product_integration_potential",
+            "source_field": "candidate_metrics",
+            "source_reference": "bainur_beauty",
+            "url": "https://www.instagram.com/bainur_beauty/"
+          }
+        ],
+        "explanation": "UGC=True, marketplace=False, commercial/PR=True, contact=True; 1/12 posts have independently observed native-integration evidence.",
+        "max_score": 20.0,
+        "name": "native_product_integration_potential",
+        "score": 12.67
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Short video share 0.667 × 15 = 10.00.",
+            "observation_type": "derived",
+            "signal_type": "short_video_consistency",
+            "source_field": "candidate_metrics",
+            "source_reference": "bainur_beauty",
+            "url": "https://www.instagram.com/bainur_beauty/"
+          }
+        ],
+        "explanation": "Short video share 0.667 × 15 = 10.00.",
+        "max_score": 15.0,
+        "name": "short_video_consistency",
+        "score": 10.0
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Frozen Phase A percentile 0.737732 × 15 = 11.07 raw; × completeness 12/12 (1.000000) = 11.07 adjusted.",
+            "observation_type": "derived",
+            "signal_type": "engagement",
+            "source_field": "candidate_metrics",
+            "source_reference": "bainur_beauty",
+            "url": "https://www.instagram.com/bainur_beauty/"
+          }
+        ],
+        "explanation": "Frozen Phase A percentile 0.737732 × 15 = 11.07 raw; × completeness 12/12 (1.000000) = 11.07 adjusted.",
+        "max_score": 15.0,
+        "name": "engagement",
+        "score": 11.07
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Matched explicit term: collab",
+            "observation_type": "direct",
+            "signal_type": "commercial_pr",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/bainur_beauty/"
+          },
+          {
+            "evidence_text": "Matched explicit term: pr",
+            "observation_type": "direct",
+            "signal_type": "commercial_pr",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/bainur_beauty/"
+          },
+          {
+            "evidence_text": "Matched explicit term: бартер",
+            "observation_type": "direct",
+            "signal_type": "commercial_pr",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3947608460409364383",
+            "url": "https://www.instagram.com/p/DbIuPq7Bt-f/"
+          },
+          {
+            "evidence_text": "Matched explicit term: content creator",
+            "observation_type": "direct",
+            "signal_type": "ugc",
+            "source_field": "full_name",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/bainur_beauty/"
+          },
+          {
+            "evidence_text": "1.0/5 for very large audience (>300k); commercial/PR=True (+2), UGC=True (+2), marketplace=False (+1).",
+            "observation_type": "derived",
+            "signal_type": "barter_feasibility",
+            "source_field": "candidate_metrics",
+            "source_reference": "bainur_beauty",
+            "url": "https://www.instagram.com/bainur_beauty/"
+          }
+        ],
+        "explanation": "1.0/5 for very large audience (>300k); commercial/PR=True (+2), UGC=True (+2), marketplace=False (+1).",
+        "max_score": 10.0,
+        "name": "barter_feasibility",
+        "score": 5.0
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "6.00/6 recency + 4.00/4 posting frequency.",
+            "observation_type": "derived",
+            "signal_type": "recent_activity",
+            "source_field": "candidate_metrics",
+            "source_reference": "bainur_beauty",
+            "url": "https://www.instagram.com/bainur_beauty/"
+          }
+        ],
+        "explanation": "6.00/6 recency + 4.00/4 posting frequency.",
+        "max_score": 10.0,
+        "name": "recent_activity",
+        "score": 10.0
+      }
+    ],
+    "selection_explanation": "Rank 1 of 30 eligible candidates: score 70.62/100, discovery confidence 0.867, data completeness 1.000, engagement rate 2.511%.",
+    "short_video_share": 0.6666666666666666,
+    "source_exclusion_check": "clear: no Phase A username, URL, historical alias, replacement, rejected false lead, Nike, or Apple match",
+    "usable_posts": 12,
+    "username": "bainur_beauty",
+    "verification_notes": ""
+  },
+  {
+    "barter_offer": "Здравствуйте, Creator Brand Hub (CBH)!\n\nУвидели вашу недавнюю публикацию «Day 1 of Dream Con was amazing. Love seeing all the creativity and good vibes. If you’re around, come see me…»: https://www.instagram.com/p/DapTLh1lmDy/\nНам кажется, такой формат контента может естественно сочетаться с категорией «женская одежда».\n\nМы — LD Latte. Хотим предложить для обсуждения товар бренда в обмен на согласованный контент: товар из новой коллекции LD Latte. Если идея вам интересна, возможный формат — Reels или нативный обзор; детали и творческую подачу согласуем вместе.\n\nБудем рады обсудить предложение, если оно вам подходит; никаких обязательств до согласования условий нет.\n\n[Черновик: требуется ручная проверка и одобрение перед использованием.]",
+    "collected_at": "2026-07-28T19:11:52.795572+00:00",
+    "data_completeness": 1.0,
+    "discovery_confidence": 0.8,
+    "eligibility_reasons": [],
+    "eligibility_status": "eligible",
+    "engagement_rate": 3.352769679300292,
+    "evidence": [
+      {
+        "evidence_text": "Matched explicit term: partnership",
+        "observation_type": "direct",
+        "signal_type": "commercial_pr",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3907186798685580596",
+        "url": "https://www.instagram.com/p/DY5HbE2v-00/"
+      },
+      {
+        "evidence_text": "Matched explicit term: partnership",
+        "observation_type": "direct",
+        "signal_type": "commercial_pr",
+        "source_field": "recent_posts.hashtags",
+        "source_reference": "3907186798685580596",
+        "url": "https://www.instagram.com/p/DY5HbE2v-00/"
+      },
+      {
+        "evidence_text": "Matched explicit term: direct",
+        "observation_type": "direct",
+        "signal_type": "contact",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3918008017366790169",
+        "url": "https://www.instagram.com/p/DZfj4iGR7AZ/"
+      },
+      {
+        "evidence_text": "Matched explicit term: contact",
+        "observation_type": "direct",
+        "signal_type": "contact",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3918008017366790169",
+        "url": "https://www.instagram.com/p/DZfj4iGR7AZ/"
+      },
+      {
+        "evidence_text": "Matched explicit term: content creator",
+        "observation_type": "direct",
+        "signal_type": "ugc",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3923964519588186449",
+        "url": "https://www.instagram.com/p/DZ0uPDFSklR/"
+      },
+      {
+        "evidence_text": "Observed structured account mention(s): rdcworld1, dreamconvention, creatorbrand.hub, ferdie.dev, a.kwe_si",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.mentions",
+        "source_reference": "3938763704242692338",
+        "url": "https://www.instagram.com/p/DapTLh1lmDy/"
+      },
+      {
+        "evidence_text": "Observed tagged account(s): dreamconvention, ferdie.dev, creatorbrand.hub, a.kwe_si",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.tagged_usernames",
+        "source_reference": "3938763704242692338",
+        "url": "https://www.instagram.com/p/DapTLh1lmDy/"
+      },
+      {
+        "evidence_text": "Observed structured account mention(s): dreamconvention, creatorbrand.hub, learnwithkubi, mykelbdavis, 6rod._",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.mentions",
+        "source_reference": "3936085912442733133",
+        "url": "https://www.instagram.com/p/DafyUh4kYJN/"
+      },
+      {
+        "evidence_text": "Observed tagged account(s): mykelbdavis, learnwithkubi, 6rod._, creatorbrand.hub",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.tagged_usernames",
+        "source_reference": "3936085912442733133",
+        "url": "https://www.instagram.com/p/DafyUh4kYJN/"
+      },
+      {
+        "evidence_text": "Observed structured account mention(s): creatorbrand.hub",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.mentions",
+        "source_reference": "3927679514588802513",
+        "url": "https://www.instagram.com/p/DaB67VypO3R/"
+      },
+      {
+        "evidence_text": "Observed tagged account(s): creatorbrand.hub",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.tagged_usernames",
+        "source_reference": "3927679514588802513",
+        "url": "https://www.instagram.com/p/DaB67VypO3R/"
+      },
+      {
+        "evidence_text": "Observed structured account mention(s): creatorbrand.hub",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.mentions",
+        "source_reference": "3923964519588186449",
+        "url": "https://www.instagram.com/p/DZ0uPDFSklR/"
+      },
+      {
+        "evidence_text": "Observed tagged account(s): creatorbrand.hub",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.tagged_usernames",
+        "source_reference": "3923964519588186449",
+        "url": "https://www.instagram.com/p/DZ0uPDFSklR/"
+      },
+      {
+        "evidence_text": "Observed structured account mention(s): learnwithkubi",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.mentions",
+        "source_reference": "3918150705626129073",
+        "url": "https://www.instagram.com/p/DZgEU65SqKx/"
+      },
+      {
+        "evidence_text": "Observed tagged account(s): creatorbrand.hub",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.tagged_usernames",
+        "source_reference": "3918150705626129073",
+        "url": "https://www.instagram.com/p/DZgEU65SqKx/"
+      },
+      {
+        "evidence_text": "Observed structured account mention(s): creatorbrand.hub",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.mentions",
+        "source_reference": "3918006882841121256",
+        "url": "https://www.instagram.com/p/DZfjoBfR9Ho/"
+      },
+      {
+        "evidence_text": "Observed structured account mention(s): creatorbrand.hub",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.mentions",
+        "source_reference": "3911816895775443527",
+        "url": "https://www.instagram.com/p/DZJkL2zEQpH/"
+      },
+      {
+        "evidence_text": "Observed tagged account(s): capcutapp, figma, accio_b2b, trytango, creatorbrand.hub",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.tagged_usernames",
+        "source_reference": "3911816895775443527",
+        "url": "https://www.instagram.com/p/DZJkL2zEQpH/"
+      },
+      {
+        "evidence_text": "Observed product-focused caption term(s): product",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3911816895775443527",
+        "url": "https://www.instagram.com/p/DZJkL2zEQpH/"
+      },
+      {
+        "evidence_text": "Observed tagged account(s): creatorbrand.hub",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.tagged_usernames",
+        "source_reference": "3907186798685580596",
+        "url": "https://www.instagram.com/p/DY5HbE2v-00/"
+      },
+      {
+        "evidence_text": "Observed tagged account(s): creatorbrand.hub",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.tagged_usernames",
+        "source_reference": "3903121766402597701",
+        "url": "https://www.instagram.com/p/DYqrJEhhaNF/"
+      },
+      {
+        "evidence_text": "Observed tagged account(s): creatorbrand.hub",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.tagged_usernames",
+        "source_reference": "3901654293831555098",
+        "url": "https://www.instagram.com/p/DYldeiMNRga/"
+      },
+      {
+        "evidence_text": "Observed structured account mention(s): learnwithkubi",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.mentions",
+        "source_reference": "3897818787931909221",
+        "url": "https://www.instagram.com/p/DYX1Yk9hmxl/"
+      },
+      {
+        "evidence_text": "Observed tagged account(s): creatorbrand.hub",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.tagged_usernames",
+        "source_reference": "3897818787931909221",
+        "url": "https://www.instagram.com/p/DYX1Yk9hmxl/"
+      },
+      {
+        "evidence_text": "0.40×provider identity (1.000) + 0.20×multi-query support (0.333; 1 distinct queries, full credit at 3) + 0.20×profile/post link verification (1.000) + 0.20×query relevance (0.667; 2 directly evidenced target dimensions) = 0.800.",
+        "observation_type": "derived",
+        "signal_type": "discovery_confidence",
+        "source_field": "provider_and_discovery",
+        "source_reference": "creatorbrand.hub",
+        "url": "https://www.instagram.com/creatorbrand.hub/"
+      },
+      {
+        "evidence_text": "Caption-derived topic excerpt used: Day 1 of Dream Con was amazing. Love seeing all the creativity and good vibes. If you’re around, come see me…",
+        "observation_type": "direct",
+        "signal_type": "offer_personalization",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3938763704242692338",
+        "url": "https://www.instagram.com/p/DapTLh1lmDy/"
+      },
+      {
+        "evidence_text": "Observed profile name used in greeting: Creator Brand Hub (CBH)",
+        "observation_type": "direct",
+        "signal_type": "offer_greeting",
+        "source_field": "full_name",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/creatorbrand.hub/"
+      }
+    ],
+    "followers": 2058,
+    "last_post_date": "2026-07-11T08:07:24+00:00",
+    "manual_verification_status": "pending",
+    "median_comments": 5.0,
+    "median_likes": 66.0,
+    "offer_generation_mode": "deterministic_template",
+    "platform": "instagram",
+    "profile_url": "https://www.instagram.com/creatorbrand.hub/",
+    "provider": "apify",
+    "query_ids": [
+      "ugc_creator_01"
+    ],
+    "recent_post_url": "https://www.instagram.com/p/DapTLh1lmDy/",
+    "sampled_posts": 12,
+    "score": 64.83,
+    "score_components": [
+      {
+        "evidence": [
+          {
+            "evidence_text": "Matched explicit term: content creator",
+            "observation_type": "direct",
+            "signal_type": "ugc",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3923964519588186449",
+            "url": "https://www.instagram.com/p/DZ0uPDFSklR/"
+          },
+          {
+            "evidence_text": "5.00/24 topical + 4.00/5 format readiness + 0.79/1 Nike/Apple format alignment.",
+            "observation_type": "derived",
+            "signal_type": "content_and_aesthetic_fit",
+            "source_field": "candidate_metrics",
+            "source_reference": "creatorbrand.hub",
+            "url": "https://www.instagram.com/creatorbrand.hub/"
+          }
+        ],
+        "explanation": "5.00/24 topical + 4.00/5 format readiness + 0.79/1 Nike/Apple format alignment.",
+        "max_score": 30.0,
+        "name": "content_and_aesthetic_fit",
+        "score": 9.79
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Matched explicit term: content creator",
+            "observation_type": "direct",
+            "signal_type": "ugc",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3923964519588186449",
+            "url": "https://www.instagram.com/p/DZ0uPDFSklR/"
+          },
+          {
+            "evidence_text": "Matched explicit term: partnership",
+            "observation_type": "direct",
+            "signal_type": "commercial_pr",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3907186798685580596",
+            "url": "https://www.instagram.com/p/DY5HbE2v-00/"
+          },
+          {
+            "evidence_text": "Matched explicit term: partnership",
+            "observation_type": "direct",
+            "signal_type": "commercial_pr",
+            "source_field": "recent_posts.hashtags",
+            "source_reference": "3907186798685580596",
+            "url": "https://www.instagram.com/p/DY5HbE2v-00/"
+          },
+          {
+            "evidence_text": "Matched explicit term: direct",
+            "observation_type": "direct",
+            "signal_type": "contact",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3918008017366790169",
+            "url": "https://www.instagram.com/p/DZfj4iGR7AZ/"
+          },
+          {
+            "evidence_text": "Matched explicit term: contact",
+            "observation_type": "direct",
+            "signal_type": "contact",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3918008017366790169",
+            "url": "https://www.instagram.com/p/DZfj4iGR7AZ/"
+          },
+          {
+            "evidence_text": "Observed structured account mention(s): rdcworld1, dreamconvention, creatorbrand.hub, ferdie.dev, a.kwe_si",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.mentions",
+            "source_reference": "3938763704242692338",
+            "url": "https://www.instagram.com/p/DapTLh1lmDy/"
+          },
+          {
+            "evidence_text": "Observed tagged account(s): dreamconvention, ferdie.dev, creatorbrand.hub, a.kwe_si",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.tagged_usernames",
+            "source_reference": "3938763704242692338",
+            "url": "https://www.instagram.com/p/DapTLh1lmDy/"
+          },
+          {
+            "evidence_text": "Observed structured account mention(s): dreamconvention, creatorbrand.hub, learnwithkubi, mykelbdavis, 6rod._",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.mentions",
+            "source_reference": "3936085912442733133",
+            "url": "https://www.instagram.com/p/DafyUh4kYJN/"
+          },
+          {
+            "evidence_text": "Observed tagged account(s): mykelbdavis, learnwithkubi, 6rod._, creatorbrand.hub",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.tagged_usernames",
+            "source_reference": "3936085912442733133",
+            "url": "https://www.instagram.com/p/DafyUh4kYJN/"
+          },
+          {
+            "evidence_text": "Observed structured account mention(s): creatorbrand.hub",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.mentions",
+            "source_reference": "3927679514588802513",
+            "url": "https://www.instagram.com/p/DaB67VypO3R/"
+          },
+          {
+            "evidence_text": "Observed tagged account(s): creatorbrand.hub",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.tagged_usernames",
+            "source_reference": "3927679514588802513",
+            "url": "https://www.instagram.com/p/DaB67VypO3R/"
+          },
+          {
+            "evidence_text": "Observed structured account mention(s): creatorbrand.hub",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.mentions",
+            "source_reference": "3923964519588186449",
+            "url": "https://www.instagram.com/p/DZ0uPDFSklR/"
+          },
+          {
+            "evidence_text": "Observed tagged account(s): creatorbrand.hub",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.tagged_usernames",
+            "source_reference": "3923964519588186449",
+            "url": "https://www.instagram.com/p/DZ0uPDFSklR/"
+          },
+          {
+            "evidence_text": "Observed structured account mention(s): learnwithkubi",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.mentions",
+            "source_reference": "3918150705626129073",
+            "url": "https://www.instagram.com/p/DZgEU65SqKx/"
+          },
+          {
+            "evidence_text": "Observed tagged account(s): creatorbrand.hub",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.tagged_usernames",
+            "source_reference": "3918150705626129073",
+            "url": "https://www.instagram.com/p/DZgEU65SqKx/"
+          },
+          {
+            "evidence_text": "Observed structured account mention(s): creatorbrand.hub",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.mentions",
+            "source_reference": "3918006882841121256",
+            "url": "https://www.instagram.com/p/DZfjoBfR9Ho/"
+          },
+          {
+            "evidence_text": "Observed structured account mention(s): creatorbrand.hub",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.mentions",
+            "source_reference": "3911816895775443527",
+            "url": "https://www.instagram.com/p/DZJkL2zEQpH/"
+          },
+          {
+            "evidence_text": "Observed tagged account(s): capcutapp, figma, accio_b2b, trytango, creatorbrand.hub",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.tagged_usernames",
+            "source_reference": "3911816895775443527",
+            "url": "https://www.instagram.com/p/DZJkL2zEQpH/"
+          },
+          {
+            "evidence_text": "Observed product-focused caption term(s): product",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3911816895775443527",
+            "url": "https://www.instagram.com/p/DZJkL2zEQpH/"
+          },
+          {
+            "evidence_text": "Observed tagged account(s): creatorbrand.hub",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.tagged_usernames",
+            "source_reference": "3907186798685580596",
+            "url": "https://www.instagram.com/p/DY5HbE2v-00/"
+          },
+          {
+            "evidence_text": "Observed tagged account(s): creatorbrand.hub",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.tagged_usernames",
+            "source_reference": "3903121766402597701",
+            "url": "https://www.instagram.com/p/DYqrJEhhaNF/"
+          },
+          {
+            "evidence_text": "Observed tagged account(s): creatorbrand.hub",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.tagged_usernames",
+            "source_reference": "3901654293831555098",
+            "url": "https://www.instagram.com/p/DYldeiMNRga/"
+          },
+          {
+            "evidence_text": "Observed structured account mention(s): learnwithkubi",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.mentions",
+            "source_reference": "3897818787931909221",
+            "url": "https://www.instagram.com/p/DYX1Yk9hmxl/"
+          },
+          {
+            "evidence_text": "Observed tagged account(s): creatorbrand.hub",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.tagged_usernames",
+            "source_reference": "3897818787931909221",
+            "url": "https://www.instagram.com/p/DYX1Yk9hmxl/"
+          },
+          {
+            "evidence_text": "UGC=True, marketplace=False, commercial/PR=True, contact=True; 11/12 posts have independently observed native-integration evidence.",
+            "observation_type": "derived",
+            "signal_type": "native_product_integration_potential",
+            "source_field": "candidate_metrics",
+            "source_reference": "creatorbrand.hub",
+            "url": "https://www.instagram.com/creatorbrand.hub/"
+          }
+        ],
+        "explanation": "UGC=True, marketplace=False, commercial/PR=True, contact=True; 11/12 posts have independently observed native-integration evidence.",
+        "max_score": 20.0,
+        "name": "native_product_integration_potential",
+        "score": 16.0
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Short video share 0.750 × 15 = 11.25.",
+            "observation_type": "derived",
+            "signal_type": "short_video_consistency",
+            "source_field": "candidate_metrics",
+            "source_reference": "creatorbrand.hub",
+            "url": "https://www.instagram.com/creatorbrand.hub/"
+          }
+        ],
+        "explanation": "Short video share 0.750 × 15 = 11.25.",
+        "max_score": 15.0,
+        "name": "short_video_consistency",
+        "score": 11.25
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Frozen Phase A percentile 0.803778 × 15 = 12.06 raw; × completeness 12/12 (1.000000) = 12.06 adjusted.",
+            "observation_type": "derived",
+            "signal_type": "engagement",
+            "source_field": "candidate_metrics",
+            "source_reference": "creatorbrand.hub",
+            "url": "https://www.instagram.com/creatorbrand.hub/"
+          }
+        ],
+        "explanation": "Frozen Phase A percentile 0.803778 × 15 = 12.06 raw; × completeness 12/12 (1.000000) = 12.06 adjusted.",
+        "max_score": 15.0,
+        "name": "engagement",
+        "score": 12.06
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Matched explicit term: partnership",
+            "observation_type": "direct",
+            "signal_type": "commercial_pr",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3907186798685580596",
+            "url": "https://www.instagram.com/p/DY5HbE2v-00/"
+          },
+          {
+            "evidence_text": "Matched explicit term: partnership",
+            "observation_type": "direct",
+            "signal_type": "commercial_pr",
+            "source_field": "recent_posts.hashtags",
+            "source_reference": "3907186798685580596",
+            "url": "https://www.instagram.com/p/DY5HbE2v-00/"
+          },
+          {
+            "evidence_text": "Matched explicit term: content creator",
+            "observation_type": "direct",
+            "signal_type": "ugc",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3923964519588186449",
+            "url": "https://www.instagram.com/p/DZ0uPDFSklR/"
+          },
+          {
+            "evidence_text": "5.0/5 for small creator audience (1k–10k); commercial/PR=True (+2), UGC=True (+2), marketplace=False (+1).",
+            "observation_type": "derived",
+            "signal_type": "barter_feasibility",
+            "source_field": "candidate_metrics",
+            "source_reference": "creatorbrand.hub",
+            "url": "https://www.instagram.com/creatorbrand.hub/"
+          }
+        ],
+        "explanation": "5.0/5 for small creator audience (1k–10k); commercial/PR=True (+2), UGC=True (+2), marketplace=False (+1).",
+        "max_score": 10.0,
+        "name": "barter_feasibility",
+        "score": 9.0
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "4.00/6 recency + 2.73/4 posting frequency.",
+            "observation_type": "derived",
+            "signal_type": "recent_activity",
+            "source_field": "candidate_metrics",
+            "source_reference": "creatorbrand.hub",
+            "url": "https://www.instagram.com/creatorbrand.hub/"
+          }
+        ],
+        "explanation": "4.00/6 recency + 2.73/4 posting frequency.",
+        "max_score": 10.0,
+        "name": "recent_activity",
+        "score": 6.73
+      }
+    ],
+    "selection_explanation": "Rank 2 of 30 eligible candidates: score 64.83/100, discovery confidence 0.800, data completeness 1.000, engagement rate 3.353%.",
+    "short_video_share": 0.75,
+    "source_exclusion_check": "clear: no Phase A username, URL, historical alias, replacement, rejected false lead, Nike, or Apple match",
+    "usable_posts": 12,
+    "username": "creatorbrand.hub",
+    "verification_notes": ""
+  },
+  {
+    "barter_offer": "Здравствуйте, Wildberries Belarus!\n\nУвидели вашу недавнюю публикацию «Желе — не только на столе Но и во всех луках этого лета! Добавляем в гардероб трендовые позиции а-ля желе и п…»: https://www.instagram.com/p/DbTVg9EsZM-/\nНам кажется, такой формат контента может естественно сочетаться с категорией «женская одежда».\n\nМы — LD Latte. Хотим предложить для обсуждения товар бренда в обмен на согласованный контент: товар из новой коллекции LD Latte. Если идея вам интересна, возможный формат — Reels или нативный обзор; детали и творческую подачу согласуем вместе.\n\nБудем рады обсудить предложение, если оно вам подходит; никаких обязательств до согласования условий нет.\n\n[Черновик: требуется ручная проверка и одобрение перед использованием.]",
+    "collected_at": "2026-07-28T19:11:52.795572+00:00",
+    "data_completeness": 1.0,
+    "discovery_confidence": 0.866667,
+    "eligibility_reasons": [],
+    "eligibility_status": "eligible",
+    "engagement_rate": 0.7751937984496124,
+    "evidence": [
+      {
+        "evidence_text": "Matched explicit term: лук",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3950595921711043390",
+        "url": "https://www.instagram.com/p/DbTVg9EsZM-/"
+      },
+      {
+        "evidence_text": "Matched explicit term: гардероб",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3950595921711043390",
+        "url": "https://www.instagram.com/p/DbTVg9EsZM-/"
+      },
+      {
+        "evidence_text": "Matched explicit term: одежд",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3947650858836215157",
+        "url": "https://www.instagram.com/p/DbI34piMsV1/"
+      },
+      {
+        "evidence_text": "Matched explicit term: космет",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3947650858836215157",
+        "url": "https://www.instagram.com/p/DbI34piMsV1/"
+      },
+      {
+        "evidence_text": "Matched explicit term: уход",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3947650858836215157",
+        "url": "https://www.instagram.com/p/DbI34piMsV1/"
+      },
+      {
+        "evidence_text": "Matched explicit term: жизн",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3949784345328409512",
+        "url": "https://www.instagram.com/p/DbQc-9qstuo/"
+      },
+      {
+        "evidence_text": "Matched explicit term: путеше",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3947650858836215157",
+        "url": "https://www.instagram.com/p/DbI34piMsV1/"
+      },
+      {
+        "evidence_text": "Matched explicit term: лайф",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3941836706417963391",
+        "url": "https://www.instagram.com/p/Da0N5mIo3F_/"
+      },
+      {
+        "evidence_text": "Matched explicit term: дом",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3941000969712608244",
+        "url": "https://www.instagram.com/p/DaxP4BrMKP0/"
+      },
+      {
+        "evidence_text": "Matched explicit term: вдохнов",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3940228154207818828",
+        "url": "https://www.instagram.com/p/DaugKFJjNRM/"
+      },
+      {
+        "evidence_text": "Matched explicit term: wildberries",
+        "observation_type": "direct",
+        "signal_type": "marketplace",
+        "source_field": "full_name",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/by.wildberries/"
+      },
+      {
+        "evidence_text": "Matched explicit term: wildberries",
+        "observation_type": "direct",
+        "signal_type": "marketplace",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/by.wildberries/"
+      },
+      {
+        "evidence_text": "Matched explicit term: wildberries",
+        "observation_type": "direct",
+        "signal_type": "marketplace",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3949784345328409512",
+        "url": "https://www.instagram.com/p/DbQc-9qstuo/"
+      },
+      {
+        "evidence_text": "Matched explicit term: wildberries",
+        "observation_type": "direct",
+        "signal_type": "marketplace",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3948989048398308955",
+        "url": "https://www.instagram.com/p/DbNoJ3rsGZb/"
+      },
+      {
+        "evidence_text": "Matched explicit term: wildberries",
+        "observation_type": "direct",
+        "signal_type": "marketplace",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3947650858836215157",
+        "url": "https://www.instagram.com/p/DbI34piMsV1/"
+      },
+      {
+        "evidence_text": "Matched explicit term: wildberries",
+        "observation_type": "direct",
+        "signal_type": "marketplace",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3946179605362941732",
+        "url": "https://www.instagram.com/p/DbDpXF9jJ8k/"
+      },
+      {
+        "evidence_text": "Matched explicit term: wildberries",
+        "observation_type": "direct",
+        "signal_type": "marketplace",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3945393936284094028",
+        "url": "https://www.instagram.com/p/DbA2uGnMY5M/"
+      },
+      {
+        "evidence_text": "Matched explicit term: покупок",
+        "observation_type": "direct",
+        "signal_type": "marketplace",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3945393936284094028",
+        "url": "https://www.instagram.com/p/DbA2uGnMY5M/"
+      },
+      {
+        "evidence_text": "Matched explicit term: wildberries",
+        "observation_type": "direct",
+        "signal_type": "marketplace",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3942501348094901625",
+        "url": "https://www.instagram.com/p/Da2lBZ7sf15/"
+      },
+      {
+        "evidence_text": "Matched explicit term: wildberries",
+        "observation_type": "direct",
+        "signal_type": "marketplace",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3941836706417963391",
+        "url": "https://www.instagram.com/p/Da0N5mIo3F_/"
+      },
+      {
+        "evidence_text": "Matched explicit term: wb",
+        "observation_type": "direct",
+        "signal_type": "marketplace",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3941836706417963391",
+        "url": "https://www.instagram.com/p/Da0N5mIo3F_/"
+      },
+      {
+        "evidence_text": "Matched explicit term: wildberries",
+        "observation_type": "direct",
+        "signal_type": "marketplace",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3941805994363647414",
+        "url": "https://www.instagram.com/p/Da0G6rTjPW2/"
+      },
+      {
+        "evidence_text": "Matched explicit term: wildberries",
+        "observation_type": "direct",
+        "signal_type": "marketplace",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3941000969712608244",
+        "url": "https://www.instagram.com/p/DaxP4BrMKP0/"
+      },
+      {
+        "evidence_text": "Matched explicit term: wildberries",
+        "observation_type": "direct",
+        "signal_type": "marketplace",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3940228154207818828",
+        "url": "https://www.instagram.com/p/DaugKFJjNRM/"
+      },
+      {
+        "evidence_text": "Observed product-focused caption term(s): wildberries",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3949784345328409512",
+        "url": "https://www.instagram.com/p/DbQc-9qstuo/"
+      },
+      {
+        "evidence_text": "Observed product-focused caption term(s): wildberries",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3948989048398308955",
+        "url": "https://www.instagram.com/p/DbNoJ3rsGZb/"
+      },
+      {
+        "evidence_text": "Observed product-focused caption term(s): wildberries",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3947650858836215157",
+        "url": "https://www.instagram.com/p/DbI34piMsV1/"
+      },
+      {
+        "evidence_text": "Observed product-focused caption term(s): wildberries",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3946179605362941732",
+        "url": "https://www.instagram.com/p/DbDpXF9jJ8k/"
+      },
+      {
+        "evidence_text": "Observed product-focused caption term(s): wildberries, покупок, товар",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3945393936284094028",
+        "url": "https://www.instagram.com/p/DbA2uGnMY5M/"
+      },
+      {
+        "evidence_text": "Observed product-focused caption term(s): wildberries",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3942501348094901625",
+        "url": "https://www.instagram.com/p/Da2lBZ7sf15/"
+      },
+      {
+        "evidence_text": "Observed structured account mention(s): by.wildberries",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.mentions",
+        "source_reference": "3941836706417963391",
+        "url": "https://www.instagram.com/p/Da0N5mIo3F_/"
+      },
+      {
+        "evidence_text": "Observed tagged account(s): by.wildberries",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.tagged_usernames",
+        "source_reference": "3941836706417963391",
+        "url": "https://www.instagram.com/p/Da0N5mIo3F_/"
+      },
+      {
+        "evidence_text": "Observed product-focused caption term(s): wb, wildberries",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3941836706417963391",
+        "url": "https://www.instagram.com/p/Da0N5mIo3F_/"
+      },
+      {
+        "evidence_text": "Observed product-focused caption term(s): wildberries",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3941805994363647414",
+        "url": "https://www.instagram.com/p/Da0G6rTjPW2/"
+      },
+      {
+        "evidence_text": "Observed product-focused caption term(s): wildberries, товар",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3941000969712608244",
+        "url": "https://www.instagram.com/p/DaxP4BrMKP0/"
+      },
+      {
+        "evidence_text": "Observed product-focused caption term(s): wildberries, товар",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3940228154207818828",
+        "url": "https://www.instagram.com/p/DaugKFJjNRM/"
+      },
+      {
+        "evidence_text": "0.40×provider identity (1.000) + 0.20×multi-query support (0.333; 1 distinct queries, full credit at 3) + 0.20×profile/post link verification (1.000) + 0.20×query relevance (1.000; 5 directly evidenced target dimensions) = 0.867.",
+        "observation_type": "derived",
+        "signal_type": "discovery_confidence",
+        "source_field": "provider_and_discovery",
+        "source_reference": "by.wildberries",
+        "url": "https://www.instagram.com/by.wildberries/"
+      },
+      {
+        "evidence_text": "Caption-derived topic excerpt used: Желе — не только на столе Но и во всех луках этого лета! Добавляем в гардероб трендовые позиции а-ля желе и п…",
+        "observation_type": "direct",
+        "signal_type": "offer_personalization",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3950595921711043390",
+        "url": "https://www.instagram.com/p/DbTVg9EsZM-/"
+      },
+      {
+        "evidence_text": "Observed profile name used in greeting: Wildberries Belarus",
+        "observation_type": "direct",
+        "signal_type": "offer_greeting",
+        "source_field": "full_name",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/by.wildberries/"
+      }
+    ],
+    "followers": 1032,
+    "last_post_date": "2026-07-27T15:56:02+00:00",
+    "manual_verification_status": "pending",
+    "median_comments": 0.0,
+    "median_likes": 8.0,
+    "offer_generation_mode": "deterministic_template",
+    "platform": "instagram",
+    "profile_url": "https://www.instagram.com/by.wildberries/",
+    "provider": "apify",
+    "query_ids": [
+      "marketplace_reviews_01"
+    ],
+    "recent_post_url": "https://www.instagram.com/p/DbTVg9EsZM-/",
+    "sampled_posts": 12,
+    "score": 61.93,
+    "score_components": [
+      {
+        "evidence": [
+          {
+            "evidence_text": "Matched explicit term: лук",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3950595921711043390",
+            "url": "https://www.instagram.com/p/DbTVg9EsZM-/"
+          },
+          {
+            "evidence_text": "Matched explicit term: гардероб",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3950595921711043390",
+            "url": "https://www.instagram.com/p/DbTVg9EsZM-/"
+          },
+          {
+            "evidence_text": "Matched explicit term: одежд",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3947650858836215157",
+            "url": "https://www.instagram.com/p/DbI34piMsV1/"
+          },
+          {
+            "evidence_text": "Matched explicit term: космет",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3947650858836215157",
+            "url": "https://www.instagram.com/p/DbI34piMsV1/"
+          },
+          {
+            "evidence_text": "Matched explicit term: уход",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3947650858836215157",
+            "url": "https://www.instagram.com/p/DbI34piMsV1/"
+          },
+          {
+            "evidence_text": "Matched explicit term: жизн",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3949784345328409512",
+            "url": "https://www.instagram.com/p/DbQc-9qstuo/"
+          },
+          {
+            "evidence_text": "Matched explicit term: путеше",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3947650858836215157",
+            "url": "https://www.instagram.com/p/DbI34piMsV1/"
+          },
+          {
+            "evidence_text": "Matched explicit term: лайф",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3941836706417963391",
+            "url": "https://www.instagram.com/p/Da0N5mIo3F_/"
+          },
+          {
+            "evidence_text": "Matched explicit term: дом",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3941000969712608244",
+            "url": "https://www.instagram.com/p/DaxP4BrMKP0/"
+          },
+          {
+            "evidence_text": "Matched explicit term: вдохнов",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3940228154207818828",
+            "url": "https://www.instagram.com/p/DaugKFJjNRM/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "full_name",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/by.wildberries/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/by.wildberries/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3949784345328409512",
+            "url": "https://www.instagram.com/p/DbQc-9qstuo/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3948989048398308955",
+            "url": "https://www.instagram.com/p/DbNoJ3rsGZb/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3947650858836215157",
+            "url": "https://www.instagram.com/p/DbI34piMsV1/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3946179605362941732",
+            "url": "https://www.instagram.com/p/DbDpXF9jJ8k/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3945393936284094028",
+            "url": "https://www.instagram.com/p/DbA2uGnMY5M/"
+          },
+          {
+            "evidence_text": "Matched explicit term: покупок",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3945393936284094028",
+            "url": "https://www.instagram.com/p/DbA2uGnMY5M/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3942501348094901625",
+            "url": "https://www.instagram.com/p/Da2lBZ7sf15/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3941836706417963391",
+            "url": "https://www.instagram.com/p/Da0N5mIo3F_/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wb",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3941836706417963391",
+            "url": "https://www.instagram.com/p/Da0N5mIo3F_/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3941805994363647414",
+            "url": "https://www.instagram.com/p/Da0G6rTjPW2/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3941000969712608244",
+            "url": "https://www.instagram.com/p/DaxP4BrMKP0/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3940228154207818828",
+            "url": "https://www.instagram.com/p/DaugKFJjNRM/"
+          },
+          {
+            "evidence_text": "19.00/24 topical + 4.00/5 format readiness + 0.88/1 Nike/Apple format alignment.",
+            "observation_type": "derived",
+            "signal_type": "content_and_aesthetic_fit",
+            "source_field": "candidate_metrics",
+            "source_reference": "by.wildberries",
+            "url": "https://www.instagram.com/by.wildberries/"
+          }
+        ],
+        "explanation": "19.00/24 topical + 4.00/5 format readiness + 0.88/1 Nike/Apple format alignment.",
+        "max_score": 30.0,
+        "name": "content_and_aesthetic_fit",
+        "score": 23.88
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "full_name",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/by.wildberries/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/by.wildberries/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3949784345328409512",
+            "url": "https://www.instagram.com/p/DbQc-9qstuo/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3948989048398308955",
+            "url": "https://www.instagram.com/p/DbNoJ3rsGZb/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3947650858836215157",
+            "url": "https://www.instagram.com/p/DbI34piMsV1/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3946179605362941732",
+            "url": "https://www.instagram.com/p/DbDpXF9jJ8k/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3945393936284094028",
+            "url": "https://www.instagram.com/p/DbA2uGnMY5M/"
+          },
+          {
+            "evidence_text": "Matched explicit term: покупок",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3945393936284094028",
+            "url": "https://www.instagram.com/p/DbA2uGnMY5M/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3942501348094901625",
+            "url": "https://www.instagram.com/p/Da2lBZ7sf15/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3941836706417963391",
+            "url": "https://www.instagram.com/p/Da0N5mIo3F_/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wb",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3941836706417963391",
+            "url": "https://www.instagram.com/p/Da0N5mIo3F_/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3941805994363647414",
+            "url": "https://www.instagram.com/p/Da0G6rTjPW2/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3941000969712608244",
+            "url": "https://www.instagram.com/p/DaxP4BrMKP0/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3940228154207818828",
+            "url": "https://www.instagram.com/p/DaugKFJjNRM/"
+          },
+          {
+            "evidence_text": "Observed product-focused caption term(s): wildberries",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3949784345328409512",
+            "url": "https://www.instagram.com/p/DbQc-9qstuo/"
+          },
+          {
+            "evidence_text": "Observed product-focused caption term(s): wildberries",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3948989048398308955",
+            "url": "https://www.instagram.com/p/DbNoJ3rsGZb/"
+          },
+          {
+            "evidence_text": "Observed product-focused caption term(s): wildberries",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3947650858836215157",
+            "url": "https://www.instagram.com/p/DbI34piMsV1/"
+          },
+          {
+            "evidence_text": "Observed product-focused caption term(s): wildberries",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3946179605362941732",
+            "url": "https://www.instagram.com/p/DbDpXF9jJ8k/"
+          },
+          {
+            "evidence_text": "Observed product-focused caption term(s): wildberries, покупок, товар",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3945393936284094028",
+            "url": "https://www.instagram.com/p/DbA2uGnMY5M/"
+          },
+          {
+            "evidence_text": "Observed product-focused caption term(s): wildberries",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3942501348094901625",
+            "url": "https://www.instagram.com/p/Da2lBZ7sf15/"
+          },
+          {
+            "evidence_text": "Observed structured account mention(s): by.wildberries",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.mentions",
+            "source_reference": "3941836706417963391",
+            "url": "https://www.instagram.com/p/Da0N5mIo3F_/"
+          },
+          {
+            "evidence_text": "Observed tagged account(s): by.wildberries",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.tagged_usernames",
+            "source_reference": "3941836706417963391",
+            "url": "https://www.instagram.com/p/Da0N5mIo3F_/"
+          },
+          {
+            "evidence_text": "Observed product-focused caption term(s): wb, wildberries",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3941836706417963391",
+            "url": "https://www.instagram.com/p/Da0N5mIo3F_/"
+          },
+          {
+            "evidence_text": "Observed product-focused caption term(s): wildberries",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3941805994363647414",
+            "url": "https://www.instagram.com/p/Da0G6rTjPW2/"
+          },
+          {
+            "evidence_text": "Observed product-focused caption term(s): wildberries, товар",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3941000969712608244",
+            "url": "https://www.instagram.com/p/DaxP4BrMKP0/"
+          },
+          {
+            "evidence_text": "Observed product-focused caption term(s): wildberries, товар",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3940228154207818828",
+            "url": "https://www.instagram.com/p/DaugKFJjNRM/"
+          },
+          {
+            "evidence_text": "UGC=False, marketplace=True, commercial/PR=False, contact=False; 10/12 posts have independently observed native-integration evidence.",
+            "observation_type": "derived",
+            "signal_type": "native_product_integration_potential",
+            "source_field": "candidate_metrics",
+            "source_reference": "by.wildberries",
+            "url": "https://www.instagram.com/by.wildberries/"
+          }
+        ],
+        "explanation": "UGC=False, marketplace=True, commercial/PR=False, contact=False; 10/12 posts have independently observed native-integration evidence.",
+        "max_score": 20.0,
+        "name": "native_product_integration_potential",
+        "score": 8.0
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Short video share 0.417 × 15 = 6.25.",
+            "observation_type": "derived",
+            "signal_type": "short_video_consistency",
+            "source_field": "candidate_metrics",
+            "source_reference": "by.wildberries",
+            "url": "https://www.instagram.com/by.wildberries/"
+          }
+        ],
+        "explanation": "Short video share 0.417 × 15 = 6.25.",
+        "max_score": 15.0,
+        "name": "short_video_consistency",
+        "score": 6.25
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Frozen Phase A percentile 0.519762 × 15 = 7.80 raw; × completeness 12/12 (1.000000) = 7.80 adjusted.",
+            "observation_type": "derived",
+            "signal_type": "engagement",
+            "source_field": "candidate_metrics",
+            "source_reference": "by.wildberries",
+            "url": "https://www.instagram.com/by.wildberries/"
+          }
+        ],
+        "explanation": "Frozen Phase A percentile 0.519762 × 15 = 7.80 raw; × completeness 12/12 (1.000000) = 7.80 adjusted.",
+        "max_score": 15.0,
+        "name": "engagement",
+        "score": 7.8
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "full_name",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/by.wildberries/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/by.wildberries/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3949784345328409512",
+            "url": "https://www.instagram.com/p/DbQc-9qstuo/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3948989048398308955",
+            "url": "https://www.instagram.com/p/DbNoJ3rsGZb/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3947650858836215157",
+            "url": "https://www.instagram.com/p/DbI34piMsV1/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3946179605362941732",
+            "url": "https://www.instagram.com/p/DbDpXF9jJ8k/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3945393936284094028",
+            "url": "https://www.instagram.com/p/DbA2uGnMY5M/"
+          },
+          {
+            "evidence_text": "Matched explicit term: покупок",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3945393936284094028",
+            "url": "https://www.instagram.com/p/DbA2uGnMY5M/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3942501348094901625",
+            "url": "https://www.instagram.com/p/Da2lBZ7sf15/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3941836706417963391",
+            "url": "https://www.instagram.com/p/Da0N5mIo3F_/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wb",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3941836706417963391",
+            "url": "https://www.instagram.com/p/Da0N5mIo3F_/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3941805994363647414",
+            "url": "https://www.instagram.com/p/Da0G6rTjPW2/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3941000969712608244",
+            "url": "https://www.instagram.com/p/DaxP4BrMKP0/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3940228154207818828",
+            "url": "https://www.instagram.com/p/DaugKFJjNRM/"
+          },
+          {
+            "evidence_text": "5.0/5 for small creator audience (1k–10k); commercial/PR=False (+2), UGC=False (+2), marketplace=True (+1).",
+            "observation_type": "derived",
+            "signal_type": "barter_feasibility",
+            "source_field": "candidate_metrics",
+            "source_reference": "by.wildberries",
+            "url": "https://www.instagram.com/by.wildberries/"
+          }
+        ],
+        "explanation": "5.0/5 for small creator audience (1k–10k); commercial/PR=False (+2), UGC=False (+2), marketplace=True (+1).",
+        "max_score": 10.0,
+        "name": "barter_feasibility",
+        "score": 6.0
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "6.00/6 recency + 4.00/4 posting frequency.",
+            "observation_type": "derived",
+            "signal_type": "recent_activity",
+            "source_field": "candidate_metrics",
+            "source_reference": "by.wildberries",
+            "url": "https://www.instagram.com/by.wildberries/"
+          }
+        ],
+        "explanation": "6.00/6 recency + 4.00/4 posting frequency.",
+        "max_score": 10.0,
+        "name": "recent_activity",
+        "score": 10.0
+      }
+    ],
+    "selection_explanation": "Rank 3 of 30 eligible candidates: score 61.93/100, discovery confidence 0.867, data completeness 1.000, engagement rate 0.775%.",
+    "short_video_share": 0.4166666666666667,
+    "source_exclusion_check": "clear: no Phase A username, URL, historical alias, replacement, rejected false lead, Nike, or Apple match",
+    "usable_posts": 12,
+    "username": "by.wildberries",
+    "verification_notes": ""
+  },
+  {
+    "barter_offer": "Здравствуйте, Beauty and the Bean!\n\nУвидели вашу недавнюю публикацию «I have raised such an emotional mama’s boy 🥹♥️ Follow to wake up with Bean every day! @beautynthebean #cats #…»: https://www.instagram.com/p/DbWBLr9p0Xr/\nНам кажется, такой формат контента может естественно сочетаться с категорией «женская одежда».\n\nМы — LD Latte. Хотим предложить для обсуждения товар бренда в обмен на согласованный контент: товар из новой коллекции LD Latte. Если идея вам интересна, возможный формат — Reels или нативный обзор; детали и творческую подачу согласуем вместе.\n\nБудем рады обсудить предложение, если оно вам подходит; никаких обязательств до согласования условий нет.\n\n[Черновик: требуется ручная проверка и одобрение перед использованием.]",
+    "collected_at": "2026-07-28T19:11:52.795572+00:00",
+    "data_completeness": 1.0,
+    "discovery_confidence": 0.866667,
+    "eligibility_reasons": [],
+    "eligibility_status": "eligible",
+    "engagement_rate": 0.6621207740816364,
+    "evidence": [
+      {
+        "evidence_text": "Matched explicit term: pr",
+        "observation_type": "direct",
+        "signal_type": "commercial_pr",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3949178030059951265",
+        "url": "https://www.instagram.com/p/DbOTH6kgBSh/"
+      },
+      {
+        "evidence_text": "Observed email address: cassidy@creatorsociety.com",
+        "observation_type": "direct",
+        "signal_type": "contact",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/beautynthebean/"
+      },
+      {
+        "evidence_text": "Matched explicit term: outfit",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3948473816924979221",
+        "url": "https://www.instagram.com/p/DbLzAQ-voAV/"
+      },
+      {
+        "evidence_text": "Matched explicit term: beauty",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "full_name",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/beautynthebean/"
+      },
+      {
+        "evidence_text": "Matched explicit term: beauty",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3925896279632295860",
+        "url": "https://www.instagram.com/p/DZ7ld20gre0/"
+      },
+      {
+        "evidence_text": "Matched explicit term: beauty",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.hashtags",
+        "source_reference": "3925896279632295860",
+        "url": "https://www.instagram.com/p/DZ7ld20gre0/"
+      },
+      {
+        "evidence_text": "Matched explicit term: beauty",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3805204960086383165",
+        "url": "https://www.instagram.com/p/DTOzcAXgNo9/"
+      },
+      {
+        "evidence_text": "Matched explicit term: beauty",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.hashtags",
+        "source_reference": "3805204960086383165",
+        "url": "https://www.instagram.com/p/DTOzcAXgNo9/"
+      },
+      {
+        "evidence_text": "Matched explicit term: beauty",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3396930559874904496",
+        "url": "https://www.instagram.com/p/C8kUli0AzGw/"
+      },
+      {
+        "evidence_text": "Matched explicit term: beauty",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.hashtags",
+        "source_reference": "3396930559874904496",
+        "url": "https://www.instagram.com/p/C8kUli0AzGw/"
+      },
+      {
+        "evidence_text": "Matched explicit term: beauty",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3951350924230215147",
+        "url": "https://www.instagram.com/p/DbWBLr9p0Xr/"
+      },
+      {
+        "evidence_text": "Matched explicit term: beauty",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.hashtags",
+        "source_reference": "3951350924230215147",
+        "url": "https://www.instagram.com/p/DbWBLr9p0Xr/"
+      },
+      {
+        "evidence_text": "Matched explicit term: beauty",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3950563279688052996",
+        "url": "https://www.instagram.com/p/DbTOF80gjEE/"
+      },
+      {
+        "evidence_text": "Matched explicit term: beauty",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.hashtags",
+        "source_reference": "3950563279688052996",
+        "url": "https://www.instagram.com/p/DbTOF80gjEE/"
+      },
+      {
+        "evidence_text": "Matched explicit term: beauty",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3949863523928007217",
+        "url": "https://www.instagram.com/p/DbQu_KfAGIx/"
+      },
+      {
+        "evidence_text": "Matched explicit term: beauty",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.hashtags",
+        "source_reference": "3949863523928007217",
+        "url": "https://www.instagram.com/p/DbQu_KfAGIx/"
+      },
+      {
+        "evidence_text": "Matched explicit term: beauty",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3948473816924979221",
+        "url": "https://www.instagram.com/p/DbLzAQ-voAV/"
+      },
+      {
+        "evidence_text": "Matched explicit term: hair",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3948473816924979221",
+        "url": "https://www.instagram.com/p/DbLzAQ-voAV/"
+      },
+      {
+        "evidence_text": "Matched explicit term: beauty",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.hashtags",
+        "source_reference": "3948473816924979221",
+        "url": "https://www.instagram.com/p/DbLzAQ-voAV/"
+      },
+      {
+        "evidence_text": "Matched explicit term: beauty",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3946551275994362557",
+        "url": "https://www.instagram.com/p/DbE93nNgjK9/"
+      },
+      {
+        "evidence_text": "Matched explicit term: skin",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3946551275994362557",
+        "url": "https://www.instagram.com/p/DbE93nNgjK9/"
+      },
+      {
+        "evidence_text": "Matched explicit term: beauty",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.hashtags",
+        "source_reference": "3946551275994362557",
+        "url": "https://www.instagram.com/p/DbE93nNgjK9/"
+      },
+      {
+        "evidence_text": "Matched explicit term: beauty",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3945500632059758781",
+        "url": "https://www.instagram.com/p/DbBO-uzAEi9/"
+      },
+      {
+        "evidence_text": "Matched explicit term: beauty",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.hashtags",
+        "source_reference": "3945500632059758781",
+        "url": "https://www.instagram.com/p/DbBO-uzAEi9/"
+      },
+      {
+        "evidence_text": "Matched explicit term: beauty",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3949178030059951265",
+        "url": "https://www.instagram.com/p/DbOTH6kgBSh/"
+      },
+      {
+        "evidence_text": "Matched explicit term: beauty",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.hashtags",
+        "source_reference": "3949178030059951265",
+        "url": "https://www.instagram.com/p/DbOTH6kgBSh/"
+      },
+      {
+        "evidence_text": "Matched explicit term: beauty",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3947714446087121481",
+        "url": "https://www.instagram.com/p/DbJGV9xs2pJ/"
+      },
+      {
+        "evidence_text": "Matched explicit term: beauty",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.hashtags",
+        "source_reference": "3947714446087121481",
+        "url": "https://www.instagram.com/p/DbJGV9xs2pJ/"
+      },
+      {
+        "evidence_text": "Matched explicit term: life",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3946255315124666461",
+        "url": "https://www.instagram.com/p/DbD6k0LAMBd/"
+      },
+      {
+        "evidence_text": "Observed structured account mention(s): itschrisspencer, peakingzebra",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.mentions",
+        "source_reference": "3396930559874904496",
+        "url": "https://www.instagram.com/p/C8kUli0AzGw/"
+      },
+      {
+        "evidence_text": "Observed tagged account(s): peakingzebra, itschrisspencer",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.tagged_usernames",
+        "source_reference": "3396930559874904496",
+        "url": "https://www.instagram.com/p/C8kUli0AzGw/"
+      },
+      {
+        "evidence_text": "Observed structured account mention(s): beautynthebean",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.mentions",
+        "source_reference": "3951350924230215147",
+        "url": "https://www.instagram.com/p/DbWBLr9p0Xr/"
+      },
+      {
+        "evidence_text": "Observed structured account mention(s): beautynthebean",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.mentions",
+        "source_reference": "3950563279688052996",
+        "url": "https://www.instagram.com/p/DbTOF80gjEE/"
+      },
+      {
+        "evidence_text": "Observed structured account mention(s): beautynthebean",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.mentions",
+        "source_reference": "3949863523928007217",
+        "url": "https://www.instagram.com/p/DbQu_KfAGIx/"
+      },
+      {
+        "evidence_text": "Observed tagged account(s): thewebbyawards, newhot899, royalcanincanada, ottawastraycatrescue, capcityvet",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.tagged_usernames",
+        "source_reference": "3946255315124666461",
+        "url": "https://www.instagram.com/p/DbD6k0LAMBd/"
+      },
+      {
+        "evidence_text": "Observed structured account mention(s): openfarmpet",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.mentions",
+        "source_reference": "3945500632059758781",
+        "url": "https://www.instagram.com/p/DbBO-uzAEi9/"
+      },
+      {
+        "evidence_text": "Observed structured account mention(s): beautynthebean",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.mentions",
+        "source_reference": "3949178030059951265",
+        "url": "https://www.instagram.com/p/DbOTH6kgBSh/"
+      },
+      {
+        "evidence_text": "Observed structured account mention(s): beautynthebean",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.mentions",
+        "source_reference": "3947714446087121481",
+        "url": "https://www.instagram.com/p/DbJGV9xs2pJ/"
+      },
+      {
+        "evidence_text": "0.40×provider identity (1.000) + 0.20×multi-query support (0.333; 1 distinct queries, full credit at 3) + 0.20×profile/post link verification (1.000) + 0.20×query relevance (1.000; 4 directly evidenced target dimensions) = 0.867.",
+        "observation_type": "derived",
+        "signal_type": "discovery_confidence",
+        "source_field": "provider_and_discovery",
+        "source_reference": "beautynthebean",
+        "url": "https://www.instagram.com/beautynthebean/"
+      },
+      {
+        "evidence_text": "Caption-derived topic excerpt used: I have raised such an emotional mama’s boy 🥹♥️ Follow to wake up with Bean every day! @beautynthebean #cats #…",
+        "observation_type": "direct",
+        "signal_type": "offer_personalization",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3951350924230215147",
+        "url": "https://www.instagram.com/p/DbWBLr9p0Xr/"
+      },
+      {
+        "evidence_text": "Observed profile name used in greeting: Beauty and the Bean",
+        "observation_type": "direct",
+        "signal_type": "offer_greeting",
+        "source_field": "full_name",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/beautynthebean/"
+      }
+    ],
+    "followers": 442744,
+    "last_post_date": "2026-07-28T16:58:56+00:00",
+    "manual_verification_status": "pending",
+    "median_comments": 70.0,
+    "median_likes": 2877.5,
+    "offer_generation_mode": "deterministic_template",
+    "platform": "instagram",
+    "profile_url": "https://www.instagram.com/beautynthebean/",
+    "provider": "apify",
+    "query_ids": [
+      "beauty_lifestyle_01"
+    ],
+    "recent_post_url": "https://www.instagram.com/p/DbWBLr9p0Xr/",
+    "sampled_posts": 12,
+    "score": 61.06,
+    "score_components": [
+      {
+        "evidence": [
+          {
+            "evidence_text": "Matched explicit term: outfit",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3948473816924979221",
+            "url": "https://www.instagram.com/p/DbLzAQ-voAV/"
+          },
+          {
+            "evidence_text": "Matched explicit term: beauty",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "full_name",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/beautynthebean/"
+          },
+          {
+            "evidence_text": "Matched explicit term: beauty",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3925896279632295860",
+            "url": "https://www.instagram.com/p/DZ7ld20gre0/"
+          },
+          {
+            "evidence_text": "Matched explicit term: beauty",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.hashtags",
+            "source_reference": "3925896279632295860",
+            "url": "https://www.instagram.com/p/DZ7ld20gre0/"
+          },
+          {
+            "evidence_text": "Matched explicit term: beauty",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3805204960086383165",
+            "url": "https://www.instagram.com/p/DTOzcAXgNo9/"
+          },
+          {
+            "evidence_text": "Matched explicit term: beauty",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.hashtags",
+            "source_reference": "3805204960086383165",
+            "url": "https://www.instagram.com/p/DTOzcAXgNo9/"
+          },
+          {
+            "evidence_text": "Matched explicit term: beauty",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3396930559874904496",
+            "url": "https://www.instagram.com/p/C8kUli0AzGw/"
+          },
+          {
+            "evidence_text": "Matched explicit term: beauty",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.hashtags",
+            "source_reference": "3396930559874904496",
+            "url": "https://www.instagram.com/p/C8kUli0AzGw/"
+          },
+          {
+            "evidence_text": "Matched explicit term: beauty",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3951350924230215147",
+            "url": "https://www.instagram.com/p/DbWBLr9p0Xr/"
+          },
+          {
+            "evidence_text": "Matched explicit term: beauty",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.hashtags",
+            "source_reference": "3951350924230215147",
+            "url": "https://www.instagram.com/p/DbWBLr9p0Xr/"
+          },
+          {
+            "evidence_text": "Matched explicit term: beauty",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3950563279688052996",
+            "url": "https://www.instagram.com/p/DbTOF80gjEE/"
+          },
+          {
+            "evidence_text": "Matched explicit term: beauty",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.hashtags",
+            "source_reference": "3950563279688052996",
+            "url": "https://www.instagram.com/p/DbTOF80gjEE/"
+          },
+          {
+            "evidence_text": "Matched explicit term: beauty",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3949863523928007217",
+            "url": "https://www.instagram.com/p/DbQu_KfAGIx/"
+          },
+          {
+            "evidence_text": "Matched explicit term: beauty",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.hashtags",
+            "source_reference": "3949863523928007217",
+            "url": "https://www.instagram.com/p/DbQu_KfAGIx/"
+          },
+          {
+            "evidence_text": "Matched explicit term: beauty",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3948473816924979221",
+            "url": "https://www.instagram.com/p/DbLzAQ-voAV/"
+          },
+          {
+            "evidence_text": "Matched explicit term: hair",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3948473816924979221",
+            "url": "https://www.instagram.com/p/DbLzAQ-voAV/"
+          },
+          {
+            "evidence_text": "Matched explicit term: beauty",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.hashtags",
+            "source_reference": "3948473816924979221",
+            "url": "https://www.instagram.com/p/DbLzAQ-voAV/"
+          },
+          {
+            "evidence_text": "Matched explicit term: beauty",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3946551275994362557",
+            "url": "https://www.instagram.com/p/DbE93nNgjK9/"
+          },
+          {
+            "evidence_text": "Matched explicit term: skin",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3946551275994362557",
+            "url": "https://www.instagram.com/p/DbE93nNgjK9/"
+          },
+          {
+            "evidence_text": "Matched explicit term: beauty",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.hashtags",
+            "source_reference": "3946551275994362557",
+            "url": "https://www.instagram.com/p/DbE93nNgjK9/"
+          },
+          {
+            "evidence_text": "Matched explicit term: beauty",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3945500632059758781",
+            "url": "https://www.instagram.com/p/DbBO-uzAEi9/"
+          },
+          {
+            "evidence_text": "Matched explicit term: beauty",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.hashtags",
+            "source_reference": "3945500632059758781",
+            "url": "https://www.instagram.com/p/DbBO-uzAEi9/"
+          },
+          {
+            "evidence_text": "Matched explicit term: beauty",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3949178030059951265",
+            "url": "https://www.instagram.com/p/DbOTH6kgBSh/"
+          },
+          {
+            "evidence_text": "Matched explicit term: beauty",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.hashtags",
+            "source_reference": "3949178030059951265",
+            "url": "https://www.instagram.com/p/DbOTH6kgBSh/"
+          },
+          {
+            "evidence_text": "Matched explicit term: beauty",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3947714446087121481",
+            "url": "https://www.instagram.com/p/DbJGV9xs2pJ/"
+          },
+          {
+            "evidence_text": "Matched explicit term: beauty",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.hashtags",
+            "source_reference": "3947714446087121481",
+            "url": "https://www.instagram.com/p/DbJGV9xs2pJ/"
+          },
+          {
+            "evidence_text": "Matched explicit term: life",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3946255315124666461",
+            "url": "https://www.instagram.com/p/DbD6k0LAMBd/"
+          },
+          {
+            "evidence_text": "16.00/24 topical + 4.00/5 format readiness + 0.62/1 Nike/Apple format alignment.",
+            "observation_type": "derived",
+            "signal_type": "content_and_aesthetic_fit",
+            "source_field": "candidate_metrics",
+            "source_reference": "beautynthebean",
+            "url": "https://www.instagram.com/beautynthebean/"
+          }
+        ],
+        "explanation": "16.00/24 topical + 4.00/5 format readiness + 0.62/1 Nike/Apple format alignment.",
+        "max_score": 30.0,
+        "name": "content_and_aesthetic_fit",
+        "score": 20.62
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Matched explicit term: pr",
+            "observation_type": "direct",
+            "signal_type": "commercial_pr",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3949178030059951265",
+            "url": "https://www.instagram.com/p/DbOTH6kgBSh/"
+          },
+          {
+            "evidence_text": "Observed email address: cassidy@creatorsociety.com",
+            "observation_type": "direct",
+            "signal_type": "contact",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/beautynthebean/"
+          },
+          {
+            "evidence_text": "Observed structured account mention(s): itschrisspencer, peakingzebra",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.mentions",
+            "source_reference": "3396930559874904496",
+            "url": "https://www.instagram.com/p/C8kUli0AzGw/"
+          },
+          {
+            "evidence_text": "Observed tagged account(s): peakingzebra, itschrisspencer",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.tagged_usernames",
+            "source_reference": "3396930559874904496",
+            "url": "https://www.instagram.com/p/C8kUli0AzGw/"
+          },
+          {
+            "evidence_text": "Observed structured account mention(s): beautynthebean",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.mentions",
+            "source_reference": "3951350924230215147",
+            "url": "https://www.instagram.com/p/DbWBLr9p0Xr/"
+          },
+          {
+            "evidence_text": "Observed structured account mention(s): beautynthebean",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.mentions",
+            "source_reference": "3950563279688052996",
+            "url": "https://www.instagram.com/p/DbTOF80gjEE/"
+          },
+          {
+            "evidence_text": "Observed structured account mention(s): beautynthebean",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.mentions",
+            "source_reference": "3949863523928007217",
+            "url": "https://www.instagram.com/p/DbQu_KfAGIx/"
+          },
+          {
+            "evidence_text": "Observed tagged account(s): thewebbyawards, newhot899, royalcanincanada, ottawastraycatrescue, capcityvet",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.tagged_usernames",
+            "source_reference": "3946255315124666461",
+            "url": "https://www.instagram.com/p/DbD6k0LAMBd/"
+          },
+          {
+            "evidence_text": "Observed structured account mention(s): openfarmpet",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.mentions",
+            "source_reference": "3945500632059758781",
+            "url": "https://www.instagram.com/p/DbBO-uzAEi9/"
+          },
+          {
+            "evidence_text": "Observed structured account mention(s): beautynthebean",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.mentions",
+            "source_reference": "3949178030059951265",
+            "url": "https://www.instagram.com/p/DbOTH6kgBSh/"
+          },
+          {
+            "evidence_text": "Observed structured account mention(s): beautynthebean",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.mentions",
+            "source_reference": "3947714446087121481",
+            "url": "https://www.instagram.com/p/DbJGV9xs2pJ/"
+          },
+          {
+            "evidence_text": "UGC=False, marketplace=False, commercial/PR=True, contact=True; 8/12 posts have independently observed native-integration evidence.",
+            "observation_type": "derived",
+            "signal_type": "native_product_integration_potential",
+            "source_field": "candidate_metrics",
+            "source_reference": "beautynthebean",
+            "url": "https://www.instagram.com/beautynthebean/"
+          }
+        ],
+        "explanation": "UGC=False, marketplace=False, commercial/PR=True, contact=True; 8/12 posts have independently observed native-integration evidence.",
+        "max_score": 20.0,
+        "name": "native_product_integration_potential",
+        "score": 10.0
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Short video share 0.917 × 15 = 13.75.",
+            "observation_type": "derived",
+            "signal_type": "short_video_consistency",
+            "source_field": "candidate_metrics",
+            "source_reference": "beautynthebean",
+            "url": "https://www.instagram.com/beautynthebean/"
+          }
+        ],
+        "explanation": "Short video share 0.917 × 15 = 13.75.",
+        "max_score": 15.0,
+        "name": "short_video_consistency",
+        "score": 13.75
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Frozen Phase A percentile 0.499635 × 15 = 7.49 raw; × completeness 12/12 (1.000000) = 7.49 adjusted.",
+            "observation_type": "derived",
+            "signal_type": "engagement",
+            "source_field": "candidate_metrics",
+            "source_reference": "beautynthebean",
+            "url": "https://www.instagram.com/beautynthebean/"
+          }
+        ],
+        "explanation": "Frozen Phase A percentile 0.499635 × 15 = 7.49 raw; × completeness 12/12 (1.000000) = 7.49 adjusted.",
+        "max_score": 15.0,
+        "name": "engagement",
+        "score": 7.49
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Matched explicit term: pr",
+            "observation_type": "direct",
+            "signal_type": "commercial_pr",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3949178030059951265",
+            "url": "https://www.instagram.com/p/DbOTH6kgBSh/"
+          },
+          {
+            "evidence_text": "1.0/5 for very large audience (>300k); commercial/PR=True (+2), UGC=False (+2), marketplace=False (+1).",
+            "observation_type": "derived",
+            "signal_type": "barter_feasibility",
+            "source_field": "candidate_metrics",
+            "source_reference": "beautynthebean",
+            "url": "https://www.instagram.com/beautynthebean/"
+          }
+        ],
+        "explanation": "1.0/5 for very large audience (>300k); commercial/PR=True (+2), UGC=False (+2), marketplace=False (+1).",
+        "max_score": 10.0,
+        "name": "barter_feasibility",
+        "score": 3.0
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "6.00/6 recency + 0.20/4 posting frequency.",
+            "observation_type": "derived",
+            "signal_type": "recent_activity",
+            "source_field": "candidate_metrics",
+            "source_reference": "beautynthebean",
+            "url": "https://www.instagram.com/beautynthebean/"
+          }
+        ],
+        "explanation": "6.00/6 recency + 0.20/4 posting frequency.",
+        "max_score": 10.0,
+        "name": "recent_activity",
+        "score": 6.2
+      }
+    ],
+    "selection_explanation": "Rank 4 of 30 eligible candidates: score 61.06/100, discovery confidence 0.867, data completeness 1.000, engagement rate 0.662%.",
+    "short_video_share": 0.9166666666666666,
+    "source_exclusion_check": "clear: no Phase A username, URL, historical alias, replacement, rejected false lead, Nike, or Apple match",
+    "usable_posts": 12,
+    "username": "beautynthebean",
+    "verification_notes": ""
+  },
+  {
+    "barter_offer": "Здравствуйте, @kz.wildberries!\n\nУвидели вашу недавнюю публикацию «Жағымды күн тыныштықтан, хош иісті бір кесе кофеден және қасыңыздағы сүйікті үй жануарыңыздан басталады! Кофе…»: https://www.instagram.com/p/DbVkk1-s9vq/\nНам кажется, такой формат контента может естественно сочетаться с категорией «женская одежда».\n\nМы — LD Latte. Хотим предложить для обсуждения товар бренда в обмен на согласованный контент: товар из новой коллекции LD Latte. Если идея вам интересна, возможный формат — Reels или нативный обзор; детали и творческую подачу согласуем вместе.\n\nБудем рады обсудить предложение, если оно вам подходит; никаких обязательств до согласования условий нет.\n\n[Черновик: требуется ручная проверка и одобрение перед использованием.]",
+    "collected_at": "2026-07-28T19:11:52.795572+00:00",
+    "data_completeness": 0.9166666666666666,
+    "discovery_confidence": 0.866667,
+    "eligibility_reasons": [],
+    "eligibility_status": "eligible",
+    "engagement_rate": 0.13833650354487292,
+    "evidence": [
+      {
+        "evidence_text": "Matched explicit term: мода",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3940430766826150165",
+        "url": "https://www.instagram.com/p/DavOOe2sVkV/"
+      },
+      {
+        "evidence_text": "Matched explicit term: одежд",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3940430766826150165",
+        "url": "https://www.instagram.com/p/DavOOe2sVkV/"
+      },
+      {
+        "evidence_text": "Matched explicit term: мода",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3938861831815270206",
+        "url": "https://www.instagram.com/p/DappfeQsY8-/"
+      },
+      {
+        "evidence_text": "Matched explicit term: одежд",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3938861831815270206",
+        "url": "https://www.instagram.com/p/DappfeQsY8-/"
+      },
+      {
+        "evidence_text": "Matched explicit term: уход",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3938861831815270206",
+        "url": "https://www.instagram.com/p/DappfeQsY8-/"
+      },
+      {
+        "evidence_text": "Matched explicit term: дом",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3948279447382247121",
+        "url": "https://www.instagram.com/p/DbLGz0PMcbR/"
+      },
+      {
+        "evidence_text": "Matched explicit term: жизн",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3941864243593398003",
+        "url": "https://www.instagram.com/p/Da0UKUIMsbz/"
+      },
+      {
+        "evidence_text": "Matched explicit term: дом",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3938999744959963726",
+        "url": "https://www.instagram.com/p/DaqI2X4sWJO/"
+      },
+      {
+        "evidence_text": "Matched explicit term: путеше",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3938861831815270206",
+        "url": "https://www.instagram.com/p/DappfeQsY8-/"
+      },
+      {
+        "evidence_text": "Matched explicit term: дом",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3938223455416341565",
+        "url": "https://www.instagram.com/p/DanYV36M9Q9/"
+      },
+      {
+        "evidence_text": "Matched explicit term: путеше",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3938223455416341565",
+        "url": "https://www.instagram.com/p/DanYV36M9Q9/"
+      },
+      {
+        "evidence_text": "Matched explicit term: wildberries",
+        "observation_type": "direct",
+        "signal_type": "marketplace",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/kz.wildberries/"
+      },
+      {
+        "evidence_text": "Matched explicit term: wildberries",
+        "observation_type": "direct",
+        "signal_type": "marketplace",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3951225109623331818",
+        "url": "https://www.instagram.com/p/DbVkk1-s9vq/"
+      },
+      {
+        "evidence_text": "Matched explicit term: wildberries",
+        "observation_type": "direct",
+        "signal_type": "marketplace",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3950564028835910968",
+        "url": "https://www.instagram.com/p/DbTOQ2hM1U4/"
+      },
+      {
+        "evidence_text": "Matched explicit term: wildberries",
+        "observation_type": "direct",
+        "signal_type": "marketplace",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3949792854841447250",
+        "url": "https://www.instagram.com/p/DbQe6yxM1NS/"
+      },
+      {
+        "evidence_text": "Matched explicit term: wildberries",
+        "observation_type": "direct",
+        "signal_type": "marketplace",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3948279447382247121",
+        "url": "https://www.instagram.com/p/DbLGz0PMcbR/"
+      },
+      {
+        "evidence_text": "Matched explicit term: wildberries",
+        "observation_type": "direct",
+        "signal_type": "marketplace",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3946950036781041507",
+        "url": "https://www.instagram.com/p/DbGYiWIjIdj/"
+      },
+      {
+        "evidence_text": "Matched explicit term: wildberries",
+        "observation_type": "direct",
+        "signal_type": "marketplace",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3941864243593398003",
+        "url": "https://www.instagram.com/p/Da0UKUIMsbz/"
+      },
+      {
+        "evidence_text": "Matched explicit term: wildberries",
+        "observation_type": "direct",
+        "signal_type": "marketplace",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3940430766826150165",
+        "url": "https://www.instagram.com/p/DavOOe2sVkV/"
+      },
+      {
+        "evidence_text": "Matched explicit term: wildberries",
+        "observation_type": "direct",
+        "signal_type": "marketplace",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3939636648778463840",
+        "url": "https://www.instagram.com/p/DasZqiyjPpg/"
+      },
+      {
+        "evidence_text": "Matched explicit term: wildberries",
+        "observation_type": "direct",
+        "signal_type": "marketplace",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3938999744959963726",
+        "url": "https://www.instagram.com/p/DaqI2X4sWJO/"
+      },
+      {
+        "evidence_text": "Matched explicit term: wildberries",
+        "observation_type": "direct",
+        "signal_type": "marketplace",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3938861831815270206",
+        "url": "https://www.instagram.com/p/DappfeQsY8-/"
+      },
+      {
+        "evidence_text": "Matched explicit term: wildberries",
+        "observation_type": "direct",
+        "signal_type": "marketplace",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3936162631927343502",
+        "url": "https://www.instagram.com/p/DagDw8eMimO/"
+      },
+      {
+        "evidence_text": "Observed product-focused caption term(s): wildberries",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3951225109623331818",
+        "url": "https://www.instagram.com/p/DbVkk1-s9vq/"
+      },
+      {
+        "evidence_text": "Observed product-focused caption term(s): wildberries",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3950564028835910968",
+        "url": "https://www.instagram.com/p/DbTOQ2hM1U4/"
+      },
+      {
+        "evidence_text": "Observed product-focused caption term(s): wildberries",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3949792854841447250",
+        "url": "https://www.instagram.com/p/DbQe6yxM1NS/"
+      },
+      {
+        "evidence_text": "Observed product-focused caption term(s): wildberries",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3948279447382247121",
+        "url": "https://www.instagram.com/p/DbLGz0PMcbR/"
+      },
+      {
+        "evidence_text": "Observed product-focused caption term(s): wildberries, товар",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3946950036781041507",
+        "url": "https://www.instagram.com/p/DbGYiWIjIdj/"
+      },
+      {
+        "evidence_text": "Observed product-focused caption term(s): wildberries",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3941864243593398003",
+        "url": "https://www.instagram.com/p/Da0UKUIMsbz/"
+      },
+      {
+        "evidence_text": "Observed product-focused caption term(s): wildberries, покупк",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3940430766826150165",
+        "url": "https://www.instagram.com/p/DavOOe2sVkV/"
+      },
+      {
+        "evidence_text": "Observed product-focused caption term(s): wildberries",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3939636648778463840",
+        "url": "https://www.instagram.com/p/DasZqiyjPpg/"
+      },
+      {
+        "evidence_text": "Observed product-focused caption term(s): wildberries, товар",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3938999744959963726",
+        "url": "https://www.instagram.com/p/DaqI2X4sWJO/"
+      },
+      {
+        "evidence_text": "Observed product-focused caption term(s): wildberries",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3938861831815270206",
+        "url": "https://www.instagram.com/p/DappfeQsY8-/"
+      },
+      {
+        "evidence_text": "Observed tagged account(s): kz.wildberries",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.tagged_usernames",
+        "source_reference": "3936162631927343502",
+        "url": "https://www.instagram.com/p/DagDw8eMimO/"
+      },
+      {
+        "evidence_text": "Observed product-focused caption term(s): wildberries",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3936162631927343502",
+        "url": "https://www.instagram.com/p/DagDw8eMimO/"
+      },
+      {
+        "evidence_text": "0.40×provider identity (1.000) + 0.20×multi-query support (0.333; 1 distinct queries, full credit at 3) + 0.20×profile/post link verification (1.000) + 0.20×query relevance (1.000; 5 directly evidenced target dimensions) = 0.867.",
+        "observation_type": "derived",
+        "signal_type": "discovery_confidence",
+        "source_field": "provider_and_discovery",
+        "source_reference": "kz.wildberries",
+        "url": "https://www.instagram.com/kz.wildberries/"
+      },
+      {
+        "evidence_text": "Caption-derived topic excerpt used: Жағымды күн тыныштықтан, хош иісті бір кесе кофеден және қасыңыздағы сүйікті үй жануарыңыздан басталады! Кофе…",
+        "observation_type": "direct",
+        "signal_type": "offer_personalization",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3951225109623331818",
+        "url": "https://www.instagram.com/p/DbVkk1-s9vq/"
+      },
+      {
+        "evidence_text": "Observed username used in greeting: @kz.wildberries",
+        "observation_type": "direct",
+        "signal_type": "offer_greeting",
+        "source_field": "full_name",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/kz.wildberries/"
+      }
+    ],
+    "followers": 5783,
+    "last_post_date": "2026-07-28T12:46:55+00:00",
+    "manual_verification_status": "pending",
+    "median_comments": 0.0,
+    "median_likes": 8.0,
+    "offer_generation_mode": "deterministic_template",
+    "platform": "instagram",
+    "profile_url": "https://www.instagram.com/kz.wildberries/",
+    "provider": "apify",
+    "query_ids": [
+      "marketplace_reviews_01"
+    ],
+    "recent_post_url": "https://www.instagram.com/p/DbVkk1-s9vq/",
+    "sampled_posts": 12,
+    "score": 58.87,
+    "score_components": [
+      {
+        "evidence": [
+          {
+            "evidence_text": "Matched explicit term: мода",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3940430766826150165",
+            "url": "https://www.instagram.com/p/DavOOe2sVkV/"
+          },
+          {
+            "evidence_text": "Matched explicit term: одежд",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3940430766826150165",
+            "url": "https://www.instagram.com/p/DavOOe2sVkV/"
+          },
+          {
+            "evidence_text": "Matched explicit term: мода",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3938861831815270206",
+            "url": "https://www.instagram.com/p/DappfeQsY8-/"
+          },
+          {
+            "evidence_text": "Matched explicit term: одежд",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3938861831815270206",
+            "url": "https://www.instagram.com/p/DappfeQsY8-/"
+          },
+          {
+            "evidence_text": "Matched explicit term: уход",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3938861831815270206",
+            "url": "https://www.instagram.com/p/DappfeQsY8-/"
+          },
+          {
+            "evidence_text": "Matched explicit term: дом",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3948279447382247121",
+            "url": "https://www.instagram.com/p/DbLGz0PMcbR/"
+          },
+          {
+            "evidence_text": "Matched explicit term: жизн",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3941864243593398003",
+            "url": "https://www.instagram.com/p/Da0UKUIMsbz/"
+          },
+          {
+            "evidence_text": "Matched explicit term: дом",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3938999744959963726",
+            "url": "https://www.instagram.com/p/DaqI2X4sWJO/"
+          },
+          {
+            "evidence_text": "Matched explicit term: путеше",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3938861831815270206",
+            "url": "https://www.instagram.com/p/DappfeQsY8-/"
+          },
+          {
+            "evidence_text": "Matched explicit term: дом",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3938223455416341565",
+            "url": "https://www.instagram.com/p/DanYV36M9Q9/"
+          },
+          {
+            "evidence_text": "Matched explicit term: путеше",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3938223455416341565",
+            "url": "https://www.instagram.com/p/DanYV36M9Q9/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/kz.wildberries/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3951225109623331818",
+            "url": "https://www.instagram.com/p/DbVkk1-s9vq/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3950564028835910968",
+            "url": "https://www.instagram.com/p/DbTOQ2hM1U4/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3949792854841447250",
+            "url": "https://www.instagram.com/p/DbQe6yxM1NS/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3948279447382247121",
+            "url": "https://www.instagram.com/p/DbLGz0PMcbR/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3946950036781041507",
+            "url": "https://www.instagram.com/p/DbGYiWIjIdj/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3941864243593398003",
+            "url": "https://www.instagram.com/p/Da0UKUIMsbz/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3940430766826150165",
+            "url": "https://www.instagram.com/p/DavOOe2sVkV/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3939636648778463840",
+            "url": "https://www.instagram.com/p/DasZqiyjPpg/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3938999744959963726",
+            "url": "https://www.instagram.com/p/DaqI2X4sWJO/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3938861831815270206",
+            "url": "https://www.instagram.com/p/DappfeQsY8-/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3936162631927343502",
+            "url": "https://www.instagram.com/p/DagDw8eMimO/"
+          },
+          {
+            "evidence_text": "19.00/24 topical + 4.00/5 format readiness + 0.88/1 Nike/Apple format alignment.",
+            "observation_type": "derived",
+            "signal_type": "content_and_aesthetic_fit",
+            "source_field": "candidate_metrics",
+            "source_reference": "kz.wildberries",
+            "url": "https://www.instagram.com/kz.wildberries/"
+          }
+        ],
+        "explanation": "19.00/24 topical + 4.00/5 format readiness + 0.88/1 Nike/Apple format alignment.",
+        "max_score": 30.0,
+        "name": "content_and_aesthetic_fit",
+        "score": 23.88
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/kz.wildberries/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3951225109623331818",
+            "url": "https://www.instagram.com/p/DbVkk1-s9vq/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3950564028835910968",
+            "url": "https://www.instagram.com/p/DbTOQ2hM1U4/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3949792854841447250",
+            "url": "https://www.instagram.com/p/DbQe6yxM1NS/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3948279447382247121",
+            "url": "https://www.instagram.com/p/DbLGz0PMcbR/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3946950036781041507",
+            "url": "https://www.instagram.com/p/DbGYiWIjIdj/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3941864243593398003",
+            "url": "https://www.instagram.com/p/Da0UKUIMsbz/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3940430766826150165",
+            "url": "https://www.instagram.com/p/DavOOe2sVkV/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3939636648778463840",
+            "url": "https://www.instagram.com/p/DasZqiyjPpg/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3938999744959963726",
+            "url": "https://www.instagram.com/p/DaqI2X4sWJO/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3938861831815270206",
+            "url": "https://www.instagram.com/p/DappfeQsY8-/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3936162631927343502",
+            "url": "https://www.instagram.com/p/DagDw8eMimO/"
+          },
+          {
+            "evidence_text": "Observed product-focused caption term(s): wildberries",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3951225109623331818",
+            "url": "https://www.instagram.com/p/DbVkk1-s9vq/"
+          },
+          {
+            "evidence_text": "Observed product-focused caption term(s): wildberries",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3950564028835910968",
+            "url": "https://www.instagram.com/p/DbTOQ2hM1U4/"
+          },
+          {
+            "evidence_text": "Observed product-focused caption term(s): wildberries",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3949792854841447250",
+            "url": "https://www.instagram.com/p/DbQe6yxM1NS/"
+          },
+          {
+            "evidence_text": "Observed product-focused caption term(s): wildberries",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3948279447382247121",
+            "url": "https://www.instagram.com/p/DbLGz0PMcbR/"
+          },
+          {
+            "evidence_text": "Observed product-focused caption term(s): wildberries, товар",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3946950036781041507",
+            "url": "https://www.instagram.com/p/DbGYiWIjIdj/"
+          },
+          {
+            "evidence_text": "Observed product-focused caption term(s): wildberries",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3941864243593398003",
+            "url": "https://www.instagram.com/p/Da0UKUIMsbz/"
+          },
+          {
+            "evidence_text": "Observed product-focused caption term(s): wildberries, покупк",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3940430766826150165",
+            "url": "https://www.instagram.com/p/DavOOe2sVkV/"
+          },
+          {
+            "evidence_text": "Observed product-focused caption term(s): wildberries",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3939636648778463840",
+            "url": "https://www.instagram.com/p/DasZqiyjPpg/"
+          },
+          {
+            "evidence_text": "Observed product-focused caption term(s): wildberries, товар",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3938999744959963726",
+            "url": "https://www.instagram.com/p/DaqI2X4sWJO/"
+          },
+          {
+            "evidence_text": "Observed product-focused caption term(s): wildberries",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3938861831815270206",
+            "url": "https://www.instagram.com/p/DappfeQsY8-/"
+          },
+          {
+            "evidence_text": "Observed tagged account(s): kz.wildberries",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.tagged_usernames",
+            "source_reference": "3936162631927343502",
+            "url": "https://www.instagram.com/p/DagDw8eMimO/"
+          },
+          {
+            "evidence_text": "Observed product-focused caption term(s): wildberries",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3936162631927343502",
+            "url": "https://www.instagram.com/p/DagDw8eMimO/"
+          },
+          {
+            "evidence_text": "UGC=False, marketplace=True, commercial/PR=False, contact=False; 11/12 posts have independently observed native-integration evidence.",
+            "observation_type": "derived",
+            "signal_type": "native_product_integration_potential",
+            "source_field": "candidate_metrics",
+            "source_reference": "kz.wildberries",
+            "url": "https://www.instagram.com/kz.wildberries/"
+          }
+        ],
+        "explanation": "UGC=False, marketplace=True, commercial/PR=False, contact=False; 11/12 posts have independently observed native-integration evidence.",
+        "max_score": 20.0,
+        "name": "native_product_integration_potential",
+        "score": 8.0
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Short video share 0.667 × 15 = 10.00.",
+            "observation_type": "derived",
+            "signal_type": "short_video_consistency",
+            "source_field": "candidate_metrics",
+            "source_reference": "kz.wildberries",
+            "url": "https://www.instagram.com/kz.wildberries/"
+          }
+        ],
+        "explanation": "Short video share 0.667 × 15 = 10.00.",
+        "max_score": 15.0,
+        "name": "short_video_consistency",
+        "score": 10.0
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Frozen Phase A percentile 0.072259 × 15 = 1.08 raw; × completeness 11/12 (0.916667) = 0.99 adjusted.",
+            "observation_type": "derived",
+            "signal_type": "engagement",
+            "source_field": "candidate_metrics",
+            "source_reference": "kz.wildberries",
+            "url": "https://www.instagram.com/kz.wildberries/"
+          }
+        ],
+        "explanation": "Frozen Phase A percentile 0.072259 × 15 = 1.08 raw; × completeness 11/12 (0.916667) = 0.99 adjusted.",
+        "max_score": 15.0,
+        "name": "engagement",
+        "score": 0.99
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/kz.wildberries/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3951225109623331818",
+            "url": "https://www.instagram.com/p/DbVkk1-s9vq/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3950564028835910968",
+            "url": "https://www.instagram.com/p/DbTOQ2hM1U4/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3949792854841447250",
+            "url": "https://www.instagram.com/p/DbQe6yxM1NS/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3948279447382247121",
+            "url": "https://www.instagram.com/p/DbLGz0PMcbR/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3946950036781041507",
+            "url": "https://www.instagram.com/p/DbGYiWIjIdj/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3941864243593398003",
+            "url": "https://www.instagram.com/p/Da0UKUIMsbz/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3940430766826150165",
+            "url": "https://www.instagram.com/p/DavOOe2sVkV/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3939636648778463840",
+            "url": "https://www.instagram.com/p/DasZqiyjPpg/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3938999744959963726",
+            "url": "https://www.instagram.com/p/DaqI2X4sWJO/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3938861831815270206",
+            "url": "https://www.instagram.com/p/DappfeQsY8-/"
+          },
+          {
+            "evidence_text": "Matched explicit term: wildberries",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3936162631927343502",
+            "url": "https://www.instagram.com/p/DagDw8eMimO/"
+          },
+          {
+            "evidence_text": "5.0/5 for small creator audience (1k–10k); commercial/PR=False (+2), UGC=False (+2), marketplace=True (+1).",
+            "observation_type": "derived",
+            "signal_type": "barter_feasibility",
+            "source_field": "candidate_metrics",
+            "source_reference": "kz.wildberries",
+            "url": "https://www.instagram.com/kz.wildberries/"
+          }
+        ],
+        "explanation": "5.0/5 for small creator audience (1k–10k); commercial/PR=False (+2), UGC=False (+2), marketplace=True (+1).",
+        "max_score": 10.0,
+        "name": "barter_feasibility",
+        "score": 6.0
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "6.00/6 recency + 4.00/4 posting frequency.",
+            "observation_type": "derived",
+            "signal_type": "recent_activity",
+            "source_field": "candidate_metrics",
+            "source_reference": "kz.wildberries",
+            "url": "https://www.instagram.com/kz.wildberries/"
+          }
+        ],
+        "explanation": "6.00/6 recency + 4.00/4 posting frequency.",
+        "max_score": 10.0,
+        "name": "recent_activity",
+        "score": 10.0
+      }
+    ],
+    "selection_explanation": "Rank 5 of 30 eligible candidates: score 58.87/100, discovery confidence 0.867, data completeness 0.917, engagement rate 0.138%.",
+    "short_video_share": 0.6666666666666666,
+    "source_exclusion_check": "clear: no Phase A username, URL, historical alias, replacement, rejected false lead, Nike, or Apple match",
+    "usable_posts": 11,
+    "username": "kz.wildberries",
+    "verification_notes": ""
+  }
+]

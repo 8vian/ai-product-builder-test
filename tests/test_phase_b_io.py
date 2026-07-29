@@ -303,7 +303,7 @@ def test_google_sheets_upsert_batches_changes_and_preserves_manual_columns() -> 
     assert len(client.batches) == 1
     _, updates = client.batches[0]
     assert len(updates) == 3
-    assert updates[0]["range"] == "'Новые блоггеры'!A1:AB1"
+    assert updates[0]["range"] == "'Новые блоггеры'!A1:AS1"
     assert all(
         str(update["range"]).startswith("'Новые блоггеры'!")
         for update in updates

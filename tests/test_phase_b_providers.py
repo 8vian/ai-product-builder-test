@@ -41,6 +41,7 @@ DISCOVERY_MAPPING = {
     "accessible": "accessible",
     "provider_identity_confidence": "provider_identity_confidence",
     "provider_id": "provider_id",
+    "search_term": "search_term",
     "provider_run_id": "provider_run_id",
     "query_ids": "query_ids",
     "collected_at": "collected_at",
@@ -57,6 +58,7 @@ PROFILE_MAPPING = {
     "accessible": "accessible",
     "recent_posts": "recent_posts",
     "external_urls": "external_urls",
+    "provider_ids": "provider_ids",
     "provider_identity_confidence": "provider_identity_confidence",
     "provider_run_ids": "provider_run_ids",
     "query_ids": "query_ids",
@@ -99,6 +101,7 @@ def _discovery_record(username: str = "new.creator__") -> dict[str, object]:
         "accessible": True,
         "provider_identity_confidence": 0.91,
         "provider_id": "provider-1",
+        "search_term": "fashion",
         "provider_run_id": "fixture-discovery-v1",
         "query_ids": ["fashion_style_01"],
         "collected_at": AS_OF.isoformat(),
@@ -172,6 +175,7 @@ def _apify_config(**overrides: object) -> ApifyProviderConfig:
         "maximum_items": 100,
         "timeout_seconds": 10,
         "max_retries": 0,
+        "max_total_charge_usd": 1.0,
     }
     values.update(overrides)
     return ApifyProviderConfig(**values)  # type: ignore[arg-type]
@@ -382,6 +386,7 @@ def test_apify_does_not_manufacture_query_support_when_record_omits_query_ids(
 ) -> None:
     record = _discovery_record()
     record.pop("query_ids")
+    record.pop("search_term")
     provider = ApifyInstagramProvider(_apify_config(), "test-token")
     monkeypatch.setattr(
         provider,

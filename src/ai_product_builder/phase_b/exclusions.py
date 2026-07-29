@@ -34,13 +34,44 @@ class ExclusionRegistry:
     __slots__ = ("_by_username", "_by_url")
 
     def __init__(self, matches: Iterable[ExclusionMatch]):
-        by_username: dict[str, ExclusionMatch] = {}
-        by_url: dict[str, ExclusionMatch] = {}
+        accumulated: dict[str, dict[str, Any]] = {}
         for match in matches:
-            by_username[match.normalized_username] = match
-            by_url[match.canonical_profile_url.casefold()] = match
+            item = accumulated.setdefault(
+                match.normalized_username,
+                {
+                    "canonical_profile_url": match.canonical_profile_url,
+                    "reasons": set(),
+                    "source_values": set(),
+                },
+            )
+            item["reasons"].update(match.reasons)
+            item["source_values"].update(match.source_values)
+        by_username = {
+            username: ExclusionMatch(
+                normalized_username=username,
+                canonical_profile_url=str(
+                    values["canonical_profile_url"]
+                ),
+                reasons=tuple(sorted(values["reasons"])),
+                source_values=tuple(
+                    sorted(values["source_values"], key=str.casefold)
+                ),
+            )
+            for username, values in sorted(accumulated.items())
+        }
+        by_url = {
+            match.canonical_profile_url.casefold(): match
+            for match in by_username.values()
+        }
         self._by_username = MappingProxyType(by_username)
         self._by_url = MappingProxyType(by_url)
+
+    def extended(
+        self, matches: Iterable[ExclusionMatch]
+    ) -> "ExclusionRegistry":
+        """Return a new registry with additional run-scoped identities."""
+
+        return ExclusionRegistry((*self._by_username.values(), *matches))
 
     @classmethod
     def from_files(

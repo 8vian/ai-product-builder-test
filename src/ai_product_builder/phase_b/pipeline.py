@@ -14,18 +14,34 @@ from typing import Any
 
 from openpyxl import load_workbook
 
+from .account_types import (
+    AccountTypeAssessment,
+    assess_account_type,
+    with_account_theme_evidence,
+)
+from .barter_signals import assess_barter_signals
+from .compatibility import assess_compatibility
 from .config import (
     PhaseBConfig,
     load_env_secrets,
     load_phase_b_config,
     require_secret,
 )
-from .eligibility import evaluate_candidate_eligibility
-from .enrichment import calculate_candidate_metrics
+from .eligibility import (
+    evaluate_candidate_eligibility,
+    is_instagram_post_url,
+)
+from .enrichment import (
+    calculate_candidate_metrics,
+    known_format_posts,
+    normalized_post_format,
+    resolve_as_of,
+)
 from .errors import (
     ConfigurationError,
     EvidenceValidationError,
     InputValidationError,
+    InsufficientCandidatePoolError,
     OutputWriteError,
     PhaseBError,
 )
@@ -33,6 +49,7 @@ from .evidence import collect_signal_evidence, flatten_evidence
 from .exclusions import ExclusionMatch, ExclusionRegistry
 from .io.artifacts import (
     ARTIFACT_FILENAMES,
+    generate_phase_b_failure_artifacts,
     generate_phase_b_artifacts,
     run_directory,
 )
@@ -52,6 +69,7 @@ from .models import (
     SignalEvidence,
     parse_datetime,
 )
+from .near_miss import build_near_miss_candidates
 from .normalization import canonicalize_profile_url, normalize_username
 from .offers import generate_deterministic_offer
 from .providers.apify import ApifyInstagramProvider
@@ -87,6 +105,255 @@ class PhaseBRunResult:
     google_sheets_receipt: GoogleSheetsWriteReceipt | None = None
 
 
+@dataclass(frozen=True, slots=True)
+class LiveCampaignAssessment:
+    target_theme_relevant: bool
+    language_compatible: bool
+    geography_compatible: bool
+    delivery_market_review_required: bool
+    commercial_conflict: bool
+    own_fashion_brand: bool
+    own_clothing_store_or_showroom: bool
+    explicit_no_barter: bool
+    blogger_content_sufficient: bool
+    short_video_ready: bool
+    recent_fashion_posts: int
+    recent_short_video_posts: int
+    recent_fashion_post_urls: tuple[str, ...]
+    manual_review_required: bool
+    preferred_audience_range: bool
+    audience_review_required: bool
+    explanation: str
+
+    def to_dict(self) -> dict[str, Any]:
+        return {
+            field: getattr(self, field)
+            for field in self.__dataclass_fields__
+        }
+
+
+def _live_campaign_assessment(
+    profile: CreatorProfile,
+    evidence: Mapping[str, Iterable[SignalEvidence]],
+    account: AccountTypeAssessment,
+    *,
+    language_compatible: bool,
+    detected_geography: str | None,
+    delivery_market_review_required: bool,
+    delivery_market_conflict: bool,
+    explicit_no_barter: bool,
+    as_of: datetime | None,
+    maximum_recency_days: float,
+    minimum_recent_fashion_posts: int,
+    minimum_short_video_posts: int,
+    preferred_followers_min: int,
+    preferred_followers_max: int,
+) -> LiveCampaignAssessment:
+    effective_as_of = resolve_as_of(profile, as_of)
+    recent_posts: dict[str, Any] = {}
+    recent_short_video_posts = 0
+    for index, post in enumerate(profile.recent_posts):
+        if post.timestamp is None or not is_instagram_post_url(post.url):
+            continue
+        timestamp = (
+            post.timestamp.replace(tzinfo=effective_as_of.tzinfo)
+            if post.timestamp.tzinfo is None
+            else post.timestamp.astimezone(effective_as_of.tzinfo)
+        )
+        age_days = (
+            effective_as_of - timestamp
+        ).total_seconds() / 86_400
+        if not 0 <= age_days <= maximum_recency_days:
+            continue
+        reference = post.post_id or post.url or f"index:{index}"
+        recent_posts[reference] = post
+        if normalized_post_format(post) == "short_video":
+            recent_short_video_posts += 1
+
+    fashion_references = {
+        item.source_reference
+        for item in evidence.get("fashion", ())
+        if item.observation_type == "direct"
+        and item.source_field.startswith("recent_posts.")
+        and item.source_reference in recent_posts
+    }
+    recent_fashion_urls = tuple(
+        dict.fromkeys(
+            str(recent_posts[reference].url)
+            for reference in sorted(
+                fashion_references,
+                key=lambda item: recent_posts[item].timestamp,
+                reverse=True,
+            )
+            if recent_posts[reference].url
+        )
+    )
+    geography_compatible = bool(
+        detected_geography
+        and "россия" in detected_geography.casefold()
+        and not delivery_market_conflict
+        and not delivery_market_review_required
+    )
+    short_video_ready = (
+        recent_short_video_posts >= minimum_short_video_posts
+    )
+    direct_fashion_sufficient = (
+        len(recent_fashion_urls) >= minimum_recent_fashion_posts
+    )
+    blogger_content_sufficient = bool(
+        account.account_type.value == "personal_creator"
+        and not account.professional_portfolio
+        and direct_fashion_sufficient
+        and short_video_ready
+    )
+    followers = profile.followers
+    preferred_audience_range = bool(
+        followers is not None
+        and preferred_followers_min <= followers <= preferred_followers_max
+    )
+    audience_review_required = bool(
+        followers is not None and followers > preferred_followers_max
+    )
+    explanation = (
+        f"Direct recent fashion posts: {len(recent_fashion_urls)}/"
+        f"{minimum_recent_fashion_posts}; recent short-video posts: "
+        f"{recent_short_video_posts}/{minimum_short_video_posts}; "
+        f"language compatible: {language_compatible}; directly evidenced "
+        f"Russia compatibility: {geography_compatible}; account type: "
+        f"{account.account_type.value}; professional portfolio: "
+        f"{account.professional_portfolio}; commercial conflict: "
+        f"{account.commercial_conflict}."
+    )
+    return LiveCampaignAssessment(
+        target_theme_relevant=account.theme_relevant,
+        language_compatible=language_compatible,
+        geography_compatible=geography_compatible,
+        delivery_market_review_required=(
+            delivery_market_review_required
+        ),
+        commercial_conflict=account.commercial_conflict,
+        own_fashion_brand=account.own_fashion_brand,
+        own_clothing_store_or_showroom=(
+            account.own_clothing_store_or_showroom
+        ),
+        explicit_no_barter=explicit_no_barter,
+        blogger_content_sufficient=blogger_content_sufficient,
+        short_video_ready=short_video_ready,
+        recent_fashion_posts=len(recent_fashion_urls),
+        recent_short_video_posts=recent_short_video_posts,
+        recent_fashion_post_urls=recent_fashion_urls,
+        manual_review_required=True,
+        preferred_audience_range=preferred_audience_range,
+        audience_review_required=audience_review_required,
+        explanation=explanation,
+    )
+
+
+def _with_run_level_exclusions(
+    registry: ExclusionRegistry,
+    config: PhaseBConfig,
+) -> ExclusionRegistry:
+    matches = []
+    for item in config.run_level_exclusions:
+        normalized = normalize_username(item.username)
+        canonical = canonicalize_profile_url(item.profile_url)
+        if normalized is None or canonical is None:
+            raise ConfigurationError(
+                "run-level exclusion contains a malformed Instagram identity"
+            )
+        matches.append(
+            ExclusionMatch(
+                normalized_username=normalized,
+                canonical_profile_url=canonical,
+                reasons=(item.reason,),
+                source_values=(item.username, item.profile_url),
+            )
+        )
+    return registry.extended(matches)
+
+
+def _phase_a_follower_outer_fence(
+    ideal_profile_document: Mapping[str, Any],
+) -> tuple[float, float, float]:
+    try:
+        followers = ideal_profile_document["ideal_creator_profile"][
+            "audience"
+        ]["followers"]
+        q1 = float(followers["q1"])
+        q3 = float(followers["q3"])
+    except (KeyError, TypeError, ValueError) as exc:
+        raise InputValidationError(
+            "ideal creator profile is missing follower q1/q3"
+        ) from exc
+    if q1 < 0 or q3 < q1:
+        raise InputValidationError(
+            "ideal creator profile has invalid follower q1/q3"
+        )
+    return q1, q3, q3 + 3.0 * (q3 - q1)
+
+
+def _apply_live_campaign_guards(
+    decision: EligibilityDecision,
+    *,
+    explicit_barter_refusal: bool,
+    language_compatible: bool,
+    delivery_market_conflict: bool,
+    high_audience: bool,
+    geography_compatible: bool = True,
+    commercial_conflict: bool = False,
+    own_fashion_brand: bool = False,
+    own_clothing_store_or_showroom: bool = False,
+    blogger_content_sufficient: bool = True,
+    short_video_ready: bool = True,
+    recent_fashion_posts: int = 3,
+    minimum_recent_fashion_posts: int = 3,
+) -> EligibilityDecision:
+    """Apply campaign-only blockers after the generic eligibility checks."""
+
+    if not decision.eligible:
+        return decision
+    blockers: list[str] = []
+    if explicit_barter_refusal:
+        blockers.append("explicit_no_barter_statement")
+    if not language_compatible:
+        blockers.append("campaign_language_mismatch")
+    if delivery_market_conflict:
+        blockers.append("delivery_market_conflict")
+    elif not geography_compatible:
+        blockers.append("delivery_market_compatibility_unverified")
+    if commercial_conflict:
+        if own_fashion_brand:
+            blockers.append("commercial_conflict_own_fashion_brand")
+        if own_clothing_store_or_showroom:
+            blockers.append(
+                "commercial_conflict_clothing_store_or_showroom"
+            )
+        if not (own_fashion_brand or own_clothing_store_or_showroom):
+            blockers.append("commercial_conflict")
+    if not short_video_ready:
+        blockers.append("short_video_evidence_missing")
+    if recent_fashion_posts < minimum_recent_fashion_posts:
+        blockers.append(
+            "insufficient_recent_fashion_posts:"
+            f"{recent_fashion_posts}<{minimum_recent_fashion_posts}"
+        )
+    if not blogger_content_sufficient:
+        blockers.append("blogger_content_insufficient")
+    if blockers:
+        return EligibilityDecision(
+            eligible=False,
+            status="ineligible",
+            reasons=tuple(dict.fromkeys(blockers)),
+        )
+    if high_audience:
+        return EligibilityDecision(
+            eligible=False,
+            status="needs_review",
+            reasons=("high_audience_barter_review_required",),
+        )
+    return decision
+
+
 def validate_phase_b_config(
     config_path: Path,
     *,
@@ -120,6 +387,18 @@ def validate_phase_b_config(
     if config.eligibility.maximum_recency_days > 90:
         raise ConfigurationError(
             "eligibility.maximum_recency_days cannot exceed 90"
+        )
+    if (
+        config.eligibility.preferred_followers_min
+        > config.eligibility.preferred_followers_max
+    ):
+        raise ConfigurationError(
+            "eligibility.preferred_followers_min cannot exceed "
+            "preferred_followers_max"
+        )
+    if len(config.discovery.query_texts) > 20:
+        raise ConfigurationError(
+            "discovery.query_texts cannot contain more than 20 queries"
         )
     if config.outputs.csv_encoding.casefold() != "utf-8-sig":
         raise ConfigurationError(
@@ -161,10 +440,18 @@ def validate_phase_b_config(
         config.inputs.ideal_creator_profile, "ideal_creator_profile"
     )
     # Query construction is also a schema validation pass.
-    generate_queries(ideal, config.campaign)
+    generate_queries(
+        ideal,
+        config.campaign,
+        query_texts=config.discovery.query_texts,
+    )
     _validate_source_analysis(config.inputs.source_analysis)
-    ExclusionRegistry.from_files(
-        config.inputs.instagram_profiles, config.inputs.manual_audit
+    _with_run_level_exclusions(
+        ExclusionRegistry.from_files(
+            config.inputs.instagram_profiles,
+            config.inputs.manual_audit,
+        ),
+        config,
     )
     _validate_workbook(config.inputs.workbook)
 
@@ -188,6 +475,19 @@ def validate_phase_b_config(
         apify = config.provider.apify
         if apify is None:
             raise ConfigurationError("Apify provider configuration is missing")
+        if apify.maximum_items < config.discovery.target_pool_size:
+            raise ConfigurationError(
+                "provider.apify.maximum_items cannot be lower than "
+                "discovery.target_pool_size"
+            )
+        if (
+            2.0 * apify.max_total_charge_usd
+            > apify.max_combined_charge_usd + 1e-9
+        ):
+            raise ConfigurationError(
+                "The combined Apify budget cannot cover one discovery and "
+                "one enrichment run at their configured server-side caps"
+            )
         # Construction validates required mappings without making a request.
         ApifyInstagramProvider(apify, "configuration-validation-only")
         secrets = load_env_secrets(config.env_file)
@@ -265,10 +565,15 @@ def deduplicate_discovery_hits(
             continue
         exclusion = exclusion_registry.match(hit.username, hit.profile_url)
         if exclusion is not None:
+            exclusion_reason = (
+                "previous_live_run_exclusion"
+                if "previous_live_run_exclusion" in exclusion.reasons
+                else "source_exclusion"
+            )
             excluded.append(
                 _excluded_hit(
                     hit,
-                    "source_exclusion",
+                    exclusion_reason,
                     exclusion.reasons,
                     exclusion_match=exclusion,
                 )
@@ -427,6 +732,7 @@ def run_phase_b(
     manifest.warnings.extend(validation_warnings)
     run_dir = run_directory(Path(output_dir), manifest)
     run_dir.mkdir(parents=True, exist_ok=True)
+    provider: InstagramProvider | None = None
     resolved_sheets_client = sheets_client
     if config.google_sheets.enabled and resolved_sheets_client is None:
         google_secret = load_env_secrets(config.env_file).get(
@@ -448,9 +754,20 @@ def run_phase_b(
         ideal = _read_json_object(
             config.inputs.ideal_creator_profile, "ideal_creator_profile"
         )
-        queries = generate_queries(ideal, config.campaign)
-        exclusion_registry = ExclusionRegistry.from_files(
-            config.inputs.instagram_profiles, config.inputs.manual_audit
+        queries = generate_queries(
+            ideal,
+            config.campaign,
+            query_texts=config.discovery.query_texts,
+        )
+        exclusion_registry = _with_run_level_exclusions(
+            ExclusionRegistry.from_files(
+                config.inputs.instagram_profiles,
+                config.inputs.manual_audit,
+            ),
+            config,
+        )
+        phase_a_q1, phase_a_q3, barter_review_threshold = (
+            _phase_a_follower_outer_fence(ideal)
         )
         provider = _build_provider(config)
         discovery_hits = provider.discover(queries)
@@ -463,11 +780,25 @@ def run_phase_b(
             len(deduplicated.identities)
             < config.discovery.minimum_unique_pool
         ):
-            manifest.warnings.append(
-                "Unique discovery pool is below the configured target: "
+            message = (
+                "Unique discovery pool is below the configured minimum: "
                 f"{len(deduplicated.identities)} < "
                 f"{config.discovery.minimum_unique_pool}."
             )
+            if config.mode == "live":
+                raise InsufficientCandidatePoolError(
+                    message,
+                    details={
+                        "stage": "before_enrichment",
+                        "unique_candidates": len(
+                            deduplicated.identities
+                        ),
+                        "minimum_unique_pool": (
+                            config.discovery.minimum_unique_pool
+                        ),
+                    },
+                )
+            manifest.warnings.append(message)
 
         profiles = provider.enrich(deduplicated.identities)
         as_of = (
@@ -492,7 +823,56 @@ def run_phase_b(
         for profile in profiles:
             provider_run_ids.update(profile.provider_run_ids)
             metrics = calculate_candidate_metrics(profile, as_of)
-            evidence = collect_signal_evidence(profile)
+            account_assessment = assess_account_type(profile)
+            evidence = with_account_theme_evidence(
+                collect_signal_evidence(profile),
+                account_assessment,
+            )
+            barter_assessment = assess_barter_signals(profile)
+            compatibility = assess_compatibility(
+                profile,
+                config.campaign,
+            )
+            live_assessment = (
+                _live_campaign_assessment(
+                    profile,
+                    evidence,
+                    account_assessment,
+                    language_compatible=(
+                        compatibility.campaign_language_compatible
+                    ),
+                    detected_geography=(
+                        compatibility.detected_geography
+                    ),
+                    delivery_market_review_required=(
+                        compatibility.delivery_market_review_required
+                    ),
+                    delivery_market_conflict=(
+                        compatibility.delivery_market_conflict
+                    ),
+                    explicit_no_barter=(
+                        barter_assessment.explicit_refusal
+                    ),
+                    as_of=as_of,
+                    maximum_recency_days=(
+                        config.eligibility.maximum_recency_days
+                    ),
+                    minimum_recent_fashion_posts=(
+                        config.eligibility.minimum_recent_fashion_posts
+                    ),
+                    minimum_short_video_posts=(
+                        config.eligibility.minimum_short_video_posts
+                    ),
+                    preferred_followers_min=(
+                        config.eligibility.preferred_followers_min
+                    ),
+                    preferred_followers_max=(
+                        config.eligibility.preferred_followers_max
+                    ),
+                )
+                if config.mode == "live"
+                else None
+            )
             decision = evaluate_candidate_eligibility(
                 profile,
                 metrics,
@@ -500,6 +880,57 @@ def run_phase_b(
                 as_of=as_of,
                 max_recency_days=config.eligibility.maximum_recency_days,
                 minimum_usable_posts=config.eligibility.minimum_usable_posts,
+                account_assessment=account_assessment,
+            )
+            high_audience = bool(
+                metrics.followers is not None
+                and metrics.followers > barter_review_threshold
+            )
+            if config.mode == "live":
+                decision = _apply_live_campaign_guards(
+                    decision,
+                    explicit_barter_refusal=(
+                        barter_assessment.explicit_refusal
+                    ),
+                    language_compatible=(
+                        compatibility.campaign_language_compatible
+                    ),
+                    delivery_market_conflict=(
+                        compatibility.delivery_market_conflict
+                    ),
+                    high_audience=high_audience,
+                    geography_compatible=(
+                        live_assessment.geography_compatible
+                    ),
+                    commercial_conflict=(
+                        live_assessment.commercial_conflict
+                    ),
+                    own_fashion_brand=(
+                        live_assessment.own_fashion_brand
+                    ),
+                    own_clothing_store_or_showroom=(
+                        live_assessment.own_clothing_store_or_showroom
+                    ),
+                    blogger_content_sufficient=(
+                        live_assessment.blogger_content_sufficient
+                    ),
+                    short_video_ready=(
+                        live_assessment.short_video_ready
+                    ),
+                    recent_fashion_posts=(
+                        live_assessment.recent_fashion_posts
+                    ),
+                    minimum_recent_fashion_posts=(
+                        config.eligibility.minimum_recent_fashion_posts
+                    ),
+                )
+            discovery_confidence = calculate_discovery_confidence(
+                profile, evidence
+            )
+            score_preview = (
+                score_candidate(profile, metrics, evidence, reference)
+                if metrics.usable_posts >= 6 and metrics.sampled_posts > 0
+                else None
             )
             offer = None
             if decision.eligible:
@@ -510,6 +941,11 @@ def run_phase_b(
                         evidence,
                         as_of=as_of,
                         max_age_days=config.eligibility.maximum_recency_days,
+                        required_signal_types=(
+                            ("fashion",)
+                            if config.mode == "live"
+                            else None
+                        ),
                     )
                 except EvidenceValidationError as exc:
                     decision = EligibilityDecision(
@@ -529,6 +965,37 @@ def run_phase_b(
                         name: [item.to_dict() for item in items]
                         for name, items in evidence.items()
                     },
+                    "account_type_assessment": account_assessment.to_dict(),
+                    "barter_signal_assessment": (
+                        barter_assessment.to_dict()
+                    ),
+                    "compatibility_assessment": compatibility.to_dict(),
+                    "live_campaign_assessment": (
+                        live_assessment.to_dict()
+                        if live_assessment is not None
+                        else None
+                    ),
+                    "barter_review_threshold": {
+                        "q1": phase_a_q1,
+                        "q3": phase_a_q3,
+                        "formula": "q3 + 3 * (q3 - q1)",
+                        "threshold": barter_review_threshold,
+                        "review_required": high_audience,
+                        "preferred_review_threshold": (
+                            config.eligibility.preferred_followers_max
+                        ),
+                        "preferred_range_review_required": (
+                            live_assessment.audience_review_required
+                            if live_assessment is not None
+                            else False
+                        ),
+                    },
+                    "discovery_confidence": discovery_confidence.score,
+                    "score_preview": (
+                        score_preview.to_dict()
+                        if score_preview is not None
+                        else None
+                    ),
                     "eligibility": decision.to_dict(),
                 }
             )
@@ -538,10 +1005,11 @@ def run_phase_b(
                 )
                 continue
 
-            score = score_candidate(profile, metrics, evidence, reference)
-            discovery_confidence = calculate_discovery_confidence(
-                profile, evidence
-            )
+            score = score_preview
+            if score is None:
+                raise ValueError(
+                    "eligible candidate is missing a reproducible score"
+                )
             confidence_evidence = SignalEvidence(
                 signal_type="discovery_confidence",
                 source_field="provider_and_discovery",
@@ -553,11 +1021,19 @@ def run_phase_b(
             all_evidence = _unique_evidence(
                 (
                     *flatten_evidence(evidence),
+                    *account_assessment.evidence,
+                    *barter_assessment.barter_evidence,
+                    *barter_assessment.no_barter_evidence,
+                    *compatibility.evidence,
                     confidence_evidence,
                     *offer.evidence,
                 )
             )
             collected_at = profile.collected_at or manifest.started_at
+            audience_review_required = bool(
+                live_assessment is not None
+                and live_assessment.audience_review_required
+            )
             eligible_results.append(
                 CandidateResult(
                     platform=profile.identity.platform,
@@ -579,7 +1055,10 @@ def run_phase_b(
                     recent_post_url=offer.recent_post_url,
                     barter_offer=offer.text,
                     manual_verification_status=offer.manual_verification_status,
-                    verification_notes="",
+                    verification_notes=(
+                        "Mandatory manual review before any use; no outreach "
+                        "was sent."
+                    ),
                     discovery_confidence=discovery_confidence.score,
                     eligibility_status=decision.status,
                     eligibility_reasons=decision.reasons,
@@ -590,6 +1069,70 @@ def run_phase_b(
                     source_exclusion_check=(
                         "clear: no Phase A username, URL, historical alias, "
                         "replacement, rejected false lead, Nike, or Apple match"
+                    ),
+                    account_type=account_assessment.account_type.value,
+                    account_type_explanation=account_assessment.explanation,
+                    barter_feasibility_review_required=(
+                        audience_review_required
+                    ),
+                    barter_feasibility_explanation=(
+                        (
+                            "Audience is above the preferred automatic barter "
+                            "range ceiling "
+                            f"{config.eligibility.preferred_followers_max:,} "
+                            "but does not exceed the frozen Phase A "
+                            "outer-fence threshold "
+                            f"{barter_review_threshold:,.1f}; manual barter "
+                            "feasibility review is required."
+                        )
+                        if audience_review_required
+                        else (
+                            "Audience is within the configured preferred "
+                            "automatic barter review range and does not exceed "
+                            "the frozen Phase A outer-fence threshold "
+                            f"{barter_review_threshold:,.1f}."
+                        )
+                    ),
+                    content_themes=(
+                        account_assessment.relevant_dimensions
+                    ),
+                    known_format_posts=known_format_posts(profile),
+                    detected_content_language=(
+                        compatibility.detected_content_language
+                    ),
+                    campaign_language_compatible=(
+                        compatibility.campaign_language_compatible
+                    ),
+                    detected_geography=(
+                        compatibility.detected_geography
+                    ),
+                    delivery_market_review_required=(
+                        compatibility.delivery_market_review_required
+                    ),
+                    compatibility_explanation=(
+                        compatibility.explanation
+                    ),
+                    barter_evidence=(
+                        barter_assessment.barter_evidence
+                    ),
+                    no_barter_evidence=(
+                        barter_assessment.no_barter_evidence
+                    ),
+                    campaign_bucket=(
+                        (
+                            "needs_manual_review"
+                            if audience_review_required
+                            else "barter_ready"
+                        )
+                        if config.mode == "live"
+                        else ""
+                    ),
+                    campaign_status_reasons=(
+                        (
+                            "audience_above_100k_manual_barter_review",
+                        )
+                        if audience_review_required
+                        else ()
                     ),
                 )
             )
@@ -604,17 +1147,16 @@ def run_phase_b(
             )
             for rank, candidate in enumerate(ranked, start=1)
         ]
-        selection = select_top_candidates(
-            ranked,
-            final_count=config.discovery.final_count,
-            minimum_count=config.discovery.minimum_final_count,
-        )
-        if selection.warning:
-            manifest.warnings.append(selection.warning)
-
         manifest.provider_run_ids = sorted(provider_run_ids)
+        _sync_provider_usage(manifest, provider)
         source_exclusion_count = sum(
-            item.get("exclusion_reason") == "source_exclusion"
+            item.get("exclusion_reason")
+            in {"source_exclusion", "previous_live_run_exclusion"}
+            for item in deduplicated.excluded_records
+        )
+        previous_live_run_exclusion_count = sum(
+            item.get("exclusion_reason")
+            == "previous_live_run_exclusion"
             for item in deduplicated.excluded_records
         )
         malformed_count = sum(
@@ -634,11 +1176,53 @@ def run_phase_b(
             "eligible_candidates": len(ranked),
             "ineligible_candidates": len(profiles) - len(ranked),
             "excluded_records_total": len(excluded_records),
-            "selected_candidates": len(selection.selected),
+            "selected_candidates": 0,
         }
+        if config.run_level_exclusions:
+            manifest.counts["previous_live_run_exclusions"] = (
+                previous_live_run_exclusion_count
+            )
         # Persistent provider-response caching is intentionally outside this
         # bounded MVP; report that explicitly instead of inventing cache misses.
         manifest.cache = {"enabled": 0, "hits": 0, "misses": 0}
+        try:
+            selection = select_top_candidates(
+                ranked,
+                final_count=config.discovery.final_count,
+                minimum_count=config.discovery.minimum_final_count,
+            )
+        except InsufficientCandidatePoolError as exc:
+            near_misses = build_near_miss_candidates(enriched_records)
+            manifest.counts["near_miss_candidates"] = len(near_misses)
+            _record_failed_manifest(run_dir, manifest, exc)
+            discovery_payload = [
+                hit.to_dict(include_raw=True) for hit in discovery_hits
+            ]
+            try:
+                generated_paths = generate_phase_b_failure_artifacts(
+                    run_dir,
+                    manifest=manifest,
+                    queries=queries,
+                    discovery_pool=discovery_payload,
+                    deduplication_report=deduplicated.report,
+                    excluded_candidates=excluded_records,
+                    enriched_candidates=enriched_records,
+                    eligible_candidates=ranked,
+                    near_miss_candidates=near_misses,
+                )
+            except (OSError, ValueError, KeyError) as output_exc:
+                raise OutputWriteError(
+                    "Could not persist insufficient-pool audit artifacts: "
+                    f"{output_exc}"
+                ) from output_exc
+            manifest.artifacts = {
+                path.name: str(path) for path in generated_paths
+            }
+            _write_manifest(run_dir / "run_manifest.json", manifest)
+            raise
+        manifest.counts["selected_candidates"] = len(selection.selected)
+        if selection.warning:
+            manifest.warnings.append(selection.warning)
         if config.google_sheets.enabled and resolved_sheets_client is None:
             manifest.warnings.append(
                 "Google Sheets output was configured but no authenticated "
@@ -701,12 +1285,42 @@ def run_phase_b(
             google_sheets_receipt=sheets_receipt,
         )
     except PhaseBError as exc:
+        _sync_provider_usage(manifest, provider)
         _record_failed_manifest(run_dir, manifest, exc)
         raise
     except (OSError, ValueError, KeyError, csv.Error, json.JSONDecodeError) as exc:
         wrapped = InputValidationError(f"Phase B pipeline failed: {exc}")
+        _sync_provider_usage(manifest, provider)
         _record_failed_manifest(run_dir, manifest, wrapped)
         raise wrapped from exc
+
+
+def _sync_provider_usage(
+    manifest: PhaseBRunManifest,
+    provider: InstagramProvider | None,
+) -> None:
+    if not isinstance(provider, ApifyInstagramProvider):
+        return
+    manifest.provider_requests_made = provider.provider_requests_made
+    manifest.budget_spent_usd = provider.budget_spent_usd
+    manifest.provider_run_ids = list(
+        dict.fromkeys(
+            (*manifest.provider_run_ids, *provider.provider_run_ids)
+        )
+    )
+    manifest.review_summary["provider_charges"] = [
+        dict(item) for item in provider.actor_run_usage
+    ]
+    manifest.review_summary["provider_budget_guard"] = {
+        "per_actor_run_cap_usd": (
+            provider.config.max_total_charge_usd
+        ),
+        "combined_cap_usd": (
+            provider.config.max_combined_charge_usd
+        ),
+        "at_most_one_search_run": True,
+        "at_most_one_profile_run": True,
+    }
 
 
 def _build_provider(config: PhaseBConfig) -> InstagramProvider:
@@ -838,13 +1452,13 @@ def _record_failed_manifest(
 ) -> None:
     manifest.status = "failed"
     manifest.completed_at = datetime.now(timezone.utc)
-    manifest.errors.append(
-        {
-            "category": error.category,
-            "message": str(error),
-            "details": error.details,
-        }
-    )
+    error_record = {
+        "category": error.category,
+        "message": str(error),
+        "details": error.details,
+    }
+    if error_record not in manifest.errors:
+        manifest.errors.append(error_record)
     run_dir.mkdir(parents=True, exist_ok=True)
     try:
         _write_manifest(run_dir / "run_manifest.json", manifest)

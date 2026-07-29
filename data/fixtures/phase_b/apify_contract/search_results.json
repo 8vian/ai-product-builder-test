@@ -1,0 +1,42 @@
+[
+  {
+    "searchTerm": "fashion creator",
+    "id": "search-profile-001",
+    "username": "contract.creator__",
+    "url": "https://www.instagram.com/contract.creator__/",
+    "fullName": "Contract Creator",
+    "biography": "Fashion and product reviews",
+    "followersCount": 14200,
+    "private": false
+  },
+  {
+    "searchTerm": "  BEAUTY   Lifestyle  ",
+    "id": "search-profile-002",
+    "username": "beauty.contract_",
+    "url": "https://www.instagram.com/beauty.contract_/",
+    "fullName": "Beauty Contract",
+    "biography": "Beauty and lifestyle",
+    "followersCount": 9800,
+    "private": false
+  },
+  {
+    "searchTerm": "ugc creator",
+    "id": "search-profile-003",
+    "username": "ugc.contract_",
+    "url": "https://www.instagram.com/ugc.contract_/",
+    "fullName": "UGC Contract",
+    "biography": "UGC creator",
+    "followersCount": 7300,
+    "private": false
+  },
+  {
+    "searchTerm": "unknown search",
+    "id": "search-profile-004",
+    "username": "unknown.contract_",
+    "url": "https://www.instagram.com/unknown.contract_/",
+    "fullName": "Unknown Contract",
+    "biography": "Unknown search provenance",
+    "followersCount": 5100,
+    "private": false
+  }
+]

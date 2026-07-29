@@ -2,6 +2,7 @@ from __future__ import annotations
 
 from collections.abc import Iterable, Mapping
 from datetime import datetime
+from typing import TYPE_CHECKING
 from urllib.parse import urlparse
 
 from .enrichment import known_format_posts, resolve_as_of
@@ -12,6 +13,9 @@ from .models import (
     EligibilityDecision,
     SignalEvidence,
 )
+
+if TYPE_CHECKING:
+    from .account_types import AccountTypeAssessment
 
 MIN_USABLE_ENGAGEMENT_POSTS = 6
 MAX_RECENCY_DAYS = 90.0
@@ -78,6 +82,8 @@ def evaluate_candidate_eligibility(
     as_of: datetime | None = None,
     minimum_usable_posts: int = MIN_USABLE_ENGAGEMENT_POSTS,
     max_recency_days: float = MAX_RECENCY_DAYS,
+    account_assessment: AccountTypeAssessment | None = None,
+    require_known_post_format: bool = True,
 ) -> EligibilityDecision:
     reasons: list[str] = []
 
@@ -95,6 +101,14 @@ def evaluate_candidate_eligibility(
         reasons.append(f"source_excluded:{excluded_reason}")
     if is_duplicate:
         reasons.append("duplicate_candidate")
+    if account_assessment is not None:
+        if account_assessment.account_type.value != "personal_creator":
+            reasons.append(
+                "account_type_not_personal:"
+                f"{account_assessment.account_type.value}"
+            )
+        elif not account_assessment.theme_relevant:
+            reasons.append("target_theme_not_relevant")
     if metrics.followers is None or metrics.followers <= 0:
         reasons.append("followers_missing_or_non_positive")
     if minimum_usable_posts < MIN_USABLE_ENGAGEMENT_POSTS:
@@ -111,9 +125,15 @@ def evaluate_candidate_eligibility(
         reasons.append("last_post_date_missing")
     elif metrics.recency_days is None or metrics.recency_days > max_recency_days:
         reasons.append(f"latest_post_older_than_{max_recency_days:g}_days")
-    if not has_direct_target_content_evidence(evidence):
+    if (
+        account_assessment is None
+        and not has_direct_target_content_evidence(evidence)
+    ):
         reasons.append("target_content_evidence_missing")
-    if known_format_posts(profile) < MIN_KNOWN_FORMAT_POSTS:
+    if (
+        require_known_post_format
+        and known_format_posts(profile) < MIN_KNOWN_FORMAT_POSTS
+    ):
         reasons.append("post_format_data_missing")
     if not _has_recent_evidence_url(
         profile, as_of=as_of, max_recency_days=max_recency_days

@@ -1,0 +1,127 @@
+{
+  "mode": "live",
+  "analysis_as_of": null,
+  "env_file": ".env",
+  "campaign": {
+    "brand_name": "LD Latte",
+    "product_name": "товар из новой коллекции LD Latte",
+    "product_category": "женская одежда",
+    "barter_item": "товар из новой коллекции в обмен на согласованный Reels или нативный обзор",
+    "desired_content_format": "Reels или нативный обзор",
+    "language": "ru",
+    "target_content_languages": ["ru"],
+    "tone": "дружелюбный, персональный, без давления",
+    "geography": "Россия",
+    "delivery_markets": ["Россия"],
+    "preferred_geographies": ["Москва", "крупные города России"],
+    "collaboration_type": "товарный бартер",
+    "automatic_outreach": false,
+    "manual_review_required": true,
+    "prohibited_claims": [
+      "создатель уже любит бренд",
+      "создатель принимает бартер",
+      "создатель уже использовал товар"
+    ]
+  },
+  "inputs": {
+    "ideal_creator_profile": "output/ideal_creator_profile.json",
+    "source_analysis": "output/source_analysis.csv",
+    "instagram_profiles": "data/raw/instagram_profiles.json",
+    "manual_audit": "data/raw/manual_verification_audit.json",
+    "workbook": "data/raw/Блогеры.xlsx"
+  },
+  "discovery": {
+    "target_pool_size": 50,
+    "minimum_unique_pool": 15,
+    "final_count": 5,
+    "minimum_final_count": 3,
+    "query_texts": [
+      "микроблогер примерки женской одежды Москва Reels",
+      "стилист блогер капсульный гардероб Москва Reels",
+      "блогер женские образы на каждый день Россия",
+      "UGC creator одежда Москва примерки Reels",
+      "обзор российских брендов женской одежды блогер",
+      "fashion блогер женщины 30 плюс Москва гардероб",
+      "plus size блогер одежда Россия примерки Reels",
+      "блогер стилизация одежды Москва сотрудничество"
+    ]
+  },
+  "eligibility": {
+    "minimum_usable_posts": 6,
+    "maximum_recency_days": 90,
+    "minimum_recent_fashion_posts": 3,
+    "minimum_short_video_posts": 1,
+    "preferred_followers_min": 1000,
+    "preferred_followers_max": 100000
+  },
+  "provider": {
+    "type": "apify",
+    "apify": {
+      "discovery_actor_id": "apify/instagram-search-scraper",
+      "enrichment_actor_id": "apify/instagram-profile-scraper",
+      "maximum_items": 50,
+      "timeout_seconds": 180,
+      "max_retries": 1,
+      "max_total_charge_usd": 1.0,
+      "max_combined_charge_usd": 2.0,
+      "api_base_url": "https://api.apify.com/v2",
+      "discovery_input_template": {
+        "search": "$query_text_csv",
+        "searchType": "user",
+        "searchLimit": 10,
+        "enhanceUserSearchWithFacebookPage": false,
+        "liveSearch": false
+      },
+      "enrichment_input_template": {
+        "usernames": "$usernames",
+        "includeAboutSection": false
+      },
+      "field_mappings": {
+        "discovery": {
+          "username": "username",
+          "profile_url": "url",
+          "display_name": "fullName",
+          "biography": "biography",
+          "followers": "followersCount",
+          "private": "private",
+          "provider_id": "id",
+          "search_term": "searchTerm"
+        },
+        "profile": {
+          "username": "username",
+          "profile_url": "url",
+          "full_name": "fullName",
+          "biography": "biography",
+          "followers": "followersCount",
+          "posts_count": "postsCount",
+          "private": "private",
+          "recent_posts": "latestPosts",
+          "external_urls": "externalUrls",
+          "provider_ids": "id"
+        },
+        "post": {
+          "post_id": "id",
+          "url": "url",
+          "caption": "caption",
+          "likes": "likesCount",
+          "comments": "commentsCount",
+          "timestamp": "timestamp",
+          "post_format": "productType",
+          "mentions": "mentions",
+          "hashtags": "hashtags",
+          "tagged_usernames": "taggedUsers",
+          "paid_partnership": "paidPartnership"
+        }
+      }
+    }
+  },
+  "outputs": {
+    "workbook_sheet": "Новые блоггеры",
+    "csv_encoding": "utf-8-sig"
+  },
+  "google_sheets": {
+    "enabled": false,
+    "spreadsheet_id": null,
+    "worksheet_name": "Новые блоггеры"
+  }
+}

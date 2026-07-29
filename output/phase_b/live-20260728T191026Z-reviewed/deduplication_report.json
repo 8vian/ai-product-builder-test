@@ -1,0 +1,527 @@
+{
+  "duplicate_hit_count": 0,
+  "excluded_record_count": 0,
+  "exclusion_reason_counts": {},
+  "groups": [
+    {
+      "canonical_profile_url": "https://www.instagram.com/jai_mata_rani_reels/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "jai_mata_rani_reels",
+      "provider_ids": [
+        "55002888085",
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": [
+        "reels_integrations_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/lover_reels_4k/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "lover_reels_4k",
+      "provider_ids": [
+        "50354826041",
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": [
+        "reels_integrations_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/creator.no.one/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "creator.no.one",
+      "provider_ids": [
+        "4335080673",
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": [
+        "ugc_creator_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/bainur_beauty/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "bainur_beauty",
+      "provider_ids": [
+        "3165111612",
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": [
+        "beauty_lifestyle_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/cleide_lifestyle/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "cleide_lifestyle",
+      "provider_ids": [
+        "44519241694",
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": [
+        "beauty_lifestyle_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/creatorbrand.hub/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "creatorbrand.hub",
+      "provider_ids": [
+        "66880691742",
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": [
+        "ugc_creator_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/creatortadeaas/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "creatortadeaas",
+      "provider_ids": [
+        "67969731389",
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": [
+        "ugc_creator_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/_imane.lifestyle/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "_imane.lifestyle",
+      "provider_ids": [
+        "54337929439",
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": [
+        "beauty_lifestyle_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/discount_wildberries111/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "discount_wildberries111",
+      "provider_ids": [
+        "34714810268",
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": [
+        "marketplace_reviews_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/bespridannik_reels/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "bespridannik_reels",
+      "provider_ids": [
+        "6929570147",
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": [
+        "reels_integrations_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/trevors_history_reels/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "trevors_history_reels",
+      "provider_ids": [
+        "73142399102",
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": [
+        "reels_integrations_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/ashokgehlot.reels/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "ashokgehlot.reels",
+      "provider_ids": [
+        "59156312550",
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": [
+        "reels_integrations_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/reels_dkd/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "reels_dkd",
+      "provider_ids": [
+        "58180451327",
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": [
+        "reels_integrations_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/beautybay/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "beautybay",
+      "provider_ids": [
+        "29956143",
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": [
+        "beauty_lifestyle_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/beautynthebean/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "beautynthebean",
+      "provider_ids": [
+        "5946368433",
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": [
+        "beauty_lifestyle_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/bong_beauty_vlog/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "bong_beauty_vlog",
+      "provider_ids": [
+        "52219185599",
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": [
+        "beauty_lifestyle_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/kaemen.the.creator/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "kaemen.the.creator",
+      "provider_ids": [
+        "3579844516",
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": [
+        "ugc_creator_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/reels_creator_10k/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "reels_creator_10k",
+      "provider_ids": [
+        "60033705685",
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": [
+        "ugc_creator_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/wildberries_walberes/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "wildberries_walberes",
+      "provider_ids": [
+        "1483715788",
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": [
+        "marketplace_reviews_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/creator_os__/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "creator_os__",
+      "provider_ids": [
+        "75128579864",
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": [
+        "ugc_creator_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/beauty321/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "beauty321",
+      "provider_ids": [
+        "10469826",
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": [
+        "beauty_lifestyle_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/kz.wildberries/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "kz.wildberries",
+      "provider_ids": [
+        "77592374850",
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": [
+        "marketplace_reviews_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/wish_ai_creator/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "wish_ai_creator",
+      "provider_ids": [
+        "69888375390",
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": [
+        "ugc_creator_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/pn_creator_itz/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "pn_creator_itz",
+      "provider_ids": [
+        "72598148172",
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": [
+        "ugc_creator_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/family.guy.reels/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "family.guy.reels",
+      "provider_ids": [
+        "50366801605",
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": [
+        "reels_integrations_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/nurkyz_wildberries/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "nurkyz_wildberries",
+      "provider_ids": [
+        "4661284543",
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": [
+        "marketplace_reviews_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/uz_wildberries/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "uz_wildberries",
+      "provider_ids": [
+        "64727265545",
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": [
+        "marketplace_reviews_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/ugc_creator_sayani/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "ugc_creator_sayani",
+      "provider_ids": [
+        "62432234632",
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": [
+        "ugc_creator_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/by.wildberries/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "by.wildberries",
+      "provider_ids": [
+        "30069834896",
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": [
+        "marketplace_reviews_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/wildberriesru/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "wildberriesru",
+      "provider_ids": [
+        "289519827",
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": [
+        "marketplace_reviews_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/beauty_newnew/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "beauty_newnew",
+      "provider_ids": [
+        "43740394",
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": [
+        "beauty_lifestyle_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/reels.cristianos/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "reels.cristianos",
+      "provider_ids": [
+        "54097079091",
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": [
+        "reels_integrations_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/marwadi._.reels_29/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "marwadi._.reels_29",
+      "provider_ids": [
+        "46940615225",
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": [
+        "reels_integrations_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/wildberries.cargo_talgar/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "wildberries.cargo_talgar",
+      "provider_ids": [
+        "54525811288",
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": [
+        "marketplace_reviews_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/ai_beauty_agency/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "ai_beauty_agency",
+      "provider_ids": [
+        "60073305204",
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": [
+        "beauty_lifestyle_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/reels_star_pranjal/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "reels_star_pranjal",
+      "provider_ids": [
+        "49724480177",
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": [
+        "reels_integrations_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/wildberries_ozon_nakhodki/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "wildberries_ozon_nakhodki",
+      "provider_ids": [
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": []
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/ubs.lifestyle/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "ubs.lifestyle",
+      "provider_ids": [
+        "6207535142",
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": [
+        "beauty_lifestyle_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/dish_wildberries/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "dish_wildberries",
+      "provider_ids": [
+        "79751096204",
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": [
+        "marketplace_reviews_01"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/ugccinemas/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "ugccinemas",
+      "provider_ids": [
+        "7429148273",
+        "XPOnPowTZs96qIZVF"
+      ],
+      "query_ids": [
+        "ugc_creator_01"
+      ]
+    }
+  ],
+  "processable_hit_count": 40,
+  "raw_hit_count": 40,
+  "unique_candidate_count": 40
+}

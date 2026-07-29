@@ -68,7 +68,22 @@ def select_offer_post(
     *,
     as_of: datetime | None = None,
     max_age_days: float = 90.0,
+    required_signal_types: Iterable[str] | None = None,
 ) -> RecentPost:
+    allowed_signals = (
+        frozenset(required_signal_types)
+        if required_signal_types is not None
+        else frozenset(
+            {
+                "fashion",
+                "beauty",
+                "lifestyle",
+                "ugc",
+                "marketplace",
+                "native_product_integration",
+            }
+        )
+    )
     evidenced_candidates: list[RecentPost] = []
     fallback_candidates: list[RecentPost] = []
     for post in profile.recent_posts:
@@ -84,19 +99,15 @@ def select_offer_post(
         post_evidence = evidence_for_post(evidence, post)
         if any(
             item.observation_type == "direct"
-            and item.signal_type
-            in {
-                "fashion",
-                "beauty",
-                "lifestyle",
-                "ugc",
-                "marketplace",
-                "native_product_integration",
-            }
+            and item.signal_type in allowed_signals
             for item in post_evidence
         ):
             evidenced_candidates.append(post)
-    candidates = evidenced_candidates or fallback_candidates
+    candidates = (
+        evidenced_candidates
+        if required_signal_types is not None
+        else evidenced_candidates or fallback_candidates
+    )
     if not candidates:
         raise EvidenceValidationError(
             "No recent post has both a working Instagram URL and a caption."
@@ -214,9 +225,14 @@ def generate_deterministic_offer(
     *,
     as_of: datetime | None = None,
     max_age_days: float = 90.0,
+    required_signal_types: Iterable[str] | None = None,
 ) -> OfferDraft:
     post = select_offer_post(
-        profile, evidence, as_of=as_of, max_age_days=max_age_days
+        profile,
+        evidence,
+        as_of=as_of,
+        max_age_days=max_age_days,
+        required_signal_types=required_signal_types,
     )
     topic = safe_caption_topic(post.caption)
     text = (

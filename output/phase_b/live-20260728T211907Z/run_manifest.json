@@ -1,0 +1,54 @@
+{
+  "artifacts": {
+    "barter_offer_drafts.md": "output\\phase_b\\live-20260728T211907Z\\barter_offer_drafts.md",
+    "deduplication_report.json": "output\\phase_b\\live-20260728T211907Z\\deduplication_report.json",
+    "discovery_pool.jsonl": "output\\phase_b\\live-20260728T211907Z\\discovery_pool.jsonl",
+    "discovery_report.md": "output\\phase_b\\live-20260728T211907Z\\discovery_report.md",
+    "eligible_candidates.csv": "output\\phase_b\\live-20260728T211907Z\\eligible_candidates.csv",
+    "enriched_candidates.jsonl": "output\\phase_b\\live-20260728T211907Z\\enriched_candidates.jsonl",
+    "excluded_candidates.csv": "output\\phase_b\\live-20260728T211907Z\\excluded_candidates.csv",
+    "generated_queries.json": "output\\phase_b\\live-20260728T211907Z\\generated_queries.json",
+    "new_creators.csv": "output\\phase_b\\live-20260728T211907Z\\new_creators.csv",
+    "new_creators.json": "output\\phase_b\\live-20260728T211907Z\\new_creators.json",
+    "run_manifest.json": "output\\phase_b\\live-20260728T211907Z\\run_manifest.json",
+    "Блогеры_phase_b.xlsx": "output\\phase_b\\live-20260728T211907Z\\Блогеры_phase_b.xlsx"
+  },
+  "budget_spent_usd": 0.0,
+  "cache": {
+    "enabled": 0,
+    "hits": 0,
+    "misses": 0
+  },
+  "completed_at": "2026-07-28T21:21:53.029461+00:00",
+  "config_digest": "cdd17788cda3b2f9b9838196dae8f0721924013ab0563ce78ea328c625f1c191",
+  "counts": {
+    "duplicate_discoveries": 0,
+    "eligible_candidates": 6,
+    "enriched_candidates": 26,
+    "excluded_records_total": 32,
+    "generated_queries": 7,
+    "ineligible_candidates": 20,
+    "malformed_discovery_records": 0,
+    "previous_live_run_exclusions": 12,
+    "raw_discovery_hits": 38,
+    "selected_candidates": 5,
+    "source_exclusions": 12,
+    "unique_candidates": 26
+  },
+  "errors": [],
+  "mode": "live",
+  "offline_reselection": false,
+  "provider": "apify",
+  "provider_requests_made": 0,
+  "provider_run_ids": [
+    "F5k1xEqu2q5Nd6YTW",
+    "UceKaE73xFvgVwd4P"
+  ],
+  "review_summary": {},
+  "run_id": "live-20260728T211907Z",
+  "source_run_id": null,
+  "source_run_path": null,
+  "started_at": "2026-07-28T21:19:07.481168+00:00",
+  "status": "completed",
+  "warnings": []
+}

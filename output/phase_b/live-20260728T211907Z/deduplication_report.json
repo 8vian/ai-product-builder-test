@@ -1,0 +1,344 @@
+{
+  "duplicate_hit_count": 0,
+  "excluded_record_count": 12,
+  "exclusion_reason_counts": {
+    "previous_live_run_exclusion": 12
+  },
+  "groups": [
+    {
+      "canonical_profile_url": "https://www.instagram.com/aya_emara_fashion_designer/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "aya_emara_fashion_designer",
+      "provider_ids": [
+        "23789958767",
+        "F5k1xEqu2q5Nd6YTW"
+      ],
+      "query_ids": [
+        "ru_fashion_tryon_02"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/fashion_assistant/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "fashion_assistant",
+      "provider_ids": [
+        "31390541589",
+        "F5k1xEqu2q5Nd6YTW"
+      ],
+      "query_ids": [
+        "ru_fashion_tryon_02"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/naeem.s.reels/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "naeem.s.reels",
+      "provider_ids": [
+        "26751893697",
+        "F5k1xEqu2q5Nd6YTW"
+      ],
+      "query_ids": [
+        "ru_reels_native_05"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/mallorca.reels/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "mallorca.reels",
+      "provider_ids": [
+        "53480950504",
+        "F5k1xEqu2q5Nd6YTW"
+      ],
+      "query_ids": [
+        "ru_reels_native_05"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/niyati_fashionai/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "niyati_fashionai",
+      "provider_ids": [
+        "59358769252",
+        "F5k1xEqu2q5Nd6YTW"
+      ],
+      "query_ids": [
+        "ru_fashion_tryon_02"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/malina_fashion/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "malina_fashion",
+      "provider_ids": [
+        "652267283",
+        "F5k1xEqu2q5Nd6YTW"
+      ],
+      "query_ids": [
+        "ru_fashion_tryon_02"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/micki_fashion._/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "micki_fashion._",
+      "provider_ids": [
+        "5333910147",
+        "F5k1xEqu2q5Nd6YTW"
+      ],
+      "query_ids": [
+        "ru_fashion_tryon_02"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/fashion.jump.store/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "fashion.jump.store",
+      "provider_ids": [
+        "3290816063",
+        "F5k1xEqu2q5Nd6YTW"
+      ],
+      "query_ids": [
+        "ru_fashion_tryon_02"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/nora_reels._/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "nora_reels._",
+      "provider_ids": [
+        "6803261333",
+        "F5k1xEqu2q5Nd6YTW"
+      ],
+      "query_ids": [
+        "ru_reels_native_05"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/ainazik.wildberries/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "ainazik.wildberries",
+      "provider_ids": [
+        "13476867749",
+        "F5k1xEqu2q5Nd6YTW"
+      ],
+      "query_ids": [
+        "ru_marketplace_reviews_04"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/fashion__nouf/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "fashion__nouf",
+      "provider_ids": [
+        "2867453610",
+        "F5k1xEqu2q5Nd6YTW"
+      ],
+      "query_ids": [
+        "ru_fashion_tryon_02"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/_wild.berries__/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "_wild.berries__",
+      "provider_ids": [
+        "F5k1xEqu2q5Nd6YTW"
+      ],
+      "query_ids": []
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/angelashegiryan/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "angelashegiryan",
+      "provider_ids": [
+        "461466750",
+        "F5k1xEqu2q5Nd6YTW"
+      ],
+      "query_ids": [
+        "ru_stylist_moscow_06"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/jeba_jeru_fashion/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "jeba_jeru_fashion",
+      "provider_ids": [
+        "24779161753",
+        "F5k1xEqu2q5Nd6YTW"
+      ],
+      "query_ids": [
+        "ru_fashion_tryon_02"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/fashion.menoutfit/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "fashion.menoutfit",
+      "provider_ids": [
+        "4597319864",
+        "F5k1xEqu2q5Nd6YTW"
+      ],
+      "query_ids": [
+        "ru_fashion_tryon_02"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/football_reelsdz/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "football_reelsdz",
+      "provider_ids": [
+        "F5k1xEqu2q5Nd6YTW"
+      ],
+      "query_ids": []
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/stylistelenaialena/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "stylistelenaialena",
+      "provider_ids": [
+        "3101841117",
+        "F5k1xEqu2q5Nd6YTW"
+      ],
+      "query_ids": [
+        "ru_stylist_moscow_06"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/miss_sunrise9/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "miss_sunrise9",
+      "provider_ids": [
+        "1522759102",
+        "F5k1xEqu2q5Nd6YTW"
+      ],
+      "query_ids": [
+        "ru_stylist_moscow_06"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/verkhovskaya_style/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "verkhovskaya_style",
+      "provider_ids": [
+        "986057057",
+        "F5k1xEqu2q5Nd6YTW"
+      ],
+      "query_ids": [
+        "ru_stylist_moscow_06"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/reels.malang/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "reels.malang",
+      "provider_ids": [
+        "53555160100",
+        "F5k1xEqu2q5Nd6YTW"
+      ],
+      "query_ids": [
+        "ru_reels_native_05"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/stylist_katy/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "stylist_katy",
+      "provider_ids": [
+        "6071363062",
+        "F5k1xEqu2q5Nd6YTW"
+      ],
+      "query_ids": [
+        "ru_stylist_moscow_06"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/molya_wildberries/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "molya_wildberries",
+      "provider_ids": [
+        "4345956073",
+        "F5k1xEqu2q5Nd6YTW"
+      ],
+      "query_ids": [
+        "ru_marketplace_reviews_04"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/curvy_josies_fashion/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "curvy_josies_fashion",
+      "provider_ids": [
+        "33481927906",
+        "F5k1xEqu2q5Nd6YTW"
+      ],
+      "query_ids": [
+        "ru_fashion_tryon_02"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/olganemka_stylist/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "olganemka_stylist",
+      "provider_ids": [
+        "218679162",
+        "F5k1xEqu2q5Nd6YTW"
+      ],
+      "query_ids": [
+        "ru_stylist_moscow_06"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/ayuma.style/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "ayuma.style",
+      "provider_ids": [
+        "2249399808",
+        "F5k1xEqu2q5Nd6YTW"
+      ],
+      "query_ids": [
+        "ru_stylist_moscow_06"
+      ]
+    },
+    {
+      "canonical_profile_url": "https://www.instagram.com/theonlyone_brand/",
+      "identity_conflict": false,
+      "merged_hit_count": 1,
+      "normalized_username": "theonlyone_brand",
+      "provider_ids": [
+        "47658565422",
+        "F5k1xEqu2q5Nd6YTW"
+      ],
+      "query_ids": [
+        "ru_stylist_moscow_06"
+      ]
+    }
+  ],
+  "processable_hit_count": 26,
+  "raw_hit_count": 38,
+  "unique_candidate_count": 26
+}

@@ -3,12 +3,14 @@
 from __future__ import annotations
 
 import json
+import math
 from dataclasses import dataclass, field
 from pathlib import Path
 from typing import Any, Mapping
 
 from .errors import ConfigurationError, MissingSecretError
 from .models import CampaignBrief
+from .normalization import canonicalize_profile_url, normalize_username
 
 ALLOWED_SECRET_NAMES = frozenset(
     {
@@ -36,12 +38,17 @@ class DiscoveryConfig:
     minimum_unique_pool: int = 20
     final_count: int = 5
     minimum_final_count: int = 3
+    query_texts: tuple[str, ...] = ()
 
 
 @dataclass(frozen=True, slots=True)
 class EligibilityConfig:
     minimum_usable_posts: int = 6
     maximum_recency_days: float = 90.0
+    minimum_recent_fashion_posts: int = 1
+    minimum_short_video_posts: int = 0
+    preferred_followers_min: int = 0
+    preferred_followers_max: int = 100_000
 
 
 @dataclass(frozen=True, slots=True)
@@ -62,6 +69,8 @@ class ApifyProviderConfig:
     maximum_items: int = 100
     timeout_seconds: int = 180
     max_retries: int = 3
+    max_total_charge_usd: float = 1.0
+    max_combined_charge_usd: float = 2.0
     api_base_url: str = "https://api.apify.com/v2"
 
 
@@ -70,6 +79,13 @@ class ProviderConfig:
     type: str
     fixture: FixtureProviderConfig | None = None
     apify: ApifyProviderConfig | None = None
+
+
+@dataclass(frozen=True, slots=True)
+class RunLevelExclusionConfig:
+    username: str
+    profile_url: str
+    reason: str
 
 
 @dataclass(frozen=True, slots=True)
@@ -93,6 +109,7 @@ class PhaseBConfig:
     discovery: DiscoveryConfig
     eligibility: EligibilityConfig
     provider: ProviderConfig
+    run_level_exclusions: tuple[RunLevelExclusionConfig, ...] = ()
     outputs: OutputConfig = field(default_factory=OutputConfig)
     google_sheets: GoogleSheetsConfig = field(default_factory=GoogleSheetsConfig)
     env_file: Path = Path(".env")
@@ -132,6 +149,12 @@ class PhaseBConfig:
                 minimum_final_count=_positive_int(
                     discovery_raw, "minimum_final_count", default=3
                 ),
+                query_texts=_non_empty_string_tuple(
+                    discovery_raw,
+                    "query_texts",
+                    default=(),
+                    allow_empty=True,
+                ),
             )
             eligibility_raw = _mapping(raw, "eligibility", required=False)
             eligibility = EligibilityConfig(
@@ -141,8 +164,31 @@ class PhaseBConfig:
                 maximum_recency_days=_positive_float(
                     eligibility_raw, "maximum_recency_days", default=90.0
                 ),
+                minimum_recent_fashion_posts=_positive_int(
+                    eligibility_raw,
+                    "minimum_recent_fashion_posts",
+                    default=1,
+                ),
+                minimum_short_video_posts=_non_negative_int(
+                    eligibility_raw,
+                    "minimum_short_video_posts",
+                    default=0,
+                ),
+                preferred_followers_min=_non_negative_int(
+                    eligibility_raw,
+                    "preferred_followers_min",
+                    default=0,
+                ),
+                preferred_followers_max=_positive_int(
+                    eligibility_raw,
+                    "preferred_followers_max",
+                    default=100_000,
+                ),
             )
             provider = _provider_config(_mapping(raw, "provider"), base_dir)
+            run_level_exclusions = _run_level_exclusions(
+                raw.get("run_level_exclusions")
+            )
             outputs_raw = _mapping(raw, "outputs", required=False)
             outputs = OutputConfig(
                 workbook_sheet=_non_empty_string(
@@ -184,6 +230,7 @@ class PhaseBConfig:
             discovery=discovery,
             eligibility=eligibility,
             provider=provider,
+            run_level_exclusions=run_level_exclusions,
             outputs=outputs,
             google_sheets=sheets,
             env_file=_resolve(base_dir, env_value),
@@ -266,6 +313,19 @@ def _provider_config(raw: Mapping[str, Any], base_dir: Path) -> ProviderConfig:
         max_retries = _non_negative_int(apify_raw, "max_retries", default=3)
         if max_retries > 3:
             raise ValueError("provider.apify.max_retries cannot exceed 3")
+        max_total_charge_usd = _positive_float(
+            apify_raw, "max_total_charge_usd", default=1.0
+        )
+        max_combined_charge_usd = _positive_float(
+            apify_raw, "max_combined_charge_usd", default=2.0
+        )
+        if (2.0 * max_total_charge_usd) > (
+            max_combined_charge_usd + 1e-9
+        ):
+            raise ValueError(
+                "provider.apify.max_combined_charge_usd must cover at most "
+                "one discovery and one enrichment Actor run"
+            )
         apify = ApifyProviderConfig(
             discovery_actor_id=_non_empty_string(
                 apify_raw, "discovery_actor_id"
@@ -287,6 +347,8 @@ def _provider_config(raw: Mapping[str, Any], base_dir: Path) -> ProviderConfig:
             maximum_items=maximum_items,
             timeout_seconds=timeout_seconds,
             max_retries=max_retries,
+            max_total_charge_usd=max_total_charge_usd,
+            max_combined_charge_usd=max_combined_charge_usd,
             api_base_url=_non_empty_string(
                 apify_raw,
                 "api_base_url",
@@ -294,6 +356,52 @@ def _provider_config(raw: Mapping[str, Any], base_dir: Path) -> ProviderConfig:
             ).rstrip("/"),
         )
     return ProviderConfig(type=provider_type, fixture=fixture, apify=apify)
+
+
+def _run_level_exclusions(
+    raw: Any,
+) -> tuple[RunLevelExclusionConfig, ...]:
+    if raw is None:
+        return ()
+    if not isinstance(raw, list):
+        raise ValueError("run_level_exclusions must be an array")
+    result: list[RunLevelExclusionConfig] = []
+    seen: set[str] = set()
+    for index, item in enumerate(raw):
+        if not isinstance(item, Mapping):
+            raise ValueError(
+                f"run_level_exclusions[{index}] must be an object"
+            )
+        username = _non_empty_string(item, "username")
+        profile_url = _non_empty_string(item, "profile_url")
+        reason = _non_empty_string(item, "reason")
+        normalized_username = normalize_username(username)
+        normalized_url = normalize_username(profile_url)
+        canonical_url = canonicalize_profile_url(profile_url)
+        if (
+            normalized_username is None
+            or normalized_url is None
+            or normalized_username != normalized_url
+            or canonical_url is None
+        ):
+            raise ValueError(
+                f"run_level_exclusions[{index}] username/profile_url "
+                "identity mismatch"
+            )
+        if normalized_username in seen:
+            raise ValueError(
+                f"run_level_exclusions[{index}] duplicates "
+                f"{normalized_username}"
+            )
+        seen.add(normalized_username)
+        result.append(
+            RunLevelExclusionConfig(
+                username=username.strip(),
+                profile_url=canonical_url,
+                reason=reason.strip(),
+            )
+        )
+    return tuple(result)
 
 
 def _mapping(
@@ -335,6 +443,24 @@ def _non_empty_string(
     return value.strip()
 
 
+def _non_empty_string_tuple(
+    raw: Mapping[str, Any],
+    key: str,
+    *,
+    default: tuple[str, ...],
+    allow_empty: bool = False,
+) -> tuple[str, ...]:
+    value = raw.get(key, default)
+    if not isinstance(value, (list, tuple)) or not all(
+        isinstance(item, str) and item.strip() for item in value
+    ):
+        raise ValueError(f"{key} must be an array of non-empty strings")
+    normalized = tuple(dict.fromkeys(item.strip() for item in value))
+    if not normalized and not allow_empty:
+        raise ValueError(f"{key} must not be empty")
+    return normalized
+
+
 def _optional_string(value: Any) -> str | None:
     if value is None:
         return None
@@ -365,7 +491,12 @@ def _positive_float(
     raw: Mapping[str, Any], key: str, *, default: float
 ) -> float:
     value = raw.get(key, default)
-    if isinstance(value, bool) or not isinstance(value, (int, float)) or value <= 0:
+    if (
+        isinstance(value, bool)
+        or not isinstance(value, (int, float))
+        or not math.isfinite(float(value))
+        or value <= 0
+    ):
         raise ValueError(f"{key} must be a positive number")
     return float(value)
 

@@ -106,7 +106,13 @@ class CampaignBrief:
     language: str
     tone: str
     geography: str | None = None
+    target_content_languages: tuple[str, ...] = ()
+    delivery_markets: tuple[str, ...] = ()
     prohibited_claims: tuple[str, ...] = ()
+    preferred_geographies: tuple[str, ...] = ()
+    collaboration_type: str = ""
+    automatic_outreach: bool = False
+    manual_review_required: bool = True
 
     @classmethod
     def from_dict(cls, raw: Mapping[str, Any]) -> "CampaignBrief":
@@ -128,15 +134,79 @@ class CampaignBrief:
         geography = raw.get("geography")
         if geography is not None and not isinstance(geography, str):
             raise ValueError("campaign.geography must be a string or null")
+        normalized_geography = (
+            geography.strip() if isinstance(geography, str) else None
+        )
+        target_languages = _campaign_string_list(
+            raw,
+            "target_content_languages",
+            fallback=(values["language"],),
+        )
+        delivery_markets = _campaign_string_list(
+            raw,
+            "delivery_markets",
+            fallback=(
+                (normalized_geography,) if normalized_geography else ()
+            ),
+            allow_empty=True,
+        )
+        if values["language"].casefold() not in {
+            item.casefold() for item in target_languages
+        }:
+            raise ValueError(
+                "campaign.language must be included in "
+                "campaign.target_content_languages"
+            )
+        if normalized_geography and normalized_geography.casefold() not in {
+            item.casefold() for item in delivery_markets
+        }:
+            raise ValueError(
+                "campaign.geography must be included in "
+                "campaign.delivery_markets"
+            )
         claims = raw.get("prohibited_claims", ())
         if not isinstance(claims, (list, tuple)) or not all(
             isinstance(item, str) for item in claims
         ):
             raise ValueError("campaign.prohibited_claims must be an array of strings")
+        preferred_geographies = _campaign_string_list(
+            raw,
+            "preferred_geographies",
+            fallback=(),
+            allow_empty=True,
+        )
+        collaboration_type = raw.get(
+            "collaboration_type", values["barter_item"]
+        )
+        if (
+            not isinstance(collaboration_type, str)
+            or not collaboration_type.strip()
+        ):
+            raise ValueError(
+                "campaign.collaboration_type must be a non-empty string"
+            )
+        automatic_outreach = raw.get("automatic_outreach", False)
+        if automatic_outreach is not False:
+            raise ValueError(
+                "campaign.automatic_outreach must be false; Phase B never sends"
+            )
+        manual_review_required = raw.get(
+            "manual_review_required", True
+        )
+        if manual_review_required is not True:
+            raise ValueError(
+                "campaign.manual_review_required must be true"
+            )
         return cls(
             **values,
-            geography=geography.strip() if isinstance(geography, str) else None,
+            geography=normalized_geography,
+            target_content_languages=target_languages,
+            delivery_markets=delivery_markets,
             prohibited_claims=tuple(item.strip() for item in claims if item.strip()),
+            preferred_geographies=preferred_geographies,
+            collaboration_type=collaboration_type.strip(),
+            automatic_outreach=False,
+            manual_review_required=True,
         )
 
     def to_dict(self) -> dict[str, Any]:
@@ -155,9 +225,12 @@ class QuerySpec:
     audience_min: int | None = None
     audience_max: int | None = None
     required_signals: tuple[str, ...] = ()
+    query_text_override: str | None = None
 
     @property
     def query_text(self) -> str:
+        if self.query_text_override and self.query_text_override.strip():
+            return self.query_text_override.strip()
         parts = [*self.search_terms, *(f"#{tag.lstrip('#')}" for tag in self.hashtags)]
         if self.geography:
             parts.append(self.geography)
@@ -165,6 +238,8 @@ class QuerySpec:
 
     def to_dict(self) -> dict[str, Any]:
         result = _serialize(self)
+        if result.get("query_text_override") is None:
+            result.pop("query_text_override", None)
         result["query_text"] = self.query_text
         return result
 
@@ -260,6 +335,7 @@ class RecentPost:
         elif post_format not in {"short_video", "video", "carousel", "image"}:
             post_format = "unknown"
         url = raw.get("url", raw.get("post_url"))
+        issues.extend(_string_tuple(raw.get("validation_issues")))
         return cls(
             post_id=(
                 str(raw.get("post_id") or raw.get("id") or raw.get("shortCode"))
@@ -282,7 +358,7 @@ class RecentPost:
                     raw.get("paid_partnership", raw.get("paidPartnership", False))
                 )
             ),
-            validation_issues=tuple(issues),
+            validation_issues=tuple(dict.fromkeys(issues)),
         )
 
     def to_dict(self) -> dict[str, Any]:
@@ -306,6 +382,80 @@ class CreatorProfile:
     query_ids: tuple[str, ...] = ()
     collected_at: datetime | None = None
     validation_issues: tuple[str, ...] = ()
+
+    @classmethod
+    def from_dict(cls, raw: Mapping[str, Any]) -> "CreatorProfile":
+        """Restore a normalized profile from a saved provider artifact.
+
+        The loader is intentionally lossless for usernames and URLs: it does
+        not strip punctuation, dots, or underscores from the saved identity.
+        """
+
+        identity_raw = raw.get("identity")
+        if not isinstance(identity_raw, Mapping):
+            raise ValueError("saved profile.identity must be an object")
+        required_identity = (
+            "platform",
+            "username",
+            "normalized_username",
+            "profile_url",
+            "canonical_profile_url",
+        )
+        missing = [
+            field
+            for field in required_identity
+            if not isinstance(identity_raw.get(field), str)
+            or not str(identity_raw.get(field)).strip()
+        ]
+        if missing:
+            raise ValueError(
+                "saved profile.identity is missing required field(s): "
+                + ", ".join(missing)
+            )
+        recent_posts_raw = raw.get("recent_posts", ())
+        if not isinstance(recent_posts_raw, (list, tuple)):
+            raise ValueError("saved profile.recent_posts must be an array")
+        if not all(isinstance(item, Mapping) for item in recent_posts_raw):
+            raise ValueError(
+                "saved profile.recent_posts entries must be objects"
+            )
+        return cls(
+            identity=CandidateIdentity(
+                platform=str(identity_raw["platform"]),
+                username=str(identity_raw["username"]),
+                normalized_username=str(identity_raw["normalized_username"]),
+                profile_url=str(identity_raw["profile_url"]),
+                canonical_profile_url=str(
+                    identity_raw["canonical_profile_url"]
+                ),
+                query_ids=_string_tuple(identity_raw.get("query_ids")),
+                provider_ids=_string_tuple(identity_raw.get("provider_ids")),
+                identity_conflict=bool(
+                    optional_bool(
+                        identity_raw.get("identity_conflict", False)
+                    )
+                ),
+            ),
+            full_name=str(raw.get("full_name") or ""),
+            biography=str(raw.get("biography") or ""),
+            followers=non_negative_int(raw.get("followers")),
+            posts_count=non_negative_int(raw.get("posts_count")),
+            private=optional_bool(raw.get("private")),
+            accessible=optional_bool(raw.get("accessible")),
+            recent_posts=tuple(
+                RecentPost.from_dict(item, index=index)
+                for index, item in enumerate(recent_posts_raw)
+            ),
+            external_urls=_string_tuple(raw.get("external_urls")),
+            provider=str(raw.get("provider") or "unknown"),
+            provider_run_ids=_string_tuple(raw.get("provider_run_ids")),
+            provider_identity_confidence=float(
+                raw.get("provider_identity_confidence") or 0.0
+            ),
+            query_ids=_string_tuple(raw.get("query_ids")),
+            collected_at=parse_datetime(raw.get("collected_at")),
+            validation_issues=_string_tuple(raw.get("validation_issues")),
+        )
 
     def to_dict(self) -> dict[str, Any]:
         return _serialize(self)
@@ -455,6 +605,23 @@ class CandidateResult:
     collected_at: datetime
     offer_generation_mode: str
     source_exclusion_check: str
+    account_type: str = "unclear"
+    account_type_explanation: str = ""
+    barter_feasibility_review_required: bool = False
+    barter_feasibility_explanation: str = ""
+    content_themes: tuple[str, ...] = ()
+    known_format_posts: int = 0
+    detected_content_language: str = "undetermined"
+    campaign_language_compatible: bool = False
+    detected_geography: str | None = None
+    delivery_market_review_required: bool = True
+    compatibility_explanation: str = ""
+    barter_evidence: tuple[SignalEvidence, ...] = ()
+    no_barter_evidence: tuple[SignalEvidence, ...] = ()
+    campaign_bucket: str = ""
+    campaign_status_reasons: tuple[str, ...] = ()
+    alternative_campaign_note: str = ""
+    outreach_status: str = "not_sent"
 
     def __post_init__(self) -> None:
         manual_status = (
@@ -475,6 +642,33 @@ class CandidateResult:
             raise ValueError("data_completeness must be in the range 0-1")
         if abs(self.score - sum(item.score for item in self.score_components)) > 0.011:
             raise ValueError("score must equal score_components total")
+        allowed_account_types = {
+            "personal_creator",
+            "brand",
+            "marketplace",
+            "store",
+            "showroom",
+            "agency_or_platform",
+            "thematic_non_personal_page",
+            "professional_portfolio",
+            "unclear",
+        }
+        if self.account_type not in allowed_account_types:
+            raise ValueError(f"unsupported account_type: {self.account_type}")
+        allowed_buckets = {
+            "",
+            "barter_ready",
+            "needs_manual_review",
+            "ineligible_or_insufficient",
+        }
+        if self.campaign_bucket not in allowed_buckets:
+            raise ValueError(
+                f"unsupported campaign_bucket: {self.campaign_bucket}"
+            )
+        if self.outreach_status != "not_sent":
+            raise ValueError(
+                "Phase B supports drafts only; outreach_status must be not_sent"
+            )
 
     def to_dict(self) -> dict[str, Any]:
         return _serialize(self)
@@ -495,6 +689,12 @@ class PhaseBRunManifest:
     errors: list[dict[str, Any]] = field(default_factory=list)
     artifacts: dict[str, str] = field(default_factory=dict)
     cache: dict[str, int] = field(default_factory=dict)
+    offline_reselection: bool = False
+    source_run_id: str | None = None
+    source_run_path: str | None = None
+    provider_requests_made: int = 0
+    budget_spent_usd: float = 0.0
+    review_summary: dict[str, Any] = field(default_factory=dict)
 
     @classmethod
     def started(
@@ -513,10 +713,38 @@ class PhaseBRunManifest:
         return _serialize(self)
 
 
+def _campaign_string_list(
+    raw: Mapping[str, Any],
+    key: str,
+    *,
+    fallback: tuple[str, ...],
+    allow_empty: bool = False,
+) -> tuple[str, ...]:
+    value = raw.get(key)
+    if value is None:
+        return fallback
+    if not isinstance(value, (list, tuple)) or not all(
+        isinstance(item, str) and item.strip() for item in value
+    ):
+        raise ValueError(
+            f"campaign.{key} must be an array of non-empty strings"
+        )
+    normalized = tuple(
+        dict.fromkeys(item.strip() for item in value)
+    )
+    if not normalized and not allow_empty:
+        raise ValueError(f"campaign.{key} must not be empty")
+    return normalized
+
+
 def _string_tuple(value: Any) -> tuple[str, ...]:
     if not isinstance(value, (list, tuple)):
         return ()
-    return tuple(str(item) for item in value if item not in (None, ""))
+    return tuple(
+        item.strip()
+        for item in value
+        if isinstance(item, str) and item.strip()
+    )
 
 
 def _tagged_tuple(value: Any) -> tuple[str, ...]:

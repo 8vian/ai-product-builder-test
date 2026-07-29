@@ -1,0 +1,119 @@
+{
+  "schema_version": 1,
+  "source_run_id": "live-20260728T211907Z",
+  "campaign": {
+    "brand": "LD Latte",
+    "category": "женская одежда",
+    "barter_offer": "товар из новой коллекции в обмен на согласованный Reels или нативный обзор"
+  },
+  "decisions": [
+    {
+      "username": "verkhovskaya_style",
+      "action": "select",
+      "selection_order": 1,
+      "manual_verification_status": "approved",
+      "first_name": "Катя",
+      "selected_post_url": "https://www.instagram.com/p/DZE_YfrDegn/",
+      "post_evidence_summary": "В сохранённой публикации Катя прямо разбирает постстилизацию как заключительный этап работы с гардеробом.",
+      "offer_personalization": "Нам близок ваш практичный подход к гардеробу занятых женщин и специализация на plus-size. Особенно откликнулась сохранённая публикация о постстилизации как важном завершающем этапе работы с вещами.",
+      "offer_closing": "Если вам откликается идея, обсудим размер, подходящую модель из новой коллекции, сроки и формат публикации.",
+      "decision_reason": "Ручная проверка подтвердила персонального стилиста с прямым контекстом женской одежды, гардероба и plus-size.",
+      "verification_notes": "Ручная проверка пройдена; профиль включён в финальную подборку. Черновик не отправлен."
+    },
+    {
+      "username": "olganemka_stylist",
+      "action": "select",
+      "selection_order": 2,
+      "manual_verification_status": "approved",
+      "first_name": "Ольга",
+      "selected_post_url": "https://www.instagram.com/p/DbSlmTzNZUg/",
+      "post_evidence_summary": "В сохранённом Reels Ольга подчёркивает, что базовый гардероб должен быть персональным, а не набором безликих вещей.",
+      "offer_personalization": "Нам близок ваш экспертный взгляд на статусный и при этом персональный гардероб для женщин 35+. В сохранённом Reels особенно понравилась мысль, что база должна отражать конкретную женщину, а не быть набором безликих вещей.",
+      "offer_closing": "Если вам интересно, предложим несколько вещей новой коллекции под вашу стилистику и вместе согласуем размер, сроки и формат публикации.",
+      "decision_reason": "Ручная проверка подтвердила персонального стилиста с прямым недавним контентом о женском гардеробе и образах.",
+      "verification_notes": "Ручная проверка пройдена; профиль включён в финальную подборку. Черновик не отправлен."
+    },
+    {
+      "username": "angelashegiryan",
+      "action": "select",
+      "selection_order": 3,
+      "manual_verification_status": "pending",
+      "first_name": "Ангела",
+      "selected_post_url": "https://www.instagram.com/p/DbTRVFYtEgD/",
+      "post_evidence_summary": "В сохранённом Reels Ангела нативно рассказывает о костюме, посадке, ткани и крое через личную историю с примеркой.",
+      "offer_personalization": "Нам близок ваш подход к вещам, которые остаются актуальными дольше одного сезона. Сохранённая история о костюме, который захотела примерить и ваша мама, хорошо показывает, как вы нативно раскрываете посадку, ткань и крой через личный опыт.",
+      "offer_closing": "Если предложение вам подходит, будем рады через вашего менеджера согласовать возможность бартера, выбранную вещь, сроки, формат интеграции и состав предоставляемого контента.",
+      "decision_reason": "Ручная проверка подтвердила сильный персональный fashion-профиль и независимое постовое доказательство нативной интеграции одежды; условия бартера требуют согласования с менеджером.",
+      "verification_notes": "Требуется согласовать с менеджером возможность бартера, формат интеграции и состав предоставляемого контента"
+    },
+    {
+      "username": "ayuma.style",
+      "action": "reject",
+      "manual_verification_status": "rejected",
+      "reason_code": "commercial_conflict_own_fashion_brand",
+      "commercial_conflict_account": "@dorogaya.brand",
+      "conflict_evidence_text": "дизайнер и создатель @dorogaya.brand",
+      "decision_reason": "Собственный бренд женской одежды создаёт прямой коммерческий конфликт для бартерной кампании LD Latte."
+    },
+    {
+      "username": "miss_sunrise9",
+      "action": "reject",
+      "manual_verification_status": "rejected",
+      "reason_code": "commercial_conflict_clothing_showroom",
+      "commercial_conflict_account": "@peperoncino_shop_italy_",
+      "conflict_evidence_text": "Владелица шоурума итальянской одежды в Москве @peperoncino_shop_italy_",
+      "decision_reason": "Владение шоурумом женской одежды создаёт прямой коммерческий конфликт для бартерной кампании LD Latte."
+    },
+    {
+      "username": "stylistelenaialena",
+      "action": "reject",
+      "manual_verification_status": "rejected",
+      "reason_code": "professional_portfolio_not_influencer_creator",
+      "decision_reason": "professional_portfolio_not_influencer_creator",
+      "decision_explanation": "Сохранённые профиль и публикации показывают профессиональное портфолио стилиста и художника по костюму с fashion/commercial shoots; в выборке только 2 из 12 публикаций имеют short-video формат, а 10 форматов неизвестны, поэтому недостаточно evidence регулярного influencer/blogger-контента для собственной аудитории.",
+      "verification_notes": "Ручная проверка: профессиональное портфолио, не influencer creator для текущей кампании; оффер не генерировался.",
+      "manual_exclusion_evidence": [
+        {
+          "signal_type": "professional_specialization",
+          "source_field": "profile.full_name",
+          "source_reference": "profile",
+          "evidence_text": "Стилист. Художник по костюму",
+          "url": "https://www.instagram.com/stylistelenaialena/",
+          "observation_type": "direct"
+        },
+        {
+          "signal_type": "portfolio_commercial_shoots",
+          "source_field": "profile.biography",
+          "source_reference": "profile",
+          "evidence_text": "Создаю образы для fashion-съёмок, рекламы, кино, частных клиентов.",
+          "url": "https://www.instagram.com/stylistelenaialena/",
+          "observation_type": "direct"
+        },
+        {
+          "signal_type": "portfolio_commercial_shoots",
+          "source_field": "profile.recent_posts.caption",
+          "source_reference": "3856209769979766589",
+          "evidence_text": "Our current collection, available exclusively upon request\n\nFashion @agnes.co.il \nStylist @stylistelenaialena \nPhotography @stylistelenaialena \nModel @oliaskliarenko",
+          "url": "https://www.instagram.com/p/DWEAlrPCOc9/",
+          "observation_type": "direct"
+        },
+        {
+          "signal_type": "regular_short_video_content",
+          "source_field": "candidate.metrics.short_video_share",
+          "source_reference": "stylistelenaialena",
+          "evidence_text": "Observed 2 short-video posts out of 12 sampled posts (share 0.166667).",
+          "url": "https://www.instagram.com/stylistelenaialena/",
+          "observation_type": "derived"
+        },
+        {
+          "signal_type": "influencer_format_gap",
+          "source_field": "candidate.metrics.post_format_distribution",
+          "source_reference": "stylistelenaialena",
+          "evidence_text": "Observed 2 posts with known post format and 10 with unknown post format out of 12 sampled posts.",
+          "url": "https://www.instagram.com/stylistelenaialena/",
+          "observation_type": "derived"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,250 @@
+[
+  {
+    "id": "profile-001",
+    "username": "contract.creator__",
+    "url": "https://www.instagram.com/contract.creator__/",
+    "fullName": "Contract Creator",
+    "biography": "Fashion creator, reviews and collaborations",
+    "followersCount": 14200,
+    "postsCount": 187,
+    "private": false,
+    "externalUrls": [
+      {
+        "title": "Portfolio",
+        "url": "https://creator.example/portfolio",
+        "lynx_url": "https://l.instagram.com/?u=https%3A%2F%2Fcreator.example%2Fportfolio"
+      },
+      {
+        "title": "Contact",
+        "lynx_url": "https://l.instagram.com/?u=https%3A%2F%2Ft.me%2Fcontract_creator"
+      },
+      {
+        "title": "Invalid",
+        "url": "not-a-url"
+      }
+    ],
+    "latestPosts": [
+      {
+        "id": "contract-post-01",
+        "url": "https://www.instagram.com/p/contractpost01/",
+        "caption": "Распаковка новой коллекции и примерка трёх образов",
+        "likesCount": 620,
+        "commentsCount": 31,
+        "timestamp": "2026-07-24T12:00:00.000Z",
+        "productType": "clips",
+        "mentions": ["demo_brand"],
+        "hashtags": ["fashion", "review"],
+        "taggedUsers": [
+          {
+            "id": "tagged-001",
+            "username": "demo_brand",
+            "full_name": "Demo Brand"
+          }
+        ]
+      },
+      {
+        "id": "contract-post-02",
+        "url": "https://www.instagram.com/p/contractpost02/",
+        "caption": "Обзор деталей изделия",
+        "likesCount": -1,
+        "commentsCount": 24,
+        "timestamp": "2026-07-19T12:00:00.000Z",
+        "productType": "image",
+        "mentions": [],
+        "hashtags": ["style"],
+        "taggedUsers": []
+      },
+      {
+        "id": "contract-post-03",
+        "url": "https://www.instagram.com/p/contractpost03/",
+        "caption": "Reels с идеями стилизации",
+        "likesCount": 580,
+        "commentsCount": 29,
+        "timestamp": "2026-07-14T12:00:00.000Z",
+        "productType": "clips",
+        "mentions": [],
+        "hashtags": ["reels", "style"],
+        "taggedUsers": []
+      },
+      {
+        "id": "contract-post-04",
+        "url": "https://www.instagram.com/p/contractpost04/",
+        "caption": "Нативный обзор образа",
+        "likesCount": 540,
+        "commentsCount": 27,
+        "timestamp": "2026-07-09T12:00:00.000Z",
+        "productType": "image",
+        "mentions": [],
+        "hashtags": ["fashion"],
+        "taggedUsers": []
+      },
+      {
+        "id": "contract-post-05",
+        "url": "https://www.instagram.com/p/contractpost05/",
+        "caption": "Примерка капсулы",
+        "likesCount": 510,
+        "commentsCount": 25,
+        "timestamp": "2026-07-04T12:00:00.000Z",
+        "productType": "clips",
+        "mentions": [],
+        "hashtags": ["tryon"],
+        "taggedUsers": []
+      },
+      {
+        "id": "contract-post-06",
+        "url": "https://www.instagram.com/p/contractpost06/",
+        "caption": "Подборка летних образов",
+        "likesCount": 490,
+        "commentsCount": 23,
+        "timestamp": "2026-06-29T12:00:00.000Z",
+        "productType": "image",
+        "mentions": [],
+        "hashtags": ["outfit"],
+        "taggedUsers": []
+      },
+      {
+        "id": "contract-post-07",
+        "url": "https://www.instagram.com/p/contractpost07/",
+        "caption": "Видео с вариантами сочетаний",
+        "likesCount": 470,
+        "commentsCount": 21,
+        "timestamp": "2026-06-24T12:00:00.000Z",
+        "productType": "clips",
+        "mentions": [],
+        "hashtags": ["reels"],
+        "taggedUsers": []
+      }
+    ]
+  },
+  {
+    "id": "profile-private-001",
+    "username": "private.contract_",
+    "url": "https://www.instagram.com/private.contract_/",
+    "fullName": "Private Contract",
+    "biography": "Private fashion profile",
+    "followersCount": 6400,
+    "postsCount": 91,
+    "private": true,
+    "externalUrls": [],
+    "latestPosts": [
+      {
+        "id": "private-post-01",
+        "url": "https://www.instagram.com/p/privatepost01/",
+        "caption": "Fashion review",
+        "likesCount": 210,
+        "commentsCount": 12,
+        "timestamp": "2026-07-24T10:00:00.000Z",
+        "productType": "clips",
+        "mentions": [],
+        "hashtags": ["fashion"],
+        "taggedUsers": []
+      },
+      {
+        "id": "private-post-02",
+        "url": "https://www.instagram.com/p/privatepost02/",
+        "caption": "Fashion review",
+        "likesCount": 205,
+        "commentsCount": 11,
+        "timestamp": "2026-07-20T10:00:00.000Z",
+        "productType": "image",
+        "mentions": [],
+        "hashtags": ["fashion"],
+        "taggedUsers": []
+      },
+      {
+        "id": "private-post-03",
+        "url": "https://www.instagram.com/p/privatepost03/",
+        "caption": "Fashion review",
+        "likesCount": 200,
+        "commentsCount": 10,
+        "timestamp": "2026-07-16T10:00:00.000Z",
+        "productType": "clips",
+        "mentions": [],
+        "hashtags": ["fashion"],
+        "taggedUsers": []
+      },
+      {
+        "id": "private-post-04",
+        "url": "https://www.instagram.com/p/privatepost04/",
+        "caption": "Fashion review",
+        "likesCount": 195,
+        "commentsCount": 9,
+        "timestamp": "2026-07-12T10:00:00.000Z",
+        "productType": "image",
+        "mentions": [],
+        "hashtags": ["fashion"],
+        "taggedUsers": []
+      },
+      {
+        "id": "private-post-05",
+        "url": "https://www.instagram.com/p/privatepost05/",
+        "caption": "Fashion review",
+        "likesCount": 190,
+        "commentsCount": 8,
+        "timestamp": "2026-07-08T10:00:00.000Z",
+        "productType": "clips",
+        "mentions": [],
+        "hashtags": ["fashion"],
+        "taggedUsers": []
+      },
+      {
+        "id": "private-post-06",
+        "url": "https://www.instagram.com/p/privatepost06/",
+        "caption": "Fashion review",
+        "likesCount": 185,
+        "commentsCount": 7,
+        "timestamp": "2026-07-04T10:00:00.000Z",
+        "productType": "image",
+        "mentions": [],
+        "hashtags": ["fashion"],
+        "taggedUsers": []
+      }
+    ]
+  },
+  {
+    "username": "error.contract_",
+    "url": "https://www.instagram.com/error.contract_/",
+    "error": "Profile could not be loaded"
+  },
+  {
+    "username": "description.error_",
+    "url": "https://www.instagram.com/description.error_/",
+    "errorDescription": "Instagram returned no usable profile data"
+  },
+  {
+    "id": "profile-malformed-url",
+    "username": "malformed.url_",
+    "url": "not-an-instagram-url",
+    "fullName": "Malformed URL",
+    "biography": "Malformed contract case",
+    "followersCount": 3100,
+    "postsCount": 40,
+    "private": false,
+    "externalUrls": [],
+    "latestPosts": []
+  },
+  {
+    "id": "profile-restricted",
+    "username": "restricted.contract_",
+    "url": "https://www.instagram.com/restricted.contract_/",
+    "fullName": "Restricted Contract",
+    "biography": "Restricted contract case",
+    "followersCount": 4200,
+    "postsCount": 52,
+    "private": false,
+    "restricted": true,
+    "externalUrls": [],
+    "latestPosts": []
+  },
+  {
+    "id": "profile-missing-core",
+    "username": "missing.core_",
+    "url": "https://www.instagram.com/missing.core_/",
+    "fullName": "Missing Core Contract",
+    "biography": "Core-field contract case",
+    "postsCount": 20,
+    "private": false,
+    "externalUrls": [],
+    "latestPosts": []
+  }
+]

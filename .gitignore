@@ -6,3 +6,4 @@ __pycache__/
 .env
 
 config/phase_b.live.json
+config/phase_b.live.ru.json

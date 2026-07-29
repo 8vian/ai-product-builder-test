@@ -38,6 +38,8 @@ _COLUMN_WIDTHS = {
     "platform": 12,
     "username": 24,
     "profile_url": 36,
+    "account_type": 25,
+    "account_type_explanation": 55,
     "followers": 14,
     "median_likes": 14,
     "median_comments": 16,
@@ -55,6 +57,21 @@ _COLUMN_WIDTHS = {
     "barter_offer": 70,
     "manual_verification_status": 25,
     "verification_notes": 45,
+    "outreach_status": 18,
+    "barter_feasibility_review_required": 23,
+    "barter_feasibility_explanation": 55,
+    "content_themes": 24,
+    "known_format_posts": 18,
+    "detected_content_language": 24,
+    "campaign_language_compatible": 26,
+    "detected_geography": 24,
+    "delivery_market_review_required": 27,
+    "compatibility_explanation": 60,
+    "barter_evidence": 50,
+    "no_barter_evidence": 50,
+    "campaign_bucket": 26,
+    "campaign_status_reasons": 55,
+    "alternative_campaign_note": 55,
     "discovery_confidence": 19,
     "eligibility_status": 18,
     "eligibility_reasons": 45,
@@ -101,7 +118,7 @@ def _clear_candidate_area(worksheet: Any) -> None:
     max_column = max(worksheet.max_column, len(PHASE_B_COLUMNS))
     for row in worksheet.iter_rows(
         min_row=1,
-        max_row=max(worksheet.max_row, 1),
+        max_row=1,
         min_col=1,
         max_col=max_column,
     ):
@@ -109,6 +126,8 @@ def _clear_candidate_area(worksheet: Any) -> None:
             cell.value = None
             cell.hyperlink = None
             cell.comment = None
+    if worksheet.max_row > 1:
+        worksheet.delete_rows(2, worksheet.max_row - 1)
 
     worksheet.data_validations = DataValidationList()
     worksheet.conditional_formatting = ConditionalFormattingList()
@@ -257,6 +276,7 @@ def write_candidates_workbook(
     candidates: Iterable[Any],
     *,
     sheet_name: str = DEFAULT_SHEET_NAME,
+    preserve_existing_manual_values: bool = True,
 ) -> Path:
     """Copy a workbook and replace only its dedicated Phase B candidate table.
 
@@ -278,7 +298,11 @@ def write_candidates_workbook(
         if sheet_name in workbook.sheetnames
         else workbook.create_sheet(sheet_name)
     )
-    preserved = _existing_manual_values(worksheet)
+    preserved = (
+        _existing_manual_values(worksheet)
+        if preserve_existing_manual_values
+        else {}
+    )
     items = [_apply_manual_values(candidate, preserved) for candidate in candidates]
 
     _clear_candidate_area(worksheet)

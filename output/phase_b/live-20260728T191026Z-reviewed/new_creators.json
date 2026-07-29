@@ -1,0 +1,1904 @@
+[
+  {
+    "account_type": "personal_creator",
+    "account_type_explanation": "Manual review override: Manual verification confirmed a real personal beauty creator.",
+    "barter_feasibility_explanation": "Audience requires manual barter review: 777,795 followers exceed the frozen Phase A outer fence q3 + 3×IQR = 82,754.5 + 3×(82,754.5 - 9,781.0) = 301,675.0.",
+    "barter_feasibility_review_required": true,
+    "barter_offer": "Здравствуйте, Beauty Expert | Content Creator!\n\nУвидели вашу недавнюю публикацию «Я ПЛАЧУ💔Нет большей награды для преподавателя, чем читать такие сообщения от своих учениц. ❤️ Каждый такой от…»: https://www.instagram.com/p/DbAnTyEFNyl/\nНам кажется, такой формат контента может естественно сочетаться с категорией «женская одежда».\n\nМы — LD Latte. Хотим предложить для обсуждения товар бренда в обмен на согласованный контент: товар из новой коллекции LD Latte. Если идея вам интересна, возможный формат — Reels или нативный обзор; детали и творческую подачу согласуем вместе.\n\nБудем рады обсудить предложение, если оно вам подходит; никаких обязательств до согласования условий нет.\n\n[Черновик: требуется ручная проверка и одобрение перед использованием.]",
+    "collected_at": "2026-07-28T19:11:52.795572+00:00",
+    "data_completeness": 1.0,
+    "discovery_confidence": 0.866667,
+    "eligibility_reasons": [],
+    "eligibility_status": "eligible",
+    "engagement_rate": 2.511137253389389,
+    "evidence": [
+      {
+        "evidence_text": "Matched explicit term: collab",
+        "observation_type": "direct",
+        "signal_type": "commercial_pr",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/bainur_beauty/"
+      },
+      {
+        "evidence_text": "Matched explicit term: pr",
+        "observation_type": "direct",
+        "signal_type": "commercial_pr",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/bainur_beauty/"
+      },
+      {
+        "evidence_text": "Matched explicit term: бартер",
+        "observation_type": "direct",
+        "signal_type": "commercial_pr",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3947608460409364383",
+        "url": "https://www.instagram.com/p/DbIuPq7Bt-f/"
+      },
+      {
+        "evidence_text": "Observed email address: pr@bainurbeauty.com",
+        "observation_type": "direct",
+        "signal_type": "contact",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/bainur_beauty/"
+      },
+      {
+        "evidence_text": "Matched explicit term: лук",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3930213720923595839",
+        "url": "https://www.instagram.com/p/DaK7I5XBGQ_/"
+      },
+      {
+        "evidence_text": "Observed direct fashion evidence: джинс",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3936012090552384640",
+        "url": "https://www.instagram.com/p/DafhiR5BHyA/"
+      },
+      {
+        "evidence_text": "Observed direct fashion evidence: каблук",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3930213720923595839",
+        "url": "https://www.instagram.com/p/DaK7I5XBGQ_/"
+      },
+      {
+        "evidence_text": "Matched explicit term: beauty",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "full_name",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/bainur_beauty/"
+      },
+      {
+        "evidence_text": "Matched explicit term: beauty",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/bainur_beauty/"
+      },
+      {
+        "evidence_text": "Matched explicit term: макияж",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/bainur_beauty/"
+      },
+      {
+        "evidence_text": "Matched explicit term: уход",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/bainur_beauty/"
+      },
+      {
+        "evidence_text": "Matched explicit term: визаж",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/bainur_beauty/"
+      },
+      {
+        "evidence_text": "Matched explicit term: космет",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3945326156816112805",
+        "url": "https://www.instagram.com/p/DbAnTyEFNyl/"
+      },
+      {
+        "evidence_text": "Matched explicit term: макияж",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3945326156816112805",
+        "url": "https://www.instagram.com/p/DbAnTyEFNyl/"
+      },
+      {
+        "evidence_text": "Matched explicit term: макияж",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3935245478177213272",
+        "url": "https://www.instagram.com/p/DaczOmetwtY/"
+      },
+      {
+        "evidence_text": "Observed direct beauty evidence: макияж, уход, визажист",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/bainur_beauty/"
+      },
+      {
+        "evidence_text": "Observed direct beauty evidence: макияж, косметик",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3945326156816112805",
+        "url": "https://www.instagram.com/p/DbAnTyEFNyl/"
+      },
+      {
+        "evidence_text": "Observed direct beauty evidence: макияж",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3935245478177213272",
+        "url": "https://www.instagram.com/p/DaczOmetwtY/"
+      },
+      {
+        "evidence_text": "Matched explicit term: content creator",
+        "observation_type": "direct",
+        "signal_type": "ugc",
+        "source_field": "full_name",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/bainur_beauty/"
+      },
+      {
+        "evidence_text": "Observed tagged account(s): adan.berg, bonbonofficiall",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.tagged_usernames",
+        "source_reference": "3936738135145500841",
+        "url": "https://www.instagram.com/p/DaiGnnnFNCp/"
+      },
+      {
+        "evidence_text": "Observed personal-author phrase: лично от меня",
+        "observation_type": "direct",
+        "signal_type": "account_type_personal",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/bainur_beauty/"
+      },
+      {
+        "evidence_text": "Observed personal-author phrase: визажист",
+        "observation_type": "direct",
+        "signal_type": "account_type_personal",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/bainur_beauty/"
+      },
+      {
+        "evidence_text": "Observed personal-author phrase: content creator",
+        "observation_type": "direct",
+        "signal_type": "account_type_personal",
+        "source_field": "full_name",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/bainur_beauty/"
+      },
+      {
+        "evidence_text": "Observed personal-author phrase: beauty expert",
+        "observation_type": "direct",
+        "signal_type": "account_type_personal",
+        "source_field": "full_name",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/bainur_beauty/"
+      },
+      {
+        "evidence_text": "Observed person-like profile name: Beauty Expert | Content Creator",
+        "observation_type": "derived",
+        "signal_type": "account_type_personal",
+        "source_field": "full_name",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/bainur_beauty/"
+      },
+      {
+        "evidence_text": "Manual verification confirmed a real personal beauty creator.",
+        "observation_type": "direct",
+        "signal_type": "manual_review",
+        "source_field": "manual_review",
+        "source_reference": "bainur_beauty",
+        "url": "https://www.instagram.com/bainur_beauty/"
+      },
+      {
+        "evidence_text": "0.40×provider identity (1.000) + 0.20×multi-query support (0.333; 1 distinct queries, full credit at 3) + 0.20×profile/post link verification (1.000) + 0.20×query relevance (1.000; 4 directly evidenced target dimensions) = 0.867.",
+        "observation_type": "derived",
+        "signal_type": "discovery_confidence",
+        "source_field": "provider_and_discovery",
+        "source_reference": "bainur_beauty",
+        "url": "https://www.instagram.com/bainur_beauty/"
+      },
+      {
+        "evidence_text": "Audience requires manual barter review: 777,795 followers exceed the frozen Phase A outer fence q3 + 3×IQR = 82,754.5 + 3×(82,754.5 - 9,781.0) = 301,675.0.",
+        "observation_type": "derived",
+        "signal_type": "barter_feasibility_review",
+        "source_field": "followers",
+        "source_reference": "bainur_beauty",
+        "url": "https://www.instagram.com/bainur_beauty/"
+      },
+      {
+        "evidence_text": "Saved post-format metadata is usable for 8/12 sampled posts; unknown formats are not counted as short video.",
+        "observation_type": "derived",
+        "signal_type": "post_format_completeness",
+        "source_field": "recent_posts.post_format",
+        "source_reference": "bainur_beauty",
+        "url": "https://www.instagram.com/bainur_beauty/"
+      },
+      {
+        "evidence_text": "Caption-derived topic excerpt used: Я ПЛАЧУ💔Нет большей награды для преподавателя, чем читать такие сообщения от своих учениц. ❤️ Каждый такой от…",
+        "observation_type": "direct",
+        "signal_type": "offer_personalization",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3945326156816112805",
+        "url": "https://www.instagram.com/p/DbAnTyEFNyl/"
+      },
+      {
+        "evidence_text": "Observed profile name used in greeting: Beauty Expert | Content Creator",
+        "observation_type": "direct",
+        "signal_type": "offer_greeting",
+        "source_field": "full_name",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/bainur_beauty/"
+      }
+    ],
+    "followers": 777795,
+    "last_post_date": "2026-07-26T12:06:47+00:00",
+    "manual_verification_status": "needs_review",
+    "median_comments": 852.5,
+    "median_likes": 18407.5,
+    "offer_generation_mode": "deterministic_template",
+    "platform": "instagram",
+    "profile_url": "https://www.instagram.com/bainur_beauty/",
+    "provider": "apify",
+    "query_ids": [
+      "beauty_lifestyle_01"
+    ],
+    "recent_post_url": "https://www.instagram.com/p/DbAnTyEFNyl/",
+    "sampled_posts": 12,
+    "score": 70.62,
+    "score_components": [
+      {
+        "evidence": [
+          {
+            "evidence_text": "Matched explicit term: лук",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3930213720923595839",
+            "url": "https://www.instagram.com/p/DaK7I5XBGQ_/"
+          },
+          {
+            "evidence_text": "Observed direct fashion evidence: джинс",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3936012090552384640",
+            "url": "https://www.instagram.com/p/DafhiR5BHyA/"
+          },
+          {
+            "evidence_text": "Observed direct fashion evidence: каблук",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3930213720923595839",
+            "url": "https://www.instagram.com/p/DaK7I5XBGQ_/"
+          },
+          {
+            "evidence_text": "Matched explicit term: beauty",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "full_name",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/bainur_beauty/"
+          },
+          {
+            "evidence_text": "Matched explicit term: beauty",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/bainur_beauty/"
+          },
+          {
+            "evidence_text": "Matched explicit term: макияж",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/bainur_beauty/"
+          },
+          {
+            "evidence_text": "Matched explicit term: уход",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/bainur_beauty/"
+          },
+          {
+            "evidence_text": "Matched explicit term: визаж",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/bainur_beauty/"
+          },
+          {
+            "evidence_text": "Matched explicit term: космет",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3945326156816112805",
+            "url": "https://www.instagram.com/p/DbAnTyEFNyl/"
+          },
+          {
+            "evidence_text": "Matched explicit term: макияж",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3945326156816112805",
+            "url": "https://www.instagram.com/p/DbAnTyEFNyl/"
+          },
+          {
+            "evidence_text": "Matched explicit term: макияж",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3935245478177213272",
+            "url": "https://www.instagram.com/p/DaczOmetwtY/"
+          },
+          {
+            "evidence_text": "Observed direct beauty evidence: макияж, уход, визажист",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/bainur_beauty/"
+          },
+          {
+            "evidence_text": "Observed direct beauty evidence: макияж, косметик",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3945326156816112805",
+            "url": "https://www.instagram.com/p/DbAnTyEFNyl/"
+          },
+          {
+            "evidence_text": "Observed direct beauty evidence: макияж",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3935245478177213272",
+            "url": "https://www.instagram.com/p/DaczOmetwtY/"
+          },
+          {
+            "evidence_text": "Matched explicit term: content creator",
+            "observation_type": "direct",
+            "signal_type": "ugc",
+            "source_field": "full_name",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/bainur_beauty/"
+          },
+          {
+            "evidence_text": "17.00/24 topical + 4.00/5 format readiness + 0.88/1 Nike/Apple format alignment.",
+            "observation_type": "derived",
+            "signal_type": "content_and_aesthetic_fit",
+            "source_field": "candidate_metrics",
+            "source_reference": "bainur_beauty",
+            "url": "https://www.instagram.com/bainur_beauty/"
+          }
+        ],
+        "explanation": "17.00/24 topical + 4.00/5 format readiness + 0.88/1 Nike/Apple format alignment.",
+        "max_score": 30.0,
+        "name": "content_and_aesthetic_fit",
+        "score": 21.88
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Matched explicit term: content creator",
+            "observation_type": "direct",
+            "signal_type": "ugc",
+            "source_field": "full_name",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/bainur_beauty/"
+          },
+          {
+            "evidence_text": "Matched explicit term: collab",
+            "observation_type": "direct",
+            "signal_type": "commercial_pr",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/bainur_beauty/"
+          },
+          {
+            "evidence_text": "Matched explicit term: pr",
+            "observation_type": "direct",
+            "signal_type": "commercial_pr",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/bainur_beauty/"
+          },
+          {
+            "evidence_text": "Matched explicit term: бартер",
+            "observation_type": "direct",
+            "signal_type": "commercial_pr",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3947608460409364383",
+            "url": "https://www.instagram.com/p/DbIuPq7Bt-f/"
+          },
+          {
+            "evidence_text": "Observed email address: pr@bainurbeauty.com",
+            "observation_type": "direct",
+            "signal_type": "contact",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/bainur_beauty/"
+          },
+          {
+            "evidence_text": "Observed tagged account(s): adan.berg, bonbonofficiall",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.tagged_usernames",
+            "source_reference": "3936738135145500841",
+            "url": "https://www.instagram.com/p/DaiGnnnFNCp/"
+          },
+          {
+            "evidence_text": "UGC=True, marketplace=False, commercial/PR=True, contact=True; 1/12 posts have independently observed native-integration evidence.",
+            "observation_type": "derived",
+            "signal_type": "native_product_integration_potential",
+            "source_field": "candidate_metrics",
+            "source_reference": "bainur_beauty",
+            "url": "https://www.instagram.com/bainur_beauty/"
+          }
+        ],
+        "explanation": "UGC=True, marketplace=False, commercial/PR=True, contact=True; 1/12 posts have independently observed native-integration evidence.",
+        "max_score": 20.0,
+        "name": "native_product_integration_potential",
+        "score": 12.67
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Short video share 0.667 × 15 = 10.00.",
+            "observation_type": "derived",
+            "signal_type": "short_video_consistency",
+            "source_field": "candidate_metrics",
+            "source_reference": "bainur_beauty",
+            "url": "https://www.instagram.com/bainur_beauty/"
+          }
+        ],
+        "explanation": "Short video share 0.667 × 15 = 10.00.",
+        "max_score": 15.0,
+        "name": "short_video_consistency",
+        "score": 10.0
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Frozen Phase A percentile 0.737732 × 15 = 11.07 raw; × completeness 12/12 (1.000000) = 11.07 adjusted.",
+            "observation_type": "derived",
+            "signal_type": "engagement",
+            "source_field": "candidate_metrics",
+            "source_reference": "bainur_beauty",
+            "url": "https://www.instagram.com/bainur_beauty/"
+          }
+        ],
+        "explanation": "Frozen Phase A percentile 0.737732 × 15 = 11.07 raw; × completeness 12/12 (1.000000) = 11.07 adjusted.",
+        "max_score": 15.0,
+        "name": "engagement",
+        "score": 11.07
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Matched explicit term: collab",
+            "observation_type": "direct",
+            "signal_type": "commercial_pr",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/bainur_beauty/"
+          },
+          {
+            "evidence_text": "Matched explicit term: pr",
+            "observation_type": "direct",
+            "signal_type": "commercial_pr",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/bainur_beauty/"
+          },
+          {
+            "evidence_text": "Matched explicit term: бартер",
+            "observation_type": "direct",
+            "signal_type": "commercial_pr",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3947608460409364383",
+            "url": "https://www.instagram.com/p/DbIuPq7Bt-f/"
+          },
+          {
+            "evidence_text": "Matched explicit term: content creator",
+            "observation_type": "direct",
+            "signal_type": "ugc",
+            "source_field": "full_name",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/bainur_beauty/"
+          },
+          {
+            "evidence_text": "1.0/5 for very large audience (>300k); commercial/PR=True (+2), UGC=True (+2), marketplace=False (+1).",
+            "observation_type": "derived",
+            "signal_type": "barter_feasibility",
+            "source_field": "candidate_metrics",
+            "source_reference": "bainur_beauty",
+            "url": "https://www.instagram.com/bainur_beauty/"
+          }
+        ],
+        "explanation": "1.0/5 for very large audience (>300k); commercial/PR=True (+2), UGC=True (+2), marketplace=False (+1).",
+        "max_score": 10.0,
+        "name": "barter_feasibility",
+        "score": 5.0
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "6.00/6 recency + 4.00/4 posting frequency.",
+            "observation_type": "derived",
+            "signal_type": "recent_activity",
+            "source_field": "candidate_metrics",
+            "source_reference": "bainur_beauty",
+            "url": "https://www.instagram.com/bainur_beauty/"
+          }
+        ],
+        "explanation": "6.00/6 recency + 4.00/4 posting frequency.",
+        "max_score": 10.0,
+        "name": "recent_activity",
+        "score": 10.0
+      }
+    ],
+    "selection_explanation": "Rank 1 of 5 eligible candidates: score 70.62/100, discovery confidence 0.867, data completeness 1.000, engagement rate 2.511%. Account type: personal_creator. Manual barter-feasibility review is required.",
+    "short_video_share": 0.6666666666666666,
+    "source_exclusion_check": "clear: rechecked against frozen Phase A usernames, URLs, historical aliases, replacements, rejected false leads, Nike, and Apple",
+    "usable_posts": 12,
+    "username": "bainur_beauty",
+    "verification_notes": "Needs review: 777,795 followers make barter realism uncertain, and a sampled caption explicitly states that the creator does not work on barter. Audience requires manual barter review: 777,795 followers exceed the frozen Phase A outer fence q3 + 3×IQR = 82,754.5 + 3×(82,754.5 - 9,781.0) = 301,675.0. Saved post-format metadata is usable for 8/12 sampled posts; unknown formats are not counted as short video."
+  },
+  {
+    "account_type": "personal_creator",
+    "account_type_explanation": "The profile contains auditable personal-author evidence.",
+    "barter_feasibility_explanation": "Audience does not exceed the frozen Phase A upper outer fence of 301,675.0 followers.",
+    "barter_feasibility_review_required": false,
+    "barter_offer": "Здравствуйте, Sayani Roy!\n\nУвидели вашу недавнюю публикацию «Comfort ❤️❤️ #reels #explore #trendingreels #trending #reelsvideo»: https://www.instagram.com/p/DbV3unITdlT/\nНам кажется, такой формат контента может естественно сочетаться с категорией «женская одежда».\n\nМы — LD Latte. Хотим предложить для обсуждения товар бренда в обмен на согласованный контент: товар из новой коллекции LD Latte. Если идея вам интересна, возможный формат — Reels или нативный обзор; детали и творческую подачу согласуем вместе.\n\nБудем рады обсудить предложение, если оно вам подходит; никаких обязательств до согласования условий нет.\n\n[Черновик: требуется ручная проверка и одобрение перед использованием.]",
+    "collected_at": "2026-07-28T19:11:52.795572+00:00",
+    "data_completeness": 1.0,
+    "discovery_confidence": 0.866667,
+    "eligibility_reasons": [],
+    "eligibility_status": "eligible",
+    "engagement_rate": 0.05192669681299898,
+    "evidence": [
+      {
+        "evidence_text": "Matched explicit term: collab",
+        "observation_type": "direct",
+        "signal_type": "commercial_pr",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/ugc_creator_sayani/"
+      },
+      {
+        "evidence_text": "Matched explicit term: barter",
+        "observation_type": "direct",
+        "signal_type": "commercial_pr",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/ugc_creator_sayani/"
+      },
+      {
+        "evidence_text": "Observed email address: roysayani003@gmail.com",
+        "observation_type": "direct",
+        "signal_type": "contact",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/ugc_creator_sayani/"
+      },
+      {
+        "evidence_text": "Matched explicit term: fashion",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/ugc_creator_sayani/"
+      },
+      {
+        "evidence_text": "Observed multi-dimensional target positioning: beauty, fashion",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/ugc_creator_sayani/"
+      },
+      {
+        "evidence_text": "Matched explicit term: beauty",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/ugc_creator_sayani/"
+      },
+      {
+        "evidence_text": "Matched explicit term: skin",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/ugc_creator_sayani/"
+      },
+      {
+        "evidence_text": "Observed direct beauty evidence: skincare",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/ugc_creator_sayani/"
+      },
+      {
+        "evidence_text": "Observed multi-dimensional target positioning: beauty, fashion",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/ugc_creator_sayani/"
+      },
+      {
+        "evidence_text": "Observed tagged account(s): fansy_diva_rajanaa",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.tagged_usernames",
+        "source_reference": "3951309343756769619",
+        "url": "https://www.instagram.com/p/DbV3unITdlT/"
+      },
+      {
+        "evidence_text": "Observed tagged account(s): fansy_diva_rajanaa",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.tagged_usernames",
+        "source_reference": "3950557026254169200",
+        "url": "https://www.instagram.com/p/DbTMq82zaRw/"
+      },
+      {
+        "evidence_text": "Observed person-like profile name: Sayani Roy",
+        "observation_type": "derived",
+        "signal_type": "account_type_personal",
+        "source_field": "full_name",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/ugc_creator_sayani/"
+      },
+      {
+        "evidence_text": "0.40×provider identity (1.000) + 0.20×multi-query support (0.333; 1 distinct queries, full credit at 3) + 0.20×profile/post link verification (1.000) + 0.20×query relevance (1.000; 3 directly evidenced target dimensions) = 0.867.",
+        "observation_type": "derived",
+        "signal_type": "discovery_confidence",
+        "source_field": "provider_and_discovery",
+        "source_reference": "ugc_creator_sayani",
+        "url": "https://www.instagram.com/ugc_creator_sayani/"
+      },
+      {
+        "evidence_text": "Audience does not exceed the frozen Phase A upper outer fence of 301,675.0 followers.",
+        "observation_type": "derived",
+        "signal_type": "barter_feasibility_review",
+        "source_field": "followers",
+        "source_reference": "ugc_creator_sayani",
+        "url": "https://www.instagram.com/ugc_creator_sayani/"
+      },
+      {
+        "evidence_text": "Saved post-format metadata is usable for 12/12 sampled posts; unknown formats are not counted as short video.",
+        "observation_type": "derived",
+        "signal_type": "post_format_completeness",
+        "source_field": "recent_posts.post_format",
+        "source_reference": "ugc_creator_sayani",
+        "url": "https://www.instagram.com/ugc_creator_sayani/"
+      },
+      {
+        "evidence_text": "Caption-derived topic excerpt used: Comfort ❤️❤️ #reels #explore #trendingreels #trending #reelsvideo",
+        "observation_type": "direct",
+        "signal_type": "offer_personalization",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3951309343756769619",
+        "url": "https://www.instagram.com/p/DbV3unITdlT/"
+      },
+      {
+        "evidence_text": "Observed profile name used in greeting: Sayani Roy",
+        "observation_type": "direct",
+        "signal_type": "offer_greeting",
+        "source_field": "full_name",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/ugc_creator_sayani/"
+      }
+    ],
+    "followers": 46219,
+    "last_post_date": "2026-07-28T15:34:06+00:00",
+    "manual_verification_status": "pending",
+    "median_comments": 3.0,
+    "median_likes": 20.5,
+    "offer_generation_mode": "deterministic_template",
+    "platform": "instagram",
+    "profile_url": "https://www.instagram.com/ugc_creator_sayani/",
+    "provider": "apify",
+    "query_ids": [
+      "ugc_creator_01"
+    ],
+    "recent_post_url": "https://www.instagram.com/p/DbV3unITdlT/",
+    "sampled_posts": 12,
+    "score": 55.11,
+    "score_components": [
+      {
+        "evidence": [
+          {
+            "evidence_text": "Matched explicit term: fashion",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/ugc_creator_sayani/"
+          },
+          {
+            "evidence_text": "Observed multi-dimensional target positioning: beauty, fashion",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/ugc_creator_sayani/"
+          },
+          {
+            "evidence_text": "Matched explicit term: beauty",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/ugc_creator_sayani/"
+          },
+          {
+            "evidence_text": "Matched explicit term: skin",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/ugc_creator_sayani/"
+          },
+          {
+            "evidence_text": "Observed direct beauty evidence: skincare",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/ugc_creator_sayani/"
+          },
+          {
+            "evidence_text": "Observed multi-dimensional target positioning: beauty, fashion",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/ugc_creator_sayani/"
+          },
+          {
+            "evidence_text": "12.00/24 topical + 4.00/5 format readiness + 0.54/1 Nike/Apple format alignment.",
+            "observation_type": "derived",
+            "signal_type": "content_and_aesthetic_fit",
+            "source_field": "candidate_metrics",
+            "source_reference": "ugc_creator_sayani",
+            "url": "https://www.instagram.com/ugc_creator_sayani/"
+          }
+        ],
+        "explanation": "12.00/24 topical + 4.00/5 format readiness + 0.54/1 Nike/Apple format alignment.",
+        "max_score": 30.0,
+        "name": "content_and_aesthetic_fit",
+        "score": 16.54
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Matched explicit term: collab",
+            "observation_type": "direct",
+            "signal_type": "commercial_pr",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/ugc_creator_sayani/"
+          },
+          {
+            "evidence_text": "Matched explicit term: barter",
+            "observation_type": "direct",
+            "signal_type": "commercial_pr",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/ugc_creator_sayani/"
+          },
+          {
+            "evidence_text": "Observed email address: roysayani003@gmail.com",
+            "observation_type": "direct",
+            "signal_type": "contact",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/ugc_creator_sayani/"
+          },
+          {
+            "evidence_text": "Observed tagged account(s): fansy_diva_rajanaa",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.tagged_usernames",
+            "source_reference": "3951309343756769619",
+            "url": "https://www.instagram.com/p/DbV3unITdlT/"
+          },
+          {
+            "evidence_text": "Observed tagged account(s): fansy_diva_rajanaa",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.tagged_usernames",
+            "source_reference": "3950557026254169200",
+            "url": "https://www.instagram.com/p/DbTMq82zaRw/"
+          },
+          {
+            "evidence_text": "UGC=False, marketplace=False, commercial/PR=True, contact=True; 2/12 posts have independently observed native-integration evidence.",
+            "observation_type": "derived",
+            "signal_type": "native_product_integration_potential",
+            "source_field": "candidate_metrics",
+            "source_reference": "ugc_creator_sayani",
+            "url": "https://www.instagram.com/ugc_creator_sayani/"
+          }
+        ],
+        "explanation": "UGC=False, marketplace=False, commercial/PR=True, contact=True; 2/12 posts have independently observed native-integration evidence.",
+        "max_score": 20.0,
+        "name": "native_product_integration_potential",
+        "score": 7.33
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Short video share 1.000 × 15 = 15.00.",
+            "observation_type": "derived",
+            "signal_type": "short_video_consistency",
+            "source_field": "candidate_metrics",
+            "source_reference": "ugc_creator_sayani",
+            "url": "https://www.instagram.com/ugc_creator_sayani/"
+          }
+        ],
+        "explanation": "Short video share 1.000 × 15 = 15.00.",
+        "max_score": 15.0,
+        "name": "short_video_consistency",
+        "score": 15.0
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Frozen Phase A percentile 0.015948 × 15 = 0.24 raw; × completeness 12/12 (1.000000) = 0.24 adjusted.",
+            "observation_type": "derived",
+            "signal_type": "engagement",
+            "source_field": "candidate_metrics",
+            "source_reference": "ugc_creator_sayani",
+            "url": "https://www.instagram.com/ugc_creator_sayani/"
+          }
+        ],
+        "explanation": "Frozen Phase A percentile 0.015948 × 15 = 0.24 raw; × completeness 12/12 (1.000000) = 0.24 adjusted.",
+        "max_score": 15.0,
+        "name": "engagement",
+        "score": 0.24
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Matched explicit term: collab",
+            "observation_type": "direct",
+            "signal_type": "commercial_pr",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/ugc_creator_sayani/"
+          },
+          {
+            "evidence_text": "Matched explicit term: barter",
+            "observation_type": "direct",
+            "signal_type": "commercial_pr",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/ugc_creator_sayani/"
+          },
+          {
+            "evidence_text": "4.0/5 for micro creator audience (10k–50k); commercial/PR=True (+2), UGC=False (+2), marketplace=False (+1).",
+            "observation_type": "derived",
+            "signal_type": "barter_feasibility",
+            "source_field": "candidate_metrics",
+            "source_reference": "ugc_creator_sayani",
+            "url": "https://www.instagram.com/ugc_creator_sayani/"
+          }
+        ],
+        "explanation": "4.0/5 for micro creator audience (10k–50k); commercial/PR=True (+2), UGC=False (+2), marketplace=False (+1).",
+        "max_score": 10.0,
+        "name": "barter_feasibility",
+        "score": 6.0
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "6.00/6 recency + 4.00/4 posting frequency.",
+            "observation_type": "derived",
+            "signal_type": "recent_activity",
+            "source_field": "candidate_metrics",
+            "source_reference": "ugc_creator_sayani",
+            "url": "https://www.instagram.com/ugc_creator_sayani/"
+          }
+        ],
+        "explanation": "6.00/6 recency + 4.00/4 posting frequency.",
+        "max_score": 10.0,
+        "name": "recent_activity",
+        "score": 10.0
+      }
+    ],
+    "selection_explanation": "Rank 2 of 5 eligible candidates: score 55.11/100, discovery confidence 0.867, data completeness 1.000, engagement rate 0.052%. Account type: personal_creator. Audience remains within the Phase A upper outer fence.",
+    "short_video_share": 1.0,
+    "source_exclusion_check": "clear: rechecked against frozen Phase A usernames, URLs, historical aliases, replacements, rejected false leads, Nike, and Apple",
+    "usable_posts": 12,
+    "username": "ugc_creator_sayani",
+    "verification_notes": ""
+  },
+  {
+    "account_type": "personal_creator",
+    "account_type_explanation": "The profile contains auditable personal-author evidence.",
+    "barter_feasibility_explanation": "Audience does not exceed the frozen Phase A upper outer fence of 301,675.0 followers.",
+    "barter_feasibility_review_required": false,
+    "barter_offer": "Здравствуйте, Bong Beauty!\n\nУвидели вашу недавнюю публикацию «#reelsinstagram #reachmorepeople✅ #myntrafınds #myntrafashion #myntradresses»: https://www.instagram.com/p/DbTfFWKSCV2/\nНам кажется, такой формат контента может естественно сочетаться с категорией «женская одежда».\n\nМы — LD Latte. Хотим предложить для обсуждения товар бренда в обмен на согласованный контент: товар из новой коллекции LD Latte. Если идея вам интересна, возможный формат — Reels или нативный обзор; детали и творческую подачу согласуем вместе.\n\nБудем рады обсудить предложение, если оно вам подходит; никаких обязательств до согласования условий нет.\n\n[Черновик: требуется ручная проверка и одобрение перед использованием.]",
+    "collected_at": "2026-07-28T19:11:52.795572+00:00",
+    "data_completeness": 1.0,
+    "discovery_confidence": 0.8,
+    "eligibility_reasons": [],
+    "eligibility_status": "eligible",
+    "engagement_rate": 0.05247090249952299,
+    "evidence": [
+      {
+        "evidence_text": "Matched explicit term: email",
+        "observation_type": "direct",
+        "signal_type": "contact",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/bong_beauty_vlog/"
+      },
+      {
+        "evidence_text": "Observed email address: addawithbongbeauty@gmail.com",
+        "observation_type": "direct",
+        "signal_type": "contact",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/bong_beauty_vlog/"
+      },
+      {
+        "evidence_text": "Matched explicit term: fashion",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3950638004968105334",
+        "url": "https://www.instagram.com/p/DbTfFWKSCV2/"
+      },
+      {
+        "evidence_text": "Matched explicit term: fashion",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.hashtags",
+        "source_reference": "3950638004968105334",
+        "url": "https://www.instagram.com/p/DbTfFWKSCV2/"
+      },
+      {
+        "evidence_text": "Observed direct fashion evidence: myntrafashion, myntradresses",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3950638004968105334",
+        "url": "https://www.instagram.com/p/DbTfFWKSCV2/"
+      },
+      {
+        "evidence_text": "Matched explicit term: beauty",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "full_name",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/bong_beauty_vlog/"
+      },
+      {
+        "evidence_text": "Matched explicit term: beauty",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/bong_beauty_vlog/"
+      },
+      {
+        "evidence_text": "Observed person-like profile name: Bong Beauty",
+        "observation_type": "derived",
+        "signal_type": "account_type_personal",
+        "source_field": "full_name",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/bong_beauty_vlog/"
+      },
+      {
+        "evidence_text": "0.40×provider identity (1.000) + 0.20×multi-query support (0.333; 1 distinct queries, full credit at 3) + 0.20×profile/post link verification (1.000) + 0.20×query relevance (0.667; 2 directly evidenced target dimensions) = 0.800.",
+        "observation_type": "derived",
+        "signal_type": "discovery_confidence",
+        "source_field": "provider_and_discovery",
+        "source_reference": "bong_beauty_vlog",
+        "url": "https://www.instagram.com/bong_beauty_vlog/"
+      },
+      {
+        "evidence_text": "Audience does not exceed the frozen Phase A upper outer fence of 301,675.0 followers.",
+        "observation_type": "derived",
+        "signal_type": "barter_feasibility_review",
+        "source_field": "followers",
+        "source_reference": "bong_beauty_vlog",
+        "url": "https://www.instagram.com/bong_beauty_vlog/"
+      },
+      {
+        "evidence_text": "Saved post-format metadata is usable for 12/12 sampled posts; unknown formats are not counted as short video.",
+        "observation_type": "derived",
+        "signal_type": "post_format_completeness",
+        "source_field": "recent_posts.post_format",
+        "source_reference": "bong_beauty_vlog",
+        "url": "https://www.instagram.com/bong_beauty_vlog/"
+      },
+      {
+        "evidence_text": "Caption-derived topic excerpt used: #reelsinstagram #reachmorepeople✅ #myntrafınds #myntrafashion #myntradresses",
+        "observation_type": "direct",
+        "signal_type": "offer_personalization",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3950638004968105334",
+        "url": "https://www.instagram.com/p/DbTfFWKSCV2/"
+      },
+      {
+        "evidence_text": "Observed profile name used in greeting: Bong Beauty",
+        "observation_type": "direct",
+        "signal_type": "offer_greeting",
+        "source_field": "full_name",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/bong_beauty_vlog/"
+      }
+    ],
+    "followers": 31446,
+    "last_post_date": "2026-07-28T16:21:31+00:00",
+    "manual_verification_status": "pending",
+    "median_comments": 0.5,
+    "median_likes": 15.0,
+    "offer_generation_mode": "deterministic_template",
+    "platform": "instagram",
+    "profile_url": "https://www.instagram.com/bong_beauty_vlog/",
+    "provider": "apify",
+    "query_ids": [
+      "beauty_lifestyle_01"
+    ],
+    "recent_post_url": "https://www.instagram.com/p/DbTfFWKSCV2/",
+    "sampled_posts": 12,
+    "score": 47.78,
+    "score_components": [
+      {
+        "evidence": [
+          {
+            "evidence_text": "Matched explicit term: fashion",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3950638004968105334",
+            "url": "https://www.instagram.com/p/DbTfFWKSCV2/"
+          },
+          {
+            "evidence_text": "Matched explicit term: fashion",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.hashtags",
+            "source_reference": "3950638004968105334",
+            "url": "https://www.instagram.com/p/DbTfFWKSCV2/"
+          },
+          {
+            "evidence_text": "Observed direct fashion evidence: myntrafashion, myntradresses",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3950638004968105334",
+            "url": "https://www.instagram.com/p/DbTfFWKSCV2/"
+          },
+          {
+            "evidence_text": "Matched explicit term: beauty",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "full_name",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/bong_beauty_vlog/"
+          },
+          {
+            "evidence_text": "Matched explicit term: beauty",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/bong_beauty_vlog/"
+          },
+          {
+            "evidence_text": "12.00/24 topical + 4.00/5 format readiness + 0.54/1 Nike/Apple format alignment.",
+            "observation_type": "derived",
+            "signal_type": "content_and_aesthetic_fit",
+            "source_field": "candidate_metrics",
+            "source_reference": "bong_beauty_vlog",
+            "url": "https://www.instagram.com/bong_beauty_vlog/"
+          }
+        ],
+        "explanation": "12.00/24 topical + 4.00/5 format readiness + 0.54/1 Nike/Apple format alignment.",
+        "max_score": 30.0,
+        "name": "content_and_aesthetic_fit",
+        "score": 16.54
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Matched explicit term: email",
+            "observation_type": "direct",
+            "signal_type": "contact",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/bong_beauty_vlog/"
+          },
+          {
+            "evidence_text": "Observed email address: addawithbongbeauty@gmail.com",
+            "observation_type": "direct",
+            "signal_type": "contact",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/bong_beauty_vlog/"
+          },
+          {
+            "evidence_text": "UGC=False, marketplace=False, commercial/PR=False, contact=True; 0/12 posts have independently observed native-integration evidence.",
+            "observation_type": "derived",
+            "signal_type": "native_product_integration_potential",
+            "source_field": "candidate_metrics",
+            "source_reference": "bong_beauty_vlog",
+            "url": "https://www.instagram.com/bong_beauty_vlog/"
+          }
+        ],
+        "explanation": "UGC=False, marketplace=False, commercial/PR=False, contact=True; 0/12 posts have independently observed native-integration evidence.",
+        "max_score": 20.0,
+        "name": "native_product_integration_potential",
+        "score": 2.0
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Short video share 1.000 × 15 = 15.00.",
+            "observation_type": "derived",
+            "signal_type": "short_video_consistency",
+            "source_field": "candidate_metrics",
+            "source_reference": "bong_beauty_vlog",
+            "url": "https://www.instagram.com/bong_beauty_vlog/"
+          }
+        ],
+        "explanation": "Short video share 1.000 × 15 = 15.00.",
+        "max_score": 15.0,
+        "name": "short_video_consistency",
+        "score": 15.0
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Frozen Phase A percentile 0.016153 × 15 = 0.24 raw; × completeness 12/12 (1.000000) = 0.24 adjusted.",
+            "observation_type": "derived",
+            "signal_type": "engagement",
+            "source_field": "candidate_metrics",
+            "source_reference": "bong_beauty_vlog",
+            "url": "https://www.instagram.com/bong_beauty_vlog/"
+          }
+        ],
+        "explanation": "Frozen Phase A percentile 0.016153 × 15 = 0.24 raw; × completeness 12/12 (1.000000) = 0.24 adjusted.",
+        "max_score": 15.0,
+        "name": "engagement",
+        "score": 0.24
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "4.0/5 for micro creator audience (10k–50k); commercial/PR=False (+2), UGC=False (+2), marketplace=False (+1).",
+            "observation_type": "derived",
+            "signal_type": "barter_feasibility",
+            "source_field": "candidate_metrics",
+            "source_reference": "bong_beauty_vlog",
+            "url": "https://www.instagram.com/bong_beauty_vlog/"
+          }
+        ],
+        "explanation": "4.0/5 for micro creator audience (10k–50k); commercial/PR=False (+2), UGC=False (+2), marketplace=False (+1).",
+        "max_score": 10.0,
+        "name": "barter_feasibility",
+        "score": 4.0
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "6.00/6 recency + 4.00/4 posting frequency.",
+            "observation_type": "derived",
+            "signal_type": "recent_activity",
+            "source_field": "candidate_metrics",
+            "source_reference": "bong_beauty_vlog",
+            "url": "https://www.instagram.com/bong_beauty_vlog/"
+          }
+        ],
+        "explanation": "6.00/6 recency + 4.00/4 posting frequency.",
+        "max_score": 10.0,
+        "name": "recent_activity",
+        "score": 10.0
+      }
+    ],
+    "selection_explanation": "Rank 3 of 5 eligible candidates: score 47.78/100, discovery confidence 0.800, data completeness 1.000, engagement rate 0.052%. Account type: personal_creator. Audience remains within the Phase A upper outer fence.",
+    "short_video_share": 1.0,
+    "source_exclusion_check": "clear: rechecked against frozen Phase A usernames, URLs, historical aliases, replacements, rejected false leads, Nike, and Apple",
+    "usable_posts": 12,
+    "username": "bong_beauty_vlog",
+    "verification_notes": ""
+  },
+  {
+    "account_type": "personal_creator",
+    "account_type_explanation": "The profile contains auditable personal-author evidence.",
+    "barter_feasibility_explanation": "Audience requires manual barter review: 769,642 followers exceed the frozen Phase A outer fence q3 + 3×IQR = 82,754.5 + 3×(82,754.5 - 9,781.0) = 301,675.0.",
+    "barter_feasibility_review_required": true,
+    "barter_offer": "Здравствуйте, Malinda weekly!\n\nУвидели вашу недавнюю публикацию «Main character energy #fyp #explore Braids: @thegoddessofknotless ❤️❤️»: https://www.instagram.com/p/DayyT0zjDDR/\nНам кажется, такой формат контента может естественно сочетаться с категорией «женская одежда».\n\nМы — LD Latte. Хотим предложить для обсуждения товар бренда в обмен на согласованный контент: товар из новой коллекции LD Latte. Если идея вам интересна, возможный формат — Reels или нативный обзор; детали и творческую подачу согласуем вместе.\n\nБудем рады обсудить предложение, если оно вам подходит; никаких обязательств до согласования условий нет.\n\n[Черновик: требуется ручная проверка и одобрение перед использованием.]",
+    "collected_at": "2026-07-28T19:11:52.795572+00:00",
+    "data_completeness": 1.0,
+    "discovery_confidence": 0.866667,
+    "eligibility_reasons": [],
+    "eligibility_status": "eligible",
+    "engagement_rate": 0.6300331842596948,
+    "evidence": [
+      {
+        "evidence_text": "Observed direct beauty evidence: braids",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3941433888597618897",
+        "url": "https://www.instagram.com/p/DayyT0zjDDR/"
+      },
+      {
+        "evidence_text": "Matched explicit term: life",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3915406335512737137",
+        "url": "https://www.instagram.com/p/DZWUVFDjPVx/"
+      },
+      {
+        "evidence_text": "Observed direct lifestyle evidence: wellness journey, wellness",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/beauty_newnew/"
+      },
+      {
+        "evidence_text": "Observed direct lifestyle evidence: wellness",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3939846185429842934",
+        "url": "https://www.instagram.com/p/DatJTtAOTv2/"
+      },
+      {
+        "evidence_text": "Observed direct lifestyle evidence: wellness",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3918903012118255930",
+        "url": "https://www.instagram.com/p/DZivYa6hFk6/"
+      },
+      {
+        "evidence_text": "Observed direct lifestyle evidence: soft life",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3915406335512737137",
+        "url": "https://www.instagram.com/p/DZWUVFDjPVx/"
+      },
+      {
+        "evidence_text": "Observed structured account mention(s): thegoddessofknotless",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.mentions",
+        "source_reference": "3941433888597618897",
+        "url": "https://www.instagram.com/p/DayyT0zjDDR/"
+      },
+      {
+        "evidence_text": "Observed tagged account(s): allrevivehealthandwellness",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.tagged_usernames",
+        "source_reference": "3917499860985730608",
+        "url": "https://www.instagram.com/p/DZdwV4lslYw/"
+      },
+      {
+        "evidence_text": "Observed personal-author phrase: nurse",
+        "observation_type": "direct",
+        "signal_type": "account_type_personal",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/beauty_newnew/"
+      },
+      {
+        "evidence_text": "Observed person-like profile name: Malinda weekly",
+        "observation_type": "derived",
+        "signal_type": "account_type_personal",
+        "source_field": "full_name",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/beauty_newnew/"
+      },
+      {
+        "evidence_text": "0.40×provider identity (1.000) + 0.20×multi-query support (0.333; 1 distinct queries, full credit at 3) + 0.20×profile/post link verification (1.000) + 0.20×query relevance (1.000; 3 directly evidenced target dimensions) = 0.867.",
+        "observation_type": "derived",
+        "signal_type": "discovery_confidence",
+        "source_field": "provider_and_discovery",
+        "source_reference": "beauty_newnew",
+        "url": "https://www.instagram.com/beauty_newnew/"
+      },
+      {
+        "evidence_text": "Audience requires manual barter review: 769,642 followers exceed the frozen Phase A outer fence q3 + 3×IQR = 82,754.5 + 3×(82,754.5 - 9,781.0) = 301,675.0.",
+        "observation_type": "derived",
+        "signal_type": "barter_feasibility_review",
+        "source_field": "followers",
+        "source_reference": "beauty_newnew",
+        "url": "https://www.instagram.com/beauty_newnew/"
+      },
+      {
+        "evidence_text": "Saved post-format metadata is usable for 7/12 sampled posts; unknown formats are not counted as short video.",
+        "observation_type": "derived",
+        "signal_type": "post_format_completeness",
+        "source_field": "recent_posts.post_format",
+        "source_reference": "beauty_newnew",
+        "url": "https://www.instagram.com/beauty_newnew/"
+      },
+      {
+        "evidence_text": "Caption-derived topic excerpt used: Main character energy #fyp #explore Braids: @thegoddessofknotless ❤️❤️",
+        "observation_type": "direct",
+        "signal_type": "offer_personalization",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3941433888597618897",
+        "url": "https://www.instagram.com/p/DayyT0zjDDR/"
+      },
+      {
+        "evidence_text": "Observed profile name used in greeting: Malinda weekly",
+        "observation_type": "direct",
+        "signal_type": "offer_greeting",
+        "source_field": "full_name",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/beauty_newnew/"
+      }
+    ],
+    "followers": 769642,
+    "last_post_date": "2026-07-19T17:01:59+00:00",
+    "manual_verification_status": "pending",
+    "median_comments": 347.5,
+    "median_likes": 4449.0,
+    "offer_generation_mode": "deterministic_template",
+    "platform": "instagram",
+    "profile_url": "https://www.instagram.com/beauty_newnew/",
+    "provider": "apify",
+    "query_ids": [
+      "beauty_lifestyle_01"
+    ],
+    "recent_post_url": "https://www.instagram.com/p/DayyT0zjDDR/",
+    "sampled_posts": 12,
+    "score": 41.21,
+    "score_components": [
+      {
+        "evidence": [
+          {
+            "evidence_text": "Observed direct beauty evidence: braids",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3941433888597618897",
+            "url": "https://www.instagram.com/p/DayyT0zjDDR/"
+          },
+          {
+            "evidence_text": "Matched explicit term: life",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3915406335512737137",
+            "url": "https://www.instagram.com/p/DZWUVFDjPVx/"
+          },
+          {
+            "evidence_text": "Observed direct lifestyle evidence: wellness journey, wellness",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/beauty_newnew/"
+          },
+          {
+            "evidence_text": "Observed direct lifestyle evidence: wellness",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3939846185429842934",
+            "url": "https://www.instagram.com/p/DatJTtAOTv2/"
+          },
+          {
+            "evidence_text": "Observed direct lifestyle evidence: wellness",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3918903012118255930",
+            "url": "https://www.instagram.com/p/DZivYa6hFk6/"
+          },
+          {
+            "evidence_text": "Observed direct lifestyle evidence: soft life",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3915406335512737137",
+            "url": "https://www.instagram.com/p/DZWUVFDjPVx/"
+          },
+          {
+            "evidence_text": "9.00/24 topical + 4.00/5 format readiness + 0.96/1 Nike/Apple format alignment.",
+            "observation_type": "derived",
+            "signal_type": "content_and_aesthetic_fit",
+            "source_field": "candidate_metrics",
+            "source_reference": "beauty_newnew",
+            "url": "https://www.instagram.com/beauty_newnew/"
+          }
+        ],
+        "explanation": "9.00/24 topical + 4.00/5 format readiness + 0.96/1 Nike/Apple format alignment.",
+        "max_score": 30.0,
+        "name": "content_and_aesthetic_fit",
+        "score": 13.96
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Observed structured account mention(s): thegoddessofknotless",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.mentions",
+            "source_reference": "3941433888597618897",
+            "url": "https://www.instagram.com/p/DayyT0zjDDR/"
+          },
+          {
+            "evidence_text": "Observed tagged account(s): allrevivehealthandwellness",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.tagged_usernames",
+            "source_reference": "3917499860985730608",
+            "url": "https://www.instagram.com/p/DZdwV4lslYw/"
+          },
+          {
+            "evidence_text": "UGC=False, marketplace=False, commercial/PR=False, contact=False; 2/12 posts have independently observed native-integration evidence.",
+            "observation_type": "derived",
+            "signal_type": "native_product_integration_potential",
+            "source_field": "candidate_metrics",
+            "source_reference": "beauty_newnew",
+            "url": "https://www.instagram.com/beauty_newnew/"
+          }
+        ],
+        "explanation": "UGC=False, marketplace=False, commercial/PR=False, contact=False; 2/12 posts have independently observed native-integration evidence.",
+        "max_score": 20.0,
+        "name": "native_product_integration_potential",
+        "score": 1.33
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Short video share 0.583 × 15 = 8.75.",
+            "observation_type": "derived",
+            "signal_type": "short_video_consistency",
+            "source_field": "candidate_metrics",
+            "source_reference": "beauty_newnew",
+            "url": "https://www.instagram.com/beauty_newnew/"
+          }
+        ],
+        "explanation": "Short video share 0.583 × 15 = 8.75.",
+        "max_score": 15.0,
+        "name": "short_video_consistency",
+        "score": 8.75
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Frozen Phase A percentile 0.491669 × 15 = 7.38 raw; × completeness 12/12 (1.000000) = 7.38 adjusted.",
+            "observation_type": "derived",
+            "signal_type": "engagement",
+            "source_field": "candidate_metrics",
+            "source_reference": "beauty_newnew",
+            "url": "https://www.instagram.com/beauty_newnew/"
+          }
+        ],
+        "explanation": "Frozen Phase A percentile 0.491669 × 15 = 7.38 raw; × completeness 12/12 (1.000000) = 7.38 adjusted.",
+        "max_score": 15.0,
+        "name": "engagement",
+        "score": 7.38
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "1.0/5 for very large audience (>300k); commercial/PR=False (+2), UGC=False (+2), marketplace=False (+1).",
+            "observation_type": "derived",
+            "signal_type": "barter_feasibility",
+            "source_field": "candidate_metrics",
+            "source_reference": "beauty_newnew",
+            "url": "https://www.instagram.com/beauty_newnew/"
+          }
+        ],
+        "explanation": "1.0/5 for very large audience (>300k); commercial/PR=False (+2), UGC=False (+2), marketplace=False (+1).",
+        "max_score": 10.0,
+        "name": "barter_feasibility",
+        "score": 1.0
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "5.00/6 recency + 3.79/4 posting frequency.",
+            "observation_type": "derived",
+            "signal_type": "recent_activity",
+            "source_field": "candidate_metrics",
+            "source_reference": "beauty_newnew",
+            "url": "https://www.instagram.com/beauty_newnew/"
+          }
+        ],
+        "explanation": "5.00/6 recency + 3.79/4 posting frequency.",
+        "max_score": 10.0,
+        "name": "recent_activity",
+        "score": 8.79
+      }
+    ],
+    "selection_explanation": "Rank 4 of 5 eligible candidates: score 41.21/100, discovery confidence 0.867, data completeness 1.000, engagement rate 0.630%. Account type: personal_creator. Manual barter-feasibility review is required.",
+    "short_video_share": 0.5833333333333334,
+    "source_exclusion_check": "clear: rechecked against frozen Phase A usernames, URLs, historical aliases, replacements, rejected false leads, Nike, and Apple",
+    "usable_posts": 12,
+    "username": "beauty_newnew",
+    "verification_notes": "Audience requires manual barter review: 769,642 followers exceed the frozen Phase A outer fence q3 + 3×IQR = 82,754.5 + 3×(82,754.5 - 9,781.0) = 301,675.0. Saved post-format metadata is usable for 7/12 sampled posts; unknown formats are not counted as short video."
+  },
+  {
+    "account_type": "personal_creator",
+    "account_type_explanation": "The profile contains auditable personal-author evidence.",
+    "barter_feasibility_explanation": "Audience does not exceed the frozen Phase A upper outer fence of 301,675.0 followers.",
+    "barter_feasibility_review_required": false,
+    "barter_offer": "Здравствуйте, Divya Chaudhary!\n\nУвидели вашу недавнюю публикацию «New Trending song..✨🥰 #treding #positivevibes #fypシ❤️💞❤️ #rajasthaniculture #rajasthani_style»: https://www.instagram.com/p/DbWKPWYDEhT/\nНам кажется, такой формат контента может естественно сочетаться с категорией «женская одежда».\n\nМы — LD Latte. Хотим предложить для обсуждения товар бренда в обмен на согласованный контент: товар из новой коллекции LD Latte. Если идея вам интересна, возможный формат — Reels или нативный обзор; детали и творческую подачу согласуем вместе.\n\nБудем рады обсудить предложение, если оно вам подходит; никаких обязательств до согласования условий нет.\n\n[Черновик: требуется ручная проверка и одобрение перед использованием.]",
+    "collected_at": "2026-07-28T19:11:52.795572+00:00",
+    "data_completeness": 1.0,
+    "discovery_confidence": 0.8,
+    "eligibility_reasons": [],
+    "eligibility_status": "eligible",
+    "engagement_rate": 1.2320525675762166,
+    "evidence": [
+      {
+        "evidence_text": "Matched explicit term: collab",
+        "observation_type": "direct",
+        "signal_type": "commercial_pr",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/marwadi._.reels_29/"
+      },
+      {
+        "evidence_text": "Observed email address: patramonalisa85@gmail.com",
+        "observation_type": "direct",
+        "signal_type": "contact",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/marwadi._.reels_29/"
+      },
+      {
+        "evidence_text": "Observed direct fashion evidence: rajasthani_style",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3951390758347229267",
+        "url": "https://www.instagram.com/p/DbWKPWYDEhT/"
+      },
+      {
+        "evidence_text": "Observed tagged account(s): sangitamali2020",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.tagged_usernames",
+        "source_reference": "3893761712222839054",
+        "url": "https://www.instagram.com/p/DYJa6WxDyEO/"
+      },
+      {
+        "evidence_text": "Observed tagged account(s): manju_patel_6344, divya_vasiya11, priyachaudhary3575",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.tagged_usernames",
+        "source_reference": "3951390758347229267",
+        "url": "https://www.instagram.com/p/DbWKPWYDEhT/"
+      },
+      {
+        "evidence_text": "Observed tagged account(s): divya_vasiya11",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.tagged_usernames",
+        "source_reference": "3950992829618904509",
+        "url": "https://www.instagram.com/p/DbUvwuXjN29/"
+      },
+      {
+        "evidence_text": "Observed tagged account(s): pooja.choudhary.14, divya_vasiya11, priyachaudhary3575",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.tagged_usernames",
+        "source_reference": "3950634330225411680",
+        "url": "https://www.instagram.com/p/DbTeP3yjIZg/"
+      },
+      {
+        "evidence_text": "Observed tagged account(s): pooja.choudhary.14, priyachaudhary3575",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.tagged_usernames",
+        "source_reference": "3943752106850934689",
+        "url": "https://www.instagram.com/p/Da7BaVzDF-h/"
+      },
+      {
+        "evidence_text": "Observed tagged account(s): pooja.choudhary.14, divya_vasiya11, priyachaudhary3575",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.tagged_usernames",
+        "source_reference": "3942328289364560499",
+        "url": "https://www.instagram.com/p/Da19rEbjEpz/"
+      },
+      {
+        "evidence_text": "Observed person-like profile name: Divya Chaudhary",
+        "observation_type": "derived",
+        "signal_type": "account_type_personal",
+        "source_field": "full_name",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/marwadi._.reels_29/"
+      },
+      {
+        "evidence_text": "0.40×provider identity (1.000) + 0.20×multi-query support (0.333; 1 distinct queries, full credit at 3) + 0.20×profile/post link verification (1.000) + 0.20×query relevance (0.667; 2 directly evidenced target dimensions) = 0.800.",
+        "observation_type": "derived",
+        "signal_type": "discovery_confidence",
+        "source_field": "provider_and_discovery",
+        "source_reference": "marwadi._.reels_29",
+        "url": "https://www.instagram.com/marwadi._.reels_29/"
+      },
+      {
+        "evidence_text": "Audience does not exceed the frozen Phase A upper outer fence of 301,675.0 followers.",
+        "observation_type": "derived",
+        "signal_type": "barter_feasibility_review",
+        "source_field": "followers",
+        "source_reference": "marwadi._.reels_29",
+        "url": "https://www.instagram.com/marwadi._.reels_29/"
+      },
+      {
+        "evidence_text": "Saved post-format metadata is usable for 0/12 sampled posts; unknown formats are not counted as short video.",
+        "observation_type": "derived",
+        "signal_type": "post_format_completeness",
+        "source_field": "recent_posts.post_format",
+        "source_reference": "marwadi._.reels_29",
+        "url": "https://www.instagram.com/marwadi._.reels_29/"
+      },
+      {
+        "evidence_text": "Caption-derived topic excerpt used: New Trending song..✨🥰 #treding #positivevibes #fypシ❤️💞❤️ #rajasthaniculture #rajasthani_style",
+        "observation_type": "direct",
+        "signal_type": "offer_personalization",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3951390758347229267",
+        "url": "https://www.instagram.com/p/DbWKPWYDEhT/"
+      },
+      {
+        "evidence_text": "Observed profile name used in greeting: Divya Chaudhary",
+        "observation_type": "direct",
+        "signal_type": "offer_greeting",
+        "source_field": "full_name",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/marwadi._.reels_29/"
+      }
+    ],
+    "followers": 46873,
+    "last_post_date": "2026-07-28T18:15:06+00:00",
+    "manual_verification_status": "pending",
+    "median_comments": 20.5,
+    "median_likes": 557.0,
+    "offer_generation_mode": "deterministic_template",
+    "platform": "instagram",
+    "profile_url": "https://www.instagram.com/marwadi._.reels_29/",
+    "provider": "apify",
+    "query_ids": [
+      "reels_integrations_01"
+    ],
+    "recent_post_url": "https://www.instagram.com/p/DbWKPWYDEhT/",
+    "sampled_posts": 12,
+    "score": 40.79,
+    "score_components": [
+      {
+        "evidence": [
+          {
+            "evidence_text": "Observed direct fashion evidence: rajasthani_style",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3951390758347229267",
+            "url": "https://www.instagram.com/p/DbWKPWYDEhT/"
+          },
+          {
+            "evidence_text": "7.00/24 topical + 1.00/5 format readiness + 0.46/1 Nike/Apple format alignment.",
+            "observation_type": "derived",
+            "signal_type": "content_and_aesthetic_fit",
+            "source_field": "candidate_metrics",
+            "source_reference": "marwadi._.reels_29",
+            "url": "https://www.instagram.com/marwadi._.reels_29/"
+          }
+        ],
+        "explanation": "7.00/24 topical + 1.00/5 format readiness + 0.46/1 Nike/Apple format alignment.",
+        "max_score": 30.0,
+        "name": "content_and_aesthetic_fit",
+        "score": 8.46
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Matched explicit term: collab",
+            "observation_type": "direct",
+            "signal_type": "commercial_pr",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/marwadi._.reels_29/"
+          },
+          {
+            "evidence_text": "Observed email address: patramonalisa85@gmail.com",
+            "observation_type": "direct",
+            "signal_type": "contact",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/marwadi._.reels_29/"
+          },
+          {
+            "evidence_text": "Observed tagged account(s): sangitamali2020",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.tagged_usernames",
+            "source_reference": "3893761712222839054",
+            "url": "https://www.instagram.com/p/DYJa6WxDyEO/"
+          },
+          {
+            "evidence_text": "Observed tagged account(s): manju_patel_6344, divya_vasiya11, priyachaudhary3575",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.tagged_usernames",
+            "source_reference": "3951390758347229267",
+            "url": "https://www.instagram.com/p/DbWKPWYDEhT/"
+          },
+          {
+            "evidence_text": "Observed tagged account(s): divya_vasiya11",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.tagged_usernames",
+            "source_reference": "3950992829618904509",
+            "url": "https://www.instagram.com/p/DbUvwuXjN29/"
+          },
+          {
+            "evidence_text": "Observed tagged account(s): pooja.choudhary.14, divya_vasiya11, priyachaudhary3575",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.tagged_usernames",
+            "source_reference": "3950634330225411680",
+            "url": "https://www.instagram.com/p/DbTeP3yjIZg/"
+          },
+          {
+            "evidence_text": "Observed tagged account(s): pooja.choudhary.14, priyachaudhary3575",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.tagged_usernames",
+            "source_reference": "3943752106850934689",
+            "url": "https://www.instagram.com/p/Da7BaVzDF-h/"
+          },
+          {
+            "evidence_text": "Observed tagged account(s): pooja.choudhary.14, divya_vasiya11, priyachaudhary3575",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.tagged_usernames",
+            "source_reference": "3942328289364560499",
+            "url": "https://www.instagram.com/p/Da19rEbjEpz/"
+          },
+          {
+            "evidence_text": "UGC=False, marketplace=False, commercial/PR=True, contact=True; 6/12 posts have independently observed native-integration evidence.",
+            "observation_type": "derived",
+            "signal_type": "native_product_integration_potential",
+            "source_field": "candidate_metrics",
+            "source_reference": "marwadi._.reels_29",
+            "url": "https://www.instagram.com/marwadi._.reels_29/"
+          }
+        ],
+        "explanation": "UGC=False, marketplace=False, commercial/PR=True, contact=True; 6/12 posts have independently observed native-integration evidence.",
+        "max_score": 20.0,
+        "name": "native_product_integration_potential",
+        "score": 10.0
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Short video share 0.000 × 15 = 0.00.",
+            "observation_type": "derived",
+            "signal_type": "short_video_consistency",
+            "source_field": "candidate_metrics",
+            "source_reference": "marwadi._.reels_29",
+            "url": "https://www.instagram.com/marwadi._.reels_29/"
+          }
+        ],
+        "explanation": "Short video share 0.000 × 15 = 0.00.",
+        "max_score": 15.0,
+        "name": "short_video_consistency",
+        "score": 0.0
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Frozen Phase A percentile 0.567580 × 15 = 8.51 raw; × completeness 12/12 (1.000000) = 8.51 adjusted.",
+            "observation_type": "derived",
+            "signal_type": "engagement",
+            "source_field": "candidate_metrics",
+            "source_reference": "marwadi._.reels_29",
+            "url": "https://www.instagram.com/marwadi._.reels_29/"
+          }
+        ],
+        "explanation": "Frozen Phase A percentile 0.567580 × 15 = 8.51 raw; × completeness 12/12 (1.000000) = 8.51 adjusted.",
+        "max_score": 15.0,
+        "name": "engagement",
+        "score": 8.51
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Matched explicit term: collab",
+            "observation_type": "direct",
+            "signal_type": "commercial_pr",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/marwadi._.reels_29/"
+          },
+          {
+            "evidence_text": "4.0/5 for micro creator audience (10k–50k); commercial/PR=True (+2), UGC=False (+2), marketplace=False (+1).",
+            "observation_type": "derived",
+            "signal_type": "barter_feasibility",
+            "source_field": "candidate_metrics",
+            "source_reference": "marwadi._.reels_29",
+            "url": "https://www.instagram.com/marwadi._.reels_29/"
+          }
+        ],
+        "explanation": "4.0/5 for micro creator audience (10k–50k); commercial/PR=True (+2), UGC=False (+2), marketplace=False (+1).",
+        "max_score": 10.0,
+        "name": "barter_feasibility",
+        "score": 6.0
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "6.00/6 recency + 1.82/4 posting frequency.",
+            "observation_type": "derived",
+            "signal_type": "recent_activity",
+            "source_field": "candidate_metrics",
+            "source_reference": "marwadi._.reels_29",
+            "url": "https://www.instagram.com/marwadi._.reels_29/"
+          }
+        ],
+        "explanation": "6.00/6 recency + 1.82/4 posting frequency.",
+        "max_score": 10.0,
+        "name": "recent_activity",
+        "score": 7.82
+      }
+    ],
+    "selection_explanation": "Rank 5 of 5 eligible candidates: score 40.79/100, discovery confidence 0.800, data completeness 1.000, engagement rate 1.232%. Account type: personal_creator. Audience remains within the Phase A upper outer fence.",
+    "short_video_share": 0.0,
+    "source_exclusion_check": "clear: rechecked against frozen Phase A usernames, URLs, historical aliases, replacements, rejected false leads, Nike, and Apple",
+    "usable_posts": 12,
+    "username": "marwadi._.reels_29",
+    "verification_notes": "Saved post-format metadata is usable for 0/12 sampled posts; unknown formats are not counted as short video."
+  }
+]

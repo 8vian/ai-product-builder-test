@@ -1,0 +1,139 @@
+[
+  {
+    "audience_max": 82754,
+    "audience_min": 9781,
+    "geography": null,
+    "hashtags": [
+      "стиль",
+      "женскаяодежда"
+    ],
+    "query_family": "fashion_style",
+    "query_id": "fashion_style_01",
+    "query_text": "женская одежда мода стиль образы #стиль #женскаяодежда",
+    "reason": "Find fashion/style creators within the Phase A audience IQR (9781-82754 followers).",
+    "required_signals": [
+      "fashion"
+    ],
+    "search_terms": [
+      "женская одежда",
+      "мода",
+      "стиль",
+      "образы"
+    ],
+    "source_fields": [
+      "ideal_creator_profile.audience.followers.q1",
+      "ideal_creator_profile.audience.followers.q3",
+      "ideal_creator_profile.signal_prevalence.fashion",
+      "campaign.product_category"
+    ]
+  },
+  {
+    "audience_max": 82754,
+    "audience_min": 9781,
+    "geography": null,
+    "hashtags": [
+      "бьютиблог",
+      "лайфстайл"
+    ],
+    "query_family": "beauty_lifestyle",
+    "query_id": "beauty_lifestyle_01",
+    "query_text": "beauty lifestyle женская одежда #бьютиблог #лайфстайл",
+    "reason": "Extend fashion discovery into adjacent beauty/lifestyle content.",
+    "required_signals": [
+      "beauty",
+      "lifestyle"
+    ],
+    "search_terms": [
+      "beauty",
+      "lifestyle",
+      "женская одежда"
+    ],
+    "source_fields": [
+      "ideal_creator_profile.audience.followers.q1",
+      "ideal_creator_profile.audience.followers.q3",
+      "ideal_creator_profile.signal_prevalence.beauty",
+      "ideal_creator_profile.signal_prevalence.lifestyle"
+    ]
+  },
+  {
+    "audience_max": 82754,
+    "audience_min": 9781,
+    "geography": null,
+    "hashtags": [
+      "ugc",
+      "ugccreator"
+    ],
+    "query_family": "ugc_creator",
+    "query_id": "ugc_creator_01",
+    "query_text": "UGC creator контент-креатор женская одежда #ugc #ugccreator",
+    "reason": "Find creators with explicitly evidenced UGC capability.",
+    "required_signals": [
+      "ugc"
+    ],
+    "search_terms": [
+      "UGC creator",
+      "контент-креатор",
+      "женская одежда"
+    ],
+    "source_fields": [
+      "ideal_creator_profile.audience.followers.q1",
+      "ideal_creator_profile.audience.followers.q3",
+      "ideal_creator_profile.signal_prevalence.ugc"
+    ]
+  },
+  {
+    "audience_max": 82754,
+    "audience_min": 9781,
+    "geography": null,
+    "hashtags": [
+      "wildberries",
+      "обзорпокупок"
+    ],
+    "query_family": "marketplace_reviews",
+    "query_id": "marketplace_reviews_01",
+    "query_text": "Wildberries обзор одежды распаковка женская одежда #wildberries #обзорпокупок",
+    "reason": "Find marketplace and product-review experience.",
+    "required_signals": [
+      "marketplace"
+    ],
+    "search_terms": [
+      "Wildberries",
+      "обзор одежды",
+      "распаковка",
+      "женская одежда"
+    ],
+    "source_fields": [
+      "ideal_creator_profile.audience.followers.q1",
+      "ideal_creator_profile.audience.followers.q3",
+      "ideal_creator_profile.signal_prevalence.marketplace"
+    ]
+  },
+  {
+    "audience_max": 82754,
+    "audience_min": 9781,
+    "geography": null,
+    "hashtags": [
+      "reels",
+      "примерка"
+    ],
+    "query_family": "reels_product_integrations",
+    "query_id": "reels_integrations_01",
+    "query_text": "Reels примерка нативный обзор женская одежда #reels #примерка",
+    "reason": "Find independently observable product integration in short video; Phase A median short-video share is 0.5833.",
+    "required_signals": [
+      "native_product_integration"
+    ],
+    "search_terms": [
+      "Reels",
+      "примерка",
+      "нативный обзор",
+      "женская одежда"
+    ],
+    "source_fields": [
+      "ideal_creator_profile.audience.followers.q1",
+      "ideal_creator_profile.audience.followers.q3",
+      "ideal_creator_profile.formats.short_video_share.median",
+      "ideal_creator_profile.signal_prevalence.native_product_integration"
+    ]
+  }
+]

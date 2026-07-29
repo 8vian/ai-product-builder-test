@@ -25,8 +25,8 @@
     "workbook": "data/raw/Блогеры.xlsx"
   },
   "discovery": {
-    "target_pool_size": 100,
-    "minimum_unique_pool": 30,
+    "target_pool_size": 50,
+    "minimum_unique_pool": 20,
     "final_count": 5,
     "minimum_final_count": 3
   },
@@ -37,37 +37,37 @@
   "provider": {
     "type": "apify",
     "apify": {
-      "discovery_actor_id": "REPLACE_WITH_DISCOVERY_ACTOR_ID",
-      "enrichment_actor_id": "REPLACE_WITH_ENRICHMENT_ACTOR_ID",
-      "maximum_items": 100,
+      "discovery_actor_id": "apify/instagram-search-scraper",
+      "enrichment_actor_id": "apify/instagram-profile-scraper",
+      "maximum_items": 50,
       "timeout_seconds": 180,
-      "max_retries": 3,
+      "max_retries": 2,
+      "max_total_charge_usd": 1.0,
+      "max_combined_charge_usd": 2.0,
       "api_base_url": "https://api.apify.com/v2",
       "discovery_input_template": {
-        "searchQueries": "$query_texts",
-        "resultsLimit": "$maximum_items"
+        "search": "$query_text_csv",
+        "searchType": "user",
+        "searchLimit": 10,
+        "enhanceUserSearchWithFacebookPage": false,
+        "liveSearch": false
       },
       "enrichment_input_template": {
-        "directUrls": "$profile_urls",
-        "resultsLimit": "$maximum_items"
+        "usernames": "$usernames",
+        "includeAboutSection": false
       },
       "field_mappings": {
         "discovery": {
-          "platform": "platform",
           "username": "username",
           "profile_url": "url",
           "display_name": "fullName",
           "biography": "biography",
           "followers": "followersCount",
           "private": "private",
-          "accessible": "accessible",
-          "provider_identity_confidence": "identityConfidence",
           "provider_id": "id",
-          "query_ids": "queryIds",
-          "collected_at": "collectedAt"
+          "search_term": "searchTerm"
         },
         "profile": {
-          "platform": "platform",
           "username": "username",
           "profile_url": "url",
           "full_name": "fullName",
@@ -75,13 +75,9 @@
           "followers": "followersCount",
           "posts_count": "postsCount",
           "private": "private",
-          "accessible": "accessible",
           "recent_posts": "latestPosts",
           "external_urls": "externalUrls",
-          "provider_identity_confidence": "identityConfidence",
-          "provider_ids": "id",
-          "query_ids": "queryIds",
-          "collected_at": "collectedAt"
+          "provider_ids": "id"
         },
         "post": {
           "post_id": "id",

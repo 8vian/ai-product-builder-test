@@ -1,0 +1,3368 @@
+[
+  {
+    "account_type": "personal_creator",
+    "account_type_explanation": "The profile contains auditable personal-author evidence.",
+    "alternative_campaign_note": "",
+    "barter_evidence": [],
+    "barter_feasibility_explanation": "Audience does not exceed the frozen Phase A outer-fence threshold 301,675.0.",
+    "barter_feasibility_review_required": false,
+    "barter_offer": "Здравствуйте, FASHION-АНАЛИТИК | СТИЛИСТ МОСКВА!\n\nУвидели вашу недавнюю публикацию «Мои Мама и Дочка ❤️ Для каждой из них я однажды создала индивидуальную палитру цветов, и с тех пор они придер…»: https://www.instagram.com/p/DaLi4KFjuZc/\nНам кажется, такой формат контента может естественно сочетаться с категорией «женская одежда».\n\nМы — LD Latte. Хотим предложить для обсуждения товар из новой коллекции в обмен на согласованный Reels или нативный обзор: товар из новой коллекции LD Latte. Если идея вам интересна, возможный формат — Reels или нативный обзор; детали и творческую подачу согласуем вместе.\n\nБудем рады обсудить предложение, если оно вам подходит; никаких обязательств до согласования условий нет.\n\n[Черновик: требуется ручная проверка и одобрение перед использованием.]",
+    "campaign_bucket": "barter_ready",
+    "campaign_language_compatible": true,
+    "campaign_status_reasons": [],
+    "collected_at": "2026-07-28T21:21:52.476149+00:00",
+    "compatibility_explanation": "Detected content language mixed:latin_undetermined,ru includes campaign language ru. Campaign delivery market is Россия, but candidate geography is not directly evidenced.",
+    "content_themes": [
+      "beauty",
+      "fashion"
+    ],
+    "data_completeness": 1.0,
+    "delivery_market_review_required": true,
+    "detected_content_language": "mixed:latin_undetermined,ru",
+    "detected_geography": null,
+    "discovery_confidence": 0.866667,
+    "eligibility_reasons": [],
+    "eligibility_status": "eligible",
+    "engagement_rate": 4.622243078366964,
+    "evidence": [
+      {
+        "evidence_text": "Observed contact URL: https://t.me/+iHg46Nfc-HgwZTY6",
+        "observation_type": "direct",
+        "signal_type": "contact",
+        "source_field": "external_urls",
+        "source_reference": "profile",
+        "url": "https://t.me/+iHg46Nfc-HgwZTY6"
+      },
+      {
+        "evidence_text": "Matched explicit term: fashion",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "full_name",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/ayuma.style/"
+      },
+      {
+        "evidence_text": "Matched explicit term: стиль",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3176279334411520545",
+        "url": "https://www.instagram.com/p/CwUaTnbA0oh/"
+      },
+      {
+        "evidence_text": "Matched explicit term: одежд",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3176279334411520545",
+        "url": "https://www.instagram.com/p/CwUaTnbA0oh/"
+      },
+      {
+        "evidence_text": "Matched explicit term: гардероб",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3176279334411520545",
+        "url": "https://www.instagram.com/p/CwUaTnbA0oh/"
+      },
+      {
+        "evidence_text": "Matched explicit term: одежд",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3930388492513633884",
+        "url": "https://www.instagram.com/p/DaLi4KFjuZc/"
+      },
+      {
+        "evidence_text": "Matched explicit term: одежд",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3727103903365210846",
+        "url": "https://www.instagram.com/p/DO5VUDJDiLe/"
+      },
+      {
+        "evidence_text": "Matched explicit term: одежд",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3718649286432306737",
+        "url": "https://www.instagram.com/p/DObS9LiDrYx/"
+      },
+      {
+        "evidence_text": "Matched explicit term: мода",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3713380358252581492",
+        "url": "https://www.instagram.com/p/DOIk8LxjtJ0/"
+      },
+      {
+        "evidence_text": "Matched explicit term: стиль",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3713380358252581492",
+        "url": "https://www.instagram.com/p/DOIk8LxjtJ0/"
+      },
+      {
+        "evidence_text": "Observed direct fashion evidence: одежд, образ, гардероб",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3176279334411520545",
+        "url": "https://www.instagram.com/p/CwUaTnbA0oh/"
+      },
+      {
+        "evidence_text": "Observed direct fashion evidence: одежд",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3930388492513633884",
+        "url": "https://www.instagram.com/p/DaLi4KFjuZc/"
+      },
+      {
+        "evidence_text": "Observed direct fashion evidence: одежд, образ",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3727103903365210846",
+        "url": "https://www.instagram.com/p/DO5VUDJDiLe/"
+      },
+      {
+        "evidence_text": "Observed direct fashion evidence: одежд",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3718649286432306737",
+        "url": "https://www.instagram.com/p/DObS9LiDrYx/"
+      },
+      {
+        "evidence_text": "Observed direct fashion evidence: рубаш",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3710661743443080364",
+        "url": "https://www.instagram.com/p/DN-6zIbjnSs/"
+      },
+      {
+        "evidence_text": "Observed direct fashion evidence: рубаш",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3696684909388763319",
+        "url": "https://www.instagram.com/p/DNNQ1bWqhC3/"
+      },
+      {
+        "evidence_text": "Matched explicit term: уход",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3176279334411520545",
+        "url": "https://www.instagram.com/p/CwUaTnbA0oh/"
+      },
+      {
+        "evidence_text": "Matched explicit term: макияж",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3727103903365210846",
+        "url": "https://www.instagram.com/p/DO5VUDJDiLe/"
+      },
+      {
+        "evidence_text": "Observed direct beauty evidence: уход",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3176279334411520545",
+        "url": "https://www.instagram.com/p/CwUaTnbA0oh/"
+      },
+      {
+        "evidence_text": "Observed direct beauty evidence: макияж",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3727103903365210846",
+        "url": "https://www.instagram.com/p/DO5VUDJDiLe/"
+      },
+      {
+        "evidence_text": "Matched explicit term: дом",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/ayuma.style/"
+      },
+      {
+        "evidence_text": "Matched explicit term: мама",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3930388492513633884",
+        "url": "https://www.instagram.com/p/DaLi4KFjuZc/"
+      },
+      {
+        "evidence_text": "Matched explicit term: дом",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3727103903365210846",
+        "url": "https://www.instagram.com/p/DO5VUDJDiLe/"
+      },
+      {
+        "evidence_text": "Matched explicit term: жизн",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3709672280151741427",
+        "url": "https://www.instagram.com/p/DN7Z0i7jtPz/"
+      },
+      {
+        "evidence_text": "Matched explicit term: дом",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3709672280151741427",
+        "url": "https://www.instagram.com/p/DN7Z0i7jtPz/"
+      },
+      {
+        "evidence_text": "Matched explicit term: мама",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3709672280151741427",
+        "url": "https://www.instagram.com/p/DN7Z0i7jtPz/"
+      },
+      {
+        "evidence_text": "Observed structured account mention(s): ayuma.style",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.mentions",
+        "source_reference": "3727419947283737845",
+        "url": "https://www.instagram.com/p/DO6dLF-jWz1/"
+      },
+      {
+        "evidence_text": "Observed tagged account(s): vorotilova.media, ayuma.style",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.tagged_usernames",
+        "source_reference": "3727419947283737845",
+        "url": "https://www.instagram.com/p/DO6dLF-jWz1/"
+      },
+      {
+        "evidence_text": "Observed structured account mention(s): dorogaya.brand",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.mentions",
+        "source_reference": "3718649286432306737",
+        "url": "https://www.instagram.com/p/DObS9LiDrYx/"
+      },
+      {
+        "evidence_text": "Observed tagged account(s): marina_pro_antiage, dorogaya.brand",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.tagged_usernames",
+        "source_reference": "3718649286432306737",
+        "url": "https://www.instagram.com/p/DObS9LiDrYx/"
+      },
+      {
+        "evidence_text": "Observed structured account mention(s): tele.mama",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.mentions",
+        "source_reference": "3710661743443080364",
+        "url": "https://www.instagram.com/p/DN-6zIbjnSs/"
+      },
+      {
+        "evidence_text": "Observed tagged account(s): dorogaya.brand",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.tagged_usernames",
+        "source_reference": "3710661743443080364",
+        "url": "https://www.instagram.com/p/DN-6zIbjnSs/"
+      },
+      {
+        "evidence_text": "Observed structured account mention(s): afina_zefs",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.mentions",
+        "source_reference": "3709672280151741427",
+        "url": "https://www.instagram.com/p/DN7Z0i7jtPz/"
+      },
+      {
+        "evidence_text": "Observed tagged account(s): afina_zefs",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.tagged_usernames",
+        "source_reference": "3709672280151741427",
+        "url": "https://www.instagram.com/p/DN7Z0i7jtPz/"
+      },
+      {
+        "evidence_text": "Observed structured account mention(s): dorogaya.brand",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.mentions",
+        "source_reference": "3696684909388763319",
+        "url": "https://www.instagram.com/p/DNNQ1bWqhC3/"
+      },
+      {
+        "evidence_text": "Observed tagged account(s): ayuma.style, dorogaya.brand",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.tagged_usernames",
+        "source_reference": "3696684909388763319",
+        "url": "https://www.instagram.com/p/DNNQ1bWqhC3/"
+      },
+      {
+        "evidence_text": "Observed person-like profile name: FASHION-АНАЛИТИК | СТИЛИСТ МОСКВА",
+        "observation_type": "derived",
+        "signal_type": "account_type_personal",
+        "source_field": "full_name",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/ayuma.style/"
+      },
+      {
+        "evidence_text": "Observed direct Russian lexical evidence in saved profile/post text (43 matches).",
+        "observation_type": "direct",
+        "signal_type": "content_language",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3176279334411520545",
+        "url": "https://www.instagram.com/p/CwUaTnbA0oh/"
+      },
+      {
+        "evidence_text": "Observed Latin-script content; lexical evidence classified it as latin_undetermined.",
+        "observation_type": "derived",
+        "signal_type": "content_language",
+        "source_field": "biography_and_recent_posts.caption",
+        "source_reference": "sample",
+        "url": "https://www.instagram.com/ayuma.style/"
+      },
+      {
+        "evidence_text": "0.40×provider identity (1.000) + 0.20×multi-query support (0.333; 1 distinct queries, full credit at 3) + 0.20×profile/post link verification (1.000) + 0.20×query relevance (1.000; 4 directly evidenced target dimensions) = 0.867.",
+        "observation_type": "derived",
+        "signal_type": "discovery_confidence",
+        "source_field": "provider_and_discovery",
+        "source_reference": "ayuma.style",
+        "url": "https://www.instagram.com/ayuma.style/"
+      },
+      {
+        "evidence_text": "Caption-derived topic excerpt used: Мои Мама и Дочка ❤️ Для каждой из них я однажды создала индивидуальную палитру цветов, и с тех пор они придер…",
+        "observation_type": "direct",
+        "signal_type": "offer_personalization",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3930388492513633884",
+        "url": "https://www.instagram.com/p/DaLi4KFjuZc/"
+      },
+      {
+        "evidence_text": "Observed profile name used in greeting: FASHION-АНАЛИТИК | СТИЛИСТ МОСКВА",
+        "observation_type": "direct",
+        "signal_type": "offer_greeting",
+        "source_field": "full_name",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/ayuma.style/"
+      }
+    ],
+    "followers": 2131,
+    "known_format_posts": 10,
+    "last_post_date": "2026-06-29T18:47:21+00:00",
+    "manual_verification_status": "pending",
+    "median_comments": 12.5,
+    "median_likes": 87.5,
+    "no_barter_evidence": [],
+    "offer_generation_mode": "deterministic_template",
+    "platform": "instagram",
+    "profile_url": "https://www.instagram.com/ayuma.style/",
+    "provider": "apify",
+    "query_ids": [
+      "ru_stylist_moscow_06"
+    ],
+    "recent_post_url": "https://www.instagram.com/p/DaLi4KFjuZc/",
+    "sampled_posts": 12,
+    "score": 60.38,
+    "score_components": [
+      {
+        "evidence": [
+          {
+            "evidence_text": "Matched explicit term: fashion",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "full_name",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/ayuma.style/"
+          },
+          {
+            "evidence_text": "Matched explicit term: стиль",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3176279334411520545",
+            "url": "https://www.instagram.com/p/CwUaTnbA0oh/"
+          },
+          {
+            "evidence_text": "Matched explicit term: одежд",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3176279334411520545",
+            "url": "https://www.instagram.com/p/CwUaTnbA0oh/"
+          },
+          {
+            "evidence_text": "Matched explicit term: гардероб",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3176279334411520545",
+            "url": "https://www.instagram.com/p/CwUaTnbA0oh/"
+          },
+          {
+            "evidence_text": "Matched explicit term: одежд",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3930388492513633884",
+            "url": "https://www.instagram.com/p/DaLi4KFjuZc/"
+          },
+          {
+            "evidence_text": "Matched explicit term: одежд",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3727103903365210846",
+            "url": "https://www.instagram.com/p/DO5VUDJDiLe/"
+          },
+          {
+            "evidence_text": "Matched explicit term: одежд",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3718649286432306737",
+            "url": "https://www.instagram.com/p/DObS9LiDrYx/"
+          },
+          {
+            "evidence_text": "Matched explicit term: мода",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3713380358252581492",
+            "url": "https://www.instagram.com/p/DOIk8LxjtJ0/"
+          },
+          {
+            "evidence_text": "Matched explicit term: стиль",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3713380358252581492",
+            "url": "https://www.instagram.com/p/DOIk8LxjtJ0/"
+          },
+          {
+            "evidence_text": "Observed direct fashion evidence: одежд, образ, гардероб",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3176279334411520545",
+            "url": "https://www.instagram.com/p/CwUaTnbA0oh/"
+          },
+          {
+            "evidence_text": "Observed direct fashion evidence: одежд",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3930388492513633884",
+            "url": "https://www.instagram.com/p/DaLi4KFjuZc/"
+          },
+          {
+            "evidence_text": "Observed direct fashion evidence: одежд, образ",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3727103903365210846",
+            "url": "https://www.instagram.com/p/DO5VUDJDiLe/"
+          },
+          {
+            "evidence_text": "Observed direct fashion evidence: одежд",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3718649286432306737",
+            "url": "https://www.instagram.com/p/DObS9LiDrYx/"
+          },
+          {
+            "evidence_text": "Observed direct fashion evidence: рубаш",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3710661743443080364",
+            "url": "https://www.instagram.com/p/DN-6zIbjnSs/"
+          },
+          {
+            "evidence_text": "Observed direct fashion evidence: рубаш",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3696684909388763319",
+            "url": "https://www.instagram.com/p/DNNQ1bWqhC3/"
+          },
+          {
+            "evidence_text": "Matched explicit term: уход",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3176279334411520545",
+            "url": "https://www.instagram.com/p/CwUaTnbA0oh/"
+          },
+          {
+            "evidence_text": "Matched explicit term: макияж",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3727103903365210846",
+            "url": "https://www.instagram.com/p/DO5VUDJDiLe/"
+          },
+          {
+            "evidence_text": "Observed direct beauty evidence: уход",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3176279334411520545",
+            "url": "https://www.instagram.com/p/CwUaTnbA0oh/"
+          },
+          {
+            "evidence_text": "Observed direct beauty evidence: макияж",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3727103903365210846",
+            "url": "https://www.instagram.com/p/DO5VUDJDiLe/"
+          },
+          {
+            "evidence_text": "Matched explicit term: дом",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/ayuma.style/"
+          },
+          {
+            "evidence_text": "Matched explicit term: мама",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3930388492513633884",
+            "url": "https://www.instagram.com/p/DaLi4KFjuZc/"
+          },
+          {
+            "evidence_text": "Matched explicit term: дом",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3727103903365210846",
+            "url": "https://www.instagram.com/p/DO5VUDJDiLe/"
+          },
+          {
+            "evidence_text": "Matched explicit term: жизн",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3709672280151741427",
+            "url": "https://www.instagram.com/p/DN7Z0i7jtPz/"
+          },
+          {
+            "evidence_text": "Matched explicit term: дом",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3709672280151741427",
+            "url": "https://www.instagram.com/p/DN7Z0i7jtPz/"
+          },
+          {
+            "evidence_text": "Matched explicit term: мама",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3709672280151741427",
+            "url": "https://www.instagram.com/p/DN7Z0i7jtPz/"
+          },
+          {
+            "evidence_text": "16.00/24 topical + 4.00/5 format readiness + 0.71/1 Nike/Apple format alignment.",
+            "observation_type": "derived",
+            "signal_type": "content_and_aesthetic_fit",
+            "source_field": "candidate_metrics",
+            "source_reference": "ayuma.style",
+            "url": "https://www.instagram.com/ayuma.style/"
+          }
+        ],
+        "explanation": "16.00/24 topical + 4.00/5 format readiness + 0.71/1 Nike/Apple format alignment.",
+        "max_score": 30.0,
+        "name": "content_and_aesthetic_fit",
+        "score": 20.71
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Observed contact URL: https://t.me/+iHg46Nfc-HgwZTY6",
+            "observation_type": "direct",
+            "signal_type": "contact",
+            "source_field": "external_urls",
+            "source_reference": "profile",
+            "url": "https://t.me/+iHg46Nfc-HgwZTY6"
+          },
+          {
+            "evidence_text": "Observed structured account mention(s): ayuma.style",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.mentions",
+            "source_reference": "3727419947283737845",
+            "url": "https://www.instagram.com/p/DO6dLF-jWz1/"
+          },
+          {
+            "evidence_text": "Observed tagged account(s): vorotilova.media, ayuma.style",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.tagged_usernames",
+            "source_reference": "3727419947283737845",
+            "url": "https://www.instagram.com/p/DO6dLF-jWz1/"
+          },
+          {
+            "evidence_text": "Observed structured account mention(s): dorogaya.brand",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.mentions",
+            "source_reference": "3718649286432306737",
+            "url": "https://www.instagram.com/p/DObS9LiDrYx/"
+          },
+          {
+            "evidence_text": "Observed tagged account(s): marina_pro_antiage, dorogaya.brand",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.tagged_usernames",
+            "source_reference": "3718649286432306737",
+            "url": "https://www.instagram.com/p/DObS9LiDrYx/"
+          },
+          {
+            "evidence_text": "Observed structured account mention(s): tele.mama",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.mentions",
+            "source_reference": "3710661743443080364",
+            "url": "https://www.instagram.com/p/DN-6zIbjnSs/"
+          },
+          {
+            "evidence_text": "Observed tagged account(s): dorogaya.brand",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.tagged_usernames",
+            "source_reference": "3710661743443080364",
+            "url": "https://www.instagram.com/p/DN-6zIbjnSs/"
+          },
+          {
+            "evidence_text": "Observed structured account mention(s): afina_zefs",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.mentions",
+            "source_reference": "3709672280151741427",
+            "url": "https://www.instagram.com/p/DN7Z0i7jtPz/"
+          },
+          {
+            "evidence_text": "Observed tagged account(s): afina_zefs",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.tagged_usernames",
+            "source_reference": "3709672280151741427",
+            "url": "https://www.instagram.com/p/DN7Z0i7jtPz/"
+          },
+          {
+            "evidence_text": "Observed structured account mention(s): dorogaya.brand",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.mentions",
+            "source_reference": "3696684909388763319",
+            "url": "https://www.instagram.com/p/DNNQ1bWqhC3/"
+          },
+          {
+            "evidence_text": "Observed tagged account(s): ayuma.style, dorogaya.brand",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.tagged_usernames",
+            "source_reference": "3696684909388763319",
+            "url": "https://www.instagram.com/p/DNNQ1bWqhC3/"
+          },
+          {
+            "evidence_text": "UGC=False, marketplace=False, commercial/PR=False, contact=True; 5/12 posts have independently observed native-integration evidence.",
+            "observation_type": "derived",
+            "signal_type": "native_product_integration_potential",
+            "source_field": "candidate_metrics",
+            "source_reference": "ayuma.style",
+            "url": "https://www.instagram.com/ayuma.style/"
+          }
+        ],
+        "explanation": "UGC=False, marketplace=False, commercial/PR=False, contact=True; 5/12 posts have independently observed native-integration evidence.",
+        "max_score": 20.0,
+        "name": "native_product_integration_potential",
+        "score": 5.33
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Short video share 0.833 × 15 = 12.50.",
+            "observation_type": "derived",
+            "signal_type": "short_video_consistency",
+            "source_field": "candidate_metrics",
+            "source_reference": "ayuma.style",
+            "url": "https://www.instagram.com/ayuma.style/"
+          }
+        ],
+        "explanation": "Short video share 0.833 × 15 = 12.50.",
+        "max_score": 15.0,
+        "name": "short_video_consistency",
+        "score": 12.5
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Frozen Phase A percentile 0.846173 × 15 = 12.69 raw; × completeness 12/12 (1.000000) = 12.69 adjusted.",
+            "observation_type": "derived",
+            "signal_type": "engagement",
+            "source_field": "candidate_metrics",
+            "source_reference": "ayuma.style",
+            "url": "https://www.instagram.com/ayuma.style/"
+          }
+        ],
+        "explanation": "Frozen Phase A percentile 0.846173 × 15 = 12.69 raw; × completeness 12/12 (1.000000) = 12.69 adjusted.",
+        "max_score": 15.0,
+        "name": "engagement",
+        "score": 12.69
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "5.0/5 for small creator audience (1k–10k); commercial/PR=False (+2), UGC=False (+2), marketplace=False (+1).",
+            "observation_type": "derived",
+            "signal_type": "barter_feasibility",
+            "source_field": "candidate_metrics",
+            "source_reference": "ayuma.style",
+            "url": "https://www.instagram.com/ayuma.style/"
+          }
+        ],
+        "explanation": "5.0/5 for small creator audience (1k–10k); commercial/PR=False (+2), UGC=False (+2), marketplace=False (+1).",
+        "max_score": 10.0,
+        "name": "barter_feasibility",
+        "score": 5.0
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "4.00/6 recency + 0.15/4 posting frequency.",
+            "observation_type": "derived",
+            "signal_type": "recent_activity",
+            "source_field": "candidate_metrics",
+            "source_reference": "ayuma.style",
+            "url": "https://www.instagram.com/ayuma.style/"
+          }
+        ],
+        "explanation": "4.00/6 recency + 0.15/4 posting frequency.",
+        "max_score": 10.0,
+        "name": "recent_activity",
+        "score": 4.15
+      }
+    ],
+    "selection_explanation": "Rank 1 of 6 eligible candidates: score 60.38/100, discovery confidence 0.867, data completeness 1.000, engagement rate 4.622%.",
+    "short_video_share": 0.8333333333333334,
+    "source_exclusion_check": "clear: no Phase A username, URL, historical alias, replacement, rejected false lead, Nike, or Apple match",
+    "usable_posts": 12,
+    "username": "ayuma.style",
+    "verification_notes": ""
+  },
+  {
+    "account_type": "personal_creator",
+    "account_type_explanation": "The profile contains auditable personal-author evidence.",
+    "alternative_campaign_note": "",
+    "barter_evidence": [],
+    "barter_feasibility_explanation": "Audience does not exceed the frozen Phase A outer-fence threshold 301,675.0.",
+    "barter_feasibility_review_required": false,
+    "barter_offer": "Здравствуйте, Стилист Москва!\n\nУвидели вашу недавнюю публикацию «Собираю ваш чемодан в отпуск в одной карусели ❤️ Знаю, что на отдыхе часто неохота, а порой и нету времени пр…»: https://www.instagram.com/p/DbV0U4ojp7w/\nНам кажется, такой формат контента может естественно сочетаться с категорией «женская одежда».\n\nМы — LD Latte. Хотим предложить для обсуждения товар из новой коллекции в обмен на согласованный Reels или нативный обзор: товар из новой коллекции LD Latte. Если идея вам интересна, возможный формат — Reels или нативный обзор; детали и творческую подачу согласуем вместе.\n\nБудем рады обсудить предложение, если оно вам подходит; никаких обязательств до согласования условий нет.\n\n[Черновик: требуется ручная проверка и одобрение перед использованием.]",
+    "campaign_bucket": "barter_ready",
+    "campaign_language_compatible": true,
+    "campaign_status_reasons": [],
+    "collected_at": "2026-07-28T21:21:52.476149+00:00",
+    "compatibility_explanation": "Detected content language mixed:latin_undetermined,ru includes campaign language ru. Observed geography Москва, Россия is compatible with campaign delivery market Россия.",
+    "content_themes": [
+      "fashion"
+    ],
+    "data_completeness": 1.0,
+    "delivery_market_review_required": false,
+    "detected_content_language": "mixed:latin_undetermined,ru",
+    "detected_geography": "Москва, Россия",
+    "discovery_confidence": 0.866667,
+    "eligibility_reasons": [],
+    "eligibility_status": "eligible",
+    "engagement_rate": 0.22333667669675694,
+    "evidence": [
+      {
+        "evidence_text": "Matched explicit term: сотруднич",
+        "observation_type": "direct",
+        "signal_type": "commercial_pr",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/angelashegiryan/"
+      },
+      {
+        "evidence_text": "Matched explicit term: сотрудничество",
+        "observation_type": "direct",
+        "signal_type": "commercial_pr",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/angelashegiryan/"
+      },
+      {
+        "evidence_text": "Matched explicit term: manager",
+        "observation_type": "direct",
+        "signal_type": "contact",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/angelashegiryan/"
+      },
+      {
+        "evidence_text": "Observed contact URL: https://t.me/nomoreluxury",
+        "observation_type": "direct",
+        "signal_type": "contact",
+        "source_field": "external_urls",
+        "source_reference": "profile",
+        "url": "https://t.me/nomoreluxury"
+      },
+      {
+        "evidence_text": "Matched explicit term: гардероб",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/angelashegiryan/"
+      },
+      {
+        "evidence_text": "Matched explicit term: мода",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3951294381705567984",
+        "url": "https://www.instagram.com/p/DbV0U4ojp7w/"
+      },
+      {
+        "evidence_text": "Matched explicit term: гардероб",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3942617956940939727",
+        "url": "https://www.instagram.com/p/Da2_iSYioHP/"
+      },
+      {
+        "evidence_text": "Matched explicit term: мода",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3927517850256626719",
+        "url": "https://www.instagram.com/p/DaBWK0JjVQf/"
+      },
+      {
+        "evidence_text": "Matched explicit term: стиль",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3927517850256626719",
+        "url": "https://www.instagram.com/p/DaBWK0JjVQf/"
+      },
+      {
+        "evidence_text": "Matched explicit term: одежд",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3927517850256626719",
+        "url": "https://www.instagram.com/p/DaBWK0JjVQf/"
+      },
+      {
+        "evidence_text": "Matched explicit term: гардероб",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3927517850256626719",
+        "url": "https://www.instagram.com/p/DaBWK0JjVQf/"
+      },
+      {
+        "evidence_text": "Matched explicit term: стиль",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3926748344146678947",
+        "url": "https://www.instagram.com/p/DZ-nNBvN1Sj/"
+      },
+      {
+        "evidence_text": "Matched explicit term: одежд",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3916345866036864916",
+        "url": "https://www.instagram.com/p/DZZp9DCsmeU/"
+      },
+      {
+        "evidence_text": "Matched explicit term: гардероб",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3916345866036864916",
+        "url": "https://www.instagram.com/p/DZZp9DCsmeU/"
+      },
+      {
+        "evidence_text": "Observed direct fashion evidence: образ, гардероб",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/angelashegiryan/"
+      },
+      {
+        "evidence_text": "Observed direct fashion evidence: образ",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3951294381705567984",
+        "url": "https://www.instagram.com/p/DbV0U4ojp7w/"
+      },
+      {
+        "evidence_text": "Observed direct fashion evidence: образ",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3950577513816934403",
+        "url": "https://www.instagram.com/p/DbTRVFYtEgD/"
+      },
+      {
+        "evidence_text": "Observed direct fashion evidence: гардероб",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3942617956940939727",
+        "url": "https://www.instagram.com/p/Da2_iSYioHP/"
+      },
+      {
+        "evidence_text": "Observed direct fashion evidence: одежд, гардероб, плать",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3927517850256626719",
+        "url": "https://www.instagram.com/p/DaBWK0JjVQf/"
+      },
+      {
+        "evidence_text": "Observed direct fashion evidence: одежд, гардероб",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3916345866036864916",
+        "url": "https://www.instagram.com/p/DZZp9DCsmeU/"
+      },
+      {
+        "evidence_text": "Matched explicit term: мама",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3950577513816934403",
+        "url": "https://www.instagram.com/p/DbTRVFYtEgD/"
+      },
+      {
+        "evidence_text": "Matched explicit term: дом",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3927517850256626719",
+        "url": "https://www.instagram.com/p/DaBWK0JjVQf/"
+      },
+      {
+        "evidence_text": "Matched explicit term: жизн",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3918473480559731144",
+        "url": "https://www.instagram.com/p/DZhNt6ejSHI/"
+      },
+      {
+        "evidence_text": "Matched explicit term: вдохнов",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3916345866036864916",
+        "url": "https://www.instagram.com/p/DZZp9DCsmeU/"
+      },
+      {
+        "evidence_text": "Matched explicit term: покупок",
+        "observation_type": "direct",
+        "signal_type": "marketplace",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3950577513816934403",
+        "url": "https://www.instagram.com/p/DbTRVFYtEgD/"
+      },
+      {
+        "evidence_text": "Observed structured account mention(s): ana_cashmere, ruel.brand",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.mentions",
+        "source_reference": "3950577513816934403",
+        "url": "https://www.instagram.com/p/DbTRVFYtEgD/"
+      },
+      {
+        "evidence_text": "Observed tagged account(s): ana_cashmere, ruel.brand",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.tagged_usernames",
+        "source_reference": "3950577513816934403",
+        "url": "https://www.instagram.com/p/DbTRVFYtEgD/"
+      },
+      {
+        "evidence_text": "Observed product-focused caption term(s): покупок",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3950577513816934403",
+        "url": "https://www.instagram.com/p/DbTRVFYtEgD/"
+      },
+      {
+        "evidence_text": "Observed structured account mention(s): rally.moscow, ekonikastyle",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.mentions",
+        "source_reference": "3942617956940939727",
+        "url": "https://www.instagram.com/p/Da2_iSYioHP/"
+      },
+      {
+        "evidence_text": "Observed product-focused caption term(s): покупк",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3942617956940939727",
+        "url": "https://www.instagram.com/p/Da2_iSYioHP/"
+      },
+      {
+        "evidence_text": "Observed person-like profile name: Стилист Москва",
+        "observation_type": "derived",
+        "signal_type": "account_type_personal",
+        "source_field": "full_name",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/angelashegiryan/"
+      },
+      {
+        "evidence_text": "Observed direct Russian lexical evidence in saved profile/post text (39 matches).",
+        "observation_type": "direct",
+        "signal_type": "content_language",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/angelashegiryan/"
+      },
+      {
+        "evidence_text": "Observed Latin-script content; lexical evidence classified it as latin_undetermined.",
+        "observation_type": "derived",
+        "signal_type": "content_language",
+        "source_field": "biography_and_recent_posts.caption",
+        "source_reference": "sample",
+        "url": "https://www.instagram.com/angelashegiryan/"
+      },
+      {
+        "evidence_text": "Observed explicit geography evidence: moscow",
+        "observation_type": "direct",
+        "signal_type": "detected_geography",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3942617956940939727",
+        "url": "https://www.instagram.com/p/Da2_iSYioHP/"
+      },
+      {
+        "evidence_text": "0.40×provider identity (1.000) + 0.20×multi-query support (0.333; 1 distinct queries, full credit at 3) + 0.20×profile/post link verification (1.000) + 0.20×query relevance (1.000; 4 directly evidenced target dimensions) = 0.867.",
+        "observation_type": "derived",
+        "signal_type": "discovery_confidence",
+        "source_field": "provider_and_discovery",
+        "source_reference": "angelashegiryan",
+        "url": "https://www.instagram.com/angelashegiryan/"
+      },
+      {
+        "evidence_text": "Caption-derived topic excerpt used: Собираю ваш чемодан в отпуск в одной карусели ❤️ Знаю, что на отдыхе часто неохота, а порой и нету времени пр…",
+        "observation_type": "direct",
+        "signal_type": "offer_personalization",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3951294381705567984",
+        "url": "https://www.instagram.com/p/DbV0U4ojp7w/"
+      },
+      {
+        "evidence_text": "Observed profile name used in greeting: Стилист Москва",
+        "observation_type": "direct",
+        "signal_type": "offer_greeting",
+        "source_field": "full_name",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/angelashegiryan/"
+      }
+    ],
+    "followers": 74775,
+    "known_format_posts": 8,
+    "last_post_date": "2026-07-28T15:03:37+00:00",
+    "manual_verification_status": "pending",
+    "median_comments": 13.0,
+    "median_likes": 153.0,
+    "no_barter_evidence": [],
+    "offer_generation_mode": "deterministic_template",
+    "platform": "instagram",
+    "profile_url": "https://www.instagram.com/angelashegiryan/",
+    "provider": "apify",
+    "query_ids": [
+      "ru_stylist_moscow_06"
+    ],
+    "recent_post_url": "https://www.instagram.com/p/DbV0U4ojp7w/",
+    "sampled_posts": 12,
+    "score": 57.7,
+    "score_components": [
+      {
+        "evidence": [
+          {
+            "evidence_text": "Matched explicit term: гардероб",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/angelashegiryan/"
+          },
+          {
+            "evidence_text": "Matched explicit term: мода",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3951294381705567984",
+            "url": "https://www.instagram.com/p/DbV0U4ojp7w/"
+          },
+          {
+            "evidence_text": "Matched explicit term: гардероб",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3942617956940939727",
+            "url": "https://www.instagram.com/p/Da2_iSYioHP/"
+          },
+          {
+            "evidence_text": "Matched explicit term: мода",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3927517850256626719",
+            "url": "https://www.instagram.com/p/DaBWK0JjVQf/"
+          },
+          {
+            "evidence_text": "Matched explicit term: стиль",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3927517850256626719",
+            "url": "https://www.instagram.com/p/DaBWK0JjVQf/"
+          },
+          {
+            "evidence_text": "Matched explicit term: одежд",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3927517850256626719",
+            "url": "https://www.instagram.com/p/DaBWK0JjVQf/"
+          },
+          {
+            "evidence_text": "Matched explicit term: гардероб",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3927517850256626719",
+            "url": "https://www.instagram.com/p/DaBWK0JjVQf/"
+          },
+          {
+            "evidence_text": "Matched explicit term: стиль",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3926748344146678947",
+            "url": "https://www.instagram.com/p/DZ-nNBvN1Sj/"
+          },
+          {
+            "evidence_text": "Matched explicit term: одежд",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3916345866036864916",
+            "url": "https://www.instagram.com/p/DZZp9DCsmeU/"
+          },
+          {
+            "evidence_text": "Matched explicit term: гардероб",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3916345866036864916",
+            "url": "https://www.instagram.com/p/DZZp9DCsmeU/"
+          },
+          {
+            "evidence_text": "Observed direct fashion evidence: образ, гардероб",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/angelashegiryan/"
+          },
+          {
+            "evidence_text": "Observed direct fashion evidence: образ",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3951294381705567984",
+            "url": "https://www.instagram.com/p/DbV0U4ojp7w/"
+          },
+          {
+            "evidence_text": "Observed direct fashion evidence: образ",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3950577513816934403",
+            "url": "https://www.instagram.com/p/DbTRVFYtEgD/"
+          },
+          {
+            "evidence_text": "Observed direct fashion evidence: гардероб",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3942617956940939727",
+            "url": "https://www.instagram.com/p/Da2_iSYioHP/"
+          },
+          {
+            "evidence_text": "Observed direct fashion evidence: одежд, гардероб, плать",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3927517850256626719",
+            "url": "https://www.instagram.com/p/DaBWK0JjVQf/"
+          },
+          {
+            "evidence_text": "Observed direct fashion evidence: одежд, гардероб",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3916345866036864916",
+            "url": "https://www.instagram.com/p/DZZp9DCsmeU/"
+          },
+          {
+            "evidence_text": "Matched explicit term: мама",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3950577513816934403",
+            "url": "https://www.instagram.com/p/DbTRVFYtEgD/"
+          },
+          {
+            "evidence_text": "Matched explicit term: дом",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3927517850256626719",
+            "url": "https://www.instagram.com/p/DaBWK0JjVQf/"
+          },
+          {
+            "evidence_text": "Matched explicit term: жизн",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3918473480559731144",
+            "url": "https://www.instagram.com/p/DZhNt6ejSHI/"
+          },
+          {
+            "evidence_text": "Matched explicit term: вдохнов",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3916345866036864916",
+            "url": "https://www.instagram.com/p/DZZp9DCsmeU/"
+          },
+          {
+            "evidence_text": "Matched explicit term: покупок",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3950577513816934403",
+            "url": "https://www.instagram.com/p/DbTRVFYtEgD/"
+          },
+          {
+            "evidence_text": "14.00/24 topical + 4.00/5 format readiness + 0.88/1 Nike/Apple format alignment.",
+            "observation_type": "derived",
+            "signal_type": "content_and_aesthetic_fit",
+            "source_field": "candidate_metrics",
+            "source_reference": "angelashegiryan",
+            "url": "https://www.instagram.com/angelashegiryan/"
+          }
+        ],
+        "explanation": "14.00/24 topical + 4.00/5 format readiness + 0.88/1 Nike/Apple format alignment.",
+        "max_score": 30.0,
+        "name": "content_and_aesthetic_fit",
+        "score": 18.88
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Matched explicit term: покупок",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3950577513816934403",
+            "url": "https://www.instagram.com/p/DbTRVFYtEgD/"
+          },
+          {
+            "evidence_text": "Matched explicit term: сотруднич",
+            "observation_type": "direct",
+            "signal_type": "commercial_pr",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/angelashegiryan/"
+          },
+          {
+            "evidence_text": "Matched explicit term: сотрудничество",
+            "observation_type": "direct",
+            "signal_type": "commercial_pr",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/angelashegiryan/"
+          },
+          {
+            "evidence_text": "Matched explicit term: manager",
+            "observation_type": "direct",
+            "signal_type": "contact",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/angelashegiryan/"
+          },
+          {
+            "evidence_text": "Observed contact URL: https://t.me/nomoreluxury",
+            "observation_type": "direct",
+            "signal_type": "contact",
+            "source_field": "external_urls",
+            "source_reference": "profile",
+            "url": "https://t.me/nomoreluxury"
+          },
+          {
+            "evidence_text": "Observed structured account mention(s): ana_cashmere, ruel.brand",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.mentions",
+            "source_reference": "3950577513816934403",
+            "url": "https://www.instagram.com/p/DbTRVFYtEgD/"
+          },
+          {
+            "evidence_text": "Observed tagged account(s): ana_cashmere, ruel.brand",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.tagged_usernames",
+            "source_reference": "3950577513816934403",
+            "url": "https://www.instagram.com/p/DbTRVFYtEgD/"
+          },
+          {
+            "evidence_text": "Observed product-focused caption term(s): покупок",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3950577513816934403",
+            "url": "https://www.instagram.com/p/DbTRVFYtEgD/"
+          },
+          {
+            "evidence_text": "Observed structured account mention(s): rally.moscow, ekonikastyle",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.mentions",
+            "source_reference": "3942617956940939727",
+            "url": "https://www.instagram.com/p/Da2_iSYioHP/"
+          },
+          {
+            "evidence_text": "Observed product-focused caption term(s): покупк",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3942617956940939727",
+            "url": "https://www.instagram.com/p/Da2_iSYioHP/"
+          },
+          {
+            "evidence_text": "UGC=False, marketplace=True, commercial/PR=True, contact=True; 2/12 posts have independently observed native-integration evidence.",
+            "observation_type": "derived",
+            "signal_type": "native_product_integration_potential",
+            "source_field": "candidate_metrics",
+            "source_reference": "angelashegiryan",
+            "url": "https://www.instagram.com/angelashegiryan/"
+          }
+        ],
+        "explanation": "UGC=False, marketplace=True, commercial/PR=True, contact=True; 2/12 posts have independently observed native-integration evidence.",
+        "max_score": 20.0,
+        "name": "native_product_integration_potential",
+        "score": 11.33
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Short video share 0.667 × 15 = 10.00.",
+            "observation_type": "derived",
+            "signal_type": "short_video_consistency",
+            "source_field": "candidate_metrics",
+            "source_reference": "angelashegiryan",
+            "url": "https://www.instagram.com/angelashegiryan/"
+          }
+        ],
+        "explanation": "Short video share 0.667 × 15 = 10.00.",
+        "max_score": 15.0,
+        "name": "short_video_consistency",
+        "score": 10.0
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Frozen Phase A percentile 0.153125 × 15 = 2.30 raw; × completeness 12/12 (1.000000) = 2.30 adjusted.",
+            "observation_type": "derived",
+            "signal_type": "engagement",
+            "source_field": "candidate_metrics",
+            "source_reference": "angelashegiryan",
+            "url": "https://www.instagram.com/angelashegiryan/"
+          }
+        ],
+        "explanation": "Frozen Phase A percentile 0.153125 × 15 = 2.30 raw; × completeness 12/12 (1.000000) = 2.30 adjusted.",
+        "max_score": 15.0,
+        "name": "engagement",
+        "score": 2.3
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Matched explicit term: сотруднич",
+            "observation_type": "direct",
+            "signal_type": "commercial_pr",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/angelashegiryan/"
+          },
+          {
+            "evidence_text": "Matched explicit term: сотрудничество",
+            "observation_type": "direct",
+            "signal_type": "commercial_pr",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/angelashegiryan/"
+          },
+          {
+            "evidence_text": "Matched explicit term: покупок",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3950577513816934403",
+            "url": "https://www.instagram.com/p/DbTRVFYtEgD/"
+          },
+          {
+            "evidence_text": "3.0/5 for mid-size audience (50k–150k); commercial/PR=True (+2), UGC=False (+2), marketplace=True (+1).",
+            "observation_type": "derived",
+            "signal_type": "barter_feasibility",
+            "source_field": "candidate_metrics",
+            "source_reference": "angelashegiryan",
+            "url": "https://www.instagram.com/angelashegiryan/"
+          }
+        ],
+        "explanation": "3.0/5 for mid-size audience (50k–150k); commercial/PR=True (+2), UGC=False (+2), marketplace=True (+1).",
+        "max_score": 10.0,
+        "name": "barter_feasibility",
+        "score": 6.0
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "6.00/6 recency + 3.19/4 posting frequency.",
+            "observation_type": "derived",
+            "signal_type": "recent_activity",
+            "source_field": "candidate_metrics",
+            "source_reference": "angelashegiryan",
+            "url": "https://www.instagram.com/angelashegiryan/"
+          }
+        ],
+        "explanation": "6.00/6 recency + 3.19/4 posting frequency.",
+        "max_score": 10.0,
+        "name": "recent_activity",
+        "score": 9.19
+      }
+    ],
+    "selection_explanation": "Rank 2 of 6 eligible candidates: score 57.70/100, discovery confidence 0.867, data completeness 1.000, engagement rate 0.223%.",
+    "short_video_share": 0.6666666666666666,
+    "source_exclusion_check": "clear: no Phase A username, URL, historical alias, replacement, rejected false lead, Nike, or Apple match",
+    "usable_posts": 12,
+    "username": "angelashegiryan",
+    "verification_notes": ""
+  },
+  {
+    "account_type": "personal_creator",
+    "account_type_explanation": "The profile contains auditable personal-author evidence.",
+    "alternative_campaign_note": "",
+    "barter_evidence": [],
+    "barter_feasibility_explanation": "Audience does not exceed the frozen Phase A outer-fence threshold 301,675.0.",
+    "barter_feasibility_review_required": false,
+    "barter_offer": "Здравствуйте, ОЛЬГА НЕМКА/ТОП СТИЛИСТ/МОСКВА!\n\nУвидели вашу недавнюю публикацию «Базовый гардероб- это всегда персонально! Это про вас, а не про набор безликих вещей!💫»: https://www.instagram.com/p/DbSlmTzNZUg/\nНам кажется, такой формат контента может естественно сочетаться с категорией «женская одежда».\n\nМы — LD Latte. Хотим предложить для обсуждения товар из новой коллекции в обмен на согласованный Reels или нативный обзор: товар из новой коллекции LD Latte. Если идея вам интересна, возможный формат — Reels или нативный обзор; детали и творческую подачу согласуем вместе.\n\nБудем рады обсудить предложение, если оно вам подходит; никаких обязательств до согласования условий нет.\n\n[Черновик: требуется ручная проверка и одобрение перед использованием.]",
+    "campaign_bucket": "barter_ready",
+    "campaign_language_compatible": true,
+    "campaign_status_reasons": [],
+    "collected_at": "2026-07-28T21:21:52.476149+00:00",
+    "compatibility_explanation": "Detected content language mixed:latin_undetermined,ru includes campaign language ru. Observed geography Москва, Россия is compatible with campaign delivery market Россия.",
+    "content_themes": [
+      "beauty",
+      "fashion"
+    ],
+    "data_completeness": 1.0,
+    "delivery_market_review_required": false,
+    "detected_content_language": "mixed:latin_undetermined,ru",
+    "detected_geography": "Москва, Россия",
+    "discovery_confidence": 0.866667,
+    "eligibility_reasons": [],
+    "eligibility_status": "eligible",
+    "engagement_rate": 0.6367924528301887,
+    "evidence": [
+      {
+        "evidence_text": "Observed contact URL: https://t.me/olganemkafc",
+        "observation_type": "direct",
+        "signal_type": "contact",
+        "source_field": "external_urls",
+        "source_reference": "profile",
+        "url": "https://t.me/olganemkafc"
+      },
+      {
+        "evidence_text": "Matched explicit term: одежд",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3898898937640612500",
+        "url": "https://www.instagram.com/p/DYbq-0xN3KU/"
+      },
+      {
+        "evidence_text": "Matched explicit term: одежд",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3896805041729166135",
+        "url": "https://www.instagram.com/p/DYUO4oPN9s3/"
+      },
+      {
+        "evidence_text": "Matched explicit term: гардероб",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3896805041729166135",
+        "url": "https://www.instagram.com/p/DYUO4oPN9s3/"
+      },
+      {
+        "evidence_text": "Matched explicit term: стиль",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3895995047320337779",
+        "url": "https://www.instagram.com/p/DYRWtqKNb1z/"
+      },
+      {
+        "evidence_text": "Matched explicit term: одежд",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3895995047320337779",
+        "url": "https://www.instagram.com/p/DYRWtqKNb1z/"
+      },
+      {
+        "evidence_text": "Matched explicit term: гардероб",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3895995047320337779",
+        "url": "https://www.instagram.com/p/DYRWtqKNb1z/"
+      },
+      {
+        "evidence_text": "Matched explicit term: гардероб",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3950385183478617376",
+        "url": "https://www.instagram.com/p/DbSlmTzNZUg/"
+      },
+      {
+        "evidence_text": "Matched explicit term: лук",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3941873246026969297",
+        "url": "https://www.instagram.com/p/Da0WNUTDbDR/"
+      },
+      {
+        "evidence_text": "Matched explicit term: женствен",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3940283829910845773",
+        "url": "https://www.instagram.com/p/Daus0RMDTlN/"
+      },
+      {
+        "evidence_text": "Observed direct fashion evidence: образ",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/olganemka_stylist/"
+      },
+      {
+        "evidence_text": "Observed direct fashion evidence: одежд, образ, плать",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3898898937640612500",
+        "url": "https://www.instagram.com/p/DYbq-0xN3KU/"
+      },
+      {
+        "evidence_text": "Observed direct fashion evidence: одежд, образ, гардероб",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3896805041729166135",
+        "url": "https://www.instagram.com/p/DYUO4oPN9s3/"
+      },
+      {
+        "evidence_text": "Observed direct fashion evidence: одежд, образ, гардероб",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3895995047320337779",
+        "url": "https://www.instagram.com/p/DYRWtqKNb1z/"
+      },
+      {
+        "evidence_text": "Observed direct fashion evidence: гардероб",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3950385183478617376",
+        "url": "https://www.instagram.com/p/DbSlmTzNZUg/"
+      },
+      {
+        "evidence_text": "Observed direct fashion evidence: образ",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3940283829910845773",
+        "url": "https://www.instagram.com/p/Daus0RMDTlN/"
+      },
+      {
+        "evidence_text": "Matched explicit term: уход",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3896805041729166135",
+        "url": "https://www.instagram.com/p/DYUO4oPN9s3/"
+      },
+      {
+        "evidence_text": "Observed direct beauty evidence: уход",
+        "observation_type": "direct",
+        "signal_type": "beauty",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3896805041729166135",
+        "url": "https://www.instagram.com/p/DYUO4oPN9s3/"
+      },
+      {
+        "evidence_text": "Matched explicit term: дом",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3898898937640612500",
+        "url": "https://www.instagram.com/p/DYbq-0xN3KU/"
+      },
+      {
+        "evidence_text": "Matched explicit term: жизн",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3895995047320337779",
+        "url": "https://www.instagram.com/p/DYRWtqKNb1z/"
+      },
+      {
+        "evidence_text": "Matched explicit term: жизн",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3946103451577385059",
+        "url": "https://www.instagram.com/p/DbDYC6ONoBj/"
+      },
+      {
+        "evidence_text": "Matched explicit term: дом",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3946103451577385059",
+        "url": "https://www.instagram.com/p/DbDYC6ONoBj/"
+      },
+      {
+        "evidence_text": "Matched explicit term: жизн",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3941873246026969297",
+        "url": "https://www.instagram.com/p/Da0WNUTDbDR/"
+      },
+      {
+        "evidence_text": "Observed product-focused caption term(s): покупк",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3895995047320337779",
+        "url": "https://www.instagram.com/p/DYRWtqKNb1z/"
+      },
+      {
+        "evidence_text": "Observed structured account mention(s): daria_mikhalkova, ksenia_saks",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.mentions",
+        "source_reference": "3948287792719399037",
+        "url": "https://www.instagram.com/p/DbLItQcDQh9/"
+      },
+      {
+        "evidence_text": "Observed person-like profile name: ОЛЬГА НЕМКА/ТОП СТИЛИСТ/МОСКВА",
+        "observation_type": "derived",
+        "signal_type": "account_type_personal",
+        "source_field": "full_name",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/olganemka_stylist/"
+      },
+      {
+        "evidence_text": "Observed direct Russian lexical evidence in saved profile/post text (57 matches).",
+        "observation_type": "direct",
+        "signal_type": "content_language",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/olganemka_stylist/"
+      },
+      {
+        "evidence_text": "Observed Latin-script content; lexical evidence classified it as latin_undetermined.",
+        "observation_type": "derived",
+        "signal_type": "content_language",
+        "source_field": "biography_and_recent_posts.caption",
+        "source_reference": "sample",
+        "url": "https://www.instagram.com/olganemka_stylist/"
+      },
+      {
+        "evidence_text": "Observed explicit geography evidence: Moscow",
+        "observation_type": "direct",
+        "signal_type": "detected_geography",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3948287792719399037",
+        "url": "https://www.instagram.com/p/DbLItQcDQh9/"
+      },
+      {
+        "evidence_text": "0.40×provider identity (1.000) + 0.20×multi-query support (0.333; 1 distinct queries, full credit at 3) + 0.20×profile/post link verification (1.000) + 0.20×query relevance (1.000; 4 directly evidenced target dimensions) = 0.867.",
+        "observation_type": "derived",
+        "signal_type": "discovery_confidence",
+        "source_field": "provider_and_discovery",
+        "source_reference": "olganemka_stylist",
+        "url": "https://www.instagram.com/olganemka_stylist/"
+      },
+      {
+        "evidence_text": "Caption-derived topic excerpt used: Базовый гардероб- это всегда персонально! Это про вас, а не про набор безликих вещей!💫",
+        "observation_type": "direct",
+        "signal_type": "offer_personalization",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3950385183478617376",
+        "url": "https://www.instagram.com/p/DbSlmTzNZUg/"
+      },
+      {
+        "evidence_text": "Observed profile name used in greeting: ОЛЬГА НЕМКА/ТОП СТИЛИСТ/МОСКВА",
+        "observation_type": "direct",
+        "signal_type": "offer_greeting",
+        "source_field": "full_name",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/olganemka_stylist/"
+      }
+    ],
+    "followers": 2120,
+    "known_format_posts": 8,
+    "last_post_date": "2026-07-27T08:58:13+00:00",
+    "manual_verification_status": "pending",
+    "median_comments": 0.0,
+    "median_likes": 13.0,
+    "no_barter_evidence": [],
+    "offer_generation_mode": "deterministic_template",
+    "platform": "instagram",
+    "profile_url": "https://www.instagram.com/olganemka_stylist/",
+    "provider": "apify",
+    "query_ids": [
+      "ru_stylist_moscow_06"
+    ],
+    "recent_post_url": "https://www.instagram.com/p/DbSlmTzNZUg/",
+    "sampled_posts": 12,
+    "score": 54.66,
+    "score_components": [
+      {
+        "evidence": [
+          {
+            "evidence_text": "Matched explicit term: одежд",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3898898937640612500",
+            "url": "https://www.instagram.com/p/DYbq-0xN3KU/"
+          },
+          {
+            "evidence_text": "Matched explicit term: одежд",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3896805041729166135",
+            "url": "https://www.instagram.com/p/DYUO4oPN9s3/"
+          },
+          {
+            "evidence_text": "Matched explicit term: гардероб",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3896805041729166135",
+            "url": "https://www.instagram.com/p/DYUO4oPN9s3/"
+          },
+          {
+            "evidence_text": "Matched explicit term: стиль",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3895995047320337779",
+            "url": "https://www.instagram.com/p/DYRWtqKNb1z/"
+          },
+          {
+            "evidence_text": "Matched explicit term: одежд",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3895995047320337779",
+            "url": "https://www.instagram.com/p/DYRWtqKNb1z/"
+          },
+          {
+            "evidence_text": "Matched explicit term: гардероб",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3895995047320337779",
+            "url": "https://www.instagram.com/p/DYRWtqKNb1z/"
+          },
+          {
+            "evidence_text": "Matched explicit term: гардероб",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3950385183478617376",
+            "url": "https://www.instagram.com/p/DbSlmTzNZUg/"
+          },
+          {
+            "evidence_text": "Matched explicit term: лук",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3941873246026969297",
+            "url": "https://www.instagram.com/p/Da0WNUTDbDR/"
+          },
+          {
+            "evidence_text": "Matched explicit term: женствен",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3940283829910845773",
+            "url": "https://www.instagram.com/p/Daus0RMDTlN/"
+          },
+          {
+            "evidence_text": "Observed direct fashion evidence: образ",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/olganemka_stylist/"
+          },
+          {
+            "evidence_text": "Observed direct fashion evidence: одежд, образ, плать",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3898898937640612500",
+            "url": "https://www.instagram.com/p/DYbq-0xN3KU/"
+          },
+          {
+            "evidence_text": "Observed direct fashion evidence: одежд, образ, гардероб",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3896805041729166135",
+            "url": "https://www.instagram.com/p/DYUO4oPN9s3/"
+          },
+          {
+            "evidence_text": "Observed direct fashion evidence: одежд, образ, гардероб",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3895995047320337779",
+            "url": "https://www.instagram.com/p/DYRWtqKNb1z/"
+          },
+          {
+            "evidence_text": "Observed direct fashion evidence: гардероб",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3950385183478617376",
+            "url": "https://www.instagram.com/p/DbSlmTzNZUg/"
+          },
+          {
+            "evidence_text": "Observed direct fashion evidence: образ",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3940283829910845773",
+            "url": "https://www.instagram.com/p/Daus0RMDTlN/"
+          },
+          {
+            "evidence_text": "Matched explicit term: уход",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3896805041729166135",
+            "url": "https://www.instagram.com/p/DYUO4oPN9s3/"
+          },
+          {
+            "evidence_text": "Observed direct beauty evidence: уход",
+            "observation_type": "direct",
+            "signal_type": "beauty",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3896805041729166135",
+            "url": "https://www.instagram.com/p/DYUO4oPN9s3/"
+          },
+          {
+            "evidence_text": "Matched explicit term: дом",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3898898937640612500",
+            "url": "https://www.instagram.com/p/DYbq-0xN3KU/"
+          },
+          {
+            "evidence_text": "Matched explicit term: жизн",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3895995047320337779",
+            "url": "https://www.instagram.com/p/DYRWtqKNb1z/"
+          },
+          {
+            "evidence_text": "Matched explicit term: жизн",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3946103451577385059",
+            "url": "https://www.instagram.com/p/DbDYC6ONoBj/"
+          },
+          {
+            "evidence_text": "Matched explicit term: дом",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3946103451577385059",
+            "url": "https://www.instagram.com/p/DbDYC6ONoBj/"
+          },
+          {
+            "evidence_text": "Matched explicit term: жизн",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3941873246026969297",
+            "url": "https://www.instagram.com/p/Da0WNUTDbDR/"
+          },
+          {
+            "evidence_text": "16.00/24 topical + 4.00/5 format readiness + 0.88/1 Nike/Apple format alignment.",
+            "observation_type": "derived",
+            "signal_type": "content_and_aesthetic_fit",
+            "source_field": "candidate_metrics",
+            "source_reference": "olganemka_stylist",
+            "url": "https://www.instagram.com/olganemka_stylist/"
+          }
+        ],
+        "explanation": "16.00/24 topical + 4.00/5 format readiness + 0.88/1 Nike/Apple format alignment.",
+        "max_score": 30.0,
+        "name": "content_and_aesthetic_fit",
+        "score": 20.88
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Observed contact URL: https://t.me/olganemkafc",
+            "observation_type": "direct",
+            "signal_type": "contact",
+            "source_field": "external_urls",
+            "source_reference": "profile",
+            "url": "https://t.me/olganemkafc"
+          },
+          {
+            "evidence_text": "Observed product-focused caption term(s): покупк",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3895995047320337779",
+            "url": "https://www.instagram.com/p/DYRWtqKNb1z/"
+          },
+          {
+            "evidence_text": "Observed structured account mention(s): daria_mikhalkova, ksenia_saks",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.mentions",
+            "source_reference": "3948287792719399037",
+            "url": "https://www.instagram.com/p/DbLItQcDQh9/"
+          },
+          {
+            "evidence_text": "UGC=False, marketplace=False, commercial/PR=False, contact=True; 2/12 posts have independently observed native-integration evidence.",
+            "observation_type": "derived",
+            "signal_type": "native_product_integration_potential",
+            "source_field": "candidate_metrics",
+            "source_reference": "olganemka_stylist",
+            "url": "https://www.instagram.com/olganemka_stylist/"
+          }
+        ],
+        "explanation": "UGC=False, marketplace=False, commercial/PR=False, contact=True; 2/12 posts have independently observed native-integration evidence.",
+        "max_score": 20.0,
+        "name": "native_product_integration_potential",
+        "score": 3.33
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Short video share 0.667 × 15 = 10.00.",
+            "observation_type": "derived",
+            "signal_type": "short_video_consistency",
+            "source_field": "candidate_metrics",
+            "source_reference": "olganemka_stylist",
+            "url": "https://www.instagram.com/olganemka_stylist/"
+          }
+        ],
+        "explanation": "Short video share 0.667 × 15 = 10.00.",
+        "max_score": 15.0,
+        "name": "short_video_consistency",
+        "score": 10.0
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Frozen Phase A percentile 0.493347 × 15 = 7.40 raw; × completeness 12/12 (1.000000) = 7.40 adjusted.",
+            "observation_type": "derived",
+            "signal_type": "engagement",
+            "source_field": "candidate_metrics",
+            "source_reference": "olganemka_stylist",
+            "url": "https://www.instagram.com/olganemka_stylist/"
+          }
+        ],
+        "explanation": "Frozen Phase A percentile 0.493347 × 15 = 7.40 raw; × completeness 12/12 (1.000000) = 7.40 adjusted.",
+        "max_score": 15.0,
+        "name": "engagement",
+        "score": 7.4
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "5.0/5 for small creator audience (1k–10k); commercial/PR=False (+2), UGC=False (+2), marketplace=False (+1).",
+            "observation_type": "derived",
+            "signal_type": "barter_feasibility",
+            "source_field": "candidate_metrics",
+            "source_reference": "olganemka_stylist",
+            "url": "https://www.instagram.com/olganemka_stylist/"
+          }
+        ],
+        "explanation": "5.0/5 for small creator audience (1k–10k); commercial/PR=False (+2), UGC=False (+2), marketplace=False (+1).",
+        "max_score": 10.0,
+        "name": "barter_feasibility",
+        "score": 5.0
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "6.00/6 recency + 2.05/4 posting frequency.",
+            "observation_type": "derived",
+            "signal_type": "recent_activity",
+            "source_field": "candidate_metrics",
+            "source_reference": "olganemka_stylist",
+            "url": "https://www.instagram.com/olganemka_stylist/"
+          }
+        ],
+        "explanation": "6.00/6 recency + 2.05/4 posting frequency.",
+        "max_score": 10.0,
+        "name": "recent_activity",
+        "score": 8.05
+      }
+    ],
+    "selection_explanation": "Rank 3 of 6 eligible candidates: score 54.66/100, discovery confidence 0.867, data completeness 1.000, engagement rate 0.637%.",
+    "short_video_share": 0.6666666666666666,
+    "source_exclusion_check": "clear: no Phase A username, URL, historical alias, replacement, rejected false lead, Nike, or Apple match",
+    "usable_posts": 12,
+    "username": "olganemka_stylist",
+    "verification_notes": ""
+  },
+  {
+    "account_type": "personal_creator",
+    "account_type_explanation": "The profile contains auditable personal-author evidence.",
+    "alternative_campaign_note": "",
+    "barter_evidence": [],
+    "barter_feasibility_explanation": "Audience does not exceed the frozen Phase A outer-fence threshold 301,675.0.",
+    "barter_feasibility_review_required": false,
+    "barter_offer": "Здравствуйте, Стилист Ольга Гринкевич • Москва • Создаю индивидуальные образы!\n\nУвидели вашу недавнюю публикацию «Брак - это не так легко, как многим кажется в начале❤️ Поэтому каждая годовщина это совместная достигнутая це…»: https://www.instagram.com/p/DbSh5MQsU7l/\nНам кажется, такой формат контента может естественно сочетаться с категорией «женская одежда».\n\nМы — LD Latte. Хотим предложить для обсуждения товар из новой коллекции в обмен на согласованный Reels или нативный обзор: товар из новой коллекции LD Latte. Если идея вам интересна, возможный формат — Reels или нативный обзор; детали и творческую подачу согласуем вместе.\n\nБудем рады обсудить предложение, если оно вам подходит; никаких обязательств до согласования условий нет.\n\n[Черновик: требуется ручная проверка и одобрение перед использованием.]",
+    "campaign_bucket": "barter_ready",
+    "campaign_language_compatible": true,
+    "campaign_status_reasons": [],
+    "collected_at": "2026-07-28T21:21:52.476149+00:00",
+    "compatibility_explanation": "Detected content language mixed:latin_undetermined,ru includes campaign language ru. Campaign delivery market is Россия, but candidate geography is not directly evidenced.",
+    "content_themes": [
+      "fashion"
+    ],
+    "data_completeness": 1.0,
+    "delivery_market_review_required": true,
+    "detected_content_language": "mixed:latin_undetermined,ru",
+    "detected_geography": null,
+    "discovery_confidence": 0.866667,
+    "eligibility_reasons": [],
+    "eligibility_status": "eligible",
+    "engagement_rate": 1.1432706222865412,
+    "evidence": [
+      {
+        "evidence_text": "Observed contact URL: https://t.me/peperonchino_shop",
+        "observation_type": "direct",
+        "signal_type": "contact",
+        "source_field": "external_urls",
+        "source_reference": "profile",
+        "url": "https://t.me/peperonchino_shop"
+      },
+      {
+        "evidence_text": "Matched explicit term: одежд",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/miss_sunrise9/"
+      },
+      {
+        "evidence_text": "Matched explicit term: стиль",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3867017543676614913",
+        "url": "https://www.instagram.com/p/DWqZ_e3DFkB/"
+      },
+      {
+        "evidence_text": "Matched explicit term: гардероб",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3948221824591200088",
+        "url": "https://www.instagram.com/p/DbK5tS1M_9Y/"
+      },
+      {
+        "evidence_text": "Matched explicit term: гардероб",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3947528273213356344",
+        "url": "https://www.instagram.com/p/DbIcAyxsXk4/"
+      },
+      {
+        "evidence_text": "Matched explicit term: стиль",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3946791939683234283",
+        "url": "https://www.instagram.com/p/DbF0luvMbHr/"
+      },
+      {
+        "evidence_text": "Matched explicit term: одежд",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3945285105461922687",
+        "url": "https://www.instagram.com/p/DbAd-aAsot_/"
+      },
+      {
+        "evidence_text": "Observed direct fashion evidence: одежд, образ",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/miss_sunrise9/"
+      },
+      {
+        "evidence_text": "Observed direct fashion evidence: образ",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "full_name",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/miss_sunrise9/"
+      },
+      {
+        "evidence_text": "Observed direct fashion evidence: гардероб",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3948221824591200088",
+        "url": "https://www.instagram.com/p/DbK5tS1M_9Y/"
+      },
+      {
+        "evidence_text": "Observed direct fashion evidence: гардероб",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3947528273213356344",
+        "url": "https://www.instagram.com/p/DbIcAyxsXk4/"
+      },
+      {
+        "evidence_text": "Observed direct fashion evidence: образ",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3946791939683234283",
+        "url": "https://www.instagram.com/p/DbF0luvMbHr/"
+      },
+      {
+        "evidence_text": "Observed direct fashion evidence: одежд",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3945285105461922687",
+        "url": "https://www.instagram.com/p/DbAd-aAsot_/"
+      },
+      {
+        "evidence_text": "Matched explicit term: жизн",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3867017543676614913",
+        "url": "https://www.instagram.com/p/DWqZ_e3DFkB/"
+      },
+      {
+        "evidence_text": "Matched explicit term: дом",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3950368888867344101",
+        "url": "https://www.instagram.com/p/DbSh5MQsU7l/"
+      },
+      {
+        "evidence_text": "Matched explicit term: дом",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3945285105461922687",
+        "url": "https://www.instagram.com/p/DbAd-aAsot_/"
+      },
+      {
+        "evidence_text": "Observed structured account mention(s): rublevka_gold",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.mentions",
+        "source_reference": "3889510343955907628",
+        "url": "https://www.instagram.com/p/DX6UQzhswQs/"
+      },
+      {
+        "evidence_text": "Observed structured account mention(s): love.media.ivent",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.mentions",
+        "source_reference": "3867017543676614913",
+        "url": "https://www.instagram.com/p/DWqZ_e3DFkB/"
+      },
+      {
+        "evidence_text": "Observed person-like profile name: Стилист Ольга Гринкевич • Москва • Создаю индивидуальные образы",
+        "observation_type": "derived",
+        "signal_type": "account_type_personal",
+        "source_field": "full_name",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/miss_sunrise9/"
+      },
+      {
+        "evidence_text": "Observed direct Russian lexical evidence in saved profile/post text (29 matches).",
+        "observation_type": "direct",
+        "signal_type": "content_language",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3889510343955907628",
+        "url": "https://www.instagram.com/p/DX6UQzhswQs/"
+      },
+      {
+        "evidence_text": "Observed Latin-script content; lexical evidence classified it as latin_undetermined.",
+        "observation_type": "derived",
+        "signal_type": "content_language",
+        "source_field": "biography_and_recent_posts.caption",
+        "source_reference": "sample",
+        "url": "https://www.instagram.com/miss_sunrise9/"
+      },
+      {
+        "evidence_text": "0.40×provider identity (1.000) + 0.20×multi-query support (0.333; 1 distinct queries, full credit at 3) + 0.20×profile/post link verification (1.000) + 0.20×query relevance (1.000; 3 directly evidenced target dimensions) = 0.867.",
+        "observation_type": "derived",
+        "signal_type": "discovery_confidence",
+        "source_field": "provider_and_discovery",
+        "source_reference": "miss_sunrise9",
+        "url": "https://www.instagram.com/miss_sunrise9/"
+      },
+      {
+        "evidence_text": "Caption-derived topic excerpt used: Брак - это не так легко, как многим кажется в начале❤️ Поэтому каждая годовщина это совместная достигнутая це…",
+        "observation_type": "direct",
+        "signal_type": "offer_personalization",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3950368888867344101",
+        "url": "https://www.instagram.com/p/DbSh5MQsU7l/"
+      },
+      {
+        "evidence_text": "Observed profile name used in greeting: Стилист Ольга Гринкевич • Москва • Создаю индивидуальные образы",
+        "observation_type": "direct",
+        "signal_type": "offer_greeting",
+        "source_field": "full_name",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/miss_sunrise9/"
+      }
+    ],
+    "followers": 3455,
+    "known_format_posts": 10,
+    "last_post_date": "2026-07-28T08:36:32+00:00",
+    "manual_verification_status": "pending",
+    "median_comments": 6.5,
+    "median_likes": 33.5,
+    "no_barter_evidence": [],
+    "offer_generation_mode": "deterministic_template",
+    "platform": "instagram",
+    "profile_url": "https://www.instagram.com/miss_sunrise9/",
+    "provider": "apify",
+    "query_ids": [
+      "ru_stylist_moscow_06"
+    ],
+    "recent_post_url": "https://www.instagram.com/p/DbSh5MQsU7l/",
+    "sampled_posts": 12,
+    "score": 52.27,
+    "score_components": [
+      {
+        "evidence": [
+          {
+            "evidence_text": "Matched explicit term: одежд",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/miss_sunrise9/"
+          },
+          {
+            "evidence_text": "Matched explicit term: стиль",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3867017543676614913",
+            "url": "https://www.instagram.com/p/DWqZ_e3DFkB/"
+          },
+          {
+            "evidence_text": "Matched explicit term: гардероб",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3948221824591200088",
+            "url": "https://www.instagram.com/p/DbK5tS1M_9Y/"
+          },
+          {
+            "evidence_text": "Matched explicit term: гардероб",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3947528273213356344",
+            "url": "https://www.instagram.com/p/DbIcAyxsXk4/"
+          },
+          {
+            "evidence_text": "Matched explicit term: стиль",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3946791939683234283",
+            "url": "https://www.instagram.com/p/DbF0luvMbHr/"
+          },
+          {
+            "evidence_text": "Matched explicit term: одежд",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3945285105461922687",
+            "url": "https://www.instagram.com/p/DbAd-aAsot_/"
+          },
+          {
+            "evidence_text": "Observed direct fashion evidence: одежд, образ",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/miss_sunrise9/"
+          },
+          {
+            "evidence_text": "Observed direct fashion evidence: образ",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "full_name",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/miss_sunrise9/"
+          },
+          {
+            "evidence_text": "Observed direct fashion evidence: гардероб",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3948221824591200088",
+            "url": "https://www.instagram.com/p/DbK5tS1M_9Y/"
+          },
+          {
+            "evidence_text": "Observed direct fashion evidence: гардероб",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3947528273213356344",
+            "url": "https://www.instagram.com/p/DbIcAyxsXk4/"
+          },
+          {
+            "evidence_text": "Observed direct fashion evidence: образ",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3946791939683234283",
+            "url": "https://www.instagram.com/p/DbF0luvMbHr/"
+          },
+          {
+            "evidence_text": "Observed direct fashion evidence: одежд",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3945285105461922687",
+            "url": "https://www.instagram.com/p/DbAd-aAsot_/"
+          },
+          {
+            "evidence_text": "Matched explicit term: жизн",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3867017543676614913",
+            "url": "https://www.instagram.com/p/DWqZ_e3DFkB/"
+          },
+          {
+            "evidence_text": "Matched explicit term: дом",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3950368888867344101",
+            "url": "https://www.instagram.com/p/DbSh5MQsU7l/"
+          },
+          {
+            "evidence_text": "Matched explicit term: дом",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3945285105461922687",
+            "url": "https://www.instagram.com/p/DbAd-aAsot_/"
+          },
+          {
+            "evidence_text": "11.00/24 topical + 4.00/5 format readiness + 0.71/1 Nike/Apple format alignment.",
+            "observation_type": "derived",
+            "signal_type": "content_and_aesthetic_fit",
+            "source_field": "candidate_metrics",
+            "source_reference": "miss_sunrise9",
+            "url": "https://www.instagram.com/miss_sunrise9/"
+          }
+        ],
+        "explanation": "11.00/24 topical + 4.00/5 format readiness + 0.71/1 Nike/Apple format alignment.",
+        "max_score": 30.0,
+        "name": "content_and_aesthetic_fit",
+        "score": 15.71
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Observed contact URL: https://t.me/peperonchino_shop",
+            "observation_type": "direct",
+            "signal_type": "contact",
+            "source_field": "external_urls",
+            "source_reference": "profile",
+            "url": "https://t.me/peperonchino_shop"
+          },
+          {
+            "evidence_text": "Observed structured account mention(s): rublevka_gold",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.mentions",
+            "source_reference": "3889510343955907628",
+            "url": "https://www.instagram.com/p/DX6UQzhswQs/"
+          },
+          {
+            "evidence_text": "Observed structured account mention(s): love.media.ivent",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.mentions",
+            "source_reference": "3867017543676614913",
+            "url": "https://www.instagram.com/p/DWqZ_e3DFkB/"
+          },
+          {
+            "evidence_text": "UGC=False, marketplace=False, commercial/PR=False, contact=True; 2/12 posts have independently observed native-integration evidence.",
+            "observation_type": "derived",
+            "signal_type": "native_product_integration_potential",
+            "source_field": "candidate_metrics",
+            "source_reference": "miss_sunrise9",
+            "url": "https://www.instagram.com/miss_sunrise9/"
+          }
+        ],
+        "explanation": "UGC=False, marketplace=False, commercial/PR=False, contact=True; 2/12 posts have independently observed native-integration evidence.",
+        "max_score": 20.0,
+        "name": "native_product_integration_potential",
+        "score": 3.33
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Short video share 0.833 × 15 = 12.50.",
+            "observation_type": "derived",
+            "signal_type": "short_video_consistency",
+            "source_field": "candidate_metrics",
+            "source_reference": "miss_sunrise9",
+            "url": "https://www.instagram.com/miss_sunrise9/"
+          }
+        ],
+        "explanation": "Short video share 0.833 × 15 = 12.50.",
+        "max_score": 15.0,
+        "name": "short_video_consistency",
+        "score": 12.5
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Frozen Phase A percentile 0.560220 × 15 = 8.40 raw; × completeness 12/12 (1.000000) = 8.40 adjusted.",
+            "observation_type": "derived",
+            "signal_type": "engagement",
+            "source_field": "candidate_metrics",
+            "source_reference": "miss_sunrise9",
+            "url": "https://www.instagram.com/miss_sunrise9/"
+          }
+        ],
+        "explanation": "Frozen Phase A percentile 0.560220 × 15 = 8.40 raw; × completeness 12/12 (1.000000) = 8.40 adjusted.",
+        "max_score": 15.0,
+        "name": "engagement",
+        "score": 8.4
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "5.0/5 for small creator audience (1k–10k); commercial/PR=False (+2), UGC=False (+2), marketplace=False (+1).",
+            "observation_type": "derived",
+            "signal_type": "barter_feasibility",
+            "source_field": "candidate_metrics",
+            "source_reference": "miss_sunrise9",
+            "url": "https://www.instagram.com/miss_sunrise9/"
+          }
+        ],
+        "explanation": "5.0/5 for small creator audience (1k–10k); commercial/PR=False (+2), UGC=False (+2), marketplace=False (+1).",
+        "max_score": 10.0,
+        "name": "barter_feasibility",
+        "score": 5.0
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "6.00/6 recency + 1.33/4 posting frequency.",
+            "observation_type": "derived",
+            "signal_type": "recent_activity",
+            "source_field": "candidate_metrics",
+            "source_reference": "miss_sunrise9",
+            "url": "https://www.instagram.com/miss_sunrise9/"
+          }
+        ],
+        "explanation": "6.00/6 recency + 1.33/4 posting frequency.",
+        "max_score": 10.0,
+        "name": "recent_activity",
+        "score": 7.33
+      }
+    ],
+    "selection_explanation": "Rank 4 of 6 eligible candidates: score 52.27/100, discovery confidence 0.867, data completeness 1.000, engagement rate 1.143%.",
+    "short_video_share": 0.8333333333333334,
+    "source_exclusion_check": "clear: no Phase A username, URL, historical alias, replacement, rejected false lead, Nike, or Apple match",
+    "usable_posts": 12,
+    "username": "miss_sunrise9",
+    "verification_notes": ""
+  },
+  {
+    "account_type": "personal_creator",
+    "account_type_explanation": "The profile contains auditable personal-author evidence.",
+    "alternative_campaign_note": "",
+    "barter_evidence": [],
+    "barter_feasibility_explanation": "Audience does not exceed the frozen Phase A outer-fence threshold 301,675.0.",
+    "barter_feasibility_review_required": false,
+    "barter_offer": "Здравствуйте, Катя•Стилист•Москва•Онлайн•Разбор•Шопинг•Стиль!\n\nУвидели вашу недавнюю публикацию «Прекрасный день в @novayarigaoutletvillage Тут погружаешься в мир красоты, гармонии и приятных покупок. А про…»: https://www.instagram.com/p/DZnhAXPmS6H/\nНам кажется, такой формат контента может естественно сочетаться с категорией «женская одежда».\n\nМы — LD Latte. Хотим предложить для обсуждения товар из новой коллекции в обмен на согласованный Reels или нативный обзор: товар из новой коллекции LD Latte. Если идея вам интересна, возможный формат — Reels или нативный обзор; детали и творческую подачу согласуем вместе.\n\nБудем рады обсудить предложение, если оно вам подходит; никаких обязательств до согласования условий нет.\n\n[Черновик: требуется ручная проверка и одобрение перед использованием.]",
+    "campaign_bucket": "barter_ready",
+    "campaign_language_compatible": true,
+    "campaign_status_reasons": [],
+    "collected_at": "2026-07-28T21:21:52.476149+00:00",
+    "compatibility_explanation": "Detected content language mixed:latin_undetermined,ru includes campaign language ru. Campaign delivery market is Россия, but candidate geography is not directly evidenced.",
+    "content_themes": [
+      "fashion"
+    ],
+    "data_completeness": 1.0,
+    "delivery_market_review_required": true,
+    "detected_content_language": "mixed:latin_undetermined,ru",
+    "detected_geography": null,
+    "discovery_confidence": 0.866667,
+    "eligibility_reasons": [],
+    "eligibility_status": "eligible",
+    "engagement_rate": 4.247856586126267,
+    "evidence": [
+      {
+        "evidence_text": "Matched explicit term: стиль",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "full_name",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/verkhovskaya_style/"
+      },
+      {
+        "evidence_text": "Matched explicit term: лук",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3764162373209642494",
+        "url": "https://www.instagram.com/p/DQ8_bwsDVX-/"
+      },
+      {
+        "evidence_text": "Matched explicit term: стиль",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3753264786134905178",
+        "url": "https://www.instagram.com/p/DQWRm_1jbFa/"
+      },
+      {
+        "evidence_text": "Matched explicit term: стиль",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3734472165547346030",
+        "url": "https://www.instagram.com/p/DPTgqYDCIhu/"
+      },
+      {
+        "evidence_text": "Matched explicit term: одежд",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3734472165547346030",
+        "url": "https://www.instagram.com/p/DPTgqYDCIhu/"
+      },
+      {
+        "evidence_text": "Matched explicit term: гардероб",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3734472165547346030",
+        "url": "https://www.instagram.com/p/DPTgqYDCIhu/"
+      },
+      {
+        "evidence_text": "Matched explicit term: гардероб",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3910529136670402599",
+        "url": "https://www.instagram.com/p/DZE_YfrDegn/"
+      },
+      {
+        "evidence_text": "Matched explicit term: стиль",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3902683915240680433",
+        "url": "https://www.instagram.com/p/DYpHlf2jSvx/"
+      },
+      {
+        "evidence_text": "Matched explicit term: стиль",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3878137799983523538",
+        "url": "https://www.instagram.com/p/DXR6cgmCGbS/"
+      },
+      {
+        "evidence_text": "Matched explicit term: стиль",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3864240300684236457",
+        "url": "https://www.instagram.com/p/DWgihRxCFap/"
+      },
+      {
+        "evidence_text": "Matched explicit term: одежд",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3864240300684236457",
+        "url": "https://www.instagram.com/p/DWgihRxCFap/"
+      },
+      {
+        "evidence_text": "Matched explicit term: одежд",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3855515378340367889",
+        "url": "https://www.instagram.com/p/DWBis8oCI4R/"
+      },
+      {
+        "evidence_text": "Observed direct fashion evidence: образ",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "biography",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/verkhovskaya_style/"
+      },
+      {
+        "evidence_text": "Observed direct fashion evidence: образ",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3764162373209642494",
+        "url": "https://www.instagram.com/p/DQ8_bwsDVX-/"
+      },
+      {
+        "evidence_text": "Observed direct fashion evidence: образ",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3753264786134905178",
+        "url": "https://www.instagram.com/p/DQWRm_1jbFa/"
+      },
+      {
+        "evidence_text": "Observed direct fashion evidence: одежд, образ, гардероб",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3734472165547346030",
+        "url": "https://www.instagram.com/p/DPTgqYDCIhu/"
+      },
+      {
+        "evidence_text": "Observed direct fashion evidence: гардероб",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3910529136670402599",
+        "url": "https://www.instagram.com/p/DZE_YfrDegn/"
+      },
+      {
+        "evidence_text": "Observed direct fashion evidence: образ",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3878137799983523538",
+        "url": "https://www.instagram.com/p/DXR6cgmCGbS/"
+      },
+      {
+        "evidence_text": "Observed direct fashion evidence: одежд, образ",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3864240300684236457",
+        "url": "https://www.instagram.com/p/DWgihRxCFap/"
+      },
+      {
+        "evidence_text": "Observed direct fashion evidence: одежд",
+        "observation_type": "direct",
+        "signal_type": "fashion",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3855515378340367889",
+        "url": "https://www.instagram.com/p/DWBis8oCI4R/"
+      },
+      {
+        "evidence_text": "Matched explicit term: жизн",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3753264786134905178",
+        "url": "https://www.instagram.com/p/DQWRm_1jbFa/"
+      },
+      {
+        "evidence_text": "Matched explicit term: путеше",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3753264786134905178",
+        "url": "https://www.instagram.com/p/DQWRm_1jbFa/"
+      },
+      {
+        "evidence_text": "Matched explicit term: жизн",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3734472165547346030",
+        "url": "https://www.instagram.com/p/DPTgqYDCIhu/"
+      },
+      {
+        "evidence_text": "Matched explicit term: вдохнов",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3734472165547346030",
+        "url": "https://www.instagram.com/p/DPTgqYDCIhu/"
+      },
+      {
+        "evidence_text": "Matched explicit term: жизн",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3882644507431127389",
+        "url": "https://www.instagram.com/p/DXh7Ju-jcld/"
+      },
+      {
+        "evidence_text": "Matched explicit term: жизн",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3878137799983523538",
+        "url": "https://www.instagram.com/p/DXR6cgmCGbS/"
+      },
+      {
+        "evidence_text": "Matched explicit term: вдохнов",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3854751998201609891",
+        "url": "https://www.instagram.com/p/DV-1ITeCL6j/"
+      },
+      {
+        "evidence_text": "Matched explicit term: жизн",
+        "observation_type": "direct",
+        "signal_type": "lifestyle",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3849698269140127240",
+        "url": "https://www.instagram.com/p/DVs4C3giI4I/"
+      },
+      {
+        "evidence_text": "Matched explicit term: покупок",
+        "observation_type": "direct",
+        "signal_type": "marketplace",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3920247161141931655",
+        "url": "https://www.instagram.com/p/DZnhAXPmS6H/"
+      },
+      {
+        "evidence_text": "Observed structured account mention(s): novayarigaoutletvillage, syrovarnya_official",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.mentions",
+        "source_reference": "3920247161141931655",
+        "url": "https://www.instagram.com/p/DZnhAXPmS6H/"
+      },
+      {
+        "evidence_text": "Observed product-focused caption term(s): покупок",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3920247161141931655",
+        "url": "https://www.instagram.com/p/DZnhAXPmS6H/"
+      },
+      {
+        "evidence_text": "Observed structured account mention(s): anna_minasyan.ph, verkhovskaya_style",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.mentions",
+        "source_reference": "3882644507431127389",
+        "url": "https://www.instagram.com/p/DXh7Ju-jcld/"
+      },
+      {
+        "evidence_text": "Observed structured account mention(s): anna_minasyan.ph, twosabe.studio",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.mentions",
+        "source_reference": "3855515378340367889",
+        "url": "https://www.instagram.com/p/DWBis8oCI4R/"
+      },
+      {
+        "evidence_text": "Observed tagged account(s): twosabe.studio, anna_minasyan.ph",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.tagged_usernames",
+        "source_reference": "3855515378340367889",
+        "url": "https://www.instagram.com/p/DWBis8oCI4R/"
+      },
+      {
+        "evidence_text": "Observed structured account mention(s): anna_minasyan.ph",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.mentions",
+        "source_reference": "3854751998201609891",
+        "url": "https://www.instagram.com/p/DV-1ITeCL6j/"
+      },
+      {
+        "evidence_text": "Observed tagged account(s): twosabe.studio, anna_minasyan.ph",
+        "observation_type": "direct",
+        "signal_type": "native_product_integration",
+        "source_field": "recent_posts.tagged_usernames",
+        "source_reference": "3854751998201609891",
+        "url": "https://www.instagram.com/p/DV-1ITeCL6j/"
+      },
+      {
+        "evidence_text": "Observed person-like profile name: Катя•Стилист•Москва•Онлайн•Разбор•Шопинг•Стиль",
+        "observation_type": "derived",
+        "signal_type": "account_type_personal",
+        "source_field": "full_name",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/verkhovskaya_style/"
+      },
+      {
+        "evidence_text": "Observed direct Russian lexical evidence in saved profile/post text (60 matches).",
+        "observation_type": "direct",
+        "signal_type": "content_language",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3764162373209642494",
+        "url": "https://www.instagram.com/p/DQ8_bwsDVX-/"
+      },
+      {
+        "evidence_text": "Observed Latin-script content; lexical evidence classified it as latin_undetermined.",
+        "observation_type": "derived",
+        "signal_type": "content_language",
+        "source_field": "biography_and_recent_posts.caption",
+        "source_reference": "sample",
+        "url": "https://www.instagram.com/verkhovskaya_style/"
+      },
+      {
+        "evidence_text": "0.40×provider identity (1.000) + 0.20×multi-query support (0.333; 1 distinct queries, full credit at 3) + 0.20×profile/post link verification (1.000) + 0.20×query relevance (1.000; 4 directly evidenced target dimensions) = 0.867.",
+        "observation_type": "derived",
+        "signal_type": "discovery_confidence",
+        "source_field": "provider_and_discovery",
+        "source_reference": "verkhovskaya_style",
+        "url": "https://www.instagram.com/verkhovskaya_style/"
+      },
+      {
+        "evidence_text": "Caption-derived topic excerpt used: Прекрасный день в @novayarigaoutletvillage Тут погружаешься в мир красоты, гармонии и приятных покупок. А про…",
+        "observation_type": "direct",
+        "signal_type": "offer_personalization",
+        "source_field": "recent_posts.caption",
+        "source_reference": "3920247161141931655",
+        "url": "https://www.instagram.com/p/DZnhAXPmS6H/"
+      },
+      {
+        "evidence_text": "Observed profile name used in greeting: Катя•Стилист•Москва•Онлайн•Разбор•Шопинг•Стиль",
+        "observation_type": "direct",
+        "signal_type": "offer_greeting",
+        "source_field": "full_name",
+        "source_reference": "profile",
+        "url": "https://www.instagram.com/verkhovskaya_style/"
+      }
+    ],
+    "followers": 1283,
+    "known_format_posts": 4,
+    "last_post_date": "2026-06-15T18:58:20+00:00",
+    "manual_verification_status": "pending",
+    "median_comments": 6.0,
+    "median_likes": 44.5,
+    "no_barter_evidence": [],
+    "offer_generation_mode": "deterministic_template",
+    "platform": "instagram",
+    "profile_url": "https://www.instagram.com/verkhovskaya_style/",
+    "provider": "apify",
+    "query_ids": [
+      "ru_stylist_moscow_06"
+    ],
+    "recent_post_url": "https://www.instagram.com/p/DZnhAXPmS6H/",
+    "sampled_posts": 12,
+    "score": 51.57,
+    "score_components": [
+      {
+        "evidence": [
+          {
+            "evidence_text": "Matched explicit term: стиль",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "full_name",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/verkhovskaya_style/"
+          },
+          {
+            "evidence_text": "Matched explicit term: лук",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3764162373209642494",
+            "url": "https://www.instagram.com/p/DQ8_bwsDVX-/"
+          },
+          {
+            "evidence_text": "Matched explicit term: стиль",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3753264786134905178",
+            "url": "https://www.instagram.com/p/DQWRm_1jbFa/"
+          },
+          {
+            "evidence_text": "Matched explicit term: стиль",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3734472165547346030",
+            "url": "https://www.instagram.com/p/DPTgqYDCIhu/"
+          },
+          {
+            "evidence_text": "Matched explicit term: одежд",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3734472165547346030",
+            "url": "https://www.instagram.com/p/DPTgqYDCIhu/"
+          },
+          {
+            "evidence_text": "Matched explicit term: гардероб",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3734472165547346030",
+            "url": "https://www.instagram.com/p/DPTgqYDCIhu/"
+          },
+          {
+            "evidence_text": "Matched explicit term: гардероб",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3910529136670402599",
+            "url": "https://www.instagram.com/p/DZE_YfrDegn/"
+          },
+          {
+            "evidence_text": "Matched explicit term: стиль",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3902683915240680433",
+            "url": "https://www.instagram.com/p/DYpHlf2jSvx/"
+          },
+          {
+            "evidence_text": "Matched explicit term: стиль",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3878137799983523538",
+            "url": "https://www.instagram.com/p/DXR6cgmCGbS/"
+          },
+          {
+            "evidence_text": "Matched explicit term: стиль",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3864240300684236457",
+            "url": "https://www.instagram.com/p/DWgihRxCFap/"
+          },
+          {
+            "evidence_text": "Matched explicit term: одежд",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3864240300684236457",
+            "url": "https://www.instagram.com/p/DWgihRxCFap/"
+          },
+          {
+            "evidence_text": "Matched explicit term: одежд",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3855515378340367889",
+            "url": "https://www.instagram.com/p/DWBis8oCI4R/"
+          },
+          {
+            "evidence_text": "Observed direct fashion evidence: образ",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "biography",
+            "source_reference": "profile",
+            "url": "https://www.instagram.com/verkhovskaya_style/"
+          },
+          {
+            "evidence_text": "Observed direct fashion evidence: образ",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3764162373209642494",
+            "url": "https://www.instagram.com/p/DQ8_bwsDVX-/"
+          },
+          {
+            "evidence_text": "Observed direct fashion evidence: образ",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3753264786134905178",
+            "url": "https://www.instagram.com/p/DQWRm_1jbFa/"
+          },
+          {
+            "evidence_text": "Observed direct fashion evidence: одежд, образ, гардероб",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3734472165547346030",
+            "url": "https://www.instagram.com/p/DPTgqYDCIhu/"
+          },
+          {
+            "evidence_text": "Observed direct fashion evidence: гардероб",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3910529136670402599",
+            "url": "https://www.instagram.com/p/DZE_YfrDegn/"
+          },
+          {
+            "evidence_text": "Observed direct fashion evidence: образ",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3878137799983523538",
+            "url": "https://www.instagram.com/p/DXR6cgmCGbS/"
+          },
+          {
+            "evidence_text": "Observed direct fashion evidence: одежд, образ",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3864240300684236457",
+            "url": "https://www.instagram.com/p/DWgihRxCFap/"
+          },
+          {
+            "evidence_text": "Observed direct fashion evidence: одежд",
+            "observation_type": "direct",
+            "signal_type": "fashion",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3855515378340367889",
+            "url": "https://www.instagram.com/p/DWBis8oCI4R/"
+          },
+          {
+            "evidence_text": "Matched explicit term: жизн",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3753264786134905178",
+            "url": "https://www.instagram.com/p/DQWRm_1jbFa/"
+          },
+          {
+            "evidence_text": "Matched explicit term: путеше",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3753264786134905178",
+            "url": "https://www.instagram.com/p/DQWRm_1jbFa/"
+          },
+          {
+            "evidence_text": "Matched explicit term: жизн",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3734472165547346030",
+            "url": "https://www.instagram.com/p/DPTgqYDCIhu/"
+          },
+          {
+            "evidence_text": "Matched explicit term: вдохнов",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3734472165547346030",
+            "url": "https://www.instagram.com/p/DPTgqYDCIhu/"
+          },
+          {
+            "evidence_text": "Matched explicit term: жизн",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3882644507431127389",
+            "url": "https://www.instagram.com/p/DXh7Ju-jcld/"
+          },
+          {
+            "evidence_text": "Matched explicit term: жизн",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3878137799983523538",
+            "url": "https://www.instagram.com/p/DXR6cgmCGbS/"
+          },
+          {
+            "evidence_text": "Matched explicit term: вдохнов",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3854751998201609891",
+            "url": "https://www.instagram.com/p/DV-1ITeCL6j/"
+          },
+          {
+            "evidence_text": "Matched explicit term: жизн",
+            "observation_type": "direct",
+            "signal_type": "lifestyle",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3849698269140127240",
+            "url": "https://www.instagram.com/p/DVs4C3giI4I/"
+          },
+          {
+            "evidence_text": "Matched explicit term: покупок",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3920247161141931655",
+            "url": "https://www.instagram.com/p/DZnhAXPmS6H/"
+          },
+          {
+            "evidence_text": "14.00/24 topical + 4.00/5 format readiness + 0.79/1 Nike/Apple format alignment.",
+            "observation_type": "derived",
+            "signal_type": "content_and_aesthetic_fit",
+            "source_field": "candidate_metrics",
+            "source_reference": "verkhovskaya_style",
+            "url": "https://www.instagram.com/verkhovskaya_style/"
+          }
+        ],
+        "explanation": "14.00/24 topical + 4.00/5 format readiness + 0.79/1 Nike/Apple format alignment.",
+        "max_score": 30.0,
+        "name": "content_and_aesthetic_fit",
+        "score": 18.79
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Matched explicit term: покупок",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3920247161141931655",
+            "url": "https://www.instagram.com/p/DZnhAXPmS6H/"
+          },
+          {
+            "evidence_text": "Observed structured account mention(s): novayarigaoutletvillage, syrovarnya_official",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.mentions",
+            "source_reference": "3920247161141931655",
+            "url": "https://www.instagram.com/p/DZnhAXPmS6H/"
+          },
+          {
+            "evidence_text": "Observed product-focused caption term(s): покупок",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3920247161141931655",
+            "url": "https://www.instagram.com/p/DZnhAXPmS6H/"
+          },
+          {
+            "evidence_text": "Observed structured account mention(s): anna_minasyan.ph, verkhovskaya_style",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.mentions",
+            "source_reference": "3882644507431127389",
+            "url": "https://www.instagram.com/p/DXh7Ju-jcld/"
+          },
+          {
+            "evidence_text": "Observed structured account mention(s): anna_minasyan.ph, twosabe.studio",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.mentions",
+            "source_reference": "3855515378340367889",
+            "url": "https://www.instagram.com/p/DWBis8oCI4R/"
+          },
+          {
+            "evidence_text": "Observed tagged account(s): twosabe.studio, anna_minasyan.ph",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.tagged_usernames",
+            "source_reference": "3855515378340367889",
+            "url": "https://www.instagram.com/p/DWBis8oCI4R/"
+          },
+          {
+            "evidence_text": "Observed structured account mention(s): anna_minasyan.ph",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.mentions",
+            "source_reference": "3854751998201609891",
+            "url": "https://www.instagram.com/p/DV-1ITeCL6j/"
+          },
+          {
+            "evidence_text": "Observed tagged account(s): twosabe.studio, anna_minasyan.ph",
+            "observation_type": "direct",
+            "signal_type": "native_product_integration",
+            "source_field": "recent_posts.tagged_usernames",
+            "source_reference": "3854751998201609891",
+            "url": "https://www.instagram.com/p/DV-1ITeCL6j/"
+          },
+          {
+            "evidence_text": "UGC=False, marketplace=True, commercial/PR=False, contact=False; 4/12 posts have independently observed native-integration evidence.",
+            "observation_type": "derived",
+            "signal_type": "native_product_integration_potential",
+            "source_field": "candidate_metrics",
+            "source_reference": "verkhovskaya_style",
+            "url": "https://www.instagram.com/verkhovskaya_style/"
+          }
+        ],
+        "explanation": "UGC=False, marketplace=True, commercial/PR=False, contact=False; 4/12 posts have independently observed native-integration evidence.",
+        "max_score": 20.0,
+        "name": "native_product_integration_potential",
+        "score": 6.67
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Short video share 0.333 × 15 = 5.00.",
+            "observation_type": "derived",
+            "signal_type": "short_video_consistency",
+            "source_field": "candidate_metrics",
+            "source_reference": "verkhovskaya_style",
+            "url": "https://www.instagram.com/verkhovskaya_style/"
+          }
+        ],
+        "explanation": "Short video share 0.333 × 15 = 5.00.",
+        "max_score": 15.0,
+        "name": "short_video_consistency",
+        "score": 5.0
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Frozen Phase A percentile 0.834133 × 15 = 12.51 raw; × completeness 12/12 (1.000000) = 12.51 adjusted.",
+            "observation_type": "derived",
+            "signal_type": "engagement",
+            "source_field": "candidate_metrics",
+            "source_reference": "verkhovskaya_style",
+            "url": "https://www.instagram.com/verkhovskaya_style/"
+          }
+        ],
+        "explanation": "Frozen Phase A percentile 0.834133 × 15 = 12.51 raw; × completeness 12/12 (1.000000) = 12.51 adjusted.",
+        "max_score": 15.0,
+        "name": "engagement",
+        "score": 12.51
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "Matched explicit term: покупок",
+            "observation_type": "direct",
+            "signal_type": "marketplace",
+            "source_field": "recent_posts.caption",
+            "source_reference": "3920247161141931655",
+            "url": "https://www.instagram.com/p/DZnhAXPmS6H/"
+          },
+          {
+            "evidence_text": "5.0/5 for small creator audience (1k–10k); commercial/PR=False (+2), UGC=False (+2), marketplace=True (+1).",
+            "observation_type": "derived",
+            "signal_type": "barter_feasibility",
+            "source_field": "candidate_metrics",
+            "source_reference": "verkhovskaya_style",
+            "url": "https://www.instagram.com/verkhovskaya_style/"
+          }
+        ],
+        "explanation": "5.0/5 for small creator audience (1k–10k); commercial/PR=False (+2), UGC=False (+2), marketplace=True (+1).",
+        "max_score": 10.0,
+        "name": "barter_feasibility",
+        "score": 6.0
+      },
+      {
+        "evidence": [
+          {
+            "evidence_text": "2.00/6 recency + 0.60/4 posting frequency.",
+            "observation_type": "derived",
+            "signal_type": "recent_activity",
+            "source_field": "candidate_metrics",
+            "source_reference": "verkhovskaya_style",
+            "url": "https://www.instagram.com/verkhovskaya_style/"
+          }
+        ],
+        "explanation": "2.00/6 recency + 0.60/4 posting frequency.",
+        "max_score": 10.0,
+        "name": "recent_activity",
+        "score": 2.6
+      }
+    ],
+    "selection_explanation": "Rank 5 of 6 eligible candidates: score 51.57/100, discovery confidence 0.867, data completeness 1.000, engagement rate 4.248%.",
+    "short_video_share": 0.3333333333333333,
+    "source_exclusion_check": "clear: no Phase A username, URL, historical alias, replacement, rejected false lead, Nike, or Apple match",
+    "usable_posts": 12,
+    "username": "verkhovskaya_style",
+    "verification_notes": ""
+  }
+]
