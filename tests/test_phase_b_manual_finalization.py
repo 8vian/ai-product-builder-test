@@ -307,6 +307,14 @@ def test_manifest_records_zero_requests_cost_and_messages(
     assert manifest["outreach_messages_sent"] == 0
     assert manifest["source_run_unchanged"] is True
     assert manifest["phase_a_unchanged"] is True
+    assert manifest["source_run_path"] == SOURCE_RUN.as_posix()
+    assert manifest["artifacts"] == {
+        name: name for name in MANUAL_FINALIZATION_ARTIFACTS
+    }
+    assert all(
+        not Path(value).is_absolute()
+        for value in manifest["artifacts"].values()
+    )
     assert manifest["counts"] == {
         "source_eligible_candidates": 6,
         "manual_reviewed_candidates": 6,

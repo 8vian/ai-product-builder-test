@@ -147,6 +147,14 @@ def _write_json(path: Path, value: Any) -> Path:
     return path
 
 
+def _portable_source_path(path: Path, source_run_id: str) -> str:
+    """Keep submission manifests free of machine-specific absolute paths."""
+
+    if path.is_absolute():
+        return source_run_id
+    return path.as_posix()
+
+
 def _tree_hashes(path: Path) -> dict[str, str]:
     hashes: dict[str, str] = {}
     for item in sorted(path.rglob("*")):
@@ -1201,7 +1209,10 @@ def finalize_saved_run(
         manifest: dict[str, Any] = {
             "run_id": output_run_dir.name,
             "source_run_id": source_run_id,
-            "source_run_path": str(source_run_dir),
+            "source_run_path": _portable_source_path(
+                source_run_dir,
+                source_run_id,
+            ),
             "mode": "offline_manual_finalization",
             "status": "completed",
             "offline_reselection": True,
@@ -1234,7 +1245,7 @@ def finalize_saved_run(
             },
             "source_artifact_sha256": source_hashes_before,
             "artifacts": {
-                name: str(output_run_dir / name)
+                name: name
                 for name in MANUAL_FINALIZATION_ARTIFACTS
             },
             "warnings": [],

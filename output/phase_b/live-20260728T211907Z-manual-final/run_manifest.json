@@ -1,17 +1,17 @@
 {
   "artifacts": {
-    "barter_offer_drafts.md": "Z:\\Codex\\ai-product-builder-test\\output\\phase_b\\live-20260728T211907Z-manual-final\\barter_offer_drafts.md",
-    "discovery_report.md": "Z:\\Codex\\ai-product-builder-test\\output\\phase_b\\live-20260728T211907Z-manual-final\\discovery_report.md",
-    "eligible_audit_pool.csv": "Z:\\Codex\\ai-product-builder-test\\output\\phase_b\\live-20260728T211907Z-manual-final\\eligible_audit_pool.csv",
-    "eligible_audit_pool.json": "Z:\\Codex\\ai-product-builder-test\\output\\phase_b\\live-20260728T211907Z-manual-final\\eligible_audit_pool.json",
-    "eligible_candidates.csv": "Z:\\Codex\\ai-product-builder-test\\output\\phase_b\\live-20260728T211907Z-manual-final\\eligible_candidates.csv",
-    "excluded_candidates.csv": "Z:\\Codex\\ai-product-builder-test\\output\\phase_b\\live-20260728T211907Z-manual-final\\excluded_candidates.csv",
-    "manual_review_audit.json": "Z:\\Codex\\ai-product-builder-test\\output\\phase_b\\live-20260728T211907Z-manual-final\\manual_review_audit.json",
-    "new_creators.csv": "Z:\\Codex\\ai-product-builder-test\\output\\phase_b\\live-20260728T211907Z-manual-final\\new_creators.csv",
-    "new_creators.json": "Z:\\Codex\\ai-product-builder-test\\output\\phase_b\\live-20260728T211907Z-manual-final\\new_creators.json",
-    "run_manifest.json": "Z:\\Codex\\ai-product-builder-test\\output\\phase_b\\live-20260728T211907Z-manual-final\\run_manifest.json",
-    "selected_post_evidence.json": "Z:\\Codex\\ai-product-builder-test\\output\\phase_b\\live-20260728T211907Z-manual-final\\selected_post_evidence.json",
-    "Блогеры_phase_b.xlsx": "Z:\\Codex\\ai-product-builder-test\\output\\phase_b\\live-20260728T211907Z-manual-final\\Блогеры_phase_b.xlsx"
+    "barter_offer_drafts.md": "barter_offer_drafts.md",
+    "discovery_report.md": "discovery_report.md",
+    "eligible_audit_pool.csv": "eligible_audit_pool.csv",
+    "eligible_audit_pool.json": "eligible_audit_pool.json",
+    "eligible_candidates.csv": "eligible_candidates.csv",
+    "excluded_candidates.csv": "excluded_candidates.csv",
+    "manual_review_audit.json": "manual_review_audit.json",
+    "new_creators.csv": "new_creators.csv",
+    "new_creators.json": "new_creators.json",
+    "run_manifest.json": "run_manifest.json",
+    "selected_post_evidence.json": "selected_post_evidence.json",
+    "Блогеры_phase_b.xlsx": "Блогеры_phase_b.xlsx"
   },
   "budget_spent_usd": 0.0,
   "completed_at": "2026-07-29T08:46:38.728878+00:00",
@@ -57,7 +57,7 @@
     "Блогеры_phase_b.xlsx": "5f3ba9e6e2fe3438e37d146b47a58b5d1f13ebf370726058000adba829028c97"
   },
   "source_run_id": "live-20260728T211907Z",
-  "source_run_path": "Z:\\Codex\\ai-product-builder-test\\output\\phase_b\\live-20260728T211907Z",
+  "source_run_path": "output/phase_b/live-20260728T211907Z",
   "source_run_unchanged": true,
   "status": "completed",
   "warnings": []
