@@ -6,16 +6,19 @@
 - **Часть 2** — продуктовая гипотеза автоматической генерации fashion-видео на Remotion;
 - **Часть 3** — краткое описание трёх реально существующих AI-assisted прототипов.
 
+Отдельный decision log показывает, какие продуктовые решения, проверки и корректировки были сделаны мной, а какие задачи реализовывались с помощью coding agents.
+
 ## Быстрый просмотр
 
 Если времени мало, достаточно открыть:
 
 1. [Финальный Excel Части 1](output/phase_b/live-20260728T211907Z-manual-final/Блогеры_phase_b.xlsx)
 2. [Финальный отчёт по подбору](output/phase_b/live-20260728T211907Z-manual-final/discovery_report.md)
-3. [Runtime-промпты и шаблоны Части 1](docs/part-1-prompts.md)
-4. [Часть 2 — Remotion product videos](docs/part-2-remotion-product-videos.md)
-5. [Часть 3 — проекты и доказательства](docs/part-3-projects.md)
-6. [Финальный аудит submission](docs/audits/final-submission-audit-2026-07-29.md)
+3. [Моя логика и ключевые решения](docs/my-logic-and-decisions.md)
+4. [Runtime-промпты и шаблоны Части 1](docs/part-1-prompts.md)
+5. [Часть 2 — Remotion product videos](docs/part-2-remotion-product-videos.md)
+6. [Часть 3 — проекты и доказательства](docs/part-3-projects.md)
+7. [Финальный аудит submission](docs/audits/final-submission-audit-2026-07-29.md)
 
 ## Часть 1. Анализ и подбор Instagram-креаторов
 
